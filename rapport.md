@@ -40,6 +40,8 @@ L'équipe de Dernier Cri est actuellement découpée de la manière suivante :
 + NodeJS
 + Go
 + Docker
++ Erlang
++ Redis
 
 ### Analyse de l'existant
 
@@ -53,6 +55,16 @@ Dernier Cri développe des applications pour ses clients et en assure le déploi
 Cette variété de services permet à l'entreprise de faciliter la mise en place et la maintenance de projet en délégant certaines tâches à ces fournisseurs.
 
 ## Contribution
+
+### Chatops
+
+Le principal objectif de mon stage est la création d'un Chatops pour l'entreprise. Il s'agit d'un robot (*bot*) intégré à [Slack](https://slack.com/), un chat externalisé disposant de nombreuses intégrations externes. Ce chatops a pour but de faciliter l'administration de l'infrastructure en permettant aux utilisateurs de gérer les machines à distance en conversant avec le bot. Par exemple, celui-ci est capable de redémarrer des machines ou de les *monitorer* sans nécessiter l'accès à celles-ci. 
+
+Cette solution offre principalement 2 avantages :
++ Il n'est pas nécessaire de connaitre les commandes à exécuter donc n'importe qui peut effectuer ces actions
++ Cela accroit la sécurité de l'infrastructure en réduisant le nombre d'utilisateur accédant à la machine et en limitant leurs droits
+
+### Révision de l'infrastructure
 
 ## Conclusion
 
