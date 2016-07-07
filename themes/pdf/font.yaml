@@ -1,0 +1,18 @@
+fontsize: 12pt
+
+mainfont: Gotham-Book.otf
+mainfontoptions:
+- Path = assets/fonts/gotham/
+- BoldFont = GothamRnd-Book.otf
+- ItalicFont = Gotham-BookItalic.otf
+- BoldItalicFont = GothamRnd-BookIta.otf
+
+altfont:
+  -
+    name: omnes
+    font: Omnes-Regular.otf
+    fontoptions:
+    - Path = assets/fonts/OmnesPro/
+    - BoldFont = Omnes-Bold.otf
+    - ItalicFont = Omnes-RegularItalic.otf
+    - BoldItalicFont = Omnes-BoldItalic.otf

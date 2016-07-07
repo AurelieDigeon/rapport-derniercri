@@ -1,0 +1,18 @@
+title:  'Mémoire'
+subtitle: 'Rapport de Stage'
+author: Jean-Serge Monbailly
+publisher: Dernier Cri
+abstract: |
+  Mémoire rédigé lors de mon stage chez Dernier Cri.
+lang: french
+rights: copyright
+
+content_path: "chapters/"
+assets_path: "assets/"
+template_path: "themes/"
+
+sections:
+   -
+     title: "rapport"
+   -
+     title: "ansible"
