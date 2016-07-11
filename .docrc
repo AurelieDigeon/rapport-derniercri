@@ -6,6 +6,7 @@ abstract: |
   Mémoire rédigé lors de mon stage chez Dernier Cri.
 lang: french
 rights: copyright
+format: pdf
 
 content_path: "chapters/"
 assets_path: "assets/"

@@ -10,7 +10,7 @@ Mon stage chez Dernier Cri vise également à proposer différents mécanismes d
 
 ### L'entreprise
 
-*[Dernier Cri](http://derniercri.io)*, initialement *Nectify*, est une société d'innovation digitale fondée en 2011 par Benjamin Tierny et Robin Komiwes.
+*[Dernier Cri](http://derniercri.io)*, anciennement *Nectify*, est une société d'innovation digitale fondée en 2011 par Benjamin Tierny et Robin Komiwes.
 
 À ses débuts, *Nectify* s'est concentré sur le développement de *[Fresc](http://fre.sc)*, un outil de partage d'avis sur des visuels. Par la suite l'activité de l'entreprise s'est étendu à la prestation de services centrée sur l'innovation.
 
@@ -54,12 +54,3 @@ L'objectf de mon stage est d'apporter à l'entreprise un soutien en administrati
 Mon premier rôle est de gérer l'infrastructure et les services de l'entreprise, notamment en maintenant les serveurs et services existant et d'apporter mon expérience pour optimiser leur utilisation. Il s'agit ici de configurer les machines destinées au déploiement d'applications et de garantir leur intégrité et leur sécurité. De plus, je suis en charge d'assurer la maintenance des machines afin d'éviter autant que faire se peut l'indisponibilité de nos applications.
 
 J'ai également comme rôle de proposer des solutions afin d'améliorer la gestion de l'infrastructure et d'automatiser les tâches les plus communes (configuration de serveur, déploiement d'applications, ...).
-
-## Contribution
-
-
-### Révision de l'infrastructure
-
-## Conclusion
-
-## Bibliographie

@@ -1,3 +1,0 @@
-{prenom_stagiaire}
-
-{Hello}
