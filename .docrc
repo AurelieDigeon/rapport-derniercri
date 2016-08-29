@@ -13,7 +13,29 @@ assets_path: "assets/"
 template_path: "themes/"
 
 sections:
-   -
-     title: "rapport"
-   -
-     title: "ansible"
+-
+  title: "introduction"
+
+-
+  title: "contexte"
+  sections:
+  -
+    title: Dernier Cri
+  -
+    title: Analyse de l'existant
+  -
+    title: Objectifs du stage
+
+-
+  title: "ansible"
+  sections:
+  -
+    title: Présentation
+  -
+    title: Configuration
+  -
+    title: Modules
+  -
+    title: Playbooks
+  -
+    title: Ansible chez Dernier Cri

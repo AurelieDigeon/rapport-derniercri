@@ -1,0 +1,1 @@
+L'objectf de mon stage est d'apporter à l'entreprise un soutien en administration système et automatisation de tâches. Il s'agit ici d'asurer la gestion des différents services et infrastructures utilisés de manière efficace afin d'alléger la charge de travail des développeurs.
