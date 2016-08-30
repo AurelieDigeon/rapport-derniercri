@@ -1,5 +1,2 @@
 all:
-	pandoc -o rapport.pdf rapport.md
-
-run: all
-	xournal rapport.pdf
+	pandoc --toc -o rapport.pdf rapport.md
