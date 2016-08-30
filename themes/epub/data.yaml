@@ -1,6 +1,0 @@
-epub-cover-image: assets/cover_epub.jpg
-epub-embed-font:
-  -
-    elem: assets/fonts/gotham/Gotham-Book.otf
-  -
-    elem: assets/fonts/OmnesPro/Omnes-Regular.otf
