@@ -18,8 +18,6 @@ Mon stage chez Dernier Cri vise donc à proposer différents mécanismes d'autom
 
 # Contexte du stage
 
-## Dernier Cri
-
 ![](logo_DC)
 
 *[Dernier Cri](http://derniercri.io)*, anciennement *Nectify*, est une société d'innovation digitale fondée en 2011 par Benjamin Tierny et Robin Komiwes. À ses débuts, *Nectify* s'est concentré sur le développement de *[Fresc](http://fre.sc)*, un outil de partage d'avis sur des visuels. Par la suite l'activité de l'entreprise s'est étendu à la prestation de services centrée sur l'innovation puis plus récemment au *Big Data* pour devenir. Cette évolution dans les services proposées a motivé le changement de nom pour devenir *Dernier Cri*.
@@ -30,9 +28,9 @@ Mon stage chez Dernier Cri vise donc à proposer différents mécanismes d'autom
 
 \newpage
 
-## Analyse de l'existant
+# Analyse de l'existant
 
-### Services
+## Services
 
 Dernier Cri développe des applications pour ses clients et en assure le déploiement continu ainsi que la maintenance. L'entreprise fait appel à plusieurs *SaaS* *(Software as a Service)* pour l'aider dans certaines tâches comme la gestion de *logs* ou l'analyse de code. Ces informations doivent être centralisées et accessibles à l'ensemble de l'équipe, pour cela nous utilisons les intégrations Slack de ces services, de cette manière nous sommes en mesure d'accéder à ces informations en temps réél.
 
@@ -40,7 +38,11 @@ Dernier Cri développe des applications pour ses clients et en assure le déploi
 
 Actuellement ces intégrations consistent uniquement en des rapports envoyés à intervalle réguliers, tandis qu'il faudrait que vous soyons en mesure de les obtenir à la demande pour pouvoir corriger une panne le plus rapidement possible.
 
-### Infrastructure
+\newpage
+
+## Infrastructure
+
+### Serveurs
 
 Nous faisons appel à des *IaaS* *(Infrastructure as a Service)* pour héberger notre infrastructure, ainsi nous profitons de fiabilité et de performances accrues pour nos serveurs. Nous gérons également les noms de domaines pour le compte de nos clients afin qu'ils n'aient pas à s'en soucier.
 
@@ -48,9 +50,17 @@ Nous faisons appel à des *IaaS* *(Infrastructure as a Service)* pour héberger 
 
 Le manque d'homogénéité dans l'infrastructure la rend compliquée à maintenir, en effet les serveurs sont hébergés chez 3 fournisseurs différents (*Rackspace*, *OVH*, *Digital Ocean*) et les noms de domaines sont gérés par 2 services différents : *Gandi* pour l'achat et la gestion de certains domaines, *Cloudfare* pour la gestion des autres. Il s'agit là de quelques exemples de ce qui rend l'infrastructure difficile à maintenir.
 
+### Docker
+
+L'utilisation faite de *docker* pose aussi quelques problèmes. Les conteneurs ne sont pas indépendant ni réutilisable, chacun embarque un serveur SSH pour pouvoir démarrer l'application ce qui devrait être fait au démarrage du conteneur.
+
+\bigskip
+
+De plus, les conteneurs contiennent plusieurs services ce qui les rend difficilement réutilisable car trop spécifiques à une application. Il faudrait disposer de conteneurs générique qui pourraient être réutilisable facilement par plusieurs applications, par exemple la plupart des applications utilisent un serveur *Redis* dont l'installation est faite directement dans le conteneur principal. Nous devrions disposer d'un conteneur *Redis* générique prêt à l'emploi pour chaque application.
+
 \newpage
 
-## Objectifs du stage
+# Objectifs du stage
 
 L'objectif de mon stage consiste à apporter mon soutien à la gestion de l'infrastructure, en réduisant le nombre de services proposant les mêmes fonctionnalités. Je prend également en charge la gestion d'infrastructure et configure les serveurs pour chaque nouvelles application produite par l'entreprise. Cela m'a amené à revoir l'utilisation de *Docker* chez *Dernier Cri* afin d'en améliorer l'efficacité.
 
@@ -60,7 +70,11 @@ Je suis également force de proposition pour faire évoluer l'infrastructure afi
 
 \bigskip
 
-J'ai également pu développer un *chatops*, un outil d'administration système via la conversation. Intégré au *Slack* de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne.
+J'ai également pu développer un *chatops*, un outil d'administration système via la conversation. Intégré au *Slack* de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. De plus, en s'appuyant sur *Ansible* et sur un système de plugins, le *Chatops* est une solution générique qui peut facilement s'adapter à l'évolution de notre infrastructure.
+
+\bigskip
+
+En complément des tâches précédentes, j'ai l'opportunité de réaliser du développement pour divers projets ce qui me permet de comprendre davantage le travail de développeur et m'aide à apporter de meilleures solutions d'automatisation.
 
 \newpage
 
@@ -142,17 +156,19 @@ Ci-dessous, un exemple de playbook ansible installant git via *apt*.
 
 And the return of *ansible-playbook* command
 
-```bash
-PLAY *******************************************************************
+\bigskip
 
-TASK [setup] ***********************************************************
+```bash
+PLAY **********************************************************
+
+TASK [setup] **************************************************
 ok: [ssh-test]
 
-TASK [Ping the given hosts] ********************************************
+TASK [Ping the given hosts] ***********************************
 changed: [ssh-test]
 
-PLAY RECAP *************************************************************
-ssh-test               : ok=2    changed=1    unreachable=0    failed=0   
+PLAY RECAP ****************************************************
+ssh-test       : ok=2    changed=1    unreachable=0    failed=0   
 ```
 
 \bigskip
@@ -201,13 +217,19 @@ Le chatops a pour but de faciliter les tâches de déploiement et de maintenance
 
 Le chatops fonctionne de manière assez simple, il s'agit d'un programme Node.JS qui se connecte à l'API temps réél de Slack via un Token qui lui est donné. Une fois connecté, le bot recevra tout les messages envoyés dans un channel auquel il appartient, s'il reconnait une commande parmis ces messages, il exécutera la fonction qui lui est associée.
 
-Les commandes du chatops peuvent être divisées en 2 catégories : la collecte d'informations et l'exécution de playbooks.
+\bigskip
+
+Les commandes sont écrites sous forme de plugins de façon à être configurable et réutilisable, elles peuvent être divisées en 2 catégories : la collecte d'informations et l'exécution de playbooks.
+
+\newpage
 
 ### Collecte d'informations
 
 La collecte d'information se traduit par une requête vers l'API de l'un des services utilisé chez Dernier Cri. Cela permet de centraliser les informations concernant un serveur ou une application au sein d'un même canal de communication. Cela s'avère utile en cas de panne, les développeurs peuvent directement sur le chat les informations nécessaire à la résolution du problème telles que les logs de l'application ou l'état de la machine.
 
-<!-- ![](metrics.png) -->
+![](metrics.png)
+
+\newpage
 
 ### Le Chatops et Ansible
 
@@ -221,12 +243,21 @@ L'exécution de playbooks Ansible permet d'agir sur l'infrastructure sans pour a
 
 Le chatops nous permet d'être plus réactif et efficace en cas de problème, il est désormais possible d'obtenir l'ensemble des informations nécessaires à la résolution d'une panne directement au sein du *Slack* professionnel. De plus tout les développeurs peuvent l'utiliser sans pour autant connaitre les commandes d'administration système à exécuter.
 
-\bigskip
+\newpage
 
-### War Room
+# Autres travaux
+
+Durant ce stage j'ai eu l'opportunité de participer à des tâches variées, allant de l'administration système au développement d'applications. Cela m'a permis de me familiariser avec de nouvelles technologies telles que *Ruby* ou *Node.JS* mais également de renforcer mes compétences dans certains domaines tels que les script *bash* ou le multi-processing *python*.
+
+## Administration système
+
+Au sein de *Dernier Cri* j'ai le rôle d'administrateur système, je suis en charge de la gestion de l'infrastructure qu'il s'agisse de serveurs, des services externes en passant par la gestion des noms de domaine et des certificats. Ces responsabilités m'ont permis de prendre conscience des nombreux aspects à prendre en compte avant même le développement d'une application web.
 
 
 
+## Développement
+
+\newpage
 # Conclusion
 
 La mise en place d'Ansible et du Chatops chez Dernier Cri est un premier pas vers l'automatisation de l'infrastructure. Actuellement certaines application sont encore inadaptée à ce système, l'objectif est donc de les rendre compatible en révisant leur méthode de déploiement et de maintenance.

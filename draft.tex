@@ -1,5 +1,5 @@
 % Document class
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
 % Required Packages
 \usepackage{amsmath, url}
@@ -14,6 +14,9 @@
 \usepackage{fancyvrb}
 \usepackage{abstract}
 \usepackage{listings}
+\usepackage{framed,graphicx,xcolor}
+
+\definecolor{shadecolor}{rgb}{1,0,0}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -50,6 +53,45 @@
 \renewcommand{\headrule}{{\color{dcyellow}
 \hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}}
 \fancyfoot[C]{\bfseries\color{dcbluelight}\thepage}
+
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\usepackage{graphicx,grffile}
+
 
 % Document meta
 \title{Mémoire}
@@ -141,8 +183,6 @@
 
   \section{Contexte du stage}\label{contexte-du-stage}
 
-  \subsection{Dernier Cri}\label{dernier-cri}
-
   \begin{figure}[htbp]
   \centering
   \includegraphics{logo_DC}
@@ -170,9 +210,9 @@
 
   \newpage
 
-  \subsection{Analyse de l'existant}\label{analyse-de-lexistant}
+  \section{Analyse de l'existant}\label{analyse-de-lexistant}
 
-  \subsubsection{Services}\label{services}
+  \subsection{Services}\label{services}
 
   Dernier Cri développe des applications pour ses clients et en assure le
   déploiement continu ainsi que la maintenance. L'entreprise fait appel à
@@ -190,7 +230,11 @@
   mesure de les obtenir à la demande pour pouvoir corriger une panne le
   plus rapidement possible.
 
-  \subsubsection{Infrastructure}\label{infrastructure}
+  \newpage
+
+  \subsection{Infrastructure}\label{infrastructure}
+
+  \subsubsection{Serveurs}\label{serveurs}
 
   Nous faisons appel à des \emph{IaaS} \emph{(Infrastructure as a
   Service)} pour héberger notre infrastructure, ainsi nous profitons de
@@ -208,9 +252,27 @@
   la gestion des autres. Il s'agit là de quelques exemples de ce qui rend
   l'infrastructure difficile à maintenir.
 
+  \subsubsection{Docker}\label{docker}
+
+  L'utilisation faite de \emph{docker} pose aussi quelques problèmes. Les
+  conteneurs ne sont pas indépendant ni réutilisable, chacun embarque un
+  serveur SSH pour pouvoir démarrer l'application ce qui devrait être fait
+  au démarrage du conteneur.
+
+  \bigskip
+
+  De plus, les conteneurs contiennent plusieurs services ce qui les rend
+  difficilement réutilisable car trop spécifiques à une application. Il
+  faudrait disposer de conteneurs générique qui pourraient être
+  réutilisable facilement par plusieurs applications, par exemple la
+  plupart des applications utilisent un serveur \emph{Redis} dont
+  l'installation est faite directement dans le conteneur principal. Nous
+  devrions disposer d'un conteneur \emph{Redis} générique prêt à l'emploi
+  pour chaque application.
+
   \newpage
 
-  \subsection{Objectifs du stage}\label{objectifs-du-stage}
+  \section{Objectifs du stage}\label{objectifs-du-stage}
 
   L'objectif de mon stage consiste à apporter mon soutien à la gestion de
   l'infrastructure, en réduisant le nombre de services proposant les mêmes
@@ -234,7 +296,16 @@
   d'administration système via la conversation. Intégré au \emph{Slack} de
   l'entreprise, il permet à tout le personnel d'obtenir des informations
   sur un serveur ou une application et d'effectuer des résolutions simples
-  en cas de panne.
+  en cas de panne. De plus, en s'appuyant sur \emph{Ansible} et sur un
+  système de plugins, le \emph{Chatops} est une solution générique qui
+  peut facilement s'adapter à l'évolution de notre infrastructure.
+
+  \bigskip
+
+  En complément des tâches précédentes, j'ai l'opportunité de réaliser du
+  développement pour divers projets ce qui me permet de comprendre
+  davantage le travail de développeur et m'aide à apporter de meilleures
+  solutions d'automatisation.
 
   \newpage
 
@@ -268,13 +339,15 @@
   Voici un exemple d'utilisation d'ansible pour vérifier qu'une machine
   répond :
 
-  \begin{verbatim}
-  $ ansible -i hosts -m ping ssh-test
-  ssh-test | SUCCESS => {
-      "changed": false,
-      "ping": "pong"
-  }
-  \end{verbatim}
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \NormalTok{$ }\KeywordTok{ansible} \NormalTok{-i hosts -m ping ssh-test}
+  \KeywordTok{ssh-test} \KeywordTok{|} \KeywordTok{SUCCESS} \NormalTok{=}\KeywordTok{>} \NormalTok{\{}
+      \StringTok{"changed"}\NormalTok{: }\KeywordTok{false}\NormalTok{,}
+      \StringTok{"ping"}\NormalTok{: }\StringTok{"pong"}
+  \NormalTok{\}}
+  \end{Highlighting}
+  \end{Shaded}
 
   \newpage
 
@@ -336,30 +409,36 @@
   Ci-dessous, un exemple de playbook ansible installant git via
   \emph{apt}.
 
-  \begin{verbatim}
-  # ping.yml
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \CommentTok{# ping.yml}
 
-  - hosts: ssh-test
-    tasks:
-      - name: Install Git
-        become: yes
-        apt: name=git update_cache=yes
-  \end{verbatim}
+  \KeywordTok{-} \FunctionTok{hosts:} \NormalTok{ssh-test}
+    \FunctionTok{tasks:}
+      \KeywordTok{-} \FunctionTok{name:} \NormalTok{Install Git}
+        \FunctionTok{become:} \NormalTok{yes}
+        \FunctionTok{apt:} \NormalTok{name=git update_cache=yes}
+  \end{Highlighting}
+  \end{Shaded}
 
   And the return of \emph{ansible-playbook} command
 
-  \begin{verbatim}
-  PLAY *******************************************************************
+  \bigskip
 
-  TASK [setup] ***********************************************************
-  ok: [ssh-test]
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \KeywordTok{PLAY} \NormalTok{**********************************************************}
 
-  TASK [Ping the given hosts] ********************************************
-  changed: [ssh-test]
+  \KeywordTok{TASK} \NormalTok{[setup] **************************************************}
+  \KeywordTok{ok}\NormalTok{: [ssh-test]}
 
-  PLAY RECAP *************************************************************
-  ssh-test               : ok=2    changed=1    unreachable=0    failed=0
-  \end{verbatim}
+  \KeywordTok{TASK} \NormalTok{[Ping the given hosts] ***********************************}
+  \KeywordTok{changed}\NormalTok{: [ssh-test]}
+
+  \KeywordTok{PLAY} \NormalTok{RECAP ****************************************************}
+  \KeywordTok{ssh-test}       \NormalTok{: ok=2    changed=1    unreachable=0    failed=0   }
+  \end{Highlighting}
+  \end{Shaded}
 
   \bigskip
 
@@ -443,8 +522,13 @@
   dans un channel auquel il appartient, s'il reconnait une commande parmis
   ces messages, il exécutera la fonction qui lui est associée.
 
-  Les commandes du chatops peuvent être divisées en 2 catégories : la
-  collecte d'informations et l'exécution de playbooks.
+  \bigskip
+
+  Les commandes sont écrites sous forme de plugins de façon à être
+  configurable et réutilisable, elles peuvent être divisées en 2
+  catégories : la collecte d'informations et l'exécution de playbooks.
+
+  \newpage
 
   \subsubsection{Collecte d'informations}\label{collecte-dinformations}
 
@@ -455,6 +539,14 @@
   développeurs peuvent directement sur le chat les informations nécessaire
   à la résolution du problème telles que les logs de l'application ou
   l'état de la machine.
+
+  \begin{figure}[htbp]
+  \centering
+  \includegraphics{metrics.png}
+  \caption{}
+  \end{figure}
+
+  \newpage
 
   \subsubsection{Le Chatops et Ansible}\label{le-chatops-et-ansible}
 
@@ -474,6 +566,40 @@
 
   \newpage
 
+  \subsection{Le Chatops chez Dernier
+  Cri}\label{le-chatops-chez-dernier-cri}
+
+  Le chatops nous permet d'être plus réactif et efficace en cas de
+  problème, il est désormais possible d'obtenir l'ensemble des
+  informations nécessaires à la résolution d'une panne directement au sein
+  du \emph{Slack} professionnel. De plus tout les développeurs peuvent
+  l'utiliser sans pour autant connaitre les commandes d'administration
+  système à exécuter.
+
+  \newpage
+
+  \section{Autres travaux}\label{autres-travaux}
+
+  Durant ce stage j'ai eu l'opportunité de participer à des tâches
+  variées, allant de l'administration système au développement
+  d'applications. Cela m'a permis de me familiariser avec de nouvelles
+  technologies telles que \emph{Ruby} ou \emph{Node.JS} mais également de
+  renforcer mes compétences dans certains domaines tels que les script
+  \emph{bash} ou le multi-processing \emph{python}.
+
+  \subsection{Administration système}\label{administration-systuxe8me}
+
+  Au sein de \emph{Dernier Cri} j'ai le rôle d'administrateur système, je
+  suis en charge de la gestion de l'infrastructure qu'il s'agisse de
+  serveurs, des services externes en passant par la gestion des noms de
+  domaine et des certificats. Ces responsabilités m'ont permis de prendre
+  conscience des nombreux aspects à prendre en compte avant même le
+  développement d'une application web.
+
+  \subsection{Développement}\label{duxe9veloppement}
+
+  \newpage
+
   \section{Conclusion}\label{conclusion}
 
   La mise en place d'Ansible et du Chatops chez Dernier Cri est un premier
@@ -490,6 +616,5 @@
   le déploiement d'application mais aussi la préparation d'environnement
   de développement. Cela a déjà été mit en place sur certaines
   applications et je souhaite poursuivre cette tendance.
-
 
 \end{document}

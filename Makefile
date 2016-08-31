@@ -3,7 +3,7 @@
 all: draft
 
 rapport:
-	pandoc -o rapport.tex --no-highlight rapport.md
+	pandoc -o rapport.tex rapport.md
 
 % : %.tex
 	xelatex $(<)
