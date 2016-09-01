@@ -367,3 +367,11 @@ Mon prochain objectif au sein de Dernier Cri est d'apporter mon soutien dans l'a
 \bigskip
 
 Sur le plus long terme j'espère apporter davantage de mécanismes d'automatisation à *Dernier Cri* pour rendre le déploiement d'application le plus rapide et simple possible.
+
+\bigskip
+
+Ce stage m'a beaucoup apporté en terme de techniques comme social. Il m'a permis de m'intégrer au sein d'une équipe de développement et d'en apprendre davantage sur le fonctionnement d'une entreprise informatique.
+
+\bigskip
+
+Mon intégration au sein de *Dernier Cri* m'a offert l'opportunité de participer à de nombreuses tâches et m'a conforté dans mon projet professionnel visant à travailler en tant que *devops* dans une petite structure.
