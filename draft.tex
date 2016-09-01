@@ -94,7 +94,7 @@
 
 
 % Document meta
-\title{Mémoire}
+\title{Automatisation de tâches grâce à Ansible et au Chatops}
 \author{Jean-Serge \bsc{Monbailly}}
 
 % Document
@@ -149,6 +149,31 @@
 
   \newpage
 
+  \section{Remerciements}\label{remerciements}
+
+  \bigskip
+
+  Je tiens tout d'abord à remercier Benjamin Tierny et Robin Komiwes pour
+  m'avoir permis d'effectuer mon stage au sein de leur entreprise puis de
+  m'avoir proposé de prolonger cette expérience.
+
+  \bigskip
+
+  Je remercie également Julien Iguchi-Cartigny pour l'aide qu'il m'a
+  apporté en tant que tuteur universitaire.
+
+  \bigskip
+
+  Samy Meftali, mes enseignants et tout le personnel de l'Université de
+  Lille 1 pour la qualité de la formation qu'ils proposent.
+
+  \bigskip
+
+  Pour finir j'aimerais remercier toute l'équipe de \emph{Dernier Cri}
+  pour m'avoir aidé aussi souvent à étendre mes compétences.
+
+  \newpage
+
   \section{Introduction}\label{introduction}
 
   \bigskip
@@ -183,11 +208,15 @@
 
   \section{Contexte du stage}\label{contexte-du-stage}
 
+  \bigskip
+
   \begin{figure}[htbp]
   \centering
   \includegraphics{logo_DC}
-  \caption{}
+  \caption{logo}
   \end{figure}
+
+  \bigskip
 
   \emph{\href{http://derniercri.io}{Dernier Cri}}, anciennement
   \emph{Nectify}, est une société d'innovation digitale fondée en 2011 par
@@ -212,7 +241,11 @@
 
   \section{Analyse de l'existant}\label{analyse-de-lexistant}
 
+  \bigskip
+
   \subsection{Services}\label{services}
+
+  \bigskip
 
   Dernier Cri développe des applications pour ses clients et en assure le
   déploiement continu ainsi que la maintenance. L'entreprise fait appel à
@@ -234,7 +267,11 @@
 
   \subsection{Infrastructure}\label{infrastructure}
 
+  \bigskip
+
   \subsubsection{Serveurs}\label{serveurs}
+
+  \bigskip
 
   Nous faisons appel à des \emph{IaaS} \emph{(Infrastructure as a
   Service)} pour héberger notre infrastructure, ainsi nous profitons de
@@ -246,13 +283,17 @@
 
   Le manque d'homogénéité dans l'infrastructure la rend compliquée à
   maintenir, en effet les serveurs sont hébergés chez 3 fournisseurs
-  différents (\emph{Rackspace}, \emph{OVH}, \emph{Digital Ocean}) et les
-  noms de domaines sont gérés par 2 services différents : \emph{Gandi}
-  pour l'achat et la gestion de certains domaines, \emph{Cloudfare} pour
-  la gestion des autres. Il s'agit là de quelques exemples de ce qui rend
+  différents (\emph{Rackspace}, \emph{OVH},
+  \href{http://digitalocean.com}{\emph{Digital Ocean}}) et les noms de
+  domaines sont gérés par 2 services différents : \emph{Gandi} pour
+  l'achat et la gestion de certains domaines,
+  \href{http://cloudfare.com}{\emph{Cloudfare}} pour la gestion des
+  autres. Il s'agit là de quelques exemples de ce qui rend
   l'infrastructure difficile à maintenir.
 
   \subsubsection{Docker}\label{docker}
+
+  \bigskip
 
   L'utilisation faite de \emph{docker} pose aussi quelques problèmes. Les
   conteneurs ne sont pas indépendant ni réutilisable, chacun embarque un
@@ -273,6 +314,8 @@
   \newpage
 
   \section{Objectifs du stage}\label{objectifs-du-stage}
+
+  \bigskip
 
   L'objectif de mon stage consiste à apporter mon soutien à la gestion de
   l'infrastructure, en réduisant le nombre de services proposant les mêmes
@@ -311,7 +354,11 @@
 
   \section{Ansible}\label{ansible}
 
+  \bigskip
+
   \subsection{Présentation}\label{pruxe9sentation}
+
+  \bigskip
 
   \begin{quote}
   Ansible is a radically simple IT automation engine that automates cloud
@@ -321,6 +368,7 @@
   \end{quote}
 
   \bigskip
+
   Ansible est un outil d'automatisation et d'administration très puissant.
   Il s'agit d'un serveur léger permettant d'aggréger plusieurs machines
   (\emph{noeuds}) et d'exécuter sur celles-ci des programmes
@@ -353,6 +401,8 @@
 
   \subsection{Configuration}\label{configuration}
 
+  \bigskip
+
   Ansible permet de gérer une infrastructure hétéroclite de manière
   transparente en s'appuyant sur la puissance de protocoles de
   communication tels que \emph{SSH}.
@@ -360,8 +410,10 @@
   \bigskip
 
   Il est très facile de configurer \emph{Ansible} pour qu'il ait accès à
-  un grand nombre de machines. Du côté serveur il suffit d'ajouter la clé
-  d'accès du serveur \emph{Ansible}.
+  un grand nombre de machines. Sur les serveurs il suffit d'ajouter la clé
+  d'accès du serveur \emph{Ansible}. Il est parfois nécessaire de
+  configurer les règles \emph{sudo} pour qu'\emph{Ansible} puisse exécuter
+  certaines commandes.
 
   \bigskip
 
@@ -369,11 +421,15 @@
   regrouper les machines disposant de caractéristiques communes. Ainsi il
   est possible de créer un groupe \emph{cassandra} qui vous permettra
   d'exécuter les tâches de maintenance et de mise à jour liées à
-  l'ensemble de vos noeuds.
+  l'ensemble de vos noeuds. Un serveur peut appartenir à plusieurs groupes
+  ce qui permet de configuer des groupes pour chaque type de technologies
+  utilisées
 
   \newpage
 
   \subsection{Modules}\label{modules}
+
+  \bigskip
 
   Il existe beaucoup de modules pour Ansible. Ceux-ci permettent de gérer
   tout les aspects d'administration système et il existe également des
@@ -398,6 +454,8 @@
   \newpage
 
   \subsection{Playbooks}\label{playbooks}
+
+  \bigskip
 
   La véritable puissance d'Ansible réside dans la possibilité d'écrire des
   scripts (\emph{playbooks}) permettant d'exécuter une série de tâches sur
@@ -451,6 +509,8 @@
 
   \subsection{Ansible chez Dernier Cri}\label{ansible-chez-dernier-cri}
 
+  \bigskip
+
   L'utilisation d'Ansible au sein de Dernier Cri permet une gestion de
   l'infrastructure plus claire et plus efficace. La gestion des serveurs
   et des applications est presque intégralement reléguée à Ansible, ce qui
@@ -481,17 +541,21 @@
   \bigskip
 
   Pour complèter l'usage d'Ansible, nous mettons également en place un
-  ChatBot qui permet d'appeler ces scripts directement via le Slack de
-  l'entreprise. Cela nous permet non seulement de pouvoir gérer
+  \emph{Chatops} qui permet d'appeler ces scripts directement via le Slack
+  de l'entreprise. Cela nous permet non seulement de pouvoir gérer
   l'infrastructure directement depuis un smartphone mais cela garantit
   aussi une certaine sécurité en réduisant les accès directs aux serveurs
-  qui seront uniquement effectuées par le Bot.
+  qui seront uniquement effectuées par le \emph{Bot}.
 
   \newpage
 
   \section{Chatops}\label{chatops}
 
+  \bigskip
+
   \subsection{Présentation}\label{pruxe9sentation-1}
+
+  \bigskip
 
   Le chatops est un programme connecté au \emph{Slack} de l'entreprise et
   couplé à l'infrastructure Ansible permettant de réaliser différentes
@@ -502,6 +566,12 @@
   \bigskip
 
   Par exemple voici la fonction d'aide intégrée au chatops :
+
+  \begin{figure}[htbp]
+  \centering
+  \includegraphics{help.png}
+  \caption{help}
+  \end{figure}
 
   \bigskip
 
@@ -516,6 +586,8 @@
 
   \subsection{Fonctionnement}\label{fonctionnement}
 
+  \bigskip
+
   Le chatops fonctionne de manière assez simple, il s'agit d'un programme
   Node.JS qui se connecte à l'API temps réél de Slack via un Token qui lui
   est donné. Une fois connecté, le bot recevra tout les messages envoyés
@@ -524,6 +596,10 @@
 
   \bigskip
 
+  Le format des commandes implémentées est volontairement simplifié afin
+  que même les personnes n'ayant pas de connaissances en informatique
+  soient capable de les comprendre et de les utiliser. \bigskip
+
   Les commandes sont écrites sous forme de plugins de façon à être
   configurable et réutilisable, elles peuvent être divisées en 2
   catégories : la collecte d'informations et l'exécution de playbooks.
@@ -531,6 +607,8 @@
   \newpage
 
   \subsubsection{Collecte d'informations}\label{collecte-dinformations}
+
+  \bigskip
 
   La collecte d'information se traduit par une requête vers l'API de l'un
   des services utilisé chez Dernier Cri. Cela permet de centraliser les
@@ -543,12 +621,14 @@
   \begin{figure}[htbp]
   \centering
   \includegraphics{metrics.png}
-  \caption{}
+  \caption{metrics}
   \end{figure}
 
   \newpage
 
   \subsubsection{Le Chatops et Ansible}\label{le-chatops-et-ansible}
+
+  \bigskip
 
   L'exécution de playbooks Ansible permet d'agir sur l'infrastructure sans
   pour autant devoir s'y connecter directement, cela offre une réactivité
@@ -569,6 +649,8 @@
   \subsection{Le Chatops chez Dernier
   Cri}\label{le-chatops-chez-dernier-cri}
 
+  \bigskip
+
   Le chatops nous permet d'être plus réactif et efficace en cas de
   problème, il est désormais possible d'obtenir l'ensemble des
   informations nécessaires à la résolution d'une panne directement au sein
@@ -576,9 +658,18 @@
   l'utiliser sans pour autant connaitre les commandes d'administration
   système à exécuter.
 
+  \bigskip
+
+  Il représente un gain de temps pour les développeurs en facilitant le
+  déploiement ou la maintenance d'applications. Il n'est plus nécessaire
+  de se connecter au serveur et de retrouver la ou les commandes à
+  exécuter, il suffit de le demander au chatops.
+
   \newpage
 
   \section{Autres travaux}\label{autres-travaux}
+
+  \bigskip
 
   Durant ce stage j'ai eu l'opportunité de participer à des tâches
   variées, allant de l'administration système au développement
@@ -589,6 +680,8 @@
 
   \subsection{Administration système}\label{administration-systuxe8me}
 
+  \bigskip
+
   Au sein de \emph{Dernier Cri} j'ai le rôle d'administrateur système, je
   suis en charge de la gestion de l'infrastructure qu'il s'agisse de
   serveurs, des services externes en passant par la gestion des noms de
@@ -596,17 +689,70 @@
   conscience des nombreux aspects à prendre en compte avant même le
   développement d'une application web.
 
+  \bigskip
+
+  Je suis également amené à revoir l'utilisation de \emph{docker} au sein
+  de l'entreprise, celle-ci est maladroite et peut être amélioré. Les
+  conteneurs actuels contiennent systématiquement un serveur \emph{SSH}
+  indépendant pour pouvoir démarrer l'application conteneurisée ce qui
+  consomme des ressources inutilement. Pour corriger cela il suffit de
+  rédiger un script qui sera exécuté au démarrage du conteneur, de cette
+  manière il n'est plus nécessaire de se connecter au conteneur pour
+  démarrer l'application.
+
+  \bigskip
+
+  Les images utilisées peuvent aussi être allégées en réécrivant le
+  \emph{Dockerfile} utilisé et en y retirant les fichiers inutiles (cache,
+  doc, \ldots{}). De plus il convient généralement de n'inclure qu'un seul
+  service par \emph{Docker} ce qui est plus sécurisé mais surtout
+  réutilisable. Certains services sont actuellement inclus dans plusieurs
+  conteneur alors qu'il suffirait de créer une image indépendante et de
+  l'utiliser lors du déploiement.
+
+  \newpage
+
   \subsection{Développement}\label{duxe9veloppement}
+
+  \bigskip
+
+  J'ai pu travailler sur un projet en \emph{python} effectuant un grand
+  nombre de requêtes API suivi d'un traitement sur la réponde de celle-ci.
+  Le nombre de requêtes étant élevée et les informations récupérées
+  n'étant pas inter-dépendantes j'ai écrit un programme créant 8
+  sous-processus réalisant cette tâche.
+
+  \bigskip
+
+  Suite au \emph{Chatops} j'ai eu l'occasion de travailler sur d'autre
+  \emph{bots}, un \emph{chatbot} et le \emph{publishing-bot}.
+
+  \bigskip
+
+  Le \emph{chatbot} est semblable au \emph{chatops} mais a pour but
+  d'exécuter des tâches internes à l'entreprise telles que la saisie des
+  temps ou les réservations de local et de matériel.
+
+  \bigskip
+
+  Le \emph{publishing-bot} est un \emph{bot} écrit en \emph{Ruby} capable
+  de convertir un répertoire Github sous forme de PDF, d'HTML ou d'Epub
+  puis de le publier. Ce bot est utilisé pour publier les documents de
+  l'entreprise puis, grâce au \emph{chatbot}, d'envoyer un message sur le
+  \emph{Slack} de l'entreprise indiquant l'URL pour accéder à ces
+  documents.
 
   \newpage
 
   \section{Conclusion}\label{conclusion}
 
+  \bigskip
+
   La mise en place d'Ansible et du Chatops chez Dernier Cri est un premier
   pas vers l'automatisation de l'infrastructure. Actuellement certaines
-  application sont encore inadaptée à ce système, l'objectif est donc de
-  les rendre compatible en révisant leur méthode de déploiement et de
-  maintenance.
+  application sont encore inadaptée à ce système, l'objectif sur le long
+  terme est donc de les rendre compatible en révisant leur méthode de
+  déploiement et de maintenance.
 
   \bigskip
 
@@ -617,4 +763,10 @@
   de développement. Cela a déjà été mit en place sur certaines
   applications et je souhaite poursuivre cette tendance.
 
+  \bigskip
+
+  Sur le plus long terme j'espère apporter davantage de mécanismes
+  d'automatisation à \emph{Dernier Cri} pour rendre le déploiement
+  d'application le plus rapide et simple possible.
+  
 \end{document}
