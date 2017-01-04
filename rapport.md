@@ -10,9 +10,21 @@ Je tiens à remercier Benjamin Tierny, Robin Komiwes et Julien Vanden Torren de 
 
 Je remercie également mon suiveur Harry Claisse pour son aide et son accompagnement, ainsi que les enseignants de l'Université technologique de Compiègne.
 
- \bigskip
+\bigskip
 
 Merci également à toute l'équipe de Dernier cri pour avoir rendu mon stage si enrichissant et agréable.
+
+\newpage
+
+# Résumé et abstract
+
+\bigskip
+
+## Résumé
+
+\newpage
+
+## Abstract
 
 \newpage
 
@@ -32,7 +44,7 @@ Ma mission à été d'intégrer l'équipe de developpement pour aider dans la cr
 
 \bigskip
 
-J'ai pus lors de ce stage intégrer une équipe dynamique etpro-active. J'ai notamment pus prendre part à de nombreuses présentations internes sur différentes technologies, à l'écriture d'article de blog. J'ai également pus participer activement à la relation cliente lors de mes projets.
+J'ai pus lors de ce stage intégrer une équipe dynamique et pro-active. J'ai notamment pus prendre part à de nombreuses présentations internes sur différentes technologies, à l'écriture d'article de blog. J'ai également pus participer activement à la relation cliente lors de mes projets.
 
 \newpage
 
@@ -107,7 +119,6 @@ La plupars des développeurs travails sur plusieurs projets en même temps, selo
 
 L'entreprise utilise principalement la plateforme Github comme service web d'hébergement et donc le logiciel de gestion de versions Git. Github permet au developpeur de travailler à plusieurs sur le même projet, de résoudre rapidement des conflits dus à la modification d'un même document pars plusieurs personne, de gérer différente version du projet etc...
 
-[//]: <> (![image](octicat.png))
 
 \bigskip
 
@@ -157,18 +168,13 @@ Ces présentations sont publiées sur la [chaîne youtube Dernier cri](https://w
 
 \bigskip
 
-Dernier cri posséde également un [blog technique](http://derniercri.io/tech-blog)
+Dernier cri posséde également un [blog technique](http://derniercri.io/tech-blog) alimenté par les developpeurs de l'équipe.
 
 \bigskip
 
-## Take off conf
-
-\bigskip
-
-\bigskip
+Les objectifs sont notablement les même que pour les présentations interne. Mais cela permet aussi à Dernier cri de rayonner et montrer ses compétences techniques et son esprit d'anlayse. Les commentaires permettent aussi d'échanger avec la communauté web.
 
 \newpage
-
 # Cadre du stage
 
 \bigskip
@@ -198,7 +204,7 @@ Ces trois technologie étant ... (ca m'intéresse et en plus c'est hype)
 
 \bigskip
 
-Ma formation c'est faite à partir du site https://www.codeschool.com/, disposant de cours en vidéos ainsi que d'exercices intéractifs.
+Ma formation c'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices intéractifs.
 
 \bigskip
 
@@ -244,20 +250,95 @@ Cette bibliothéque est aujourd'hui en expensions. Elle a un succés certain aup
 
 ### Redux
 
-## gestion de projet
--> Expliquer le déroulement : laetitia qui parle au client pour saoir ses besoin, qui crée l'issu, etc...
+React, même s'il n'impose pas de bibliothèque pour les data et la communication des modules, offre une approche nommée flux très intéressante et vous offrant des clés pour concevoir une app avec en tête les paradigmes pensés pour React.
+
+En plus de React, Facebook à fournit une architecture appelé **Flux**. Cette architecture promet un flot unilatéral des données pour que le developpeur puisse facilement suivre le trajet de des données d'un événement et ses conséquences.
+Ce pattern s'appuie sur trois éléments: les dispatcher, les stores et les vues (Les components React).
+
+**Redux** est une des implémentation de **Flux** les plus populaire, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de Flux, Redux les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
+
+On peut résumer Redux par ses 3 grands principes :
+* L'état de toute l'application est stocké dans un unique **store**.
+* L'état est en **lecture seule**. La seule façon de le modifier est l'utilisation d'**action** décrivant la modification voulu.
+* Les modifications sont faites avec des **fonctions pures**, c'est à dire une fonction qui prend l'état précédent et retourne un nouvel objet, le nouvel état.
+
+Même si la mise en place de **Redux** peut sembler dans un premier temps laborieuse, cette architecture à l'avantage d'offrir une bonne lisibilité quand au changement d'état, ce qui est utilise dans les grandes applications.
+
+## Gestion de projet
+
+Le processus de developpement chez Dernier cri se passe comme suit : notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certain point ou pour discuter des différents approches du problémes possible. C'est l'occasion pour le developpeur de proposer des solutions, peut être un peut différentes de celle imaginait par le client, ou encore de dire son avis sur les prochaines taches.
+
+\bigskip
+
+Ensuite les taches sont estimées en temps par un developpeur. Cette estimation devra ensuite étre validée par le client.
+
+\bigskip
+
+Une fois la tache validée, une *issue* est créé dans Github avec une description, l'estimation et le developpeur à qui est attribué la tache.
+
+\bigskip
+
+Selon les priorités, le developpeur choisi ou non l'ordre des taches. Pour proteger le projet actuel, stable, des nouvelles modification tant que celle-ci ne sont pas tester, le developpeur crée une *branche* dans Github, c'est à dire une copie du projet qui évoluera indépendamment de la branche principale. C'est sur cette branche que seront faites les modifications destinées a implémenter la nouvelle fonctionnalité.
+
+\bigskip
+
+Une fois le developmment de la fonctionnalité fait, la nouvelle version du site est déployé en *staging*, c'est à dire une version en ligne du site, qui à le même environnement que la production, mais avec des fausses données. Ce site sert à tester les nouvelles fonctionnalités avant de les pousser sur la production.
+
+\bigskip
+
+Laetitia fait une *recette*, c'est à dire vérifie que la version de staging remplie bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas cassé autre chose. En cas de problème, le developpeur reviens sur la tache jusqu'a ce que tout soit réglé.
+
+\bigskip
+
+Une fois un lot de taches effectuées, il est décidé en accord avec le client de poussé les modifications sur la production. Il faut alors vérifier que la *mise en prodcution* c'est bien passé : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
+
+\bigskip
 
 ## Photolix
 
 ### Présentation du projet
 
+\bigskip
+
+Dès mon arrivée dans l'entreprise j'ai été assigné a la réalisation d'une application de developpement photo. Le client posséde un studio de developpement photo sur Lille, et souhaité proposé à ses clients un site simple et efficace.
+
+\bigskip
+
+Le principal objectif de ce projet était d'uploader les photos au fur et à mesure de leur selection, pour ainsi éviter le temps d'attente du client à la fin de la saisie de ces informations.
+
+\bigskip
+
+Lors de mon arrivée sur le projet, un développeur de dernier cri avait déja posé des bases. Les fonctions de recadrage et de compression de la photo étaot notamment déjà écrite.
+
+\bigskip
+
 ### Objectifs
+
+\bigskip
+
+Les objectifs du projet Photolix sont les suivants :
+
+- 
+
+\bigskip
 
 ### Déroulement
 
+\bigskip
+
+\bigskip
+
 ### Difficultés
 
+\bigskip
+
+\bigskip
+
 ### Conclusion
+
+\bigskip
+
+\bigskip
 
 ## Finfrog
 
@@ -269,8 +350,64 @@ Cette bibliothéque est aujourd'hui en expensions. Elle a un succés certain aup
 
 ### Difficultés
 
+# La vie Lilloise
+
+## Take Off Conference
+
+\bigskip
+
+Dernier cri m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cette évenement à lieu depuis plusieurs années à EuraTechnologies, le Pôle d'excellence économique dédié aux Technologies de l'Information et de la Communication de la métropole lilloise.
+
+\bigskip
+
+Historiquement, ce sont les fondateurs de Dernier cri qui ont créé la **Take Off Conference**, avec Florian Le Goff. Aujourd'hui ce sont d'autre acteur de la communauté web de Lille qui ont pris le relais pour proposer une nouvelle édition.
+
+\bigskip
+
+La **Take Off Conference** est un cycle de conférences anglophones. L’événement dure 2 jours, et accueille des conférenciers du monde entier. Bien qu'elle reste avant tout une conférence pour les développeurs Web, elle reste accessible pour les développeurs en général.
+
+\bigskip
+
+Dernier cri m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantex et inspirantes, sur des sujets très varié allant de ....
+
+\bigskip
+
+Des évènements ont également été organisé le soir pour permettre au participant et au conférenciers d'échanger dans un cadre puis détendue.
+
+\bigskip
+
+Ce fut une excellente occasion de découvrir de nouvelle technologie, de m'ouvrir à des problématique que je ne connaissais pas ainsi que de rencontrer des developpeur qualifié et passionné.
+
+-> C'est en anglais donc j'ai bossé mon anglais : Yeah
+
+## Meetup
+
+\bigskip
+
+La communauté web de Lille est très active pour organisé des évenements. De très nombreux Meetup sont organisé sur différent domaine du web, acceuillant autant des experts que des débutant ou simplement des curieux.
+
+\bigskip
+
+Très actif dans cette communauté, Dernier cri acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des meetup de Lille FP (Fonctionnal programming, c'est à dire programmation fonctionnelle) et de Lille Elexir.
+
+\bigskip
+
+Certain membre de l'équipe sont également investi dans ces rencontres, en tant qu'organisateur ou bien speaker. Les patrons les poussent à (prendre part a la vie de la communauté web). J'ai ainsi pu facilement être au courant des différent évenement Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
+
+\bigskip
+
+## Maker Faire
+
+\bigskip
+
+
+
+\bigskip
+
 # Conclusion
 
--> Compétences apprises : React Redux ES6 Relation client Git Github pm2 npm
+-> Compétences apprises : Node React Redux ES6 Relation client Git Github pm2 npm
 
--> environnement cool : Ambiance, tech off conf , meetup
+-> Important : relation client et autonomie, apprentissage rapide, equipe disponible et polivalente (qui peut t'aider sur tout)
+
+-> environnement cool : Ambiance, tech off conf , meetup, plus belle vue de Lille
