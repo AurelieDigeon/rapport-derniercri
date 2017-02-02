@@ -4,19 +4,19 @@
 
 \bigskip
 
-Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et Julien Vanden Torren de m'avoir acceuilli chez Dernier cri pour mon stage.
+Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et Julien Vanden Torren pour m'avoir acceuilli chez Dernier Cri, pour mon stage.
 
 \bigskip
 
-Je remercie également mon suiveur Harry Claisse pour son aide et son accompagnement, ainsi que les enseignants de l'Université technologique de Compiègne.
+Je remercie également mon suiveur Harry Claisse pour son aide et son accompagnement, ainsi que les enseignants de l'Université de Technologiques de Compiègne.
 
 \bigskip
 
-Merci également à toute l'équipe de Dernier cri pour avoir rendu mon stage si enrichissant et agréable et pour m'avoir accueuilli à bras ouverts.
+Merci également à toute l'équipe de Dernier cri pour avoir rendu mon stage enrichissant et agréable, et pour m'avoir accueuilli à bras ouverts.
 
 \bigskip
 
-J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de faire ses études et m'ont soutenu durant ce stage.
+J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de faire ces études et m'ont soutenu durant ce stage.
 
 \newpage
 
@@ -38,11 +38,11 @@ J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de fa
 
 \bigskip
 
-Dans le cadre de mon stage de TN09 lors de ma quatrième année d'ingénieur à l'Université technologique de Compiègne (UTC), j'ai effectué un stage de six mois chez Dernier cri.
+Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en informatique à l'Université de Technologique de Compiègne (UTC), j'ai effectué un stage de six mois chez Dernier cri.
 
 \bigskip
 
-Dernier Cri est une Start-Up créé en 2011 spécialisée dans l'innovation numérique. L'équipe est en charge du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
+Dernier Cri est une *start-up* créée en 2011, spécialisée dans l'innovation numérique. L'équipe est en charge du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
 
 \bigskip
 
@@ -50,11 +50,11 @@ Ma mission a été d'intégrer l'équipe de développement pour aider dans la cr
 
 \bigskip
 
-J'ai pu lors de ce stage intégrer une équipe dynamique et pro-active. J'ai notamment pu prendre part à de nombreuses présentations internes sur différentes technologies, à l'écriture d'article de blog. J'ai également pu participer activement à la relation client lors de mes projets.
+J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active. En plus de mon implications dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles de blog. J'ai également pu participer activement à la relation client lors de mes projets.
 
 \bigskip
 
-Dans ce rapport je vais vous présenter tout d'abord Dernier cri, l'entreprise qui m'a acceuilli. Il me tient à coeur de vous exposer les techniques de travail et les différents moyens de s'exprimer qu'elle offre à ses équipes.
+Dans ce rapport je vais vous présenter tout d'abord Dernier cri, l'entreprise qui m'a accueilli. Je vous exposerais les techniques de travail et les différents moyens de s'exprimer qu'elle offre à ses équipes.
 
 \bigskip
 
@@ -74,11 +74,11 @@ Finalement, il me tient à coeur de présenter la communauté de Lille et ses pa
 
 \bigskip
 
-En 2011 Robin Komiwes et Benjamin Tierny créent Nectify dans le but de développer Fresc, un outil de partage d'avis sur des visuels. Bien que cet outil connait un succès certain avec aujourd'hui plus de 300 sociétés utilisant Fresc à travers des milliers de projets, la rentabilité du projet n'est pas suffisante.
+En 2011, Robin Komiwes et Benjamin Tierny créent Nectify, une entreprise dont le but est le développement et la commercialisation de Fresc, un outil de partage d'avis sur des visuels. Bien que cet outil connaîtra un succès mérité (on comptabilise aujourd’hui près de 300 entreprises l’utilisant à travers de milliers de projets), la rentabilité financière n'est pas suffisante pour assurer la pérennité de l'entreprise.
 
 \bigskip
 
-Nectify choisit alors de compléter ses revenus par de la prestation de services centrée sur l'innovation.
+Nectify choisit alors de compléter ses revenus par de la prestation de services centrés sur l'innovation.
 
 \bigskip
 
@@ -86,11 +86,11 @@ Début 2014, la majeure partie du chiffre d'affaire de Nectify était dû aux ac
 
 \bigskip
 
-Devenant donc une agence spécialisée dans l'innovation digitale, Nectify choisit de créer sa propre image, distincte de Fresc. C'est dans ce mouvement que la société est devenue **Dernier cri**.
+Devenant donc une agence spécialisée dans l'innovation digitale, Nectify choisit de créer sa propre image, distincte de Fresc. C'est dans ce mouvement que la société est devenue Dernier cri.
 
 \bigskip
 
-Aujourd'hui Dernier cri est une agence web qui met un point d'honneur à proposer à ses clients une solution complète adaptée à leur problèmatique spécifique. De la conception à la réalisation, l'entreprise accompagne ses clients de A à Z pour aboutir à un produit au plus proche des besoins de ceux-ci. Cela permet aux développeurs d'opérer dans différents domaines d'activités et d'avoir une vue globale du développement de produit.
+Aujourd'hui, Dernier cri est une agence web qui met un point d'honneur à proposer à ses clients une solution complète et adaptée à leur problèmatique. De la conception à la réalisation, l'entreprise accompagne ses clients de A à Z pour aboutir à un produit au plus proche de leurs besoins. Cela permet aux développeurs d'opérer dans différents domaines d'activités, et d'avoir une vue globale du développement du produit.
 
 \bigskip
 
@@ -98,15 +98,15 @@ Aujourd'hui Dernier cri est une agence web qui met un point d'honneur à propose
 
 \bigskip
 
-Le secteur de l'informatique est aujourd'hui est pleine expension et ne connait pas la crise. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de services du numérique) et ne cesse de croître depuis ces cinq dernières années.
+Le secteur de l'informatique est aujourd'hui est en pleine expension et ne connait pas la crise. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et ne cesse de croître depuis ces cinq dernières années.
 
 \bigskip
 
-Dernier cri est une _startup_ spécialisée dans l'innovation digitale. Elle se démarque notamment des autres agence web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de grosses données, afin d'augmenter la capacité d'innovation d'entreprises tiers. Cela se traduit notamment par de l'exploration de connaissances à partir de données pour des magasins, par exemple, ou la création d'audit.
+Dernier cri est une *start-up* spécialisée dans l'innovation digitale. Elle se démarque notamment des autres agences web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de grosses données, afin d'augmenter la capacité d'innovation d'entreprises tiers. Cela se traduit notamment par de l'exploration de connaissances à partir de données pour des magasins, par exemple, ou la création d'audit.
 
 \bigskip
 
-C'est cette diversité qui permet à Dernier cri de se démarquer dans l'univers du web à Lille, où de nombreuse agence se partage le marché.
+C'est cette diversité qui permet à Dernier cri de se démarquer dans l'univers du web à Lille, où de nombreuse agences se partagent le marché.
 
 \bigskip
 
@@ -118,27 +118,27 @@ Dernier cri est une entreprise de petite taille et profite de cela pour mettre e
 
 \bigskip
 
-Au sommet de l'organisation de l'entreprise se trouve les deux fondateurs ainsi que le troisème associé. Le directeur général de l'entreprise (CTO) est Benjamin Tierny, tandis que Robin Komiwes est le directeur de la technologie (CTO). Le troisième associé, Julien Vanden Torren, est Account Manager, c'est à dire le lien entre l'entreprise et les clients.
+Au sommet de l'organisation de l'entreprise se trouve les deux fondateurs ainsi que le troisième associé. Le directeur général de l'entreprise (CTO) est Benjamin Tierny, tandis que Robin Komiwes est le directeur de la technologie (CTO). Le troisième associé, Julien Vanden Torren, est Account Manager, c'est à dire le lien entre l'entreprise et les clients.
 
 \bigskip
 
-L'entreprise compte aujourd'hui 18 employés mais se trouve dans une phase d'expension avec de nouvelles embauches en perspective, grave à de nombreux nouveaux projets.
+L'entreprise compte aujourd'hui 18 employés mais se trouve dans une phase d'expension avec de nouvelles embauches en perspective, grace à de nombreux nouveaux projets.
 
 \bigskip
 
-L'entreprise est également constituée d'une chef de projet, Laetitia Cocusse, qui s'occupe de superviser la plupart des projets.
+L'équipe est également constituée d'une chef de projet, Laetitia Cocusse, qui s'occupe de superviser la plupart des projets.
 
 \bigskip
 
-L'équipe de développeur est constituée notament d'un devops, c'est à dire d'une personne possédant à la fois les compétences d'un  développeur et d'un ingénieur système (Jean-Serge Monbailly), d'un Data Scientist (Antonin Carette) qui travaille sur les projets de big data.
+Dernier Cri est à la fois une agence Web mais aussi une agence qui se préoccupe des problèmes actuels liés à l’ingénierie système et au traitement de grosses données. C'ets pourquoi l'équipe de développeurs est aussi constituée d'un *devops*, c'est à dire d'une personne possédant à la fois les compétences d'un  développeur et d'un ingénieur système, d'un *Data Scientist* qui travaille sur les projets de big data.
 
 \bigskip
 
-La plupart des développeurs travaille sur plusieurs projets en même temps, selon les besoins de l'entreprise et les compétences de chacun. Des équipes de 2/3 développeurs sont crées, mélangeant les compétences front et back, de développement et de système.
+La plupart des développeurs travaille sur plusieurs projets en même temps, selon les besoins de l'entreprise et les compétences de chacun. Des équipes de 2/3 développeurs sont crées, mélangeant les compétences *front* et *back*, de développement et de système.
 
 \bigskip
 
-### Github et code review
+### Github et *code review*
 
 \bigskip
 
@@ -146,7 +146,7 @@ L'entreprise utilise principalement la plateforme Github comme service web d'hé
 
 \bigskip
 
-Une nouvelle version de Github propose une section **Projet** permettant de gérer les **issues**, c'est à dire les tâches. Cette section permet  notamment de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la che.
+Une nouvelle version de Github propose une section **Projet** permettant de gérer les **issues**, c'est à dire les tâches. Cette section permet  notamment de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.
 
 \bigskip
 
@@ -166,7 +166,7 @@ C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur l
 
 \bigskip
 
-Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des *talks*, c'est à dire de petites présentations. Celles-ci ont pour objectif premier de présenter certains enjeux et solutions techniques en rapport avec la réalisation d'un projet, le résultat d'une veille, ou tout simplement un sujet qui les intéresse. Les *talks* techniques permettent aux membres d'une équipe de partager entre eux leurs expériences et leur passions.
+Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des *talks*, c'est à dire de petites présentations. Celles-ci ont pour objectif premier de présenter certains enjeux et solutions techniques en rapport avec la réalisation d'un projet, le résultat d'une veille, ou tout simplement un sujet qui les intéresse. Les *talks* techniques permettent aux membres d'une équipe de partager entre eux leurs expériences et leurs passions.
 
 \bigskip
 
@@ -178,15 +178,15 @@ Le second avantage concerne l'organisateur de la présentation. Tout d'abord, se
 
 \bigskip
 
-De plus, le rédacteur apprend beaucoup car, pour la création de la présentation, il doit devenir un expert sur le sujet qu'il va couvrir. Il doit appronfondir assez le sujet pour être capable, d'une part d'être clair dans sa présentation, d'autre part de répondrex aux éventuelles questions.
+De plus, le rédacteur apprend beaucoup car, pour la création de la présentation, il doit devenir un expert sur le sujet qu'il va couvrir. Il doit appronfondir assez le sujet pour être capable, d'une part d'être clair dans sa présentation, d'autre part de répondre aux éventuelles questions.
 
 \bigskip
 
-Pour lui c'est aussi une occasion de travailler sur ces compétences d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie de tout les jours, mais surtout un techtalk interne peut faire office d'incubation pour une présentation dans un autre context. En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations, ce qui est  très intéréssant mais aussi peut être assez intimidant. Le présentateur peut tester son talk en interne avant d'en faire partager la communauté.
+Pour lui c'est aussi une occasion de travailler sur ces compétences d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie de tout les jours, mais surtout un techtalk interne peut faire office d'incubation pour une présentation dans un autre contexte. En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations, ce qui est  très intéréssant mais aussi peut être assez intimidant. Le présentateur peut tester son talk en interne avant d'en faire partager la communauté.
 
 \bigskip
 
-Finalement, présenter un sujet issu d'une veille technologique permet, au-delà de faire découvrir aux autres un sujet potentiellement intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de sujets qui au premier coup d'oeil semblaient prometteur, peuvent avec un peu de recherche se révéler creux et sans interet.
+Finalement, présenter un sujet issu d'une veille technologique permet, au-delà de faire découvrir aux autres un sujet potentiellement intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de sujets qui au premier coup d'oeil semblaient prometteur, peuvent avec un peu de recherche se révéler creux et sans intêret.
 
 \bigskip
 
@@ -214,7 +214,7 @@ Pour le rédacteur de l'article, cela a également de nombreux avantages. Par ex
 
 \bigskip
 
-J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog technique de Dernier cri. Dans cette article je décris les technologies que j'ai utilisé lors de mon stage, React et Reduc, ainsi que cinq outils que j'ai découvert et qui m'ont facilité la vie pour utiliser ses technologies. Ce fut une expérience très enrichissante. Cela m'a poussé à enrichir mes connaissances dans le domaine, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
+J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog technique de Dernier cri. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, React et Reduc, ainsi que cinq outils que j'ai découvert et qui m'ont facilité la vie pour utiliser ses technologies. Ce fut une expérience très enrichissante. Cela m'a poussé à enrichir mes connaissances dans le domaine, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
 
 \newpage
 
@@ -222,7 +222,7 @@ J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog
 
 \bigskip
 
-Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise et j'ai pus participer au développement de deux applications. Ces deux projets s'appuyé sur du React, une bibliothèque JavaScript libre développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
+Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise et j'ai pu participer au développement de deux applications. Ces deux projets s'appuyaient sur du React, une bibliothèque JavaScript libre développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
 
 \bigskip
 
@@ -238,15 +238,15 @@ Le second projet est FinFrog, un site proposant des prêts financés par des par
 
 \bigskip
 
-Lors de mon arrivée chez Dernier cri, j'ai eu l'occasion de me former sur Javascript ES6, React ainsi que Redux, car l'entreprise prévoyait de me mettre sur des projets utilisant ces technologie.
+Lors de mon arrivée chez Dernier cri, j'ai eu l'occasion de me former sur Javascript ES6, React ainsi que Redux, car l'entreprise prévoyait de me mettre sur des projets utilisant ces technologies.
 
 \bigskip
 
-La popularité de ces trois technologie est en forte hausse, et de plus en plus demandé et utilisé pour la création d'application web. C'est pourquoi ce fut une véritable chance d'apprendre ces langages lors de mon stage.
+La popularité de ces trois technologies est en forte hausse, et de plus en plus demandée et utilisée pour la création d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces langages lors de mon stage.
 
 \bigskip
 
-Ma formation c'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pus compter sur Fabien Gavory, un développeur de Dernier cri, pour m'aider et m'expliquer certain concepts difficiles.
+Ma formation s'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pus compter sur Fabien Gavory, un développeur de Dernier cri, pour m'aider et m'expliquer certains concepts difficiles.
 
 \bigskip
 
@@ -254,27 +254,27 @@ Ma formation c'est faite à partir du site [Code school](https://www.codeschool.
 
 \bigskip
 
-Le Javascript est un langage de programmation de scripts incontournable du web. Si à sa création il servait principalement à la réalisation d'animation, il est aujourd'hui au centre des applications. Le javacript sert maintenant à controler presque la totalité de l'application web. Cependant, ce langage n'étant pas prévu pour une telle complexité, il en résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'un mise à jour du langage c'est imposé.
+Le Javascript est un langage de programmation de scripts incontournable du web. Si à sa création il servait principalement à la réalisation d'animation, il est aujourd'hui au centre des applications. Le javacript sert maintenant à controler presque la totalité de l'application web. Cependant, ce langage n'étant pas prévu pour une telle complexité, il en résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'une mise à jour du langage s'est imposée.
 
 \bigskip
 
-ES6 (ECMAScript Edition 6 ou encore ES2015) a été publiée en juin 2015. Il ajoute un ensemble de normes à celles déjà présente, pour apporter de nouvelle fonctionnalités qui permettent d'alléger le code, de le structurer, et de le rendre notamment plus maintenable, tout en restant compatibles avec le code existant.
+ES6 (ECMAScript Edition 6 ou encore ES2015) a été publiée en juin 2015. Il ajoute un ensemble de normes à celles déjà présentes, pour apporter de nouvelles fonctionnalités qui permettent d'alléger le code, de le structurer, et de le rendre notamment plus maintenable, tout en restant compatible avec le code existant.
 
 \bigskip
 
-ES6 n'est pas encore totalement supporté par les navigateurs, il est donc utilise d'utiliser un transcompilateur vers ES5, comme Babel.js.
+ES6 n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js.
 
 \bigskip
 
-L'apprentissage de ES6 a était primordiale pour mon stage : les nouvelles normes rende vraiment le code plus facile à lire et à écrire. J'ai ainsi dès le début de mon stage, pus prendre de bonne habitude quant au styles de mon code.
+L'apprentissage de ES6 a était primordial pour mon stage : les nouvelles normes rendent vraiment le code plus facile à lire et à écrire. J'ai ainsi dès le début de mon stage, pus prendre de bonnes habitudes quant au style de mon code.
 
 \bigskip
 
-Cela m'a également permit de me familiariser avec les normes ECMAScript et de me persuader de la nécessité de rester attentive aux différentes actualités et évolution des langages. En effet, dans le milieu de l'informatique, les normes et bonnes pratiques sont très changeante et il est donc important de rester attentifs à l'actualité.
+Cela m'a également permi de me familiariser avec les normes ECMAScript et de me persuader de la nécessité de rester attentive aux différentes actualités et évolutions des langages. En effet, dans le milieu de l'informatique, les normes et bonnes pratiques sont très changeantes et il est donc important de rester attentif à l'actualité.
 
 \bigskip
 
-J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'utilisant pas ES6 et j'ai eu de grande difficultés à me passer des facilité d'écritures. Sans ES6, le code est beaucoup plus long et laborieux à lire et à écrire.
+J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'utilisant pas ES6 et j'ai eu de grande difficultés à me passer des facilités d'écritures. Sans ES6, le code est beaucoup plus long et laborieux à lire et à écrire.
 
 \bigskip
 
@@ -282,11 +282,11 @@ J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'uti
 
 \bigskip
 
-Développé depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateur. Cette bibliothèque c'est démarqué notamment par ses performances.
+Développé depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
 
 \bigskip
 
-Elle est aujourd'hui utilisé par de nombreuses entreprises tel que Netflix, Yahoo, Airbnb ou encore Sony.
+Elle est aujourd'hui utilisée par de nombreuses entreprises telles que Netflix, Yahoo, Airbnb ou encore Sony.
 
 \bigskip
 
@@ -294,7 +294,7 @@ Une des particularités de *React* est de découper l'application en composants,
 
 \bigskip
 
-Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain auprès de la communautés des développeurs web, et de nombreux outils se développe autours. C'est donc un avantage d'avoir pu apprendre *React* lors de mon stage, puis d'avoir mis en pratique ces connaissances lors des deux projets que j'ai effectués.
+Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain auprès de la communautés des développeurs web, et de nombreux outils se développent autours. C'est donc un avantage d'avoir pu apprendre *React* lors de mon stage, puis d'avoir mis en pratique ces connaissances lors des deux projets que j'ai effectué.
 
 \bigskip
 
@@ -306,15 +306,15 @@ React, même s'il n'impose pas de bibliothèque pour les donnés et la communica
 
 \bigskip
 
-En plus de *React*, Facebook à fournit une architecture appelé *Flux* pour la gestion des donnés et la communication des composants. Cette architecture promet un flot unilatéral des données pour que le développeur puisse facilement suivre le trajet de des données d'un événement et ses conséquences.
+En plus de *React*, Facebook a fourni une architecture appelée *Flux* pour la gestion des donnés et la communication des composants. Cette architecture promet un flot unilatéral des données pour que le développeur puisse facilement suivre le trajet des données d'un événement et ses conséquences.
 
 \bigskip
 
-*Redux* est une des implémentation de *Flux* les plus populaire, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
+*Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
 
 \bigskip
 
-La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un premier temps laborieuse, car elle impose de nombreux fichier, de nombreux composants différents et une façon de penser qui peut désarçonner au début. Mais une fois les bases mises en place, cette architecture a l'avantage d'offrir une bonne lisibilité quant aux changements d'état. Il est possible de se retrouver dans le code très rapidement et d'ajouter des composants sans difficultés puisque *React* et *Flux* sont conçus pour être modulable. Flux trouve donc sont utilité dans les grandes applications.
+La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un premier temps laborieuse, car elle impose de nombreux fichiers, de nombreux composants différents et une façon de penser qui peut désarçonner au début. Mais une fois les bases mises en place, cette architecture a l'avantage d'offrir une bonne lisibilité quant aux changements d'état. Il est possible de se retrouver dans le code très rapidement et d'ajouter des composants sans difficultés puisque *React* et *Flux* sont conçus pour être modulable. Flux trouve donc son utilité dans les grandes applications.
 
 \bigskip
 
@@ -326,39 +326,39 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 \bigskip
 
-Le processus de développement chez Dernier cri se passe généralement comme suit. Tout d'abord notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certain point ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de proposer des solutions, peut être un peut différentes de celles imaginées par le client, ou encore de dire son avis sur les prochaines tâches.
+Le processus de développement chez Dernier cri se passe généralement comme suit. Tout d'abord notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de proposer des solutions, peut être un peu différentes de celles imaginées par le client, ou encore de dire son avis sur les prochaines tâches.
 
 \bigskip
 
-Ensuite les taches sont estimées par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possible retours. Cette estimation devra ensuite être validée par le client.
+Ensuite les taches sont estimées par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client.
 
 \bigskip
 
-Une fois la tache validée, une *issue* est créé dans Github avec une description, l'estimation et le développeur à qui est attribué la tache. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *Issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
+Une fois la tache validée, une *issue* est créé dans Github avec une description, l'estimation et le développeur à qui est attribuée la tache. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *Issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
 
 \bigskip
 
-Selon les priorités, le développeur choisi ou non l'ordre des taches. Pour protéger le projet actuel, stable, des nouvelles modification tant que celle-ci ne sont pas tester, le développeur crée une *branche* dans Github, c'est à dire une copie du projet qui évoluera indépendamment de la branche principale. C'est sur cette branche que seront faites les modifications destinées a implémenter la nouvelle fonctionnalité.
+Selon les priorités, le développeur choisit ou non l'ordre des tâches. Pour protéger le projet actuel, stable, des nouvelles modifications tant que celles-ci ne sont pas testées, le développeur crée une *branche* dans Github, c'est à dire une copie du projet qui évoluera indépendamment de la branche principale. C'est sur cette branche que seront faites les modifications destinées à implémenter la nouvelle fonctionnalité.
 
 \bigskip
 
-C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un enviromment de developpement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'un base de donnée, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisée lors de la phase de développement n'ai pas d'impact sur celles de production.
+C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un environnement de developpement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'une base de données, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisée lors de la phase de développement n'aient pas d'impact sur celles de production.
 
 \bigskip
 
-Quand le développeur estime avoir terminer la tâche, il crée une *Pull request* sur Github (comme expliqué plus haut dans le rapport). C'est alors le moment de prendre en compte les remarques et conseils des autres membres de l'équipe, de corrigé éventuellement des éléments, pour s'assurer de la qualité du code avant de l'incorporer dans le projet.
+Quand le développeur estime avoir terminer la tâche, il crée une *Pull request* sur Github (comme expliqué plus haut dans le rapport). C'est alors le moment de prendre en compte les remarques et conseils des autres membres de l'équipe, de corriger éventuellement des éléments, pour s'assurer de la qualité du code avant de l'incorporer dans le projet.
 
 \bigskip
 
-Une fois le développement de la fonctionnalité validé, la nouvelle version du site est déployé en *Staging*, c'est à dire une version en ligne du site, qui à le même environnement que la production, mais avec des fausses données. Ce site sert à tester les nouvelles fonctionnalités avant de les pousser sur la production.
+Une fois le développement de la fonctionnalité validé, la nouvelle version du site est déployé en *Staging*, c'est à dire une version en ligne du site, qui a le même environnement que la production, mais avec des fausses données. Ce site sert à tester les nouvelles fonctionnalités avant de les pousser sur la production.
 
 \bigskip
 
-Laetitia fait une *recette*, c'est à dire vérifie que la version de *staging* remplie bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas cassé autre chose. En cas de problème, le développeur reviens sur la tache jusqu'à ce que tout soit réglé.
+Laetitia fait une *recette*, c'est à dire vérifie que la version de *staging* remplit bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas cassé autre chose. En cas de problème, le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
 
 \bigskip
 
-Une fois un lot de taches effectuées, il est décidé en accord avec le client de poussé les modifications sur la production. Il faut alors vérifier que la *mise en prodcution* c'est bien passé : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
+Une fois un lot de taches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en prodcution* c'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
 
 \newpage
 
@@ -366,7 +366,13 @@ Une fois un lot de taches effectuées, il est décidé en accord avec le client 
 
 \bigskip
 
--> Introduction
+J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon plus ou moins importantes. Je vais vous présenter dans cette partie les deux principaux projets sur lesquels je me suis investie.
+
+\bigskip
+
+J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes périodes, ainsi que développer un outils pour le site de Dernier cri.
+
+\bigskip
 
 ## Photolix
 
@@ -374,7 +380,7 @@ Une fois un lot de taches effectuées, il est décidé en accord avec le client 
 
 \bigskip
 
-Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un studio de développement photo sur Lille, et souhaitait proposé à sa clientèle un site simple et efficace.
+Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un studio de développement photo sur Lille, et souhaitait proposer à sa clientèle un site simple et efficace.
 
 \bigskip
 
@@ -407,17 +413,19 @@ Lors de mon arrivée sur ce premier projet, j'ai du apprendre à utiliser certai
 
 \bigskip
 
-Tout d'abord, le projet utilise Github comme service web d'hébergement et de gestion de développement, et par conséquent le logiciel de gestion de versions Git. Bien qu'ayant déjà utilisé Git et Github lors de mon DUT informatique, de projet personnel ou bien de projet à l'UTC, je ne connaissais pas certaines fonctionnalités de Github utilisé pars l'entreprise, notamment le code review et l'onglet projet. (Voir plus haut)
+Tout d'abord, le projet utilise Github comme service web d'hébergement et de gestion de développement, et par conséquent le logiciel de gestion de versions Git. Bien qu'ayant déjà utilisé Git et Github lors de mon DUT informatique, de projet personnel ou bien de projet à l'UTC, je ne connaissais pas certaines fonctionnalités de Github utilisées par l'entreprise, notamment le code review et l'onglet projet. (Voir plus haut)
 
 \bigskip
 
-Le projet déjà existant utilisé npm comme gestionaire de paquets. npm est le gestionnaire de paquets officiel de Node.js. , automatiquement installé par défaut depuis la version 0.6.3 de Node.js. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm. Il offre également la possibilité de créé des scripts. C'est une option vraiment pratique car grave a cela on peut construire et lancer l'application en une commande.
+Le projet déjà existant utilisait npm comme gestionaire de paquets. npm est le gestionnaire de paquets officiel de Node.js. , automatiquement installé par défaut depuis la version 0.6.3 de Node.js. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car grace à cela on peut construire et lancer l'application en une commande.
 
 \bigskip
 
 Pour mon environnement de travail, j'ai aussi utilisé un Linter. Code linting est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Il existe des linters de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation.
 
-J'ai personnellement utilisé ESLint, qui est un utilitaire JavaScript open-source et libre créé à l'origine par Nicholas C. Zakas en Juin 2013. ESLint est écrit en utilisant Node.js pour fournir un environnement d'exécution rapide et une installation facile via npm. La principale raison pour laquelle ESLint a été créée était de permettre aux développeurs de créer leurs propres règles de filtrage.
+\bigskip
+
+J'ai personnellement utilisé ESLint, qui est un utilitaire JavaScript open-source et libre créé à l'origine par Nicholas C. Zakas en Juin 2013. ESLint est écrit en utilisant Node.js pour fournir un environnement d'exécution rapide et une installation facile via npm. La principale raison pour laquelle ESLint a été créé était de permettre aux développeurs de créer leurs propres règles de filtrage.
 
 \bigskip
 
@@ -425,15 +433,15 @@ J'ai également pu utiliser le *chatops* de Dernier cri, un outil d'administrati
 
 \bigskip
 
-L'application était écrite en React avec l'utilisation de Redux. J'ai pus donc mettre en application les principes appris lors de ma première semaine.
+L'application était écrite en React avec l'utilisation de Redux. J'ai pu donc mettre en application les principes appris lors de ma première semaine.
 
 \bigskip
 
-Pour l'intégration du style du site, j'ai pus utiliser Zeplin. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquette fonctionnelle directement à partir de Sketch et les ajouter aux dossiers de projet dans Zeplin. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple d'intégrer les maquettes.
+Pour l'intégration du style du site, j'ai pu utiliser Zeplin. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de Sketch et les ajouter aux dossiers de projet dans Zeplin. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple d'intégrer les maquettes.
 
 \bigskip
 
-Finalement, pour l'intégration des maquettes, j'ai fais le choix d'utiliser SASS. Sass (Syntactically Awesome Stylesheets) est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de CSS3, ajoutant de nouvelles règles dans notre façon d'intégrer un web design. Les principaux ajouts sont : les variables, les mixins, l'héritage de sélection et différents options très utiles.
+Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser SASS. Sass (Syntactically Awesome Stylesheets) est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de CSS3, ajoutant de nouvelles règles dans notre façon d'intégrer un web design. Les principaux ajouts sont : les variables, les mixins, l'héritage de sélection et différents options très utiles.
 
 \bigskip
 
@@ -445,31 +453,43 @@ Finalement, pour l'intégration des maquettes, j'ai fais le choix d'utiliser SAS
 
 \bigskip
 
-La première partie du projet consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Mais à la réception des maquettes, l'application était devenu multi-page. Il a donc tout d'abord mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
+La première partie du projet consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Mais à la réception des maquettes, l'application était devenue multi-page. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
 
 \bigskip
 
-J'ai choisi, après quelques recherches, d'utiliser React Router. [React Router](https://github.com/ReactTraining/react-router) est une bibliothèque de routage pour React. Il dispose d'une *API* simple avec des fonctionnalités puissantes. Il garde l'interface utilisateur synchronisé avec l'*URL*. React Router est très simple à utiliser. Il suffit de lister les différentes routes souhaitées, associées au composent correspondants.
+J'ai choisi, après quelques recherches, d'utiliser React Router. [React Router](https://github.com/ReactTraining/react-router) est une bibliothèque de routage pour React. Il dispose d'une *API* simple avec des fonctionnalités puissantes. Il garde l'interface utilisateur synchronisé avec l'*URL*. React Router est très simple à utiliser. Il suffit de lister les différentes routes souhaitées, associées au composant correspondant.
 
 \bigskip
 
-Une fois ce découpage effectuée, j'ai mis en place SASS pour la gestion des feuilles de style. Pour facilité son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisé dans tout le projet. Le fichier variable contient notamment les code hexadecimal des couleurs de l'application, les tailles des polices d'écriture utilisé, etc. Utilisé des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
+Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feuilles de style. Pour faciliter son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisés dans tout le projet. Le fichier `variable` contient notamment les codes hexadecimaux des couleurs de l'application, les tailles des polices d'écriture utilisées, etc. Utiliser des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
 
 \bigskip
 
-Une fois ces fichiers SASS principaux créé, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contiens donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le CSS (Cascading Style Sheets), c'est à dire le langage décrivant la présentation de l'application. En effet, jusque là je n'avais pas eu l'occasion d'appronfondir mes connaissances en intégration.
+Une fois ces fichiers SASS principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le CSS (Cascading Style Sheets), c'est à dire le langage décrivant la présentation de l'application. En effet, jusque là je n'avais pas eu l'occasion d'appronfondir mes connaissances en intégration.
 
 \bigskip
 
-L'intégration du style fut assez rapide, l'application étant visuellement assez simple. Grâce à cette première étape j'ai pus me familiariser avec l'organisation du projet avant d'attaquer des parties plus difficiles.
+L'intégration du style fut assez rapide, l'application étant visuellement assez simple. Grâce à cette première étape j'ai pu me familiariser avec l'organisation du projet avant d'attaquer des parties plus difficiles.
 
 \bigskip
 
-#### Téléchargement des photos
+#### Formatage et téléchargement des photos
 
 \bigskip
 
+La deuxième partie du projet était centrée sur le téléchargement des photos vers le serveur. Le client a lui même développé une API assez simple que nous devions manipuler pour envoyer les photos, changer le nombre d'exemplaire, récupérer le prix de la commande...
 
+\bigskip
+
+La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'API. En effet, celle-ci évoluant en même temps que l'application et ne possédant pas de documentation, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'API a ralenti le développement.
+
+\bigskip
+
+Une autre difficulté était le redimensionnement des images avant l'envoi au serveur. En effet, quand l'utilisateur sélectionne des photos, nous devons tout d'abord passer la photo au format sélectionné, et donc gérer les formats incompatibles. Cela a apporté beaucoup de questions. Par exemple, si une photo est en 10x15 et que l'utilisateur a sélectionné le format 11x15 que fait-on ? Coupe-t-on des morceaux de la photo pour arriver au format voulu ? Ou bien ajoute-t-on des bandes ?
+
+\bigskip
+
+Cela a donc donné lieu à beaucoup de discutions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimal pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
 
 \bigskip
 
@@ -477,15 +497,41 @@ L'intégration du style fut assez rapide, l'application étant visuellement asse
 
 \bigskip
 
-
+L'étape suivante est la création de l'interface et des fonctions permettant à l'utilisateur de modifier ses photos. Il peut changer le format, recadrer la photo, changer l'orientation... J'ai tout d'abord chercher s'il existait déja un outil pour le recadrage de la photo.
 
 \bigskip
+
+C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est trés facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [react-cropper](https://github.com/roadmanfong/react-cropper), trouvé sur Github après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
+
+\bigskip
+
+Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisé lors du téléchargement initial. J'y ai ajouté des paramétres permettant de choisir le format, l'orientation, si on coupe la photo ou bien on ajoute des bandes blanche...
+
+\bigskip
+
+Enfin, il a fallut mettre en place l'interface utilisateur. Ce fut une étape
 
 #### Pages informations des clients, paiement et remerciement
 
 \bigskip
 
+La dernière partie du projet consisté à mettre en place les autres pages de l'application, servant à récolter les informations nécessaires à la commande, et à les envoyer à l'API. Ces pages étaient la page de saisie des adresses, de livraison et de facturation, la page de paiement, soit par carte bancaire, soit par Paypal, et enfin la page de remerciement avec un récapitulatif de la commande, ainsi que des liens pour partager l'événement sur les réseaux sociaux.
 
+\bigskip
+
+Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour la première fois un formulaire en React et Redux. Avec ce langage, la création de formulaire est assez peut instactif car il faut répercuter chaque changement des champs, chaque lettre écrite ou effacée, pour que l'état de l'applications soit toujours à jour. C'est assez fastidieux et inhabituel.
+
+\bigskip
+
+Après cette première expériences dans la création de formulaire, j'ai pus découvrir un outil, redux-form, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise à jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord du faire toute l'implémentation nécéssaire par moi même m'a permis de prendre conscience des problématiques de cette pile technologique : le maintiens de l'état de l'application, la communication entre les composants...
+
+\bigskip
+
+J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager sur les réseaux sociaux l'événement. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé a une URL.
+
+\bigskip
+
+Finalement, sur les trois pages précédemment citées, j'ai du faire apparaitre un récapitulatif de la commande, avec notamment le nombre de photos commandé, le prix par photos, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandé de la réflection car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolue, il faut récupérer le prix à partir de l'API, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toute les photos ne soient pas encore envoyé à l'API et donc le pris renvoyé par celle-ci n'est pas définitive. IL est alors donc nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'API, puisqu'il s'agit du prix final.
 
 \bigskip
 
@@ -493,37 +539,37 @@ L'intégration du style fut assez rapide, l'application étant visuellement asse
 
 \bigskip
 
-Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet Photolix à Fabien. Il a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leur modification. Il a également revu la fonction de redimensionnement des photos, car celle utilisé au debut n'était pas assez performantes : si l'on monté a une centaine de photos chargé, le navigateur ne supporté pas la charge.
+Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet Photolix à Fabien. Il a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leur modification. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante : si l'on monté à une centaine de photos chargées, le navigateur ne supportait pas la charge.
 
 \bigskip
 
-J'ai pu étudier les modifications apporté par Fabien, et apprendre des erreurs que j'ai pus commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que Fabien reprenne mon travail pour ajouter l'affichage des erreur, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.
+J'ai pu étudier les modifications apportées par Fabien, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que Fabien reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.
 
 \bigskip
 
-Finalement, j'ai pus retravailler sur le projet en decembre. Après un premier rendu au client, celui-ci souhaité quelques corrections ainsi que l'ajout de quelques fonctionnalité. Il avait utilisé un échantillons de client pour tester l'application et avait relevait des améliorations possible à l'interface utilisateurs. J'ai donc pus aider Fabien à mettre en place ces modifications.
-
-Developpement des fonctionnalités -> Détravailler
-
-Reunion client -> Détailler -> Client ouvert aux suggestion
-
-Collaboration avec Fabien -> Créateur du projet et maitrise le langage -> Très bon professeur -> Apprendre a communiquer à l'écrit
-+ Channel Dev sur slack
-+
+Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier rendu au client, celui-ci souhaité quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon de client pour tester l'application et avait relevé des améliorations possibles à l'interface utilisateur. J'ai donc pu aider Fabien à mettre en place ces modifications.
 
 \bigskip
 
 
 ### Conclusion
 
--> Mettre en avant les difficultés et comment les surmonter
--> Une chance d'avoir travailler tout de suite sur un vrai projet
--> Good d'avoir eu qqn qui s'y connaissait (Fabien) pour m'aider
--> Aprendre la gestion de projet de Dernier cri -> Laetitia -> Organisation
+\bigskip
+
+Ce premier projet chez Dernier cri m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez Dernier cri, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essenciel pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
+Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expensions, et évolue beaucoup et ont un belle avenir devant elles. J'ai également pu apprendre a deveopper en front-end, alors que jusque là mes compétences techniques étaient plus tournée vers du back.
+
 \bigskip
+
+Evidemment, j'ai connus de nombreuse difficultés lors du développemment de Photolix. Mon inexpérience m'a conduit à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue, Fabien Gavory, pour me soutenir, me corriger et rattraper certaine erreurs, surtout vers la fin du projet. Grace à cela, j'ai pu mettre en place de meilleurs pratiques durant le projet suivant.
+
+\bigskip
+
+Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraie problématiques du developpement d'une application web, de la relation cliente, avec des dates butoire et des évolutions des spécifications en cours de projet.
+
 
 ## Finfrog
 
@@ -535,28 +581,57 @@ Avec l'arrivée d'un nouveau client et la nécéssité de fournir un developpeur
 
 \bigskip
 
-Finfrog est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposé vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne serait pas validé par une banque car ils sont trop faibles ou bien que la personne est au chômage.
+Finfrog est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque car ils sont trop faibles ou bien que la personne est au chômage.
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un site été déjà en ligne, développé par le client. Le premier objectif était de mettre un place un nouveau design sur ce site, d'abord sur la page d'acceuil, et ensuite sur les formulaire de demande de prêt.
+Lors de mon arrivée sur le projet, un site été déjà en ligne, développé par le client. Le premier objectif était de mettre en place un nouveau design sur ce site, d'abord sur la page d'acceuil, et ensuite sur les formulaires de demande de prêt.
 
 \bigskip
 
-Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêt par l'administrateur, les espaces emprunteur et préteur, la génération de contrat.
+Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et préteur, la génération de contrat.
 
 ### Objectifs
 
 ### Nouveaux outils
 
--> NPM
--> On a commencé sur Bitbucket donc il a fallut apprendre
--> Manipulation de la BDD
--> On touche à la BDD
--> pm2
-->
+\bigskip
+
+La projet Finfrog utilisait principalement les même outils que Photolix : utilisation de npm pour la gestion des paquets, de Zeplin pour étudier le design, de React et Redux etc.
+
+\bigskip
+
+Cependant à mon arrivée sur FinFrog, le projet était hébergé sur Bitbucket et non pas Github. Il a donc fallut que je m'habitue à ce nouveaux gestionaire. Par la suite nous avons migré le projet sur Github.
+
+\bigskip
+
+Sur ce projet, nous avions aussi en charge la partie API et base de donnée. L'API est écrite en Nodejs et la base de donnée est une postgres, donc manipulable en SQL. Cependant il était rare que je doive toucher à la base de donnée.
+
+\bigskip
+
+Finalement, pour lancer les processus du site et de l'API, nous avons utilisé PM2. PM2 est un gestionnaire de processus de production pour les applications Node.js avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches administratives courantes du système.
+
+\bigskip
 
 ### Déroulement
+
+#### Page d'accueil et demande de prêt
+
+\bigskip
+
+A mon arrivée sur le projet, Dernier cri était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.
+
+\bigskip
+
+
+
+\bigskip
+
+#### Génération de contrat
+
+\bigskip
+
+\bigskip
 
 - Première partie design
 -> Page d'acceuil : prendre en main le projet et ses particuliarité -> Accés restraint au debut du projet
@@ -574,13 +649,15 @@ Citer le fait que je n'ai presque pas eu de code review a cause de la confidenti
 
 \newpage
 
+\newpage
+
 # La vie Lilloise
 
-Durant mon stage à Lille j'ai pus me rendre compte que la ville possédait une communauté web très active.
+Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une communauté web très active.
 
 \bigskip
 
-La ville à notamment reçu le label 'French Tech' fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
+La ville a notamment reçu le label 'French Tech' fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
 
 \bigskip
 
@@ -588,7 +665,7 @@ La région profite de la présence de grands groupes nationaux comme Orange, Cap
 
 \bigskip
 
-De plus Lille a mis en place un ensemble de structures favorisant l'accompagnement et la croissance des startups vers un marché mondial. La plus notable est évidemment Euratechnologie, le Pôle d'excellence économique dédié aux Technologies de l'Information et de la Communication (TIC) de la métropole lilloise. EuraTechnologies a été classé dans le top 10 des accélérateurs de *startup* d’Europe par Fundacity, et le 1er en France. Euratechnologie posséde des espaces dédié à la recherche, la formation et l'entrepreneuriat, un incubateur et un accélérateur.
+De plus Lille a mis en place un ensemble de structures favorisant l'accompagnement et la croissance des startups vers un marché mondial. La plus notable est évidemment Euratechnologie, le Pôle d'excellence économique dédié aux Technologies de l'Information et de la Communication (TIC) de la métropole lilloise. EuraTechnologies a été classé dans le top 10 des accélérateurs de *startup* d’Europe par Fundacity, et le 1er en France. Euratechnologie posséde des espaces dédiés à la recherche, la formation et l'entrepreneuriat, un incubateur et un accélérateur.
 
 \bigskip
 
@@ -596,11 +673,11 @@ La région lilloise posséde d'autre espaces dédié à l'innovation, les *start
 
 \bigskip
 
-La région à connu l'émergence de nombreuse entreprises, prometteuse ou déjà fructueuse : Big Ben, Ankama, OVH, Addictiz, Stereograph, Clic & Walk, Giroptic, Mazeberry, Vekia, Sparkow, Mdoloris, A-volute, Critizr, Intent Technologies...
+La région a connu l'émergence de nombreuse entreprises, prometteuses ou déjà fructueuses : Big Ben, Ankama, OVH, Addictiz, Stereograph, Clic & Walk, Giroptic, Mazeberry, Vekia, Sparkow, Mdoloris, A-volute, Critizr, Intent Technologies...
 
 \bigskip
 
-Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter de cette écosysteme riche et actif. J'ai pus participer a des conférences, des salons et des réunions qui m'ont beaucoup apporté, tant au niveau technique que social. Cela m'a permit de préciser mon projet professionnel, en m'immergeant dans la vie entreprenariale d'une ville.
+Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter de cette écosysteme riche et actif. J'ai pu participer à des conférences, des salons et des réunions qui m'ont beaucoup apporté, tant au niveau technique que social. Cela m'a permit de préciser mon projet professionnel, en m'immergeant dans la vie entreprenariale d'une ville.
 
 \bigskip
 
@@ -608,7 +685,7 @@ Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter 
 
 \bigskip
 
-Dernier cri m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement à lieu depuis plusieurs années à EuraTechnologies.
+Dernier cri m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement a lieu depuis plusieurs années à EuraTechnologies.
 
 \bigskip
 
@@ -620,15 +697,15 @@ La **Take Off Conference** est un cycle de conférences anglophones. L’événe
 
 \bigskip
 
-Dernier cri m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantes et inspirantes, sur des sujets très varié allant de la compréhension des enjeux de mise en place de nouveau outils, à des sujets plus sociaux comme l'acceuil des developpeurs anglais après le Brexit.
+Dernier cri m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantes et inspirantes, sur des sujets très variés allant de la compréhension des enjeux de mise en place de nouveau outils, à des sujets plus sociaux comme l'acceuil des developpeurs anglais après le Brexit.
 
 \bigskip
 
-Des évènements ont également été organisé le soir pour permettre au participant et au conférenciers d'échanger dans un cadre puis détendue.
+Des évènements ont également été organisé le soir pour permettre aux participants et aux conférenciers d'échanger dans un cadre plus détendu.
 
 \bigskip
 
-Ce fut une excellente occasion de découvrir de nouvelle technologie, de m'ouvrir à des problématique que je ne connaissais pas ainsi que de rencontrer des développeurs qualifié et passionné. Lors de ses échanges, j'ai pus me rendre compte de la portée internationales de la programmation : des personnes des quatres coins du monde se retrouver sur les mêmes problématiques.
+Ce fut une excellente occasion de découvrir de nouvelles technologies, de m'ouvrir à des problématiques que je ne connaissais pas ainsi que de rencontrer des développeurs qualifiés et passionnés. Lors de ses échanges, j'ai pu me rendre compte de la portée internationale de la programmation : des personnes des quatres coins du monde se retrouvaient sur les mêmes problématiques.
 
 \bigskip
 
@@ -636,7 +713,7 @@ Ce fut une excellente occasion de découvrir de nouvelle technologie, de m'ouvri
 
 \bigskip
 
-La communauté web de Lille est très active pour organisé des évenements. De très nombreux Meetup sont organisé sur différent domaine du web, acceuillant autant des experts que des débutant ou simplement des curieux.
+La communauté web de Lille est très active pour organisé des évenements. De très nombreux Meetup sont organisés sur différents domaines du web, acceuillant autant des experts que des débutants ou simplement des curieux.
 
 \bigskip
 
@@ -644,7 +721,7 @@ Très actif dans cette communauté, Dernier cri acceuille au sein de ses locaux 
 
 \bigskip
 
-Certain membre de l'équipe sont également investi dans ces rencontres, en tant qu'organisateur ou bien speaker. Les patrons les poussent à (prendre part a la vie de la communauté web). J'ai ainsi pu facilement être au courant des différent évenement Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
+Certains membres de l'équipe sont également investis dans ces rencontres, en tant qu'organisateur ou bien speaker. Les patrons les poussent à (prendre part a la vie de la communauté web). J'ai ainsi pu facilement être au courant des différents évenements Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
 
 \bigskip
 
@@ -660,11 +737,17 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 \bigskip
 
-Dernier cri à été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pus notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareil électronique cassé et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmenté ... C'était un endroit plein d'aspiration et d'envie d'entreprendre.
+Dernier cri a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'aspiration et d'envie d'entreprendre.
 
 \newpage
 
 # Conclusion
+
+Ce stage a été très enrichissant pour moi. Il m'a permit de réaliser un développement informatique sous la houlette d'une équipe expérimenté, qui à su me transmettre des compétences techniques et méthodologiques.
+
+J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions acquises à l'université, apprendre ou de me perfectionner avec certaines technologies ou méthodes et de développer l'aptitude au travail en équipe.
+
+Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dans votre projet professionnel. Vos objectifs ont-ils évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix de filière ?
 
 -> Compétences apprises : Node React Redux ES6 Relation client Git Github pm2 npm
 
