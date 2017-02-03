@@ -12,7 +12,7 @@ Je remercie également mon suiveur Harry Claisse pour son aide et son accompagne
 
 \bigskip
 
-Merci également à toute l'équipe de Dernier cri pour avoir rendu mon stage enrichissant et agréable, et pour m'avoir accueuilli à bras ouverts.
+Merci également à toute l'équipe de *Dernier Cri* pour avoir rendu mon stage enrichissant et agréable, et pour m'avoir accueuilli à bras ouverts.
 
 \bigskip
 
@@ -38,7 +38,7 @@ J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de fa
 
 \bigskip
 
-Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en informatique à l'Université de Technologique de Compiègne (UTC), j'ai effectué un stage de six mois chez Dernier cri.
+Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en informatique à l'Université de Technologique de Compiègne (UTC), j'ai effectué un stage de six mois chez *Dernier Cri*.
 
 \bigskip
 
@@ -46,27 +46,28 @@ Dernier Cri est une *start-up* créée en 2011, spécialisée dans l'innovation 
 
 \bigskip
 
-Ma mission a été d'intégrer l'équipe de développement pour aider dans la création de plusieurs applications web.
-
-\bigskip
-
+Ma mission a été d'intégrer l'équipe de développeurs web pour aider au développement d'applications.  
 J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active. En plus de mon implications dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles de blog. J'ai également pu participer activement à la relation client lors de mes projets.
 
 \bigskip
 
-Dans ce rapport je vais vous présenter tout d'abord Dernier cri, l'entreprise qui m'a accueilli. Je vous exposerais les techniques de travail et les différents moyens de s'exprimer qu'elle offre à ses équipes.
+Dans ce rapport je vais vous présenter tout d'abord *Dernier Cri*, l'entreprise qui m'a accueilli, via son organisation hiérarchique et la vie d'entreprise.
 
 \bigskip
 
-Je vous exposerai ensuite ma mission au sein de l'entreprise. Je détaillerai les technologies que j'ai utilisé mais aussi la gestion de projet ainsi que la relation client, qui sont des éléments clés dans la bonne conduite d'un projet.
+Dans une seconde partie, je vous exposerai mes missions au sein de l'entreprise. Je détaillerai ainsi les technologies que j'ai utilisé lors de ces dernières, ainsi que la gestion de projets (cliente et interne).
 
 \bigskip
 
-Finalement, il me tient à coeur de présenter la communauté de Lille et ses particularités. En effet, le dynamisme de la communauté et la diversité des événements proposés m'ont beaucoup aidé à m'intégrer et à approfondir mon projet professionnel.
+Ensuite, je détaillerai mes réalisations à travers les objectifs qui m'ont été fixé, les outils utilisés ainsi qu'une description des tâches réalisées.
+
+\bigskip
+
+Finalement, il me tient à coeur de présenter la communauté de développeurs Lillois, à travers le dynamisme de la ville et la diversité des événements proposés, qui m'ont beaucoup aidé à m'intégrer et à approfondir mon projet professionnel.
 
 \newpage
 
-# Dernier cri
+# *Dernier Cri*
 
 \bigskip
 
@@ -74,23 +75,20 @@ Finalement, il me tient à coeur de présenter la communauté de Lille et ses pa
 
 \bigskip
 
-En 2011, Robin Komiwes et Benjamin Tierny créent Nectify, une entreprise dont le but est le développement et la commercialisation de Fresc, un outil de partage d'avis sur des visuels. Bien que cet outil connaîtra un succès mérité (on comptabilise aujourd’hui près de 300 entreprises l’utilisant à travers de milliers de projets), la rentabilité financière n'est pas suffisante pour assurer la pérennité de l'entreprise.
+En 2011, Robin Komiwes et Benjamin Tierny créent *Nectify*, une entreprise dont le but est le développement et la commercialisation de *Fresc*, un outil de partage d'avis sur des visuels. Bien que cet outil connaîtra un succès mérité (on comptabilise aujourd’hui près de 300 entreprises l’utilisant à travers de milliers de projets), la rentabilité financière n'est pas suffisante pour assurer la pérennité de l'entreprise.
 
 \bigskip
 
-Nectify choisit alors de compléter ses revenus par de la prestation de services centrés sur l'innovation.
+*Nectify* choisit alors de compléter ses revenus par de la prestation de services centrés sur l'innovation numérique.
 
 \bigskip
 
-Début 2014, la majeure partie du chiffre d'affaire de Nectify était dû aux activités de prestations de services, Fresc ne représentant qu'une part marginale.
+Début 2014, la majeure partie du chiffre d'affaire de *Nectify* était dû aux activités de prestations de services, *Fresc* ne représentant qu'une part marginale.
 
 \bigskip
 
-Devenant donc une agence spécialisée dans l'innovation digitale, Nectify choisit de créer sa propre image, distincte de Fresc. C'est dans ce mouvement que la société est devenue Dernier cri.
-
-\bigskip
-
-Aujourd'hui, Dernier cri est une agence web qui met un point d'honneur à proposer à ses clients une solution complète et adaptée à leur problèmatique. De la conception à la réalisation, l'entreprise accompagne ses clients de A à Z pour aboutir à un produit au plus proche de leurs besoins. Cela permet aux développeurs d'opérer dans différents domaines d'activités, et d'avoir une vue globale du développement du produit.
+Devenant donc une agence spécialisée dans l'innovation numérique, *Nectify* choisit de créer sa propre image, distincte de *Fresc*. C'est dans ce mouvement que la société est devenue *Dernier Cri*, une agence web qui met un point d'honneur à proposer à ses clients une solution complète et adaptée à leur problèmatique.  
+De la conception à la réalisation, l'entreprise accompagne ses clients de A à Z pour aboutir à un produit au plus proche de leurs besoins. Cela permet aux développeurs d'opérer dans différents domaines d'activités, et d'avoir une vue globale du développement du produit.
 
 \bigskip
 
@@ -98,15 +96,11 @@ Aujourd'hui, Dernier cri est une agence web qui met un point d'honneur à propos
 
 \bigskip
 
-Le secteur de l'informatique est aujourd'hui est en pleine expension et ne connait pas la crise. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et ne cesse de croître depuis ces cinq dernières années.
+Le secteur de l'informatique est aujourd'hui est en pleine expension. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et ne cesse de croître depuis ces cinq dernières années.
 
 \bigskip
 
-Dernier cri est une *start-up* spécialisée dans l'innovation digitale. Elle se démarque notamment des autres agences web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de grosses données, afin d'augmenter la capacité d'innovation d'entreprises tiers. Cela se traduit notamment par de l'exploration de connaissances à partir de données pour des magasins, par exemple, ou la création d'audit.
-
-\bigskip
-
-C'est cette diversité qui permet à Dernier cri de se démarquer dans l'univers du web à Lille, où de nombreuse agences se partagent le marché.
+*Dernier Cri* se démarque des autres agences web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de gros volumes de données. Celà pour permettre d'augmenter la capacité d'innovation d'entreprises tiers, qui se traduit notamment par de l'exploitation de données, ou la création d'audits.
 
 \bigskip
 
@@ -114,83 +108,57 @@ C'est cette diversité qui permet à Dernier cri de se démarquer dans l'univers
 
 \bigskip
 
-Dernier cri est une entreprise de petite taille et profite de cela pour mettre en place une organisation souple qui offre l'opportunité à tous de s'impliquer dans les projets, que ce soit des projets pour des clients ou des projets interne.
+*Dernier Cri* est une entreprise à taille humaine. Cela se traduit par des cycles de décision courts, des dirigeants plus accessibles et la volonté de travailler dans un esprit d'équipe.
 
 \bigskip
 
-Au sommet de l'organisation de l'entreprise se trouve les deux fondateurs ainsi que le troisième associé. Le directeur général de l'entreprise (CTO) est Benjamin Tierny, tandis que Robin Komiwes est le directeur de la technologie (CTO). Le troisième associé, Julien Vanden Torren, est Account Manager, c'est à dire le lien entre l'entreprise et les clients.
+*Dernier Cri* posséde une organisation souple qui offre l'opportunité à tous ses employés de s'impliquer dans des projets variés, que ce soit pour des clients ou bien en interne (*side-project*).
 
 \bigskip
 
-L'entreprise compte aujourd'hui 18 employés mais se trouve dans une phase d'expension avec de nouvelles embauches en perspective, grace à de nombreux nouveaux projets.
+Au sommet de l'organisation de l'entreprise se trouve les deux fondateurs, Benjamin Tierny (*CEO*) et Robin Komiwes (*CTO*), ainsi que le troisième associé, Julien Vanden Torren (*Account manager*).
 
 \bigskip
 
-L'équipe est également constituée d'une chef de projet, Laetitia Cocusse, qui s'occupe de superviser la plupart des projets.
+L'entreprise compte aujourd'hui 19 employés, dont trois associés, une assistante de direction, une chef de projet et 14 développeurs. L'équipe de développeurs est aussi constituée d'un *devops*, et d'un *data scientist*. Grâce à de nombreux nouveaux projets, elle se trouve dans une phase d'expension, avec de nouvelles embauches en perspective.
 
 \bigskip
 
-Dernier Cri est à la fois une agence Web mais aussi une agence qui se préoccupe des problèmes actuels liés à l’ingénierie système et au traitement de grosses données. C'ets pourquoi l'équipe de développeurs est aussi constituée d'un *devops*, c'est à dire d'une personne possédant à la fois les compétences d'un  développeur et d'un ingénieur système, d'un *Data Scientist* qui travaille sur les projets de big data.
+Etant donné que la plupart des développeurs travaille sur plusieurs projets en même temps - selon les besoins de l'entreprise et les compétences de chacun -, des équipes de deux à trois développeurs sont créées, mélangeant les compétences de chacun.
 
 \bigskip
 
-La plupart des développeurs travaille sur plusieurs projets en même temps, selon les besoins de l'entreprise et les compétences de chacun. Des équipes de 2/3 développeurs sont crées, mélangeant les compétences *front* et *back*, de développement et de système.
+TODO gestion de projet, github
 
 \bigskip
 
-### Github et *code review*
-
-\bigskip
-
-L'entreprise utilise principalement la plateforme Github comme service web d'hébergement et donc le logiciel de gestion de versions Git. Github permet aux développeurs de travailler à plusieurs sur le même projet, de résoudre rapidement des conflits dus à la modification d'un même document par plusieurs personnes, de gérer différentes versions du projet et beaucoup d'autre problématiques.
-
-\bigskip
-
-Une nouvelle version de Github propose une section **Projet** permettant de gérer les **issues**, c'est à dire les tâches. Cette section permet  notamment de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.
-
-\bigskip
-
-Dernier cri utilisait jusque là un outil similaire. Il a été décidé d'utiliser la section **Projet** de Github pour les nouveaux projets, notamment ceux sur lesquels j'ai été affectée.
-
-\bigskip
-
-Dernier cri utilise ces outils mis à disposition par Github pour mettre en place un processus de vérification de la qualités du code et d'entraide. Chaque developpeur, une fois une tâche terminée, propose une *Pull request*, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collégues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*.
-
-\bigskip
-
-C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. Dernier cri utilise ce système pour garantir une certaine qualité du code ainsi qu'un style d'écriture homogéne.
-
-\bigskip
+*Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire de *blog posts* .
 
 ### Talk interne
 
 \bigskip
 
-Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des *talks*, c'est à dire de petites présentations. Celles-ci ont pour objectif premier de présenter certains enjeux et solutions techniques en rapport avec la réalisation d'un projet, le résultat d'une veille, ou tout simplement un sujet qui les intéresse. Les *talks* techniques permettent aux membres d'une équipe de partager entre eux leurs expériences et leurs passions.
+Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des *talks*, c'est-à-dire de petites présentations. Celles-ci ont pour objectif de présenter certains enjeux et solutions techniques en rapport avec la réalisation d'un projet, le résultat d'une veille, ou tout simplement un sujet qui les intéresse. Les *talks* techniques permettent aux membres d'une équipe de partager entre eux leurs expériences et leurs passions.
 
 \bigskip
 
-Ces présentations ont deux principaux avantages. Tout d'abord elles permettent aux spectateurs de la présentation d'apprendre de nouvelles choses. C'est l'occasion de découvrir un sujet dont on ne se doutait pas de l'intéret ou bien de l'existence. De plus, la présentation est travaillée et structurée, car une personne a déjà fait l'effort de trier les informations et de les présenter de la manière la plus lisible, claire, ou ludique. C'est ainsi souvent beaucoup plus facile d'aborder un sujet avec ces talks, que de partir à la pêche aux informations sur internet.
+Ces présentations ont deux principaux avantages. Tout d'abord elles permettent aux spectateurs de la présentation d'apprendre de nouvelles choses. C'est l'occasion de découvrir un sujet dont on ne se doutait pas de l'intéret ou bien de l'existence. De plus, la présentation est travaillée et structurée, car une personne a déjà fait l'effort de trier les informations et de les présenter de la manière la plus lisible, claire, et/ou ludique. C'est ainsi souvent beaucoup plus facile d'aborder un sujet avec ces *talks*, que de devoir effectuer une recherche d'information sur divers supports.
 
 \bigskip
 
-Le second avantage concerne l'organisateur de la présentation. Tout d'abord, sensibiliser ses coéquipiers à des problèmes peut être un véritable gain de temps pour le futur. En effet, apporter ses connaissances à l'équipe en entier permet d'éviter de devoir aller aider ou expliquer individuellement les même choses.
+Le second avantage concerne l'organisateur de la présentation. Tout d'abord, sensibiliser ses coéquipiers à des problèmes, ou des technologies, peut être un véritable gain de temps pour le futur. En effet, cela permet de mutualiser la communication, et d'éviter de devoir expliquer individuellement les concepts.
 
 \bigskip
 
-De plus, le rédacteur apprend beaucoup car, pour la création de la présentation, il doit devenir un expert sur le sujet qu'il va couvrir. Il doit appronfondir assez le sujet pour être capable, d'une part d'être clair dans sa présentation, d'autre part de répondre aux éventuelles questions.
+De plus, l'organisateur apprend beaucoup car, pour la création de la présentation, il doit devenir un expert sur le sujet qu'il va couvrir. Il devra assez approfondir le sujet pour être capable, d'une part d'être clair dans sa présentation, d'autre part de répondre aux éventuelles questions. Pour lui c'est aussi une occasion de travailler sur ces compétences d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie de tout les jours, mais surtout un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte. En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations, ce qui est  très intéréssant mais aussi peut être assez intimidant. Le présentateur peut tester son talk en interne avant d'en faire partager la communauté.
 
 \bigskip
 
-Pour lui c'est aussi une occasion de travailler sur ces compétences d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie de tout les jours, mais surtout un techtalk interne peut faire office d'incubation pour une présentation dans un autre contexte. En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations, ce qui est  très intéréssant mais aussi peut être assez intimidant. Le présentateur peut tester son talk en interne avant d'en faire partager la communauté.
+Finalement, présenter un sujet issu d'une veille technologique permet, au-delà de faire découvrir aux autres un sujet potentiellement intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de sujets qui semblent prometteur peuvent, avec un peu de recherche, se révéler creux et sans intêret.
 
 \bigskip
 
-Finalement, présenter un sujet issu d'une veille technologique permet, au-delà de faire découvrir aux autres un sujet potentiellement intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de sujets qui au premier coup d'oeil semblaient prometteur, peuvent avec un peu de recherche se révéler creux et sans intêret.
-
-\bigskip
-
-Les talks internes sont une très bonne manière de partager des connaissances de manière ludique. Durant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que React, Docker, Rust, MJML... Mais aussi sur des sujets variés comme le Growth hacking (Ensemble de techniques de marketing permettant d'accélérer rapidement et significativement la croissance d'une start-up.), ou encore la fabrication d'un audit.. Ces présentations sont publiées sur la [chaîne youtube Dernier cri](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg). Cela m'a permis de découvrir de nouveaux sujets et de mieux comprendre les discutions, et les problématiques que rencontraient mes collégues.
+Les *talks* internes sont aussi une très bonne manière de partager des connaissances de manière ludique. Durant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *React*, *Docker*, *Rust*, *MJML*... Mais aussi sur des sujets variés comme le Growth hacking (Ensemble de techniques de marketing permettant d'accélérer rapidement et significativement la croissance d'une *start-up*.), ou encore la fabrication d'un audit.. Ces présentations sont publiées sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg). Cela m'a permis de découvrir de nouveaux sujets et de mieux comprendre les discutions, et les problématiques que rencontraient mes collègues.
 
 \bigskip
 
@@ -198,15 +166,15 @@ Les talks internes sont une très bonne manière de partager des connaissances d
 
 \bigskip
 
-Dernier cri posséde également un [blog technique](http://derniercri.io/tech-blog) alimenté par les développeurs de l'équipe. Les objectifs sont notablement les mêmes que pour les présentations internes. Mais cela permet aussi à Dernier cri de rayonner et montrer ses compétences techniques et son esprit d'analyse.
+Dernier Cri posséde également un [blog technique](http://derniercri.io/tech-blog) alimenté par les développeurs de l'équipe. Les objectifs sont notablement les mêmes que pour les présentations internes. Mais cela permet aussi à *Dernier Cri* de rayonner et montrer ses compétences techniques et son esprit d'analyse.
 
 \bigskip
 
-Le blog technique permet à Dernier cri de se positionner en tant qu’expert. Publier des articles blog est excellent pour la réputation. En délivrant des conseils professionnels utiles, il prouve leur maîtrise de leur activité.
+Le blog technique permet à Dernier Cri de se positionner en tant qu’expert. Publier des articles blog est excellent pour la réputation. En délivrant des conseils professionnels utiles, Dernier Cri prouve sa maîtrise de son activité.
 
 \bigskip
 
-Cela permet également d'améliorer la visibilité de l'entreprise en exposant son savoir et savoir-faire à une large communauté professionnelle. Un blog est également utile pour tenir informé sa communauté : il permet de rester en contact permanent avec ses prospects et de les tenir informé de toute l’actualité de son entreprise, comme un nouveau produit, une nouvelle technologie maitrisée ...
+Cela permet également d'améliorer la visibilité de l'entreprise en exposant son savoir et savoir-faire à une large communauté professionnelle. Un blog est également utile pour tenir informée sa communauté : il permet de rester en contact permanent avec ses prospects et de les tenir au courant de toute l’actualité de son entreprise, comme un nouveau produit, une nouvelle technologie maitrisée ...
 
 \bigskip
 
@@ -214,7 +182,7 @@ Pour le rédacteur de l'article, cela a également de nombreux avantages. Par ex
 
 \bigskip
 
-J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog technique de Dernier cri. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, React et Reduc, ainsi que cinq outils que j'ai découvert et qui m'ont facilité la vie pour utiliser ses technologies. Ce fut une expérience très enrichissante. Cela m'a poussé à enrichir mes connaissances dans le domaine, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
+J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog technique de *Dernier Cri*. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, React et Redux, ainsi que cinq outils que j'ai découvert et qui m'ont facilité la vie pour utiliser ses technologies. Ce fut une expérience très enrichissante. Cela m'a poussé à enrichir mes connaissances dans le domaine, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
 
 \newpage
 
@@ -222,7 +190,7 @@ J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog
 
 \bigskip
 
-Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise et j'ai pu participer au développement de deux applications. Ces deux projets s'appuyaient sur du React, une bibliothèque JavaScript libre développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
+Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise et j'ai pu participer au développement de deux applications. Ces deux projets s'appuyaient sur le framework ReactJS, une bibliothèque JavaScript open-source développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
 
 \bigskip
 
@@ -230,7 +198,7 @@ Le premier projet auquel j'ai participé se nomme Photolix. C'est un site intern
 
 \bigskip
 
-Le second projet est FinFrog, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le client possédait un site en ligne, mais souhaité changer l'apparence et ajouter des fonctionnalités, ce pourquoi il a fait appel à Dernier cri.
+Le second projet est FinFrog, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le client possédait un site en ligne, mais souhaitait changer l'apparence et ajouter des fonctionnalités, ce pourquoi il a fait appel à *Dernier Cri*.
 
 \bigskip
 
@@ -238,15 +206,15 @@ Le second projet est FinFrog, un site proposant des prêts financés par des par
 
 \bigskip
 
-Lors de mon arrivée chez Dernier cri, j'ai eu l'occasion de me former sur Javascript ES6, React ainsi que Redux, car l'entreprise prévoyait de me mettre sur des projets utilisant ces technologies.
+Lors de mon arrivée chez *Dernier Cri*, j'ai eu l'occasion de me former sur Javascript ES6, React ainsi que Redux, car l'entreprise prévoyait de me mettre sur des projets utilisant ces technologies.
 
 \bigskip
 
-La popularité de ces trois technologies est en forte hausse, et de plus en plus demandée et utilisée pour la création d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces langages lors de mon stage.
+La popularité de ces trois technologies est en forte hausse, et de plus en plus demandée et utilisée pour la création d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces deux frameworks lors de mon stage.
 
 \bigskip
 
-Ma formation s'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pus compter sur Fabien Gavory, un développeur de Dernier cri, pour m'aider et m'expliquer certains concepts difficiles.
+Ma formation s'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pu compter sur Fabien Gavory, un développeur de *Dernier Cri*, pour m'aider et m'expliquer certains concepts difficiles.
 
 \bigskip
 
@@ -254,7 +222,7 @@ Ma formation s'est faite à partir du site [Code school](https://www.codeschool.
 
 \bigskip
 
-Le Javascript est un langage de programmation de scripts incontournable du web. Si à sa création il servait principalement à la réalisation d'animation, il est aujourd'hui au centre des applications. Le javacript sert maintenant à controler presque la totalité de l'application web. Cependant, ce langage n'étant pas prévu pour une telle complexité, il en résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'une mise à jour du langage s'est imposée.
+Le Javascript est un langage de programmation incontournable du web. Si à sa création il servait principalement à la réalisation d'animation, il est aujourd'hui au centre des applications. Le javacript sert maintenant à contôoler presque la totalité de l'application web. Cependant, ce langage n'étant pas prévu pour une telle complexité, il en résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'une mise à jour du langage s'est imposée.
 
 \bigskip
 
@@ -262,7 +230,67 @@ ES6 (ECMAScript Edition 6 ou encore ES2015) a été publiée en juin 2015. Il aj
 
 \bigskip
 
-ES6 n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js.
+Voici quelques nouveautés notoires de ES6 :
+
+* Introduction du *let* : contrairement au *var* présent dans les anciennes versions, il permet de déclarer une variable limitée à la portée d'un bloc, c'est-à-dire qu'elle ne peut être utilisée que dans le bloc où elle a été déclarée.
+
+* Les littéraux de gabarits (*template literals*): c'est une alternative aux concaténations, qui ne sont pas pratique et lisible. Le *Template String* permet de déclarer des chaînes avec des variables à évaluer à l'intérieur.
+
+    ```Javascript
+    // ES6
+    let name = "Aurélie"
+    let result = `Voici le rapport de ${me}.`
+    // ES5
+    var me = "Aurélie";
+    var result = "Voici le rapport de " + me;
+    ```
+
+* Paramétres par défauts: auparavant, pour définir une valeur par défaut pour un paramètre, il fallait tester s'il valait undefined et lui affecter une valeur choisie le cas échéant. ES6 permet de faire cela directement lors de sa définition.
+
+    ```Javascript
+    // ES6
+    function f (x = 0, y = 0) {
+        return x + y
+    }
+    // ES5
+    function f (x, y) {
+        if (x === undefined)
+            x = 0;
+        if (y === undefined)
+            y = 0;
+        return x + y;
+    };
+    ```
+
+* Initialisateur d'objet: Il arrive souvent de vouloir utiliser des variables comme propriétés d'un objet.
+ES6 introduit une notation permettant d'utiliser le nom de la variable comme nom de la propriété de l'objet créé.
+
+    ```Javascript
+    // ES6
+    obj = { x, y }
+    // ES5
+    obj = { x: x, y: y };
+    ```
+
+* Affectation par décomposition:
+
+    ```Javascript
+    // ES6
+    var { a, b, c } = someFunction()
+
+    // ES5
+    var tmp = someFunction();
+    var a  = tmp.a;
+    var b = tmp.b;
+    var c = tmp.c;
+    ```
+
+Arraw fonction ?
+Classe et héritage ?
+
+\bigskip
+
+ES6 n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js. Un transcompilateur permet de prendre le code d'un langage de programmation comme son entrée et de récupérer en sorti le code dans un autre langage. Ici Babel.js va traduire les particularité de ES6 en code javascript compatible avec ES5.
 
 \bigskip
 
@@ -270,7 +298,7 @@ L'apprentissage de ES6 a était primordial pour mon stage : les nouvelles normes
 
 \bigskip
 
-Cela m'a également permi de me familiariser avec les normes ECMAScript et de me persuader de la nécessité de rester attentive aux différentes actualités et évolutions des langages. En effet, dans le milieu de l'informatique, les normes et bonnes pratiques sont très changeantes et il est donc important de rester attentif à l'actualité.
+Cela m'a également permi de me familiariser avec les normes ECMAScript et de me persuader de la nécessité de rester attentive aux différentes actualités et évolutions des langages. En effet, dans le milieu de l'informatique, les normes et et les frameworks utilisés sont très changeants et il est donc important de rester attentif à l'actualité.
 
 \bigskip
 
@@ -282,7 +310,7 @@ J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'uti
 
 \bigskip
 
-Développé depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
+Développée depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
 
 \bigskip
 
@@ -290,11 +318,11 @@ Elle est aujourd'hui utilisée par de nombreuses entreprises telles que Netflix,
 
 \bigskip
 
-Une des particularités de *React* est de découper l'application en composants, dépendant d'un état. Lors du changement de l'état d'un composant, *React* génère les changements en *HTML* pour les répercutés sur la page.
+Une des particularités de *React* est de découper l'application en composants, dépendant d'un état. Lors du changement de l'état d'un composant, *React* génère les changements en *HTML* pour les répercuter sur la page.
 
 \bigskip
 
-Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain auprès de la communautés des développeurs web, et de nombreux outils se développent autours. C'est donc un avantage d'avoir pu apprendre *React* lors de mon stage, puis d'avoir mis en pratique ces connaissances lors des deux projets que j'ai effectué.
+Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain auprès de la communauté des développeurs web, et de nombreux outils se développent autour. C'est donc un avantage d'avoir pu apprendre *React* lors de mon stage, puis d'avoir mis en pratique ces connaissances lors des deux projets que j'ai effectué.
 
 \bigskip
 
@@ -322,11 +350,18 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 \bigskip
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=5cm]{figures/react.png}
+  \caption{Flux entre les différents composants}
+\end{figure}
+
 ## Gestion de projet
 
+### Relation client
 \bigskip
 
-Le processus de développement chez Dernier cri se passe généralement comme suit. Tout d'abord notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de proposer des solutions, peut être un peu différentes de celles imaginées par le client, ou encore de dire son avis sur les prochaines tâches.
+Le processus de développement chez *Dernier Cri* se passe généralement comme suit. Tout d'abord notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de proposer des solutions, peut être un peu différentes de celles imaginées par le client, ou encore de dire son avis sur les prochaines tâches.
 
 \bigskip
 
@@ -362,6 +397,27 @@ Une fois un lot de taches effectuées, il est décidé en accord avec le client 
 
 \newpage
 
+### Organisation interne
+
+\bigskip
+
+L'entreprise utilise principalement la plateforme Github comme service web d'hébergement et donc le logiciel de gestion de versions Git. Github est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
+
+\bigskip
+
+Github propose depuis peu une section *Projet* permettant de gérer les *issues*, c'est à dire les tâches. Cette section permet  notamment de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.
+
+\bigskip
+
+*Dernier Cri* utilise ces outils mis à disposition par Github pour mettre en place un processus de vérification de la qualité du code et d'entraide. Chaque developpeur, une fois une tâche terminée, propose une *Pull request*, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collégues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*.
+
+\bigskip
+
+C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogéne.
+
+\bigskip
+
+
 # Mes réalisations
 
 \bigskip
@@ -370,13 +426,13 @@ J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon
 
 \bigskip
 
-J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes périodes, ainsi que développer un outils pour le site de Dernier cri.
+J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes périodes, ainsi que développer un outils pour le site de *Dernier Cri*.
 
 \bigskip
 
 ## Photolix
 
-### Présentation du projet
+### Présentation et objectifs du projet
 
 \bigskip
 
@@ -388,11 +444,7 @@ Le principal objectif de ce projet était de télécharger les photos vers le se
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un développeur de Dernier cri avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo était notamment déjà écrite.
-
-\bigskip
-
-### Objectifs
+Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo était notamment déjà écrite.
 
 \bigskip
 
@@ -429,7 +481,7 @@ J'ai personnellement utilisé ESLint, qui est un utilitaire JavaScript open-sour
 
 \bigskip
 
-J'ai également pu utiliser le *chatops* de Dernier cri, un outil d'administration système via la conversation. Intégré au Slack de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concraitement, j'ai principalement utilisé le chatops pour déployer mon application.
+J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au Slack de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concraitement, j'ai principalement utilisé le chatops pour déployer mon application.
 
 \bigskip
 
@@ -556,7 +608,7 @@ Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier re
 
 \bigskip
 
-Ce premier projet chez Dernier cri m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez Dernier cri, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essenciel pour mon intégration dans l'équipe de développement.
+Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essenciel pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
@@ -573,7 +625,7 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 ## Finfrog
 
-### Présentation du projet
+### Présentation et objectifs du projet
 
 \bigskip
 
@@ -591,9 +643,8 @@ Lors de mon arrivée sur le projet, un site été déjà en ligne, développé p
 
 Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et préteur, la génération de contrat.
 
-### Objectifs
 
-### Nouveaux outils
+### Outils utilisés
 
 \bigskip
 
@@ -619,7 +670,7 @@ Finalement, pour lancer les processus du site et de l'API, nous avons utilisé P
 
 \bigskip
 
-A mon arrivée sur le projet, Dernier cri était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.
+A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.
 
 \bigskip
 
@@ -651,7 +702,7 @@ Citer le fait que je n'ai presque pas eu de code review a cause de la confidenti
 
 \newpage
 
-# La vie Lilloise
+# La communauté Lilloise
 
 Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une communauté web très active.
 
@@ -685,11 +736,11 @@ Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter 
 
 \bigskip
 
-Dernier cri m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement a lieu depuis plusieurs années à EuraTechnologies.
+*Dernier Cri* m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement a lieu depuis plusieurs années à EuraTechnologies.
 
 \bigskip
 
-Historiquement, ce sont les fondateurs de Dernier cri qui ont créé la **Take Off Conference**, avec Florian Le Goff. Aujourd'hui ce sont d'autres acteurs de la communauté web de Lille qui ont pris le relais pour proposer une nouvelle édition.
+Historiquement, ce sont les fondateurs de *Dernier Cri* qui ont créé la **Take Off Conference**, avec Florian Le Goff. Aujourd'hui ce sont d'autres acteurs de la communauté web de Lille qui ont pris le relais pour proposer une nouvelle édition.
 
 \bigskip
 
@@ -697,7 +748,7 @@ La **Take Off Conference** est un cycle de conférences anglophones. L’événe
 
 \bigskip
 
-Dernier cri m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantes et inspirantes, sur des sujets très variés allant de la compréhension des enjeux de mise en place de nouveau outils, à des sujets plus sociaux comme l'acceuil des developpeurs anglais après le Brexit.
+*Dernier Cri* m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantes et inspirantes, sur des sujets très variés allant de la compréhension des enjeux de mise en place de nouveau outils, à des sujets plus sociaux comme l'acceuil des developpeurs anglais après le Brexit.
 
 \bigskip
 
@@ -717,7 +768,7 @@ La communauté web de Lille est très active pour organisé des évenements. De 
 
 \bigskip
 
-Très actif dans cette communauté, Dernier cri acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des Meetup de Lille FP (Fonctionnal programming, c'est à dire programmation fonctionnelle) et de Lille Elixir.
+Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des Meetup de Lille FP (Fonctionnal programming, c'est à dire programmation fonctionnelle) et de Lille Elixir.
 
 \bigskip
 
@@ -737,11 +788,15 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 \bigskip
 
-Dernier cri a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'aspiration et d'envie d'entreprendre.
+*Dernier Cri* a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'aspiration et d'envie d'entreprendre.
 
 \newpage
 
 # Conclusion
+
+## Personnelle
+
+## Professionnelle
 
 Ce stage a été très enrichissant pour moi. Il m'a permit de réaliser un développement informatique sous la houlette d'une équipe expérimenté, qui à su me transmettre des compétences techniques et méthodologiques.
 
@@ -758,3 +813,9 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 \newpage
 
 # Glossaire ?
+
+ES6
+React
+Redux
+Code review
+Talk

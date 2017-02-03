@@ -94,7 +94,7 @@
 
 
 % Document meta
-\title{Rapport de stage TN09: Développement d'applications web en React et Redux}
+\title{Rapport de stage TN09: Dveloppement d'applications web en React et Redux}
 \author{Aurélie \bsc{Digeon}}
 
 % Document
@@ -157,25 +157,25 @@
   \bigskip
 
   Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et
-  Julien Vanden Torren de m'avoir acceuilli chez Dernier cri pour mon
+  Julien Vanden Torren pour m'avoir acceuilli chez Dernier Cri, pour mon
   stage.
 
   \bigskip
 
   Je remercie également mon suiveur Harry Claisse pour son aide et son
-  accompagnement, ainsi que les enseignants de l'Université technologique
-  de Compiègne.
+  accompagnement, ainsi que les enseignants de l'Université de
+  Technologiques de Compiègne.
 
   \bigskip
 
   Merci également à toute l'équipe de Dernier cri pour avoir rendu mon
-  stage si enrichissant et agréable et pour m'avoir accueuilli à bras
+  stage enrichissant et agréable, et pour m'avoir accueuilli à bras
   ouverts.
 
   \bigskip
 
   J'aimerai finalement remercier mes parents et mon frère, qui m'ont
-  permis de faire ses études et m'ont soutenu durant ce stage.
+  permis de faire ces études et m'ont soutenu durant ce stage.
 
   \newpage
 
@@ -198,15 +198,16 @@
 
   \bigskip
 
-  Dans le cadre de mon stage de TN09 lors de ma quatrième année
-  d'ingénieur à l'Université technologique de Compiègne (UTC), j'ai
-  effectué un stage de six mois chez Dernier cri.
+  Dans le cadre de mon stage de TN09, lors de ma quatrième année
+  d'ingénieur en informatique à l'Université de Technologique de Compiègne
+  (UTC), j'ai effectué un stage de six mois chez Dernier cri.
 
   \bigskip
 
-  Dernier Cri est une Start-Up créé en 2011 spécialisée dans l'innovation
-  numérique. L'équipe est en charge du développement, du déploiement et de
-  la maintenance d'applications pour le compte de plusieurs clients.
+  Dernier Cri est une \emph{start-up} créée en 2011, spécialisée dans
+  l'innovation numérique. L'équipe est en charge du développement, du
+  déploiement et de la maintenance d'applications pour le compte de
+  plusieurs clients.
 
   \bigskip
 
@@ -215,18 +216,18 @@
 
   \bigskip
 
-  J'ai pu lors de ce stage intégrer une équipe dynamique et pro-active.
-  J'ai notamment pu prendre part à de nombreuses présentations internes
-  sur différentes technologies, à l'écriture d'articles de blog. J'ai
-  également pu participer activement à la relation client lors de mes
-  projets.
+  J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active.
+  En plus de mon implications dans les projets pour des clients, j'ai pu
+  prendre part à de nombreuses présentations internes sur différentes
+  technologies, et à l'écriture d'articles de blog. J'ai également pu
+  participer activement à la relation client lors de mes projets.
 
   \bigskip
 
   Dans ce rapport je vais vous présenter tout d'abord Dernier cri,
-  l'entreprise qui m'a acceuilli. Il me tient à coeur de vous exposer les
-  techniques de travail et les différents moyens de s'exprimer qu'elle
-  offre à ses équipes.
+  l'entreprise qui m'a accueilli. Je vous exposerais les techniques de
+  travail et les différents moyens de s'exprimer qu'elle offre à ses
+  équipes.
 
   \bigskip
 
@@ -252,16 +253,17 @@
 
   \bigskip
 
-  En 2011 Robin Komiwes et Benjamin Tierny créent Nectify dans le but de
-  développer Fresc, un outil de partage d'avis sur des visuels. Bien que
-  cet outil connait un succès certain avec aujourd'hui plus de 300
-  sociétés utilisant Fresc à travers des milliers de projets, la
-  rentabilité du projet n'est pas suffisante.
+  En 2011, Robin Komiwes et Benjamin Tierny créent Nectify, une entreprise
+  dont le but est le développement et la commercialisation de Fresc, un
+  outil de partage d'avis sur des visuels. Bien que cet outil connaîtra un
+  succès mérité (on comptabilise aujourd'hui près de 300 entreprises
+  l'utilisant à travers de milliers de projets), la rentabilité financière
+  n'est pas suffisante pour assurer la pérennité de l'entreprise.
 
   \bigskip
 
   Nectify choisit alors de compléter ses revenus par de la prestation de
-  services centrée sur l'innovation.
+  services centrés sur l'innovation.
 
   \bigskip
 
@@ -273,17 +275,17 @@
 
   Devenant donc une agence spécialisée dans l'innovation digitale, Nectify
   choisit de créer sa propre image, distincte de Fresc. C'est dans ce
-  mouvement que la société est devenue \textbf{Dernier cri}.
+  mouvement que la société est devenue Dernier cri.
 
   \bigskip
 
-  Aujourd'hui Dernier cri est une agence web qui met un point d'honneur à
-  proposer à ses clients une solution complète adaptée à leur
-  problèmatique spécifique. De la conception à la réalisation,
-  l'entreprise accompagne ses clients de A à Z pour aboutir à un produit
-  au plus proche des besoins de ceux-ci. Cela permet aux développeurs
-  d'opérer dans différents domaines d'activités et d'avoir une vue globale
-  du développement de produit.
+  Aujourd'hui, Dernier cri est une agence web qui met un point d'honneur à
+  proposer à ses clients une solution complète et adaptée à leur
+  problèmatique. De la conception à la réalisation, l'entreprise
+  accompagne ses clients de A à Z pour aboutir à un produit au plus proche
+  de leurs besoins. Cela permet aux développeurs d'opérer dans différents
+  domaines d'activités, et d'avoir une vue globale du développement du
+  produit.
 
   \bigskip
 
@@ -294,16 +296,16 @@
   Le secteur de l'informatique est aujourd'hui est en pleine expension et
   ne connait pas la crise. Pour donner un ordre d'idée, le marché de la
   programmation et des services informatiques embauche près de 400 000
-  personnes dans ses 21 000 ESN (Entreprises de services du numérique) et
+  personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et
   ne cesse de croître depuis ces cinq dernières années.
 
   \bigskip
 
-  Dernier cri est une \emph{startup} spécialisée dans l'innovation
+  Dernier cri est une \emph{start-up} spécialisée dans l'innovation
   digitale. Elle se démarque notamment des autres agences web en proposant
   plusieurs services, dont évidemment la création d'applications
   web/mobile, mais aussi l'application de la recherche fondamentale en
-  apprentissage automatique et traitement de grosses données, afin
+  apprentissage automatique et traitement de gros volumes de données, afin
   d'augmenter la capacité d'innovation d'entreprises tiers. Cela se
   traduit notamment par de l'exploration de connaissances à partir de
   données pour des magasins, par exemple, ou la création d'audit.
@@ -311,7 +313,8 @@
   \bigskip
 
   C'est cette diversité qui permet à Dernier cri de se démarquer dans
-  l'univers du web à Lille, où de nombreuse agence se partage le marché.
+  l'univers du web à Lille, où de nombreuse agences se partagent le
+  marché.
 
   \bigskip
 
@@ -319,10 +322,15 @@
 
   \bigskip
 
-  Dernier cri est une entreprise de petite taille et profite de cela pour
-  mettre en place une organisation souple qui offre l'opportunité à tous
-  de s'impliquer dans les projets, que ce soit des projets pour des
-  clients ou des projets interne.
+  Dernier cri est une entreprise à taille humaine. Cela se traduit par des
+  cycles de décision courts, des dirigeants plus accessibles et la volonté
+  de travailler dans un esprit d'équipe.
+
+  \bigskip
+
+  Dernier cri posséde une organisation souple qui offre l'opportunité à
+  tous de s'impliquer dans les projets, que ce soit pour des clients ou
+  bien en interne.
 
   \bigskip
 
@@ -341,83 +349,48 @@
 
   \bigskip
 
-  L'entreprise est également constituée d'une chef de projet, Laetitia
+  L'équipe est également constituée d'une chef de projet, Laetitia
   Cocusse, qui s'occupe de superviser la plupart des projets.
 
   \bigskip
 
-  L'équipe de développeur est constituée notament d'un devops, c'est à
-  dire d'une personne possédant à la fois les compétences d'un développeur
-  et d'un ingénieur système (Jean-Serge Monbailly), d'un Data Scientist
-  (Antonin Carette) qui travaille sur les projets de big data.
+  Dernier Cri est à la fois une agence Web mais aussi une agence qui se
+  préoccupe des problèmes actuels liés à l'ingénierie système et au
+  traitement de grosses données. C'ets pourquoi l'équipe de développeurs
+  est aussi constituée d'un \emph{devops}, c'est à dire d'une personne
+  possédant à la fois les compétences d'un développeur et d'un ingénieur
+  système, d'un \emph{Data Scientist} qui travaille sur les projets de big
+  data.
 
   \bigskip
 
   La plupart des développeurs travaille sur plusieurs projets en même
   temps, selon les besoins de l'entreprise et les compétences de chacun.
   Des équipes de 2/3 développeurs sont crées, mélangeant les compétences
-  front et back, de développement et de système.
+  \emph{front} et \emph{back}, de développement et de système.
 
   \bigskip
 
-  \subsubsection{Github et code review}\label{github-et-code-review}
+  TODO gestion de projet, github
 
   \bigskip
 
-  L'entreprise utilise principalement la plateforme Github comme service
-  web d'hébergement et donc le logiciel de gestion de versions Git. Github
-  permet aux développeurs de travailler à plusieurs sur le même projet, de
-  résoudre rapidement des conflits dus à la modification d'un même
-  document par plusieurs personnes, de gérer différentes versions du
-  projet et beaucoup d'autre problématiques.
-
-  \bigskip
-
-  Une nouvelle version de Github propose une section \textbf{Projet}
-  permettant de gérer les \textbf{issues}, c'est à dire les tâches. Cette
-  section permet notamment de séparer les tâches en plusieures colonnes,
-  par exemple : \emph{A faire}, \emph{En cours}, \emph{Terminé}. Il est
-  aussi possible d'attribuer les tâches à un contributeur, ou encore de
-  leur attribuer des labels tel que \emph{Urgent}, \emph{Bug} ou encore
-  une estimation de temps quand à la réalisation de la che.
-
-  \bigskip
-
-  Dernier cri utilisait jusque là un outil similaire. Il a été décidé
-  d'utiliser la section \textbf{Projet} de Github pour les nouveaux
-  projets, notamment ceux sur lesquels j'ai été affectée.
-
-  \bigskip
-
-  Dernier cri utilise ces outils mis à disposition par Github pour mettre
-  en place un processus de vérification de la qualités du code et
-  d'entraide. Chaque developpeur, une fois une tâche terminée, propose une
-  \emph{Pull request}, c'est à dire demande à fusionner sa version du
-  projet, modifiée pour résoudre la tâche, avec la version principale,
-  stable. Il demande ensuite à ses collégues ayant des compétences dans le
-  langage utilisé de relire et de commenter cette \emph{Pull request}.
-
-  \bigskip
-
-  C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues
-  sur leur style d'écriture et leur façon de coder, ce qui permet souvent
-  de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs
-  techniques à utiliser. Dernier cri utilise ce système pour garantir une
-  certaine qualité du code ainsi qu'un style d'écriture homogéne.
-
-  \bigskip
+  Dernier Cri a à coeur de développer une culture entreprenariale et
+  informatique, c'est pourquoi s'est developpé des présentations internes
+  (dont certaines sont diffusées via une chaine youtube) ainsi que des
+  présentations publiques par l'intermédiaire de \emph{blog posts} .
 
   \subsubsection{Talk interne}\label{talk-interne}
 
   \bigskip
 
   Dans l'optique d'un partage du savoir dans l'entreprise, les employés
-  sont invités à faire des \emph{talks}, c'est à dire de petites
-  présentations. Celles-ci ont pour objectif premier de présenter certains
-  enjeux et solutions techniques en rapport avec la réalisation d'un
-  projet, le résultat d'une veille, ou tout simplement un sujet qui les
-  intéresse. Les \emph{talks} techniques permettent aux membres d'une
-  équipe de partager entre eux leurs expériences et leurs passions.
+  sont invités à faire des \emph{talks}, c'est-à-dire de petites
+  présentations. Celles-ci ont pour objectif de présenter certains enjeux
+  et solutions techniques en rapport avec la réalisation d'un projet, le
+  résultat d'une veille, ou tout simplement un sujet qui les intéresse.
+  Les \emph{talks} techniques permettent aux membres d'une équipe de
+  partager entre eux leurs expériences et leurs passions.
 
   \bigskip
 
@@ -427,59 +400,55 @@
   de l'intéret ou bien de l'existence. De plus, la présentation est
   travaillée et structurée, car une personne a déjà fait l'effort de trier
   les informations et de les présenter de la manière la plus lisible,
-  claire, ou ludique. C'est ainsi souvent beaucoup plus facile d'aborder
-  un sujet avec ces talks, que de partir à la pêche aux informations sur
-  internet.
+  claire, et/ou ludique. C'est ainsi souvent beaucoup plus facile
+  d'aborder un sujet avec ces \emph{talks}, que de devoir effectuer une
+  recherche d'information sur divers supports.
 
   \bigskip
 
   Le second avantage concerne l'organisateur de la présentation. Tout
-  d'abord, sensibiliser ses coéquipiers à des problèmes peut être un
-  véritable gain de temps pour le futur. En effet, apporter ses
-  connaissances à l'équipe en entier permet d'éviter de devoir aller aider
-  ou expliquer individuellement les même choses.
+  d'abord, sensibiliser ses coéquipiers à des problèmes, ou des
+  technologies, peut être un véritable gain de temps pour le futur. En
+  effet, cela permet de mutualiser la communication, et d'éviter de devoir
+  expliquer individuellement les concepts.
 
   \bigskip
 
-  De plus, le rédacteur apprend beaucoup car, pour la création de la
+  De plus, l'organisateur apprend beaucoup car, pour la création de la
   présentation, il doit devenir un expert sur le sujet qu'il va couvrir.
-  Il doit appronfondir assez le sujet pour être capable, d'une part d'être
+  Il devra assez approfondir le sujet pour être capable, d'une part d'être
   clair dans sa présentation, d'autre part de répondre aux éventuelles
-  questions.
-
-  \bigskip
-
-  Pour lui c'est aussi une occasion de travailler sur ces compétences
-  d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie
-  de tout les jours, mais surtout un techtalk interne peut faire office
-  d'incubation pour une présentation dans un autre contexte. En effet, il
-  existe à Lille de nombreux évènements où il est possible de faire des
-  présentations, ce qui est très intéréssant mais aussi peut être assez
-  intimidant. Le présentateur peut tester son talk en interne avant d'en
-  faire partager la communauté.
+  questions. Pour lui c'est aussi une occasion de travailler sur ces
+  compétences d'orateur. Cela peut évidemment lui être utile pour son
+  travail, sa vie de tout les jours, mais surtout un \emph{talk} interne
+  peut faire office d'incubation pour une présentation dans un autre
+  contexte. En effet, il existe à Lille de nombreux évènements où il est
+  possible de faire des présentations, ce qui est très intéréssant mais
+  aussi peut être assez intimidant. Le présentateur peut tester son talk
+  en interne avant d'en faire partager la communauté.
 
   \bigskip
 
   Finalement, présenter un sujet issu d'une veille technologique permet,
   au-delà de faire découvrir aux autres un sujet potentiellement
   intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de
-  sujets qui au premier coup d'oeil semblaient prometteur, peuvent avec un
-  peu de recherche se révéler creux et sans intêret.
+  sujets qui semblent prometteur peuvent, avec un peu de recherche, se
+  révéler creux et sans intêret.
 
   \bigskip
 
-  Les talks internes sont une très bonne manière de partager des
-  connaissances de manière ludique. Durant mon stage j'ai eu l'occasion
-  d'assister à des présentations sur de nombreuses technologies telles que
-  React, Docker, Rust, MJML\ldots{} Mais aussi sur des sujets variés comme
-  le Growth hacking (Ensemble de techniques de marketing permettant
-  d'accélérer rapidement et significativement la croissance d'une
-  start-up.), ou encore la fabrication d'un audit.. Ces présentations sont
-  publiées sur la
+  Les \emph{talks} internes sont aussi une très bonne manière de partager
+  des connaissances de manière ludique. Durant mon stage j'ai eu
+  l'occasion d'assister à des présentations sur de nombreuses technologies
+  telles que \emph{React}, \emph{Docker}, \emph{Rust}, \emph{MJML}\ldots{}
+  Mais aussi sur des sujets variés comme le Growth hacking (Ensemble de
+  techniques de marketing permettant d'accélérer rapidement et
+  significativement la croissance d'une \emph{start-up}.), ou encore la
+  fabrication d'un audit.. Ces présentations sont publiées sur la
   \href{https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg}{chaîne
   youtube Dernier cri}. Cela m'a permis de découvrir de nouveaux sujets et
   de mieux comprendre les discutions, et les problématiques que
-  rencontraient mes collégues.
+  rencontraient mes collègues.
 
   \bigskip
 
@@ -487,7 +456,7 @@
 
   \bigskip
 
-  Dernier cri posséde également un
+  Dernier Cri posséde également un
   \href{http://derniercri.io/tech-blog}{blog technique} alimenté par les
   développeurs de l'équipe. Les objectifs sont notablement les mêmes que
   pour les présentations internes. Mais cela permet aussi à Dernier cri de
@@ -495,19 +464,19 @@
 
   \bigskip
 
-  Le blog technique permet à Dernier cri de se positionner en tant
+  Le blog technique permet à Dernier Cri de se positionner en tant
   qu'expert. Publier des articles blog est excellent pour la réputation.
-  En délivrant des conseils professionnels utiles, il prouve leur maîtrise
-  de leur activité.
+  En délivrant des conseils professionnels utiles, Dernier Cri prouve sa
+  maîtrise de son activité.
 
   \bigskip
 
   Cela permet également d'améliorer la visibilité de l'entreprise en
   exposant son savoir et savoir-faire à une large communauté
-  professionnelle. Un blog est également utile pour tenir informé sa
+  professionnelle. Un blog est également utile pour tenir informée sa
   communauté : il permet de rester en contact permanent avec ses prospects
-  et de les tenir informé de toute l'actualité de son entreprise, comme un
-  nouveau produit, une nouvelle technologie maitrisée \ldots{}
+  et de les tenir au courant de toute l'actualité de son entreprise, comme
+  un nouveau produit, une nouvelle technologie maitrisée \ldots{}
 
   \bigskip
 
@@ -522,7 +491,7 @@
 
   J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour
   le blog technique de Dernier cri. Dans cet article je décris les
-  technologies que j'ai utilisé lors de mon stage, React et Reduc, ainsi
+  technologies que j'ai utilisé lors de mon stage, React et Redux, ainsi
   que cinq outils que j'ai découvert et qui m'ont facilité la vie pour
   utiliser ses technologies. Ce fut une expérience très enrichissante.
   Cela m'a poussé à enrichir mes connaissances dans le domaine, de
@@ -537,9 +506,9 @@
 
   Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise
   et j'ai pu participer au développement de deux applications. Ces deux
-  projets s'appuyaient sur du React, une bibliothèque JavaScript libre
-  développée par Facebook depuis 2013. N'ayant jamais utilisé cette
-  bibliothèque, j'ai donc du tout d'abord me former.
+  projets s'appuyaient sur le framework ReactJS, une bibliothèque
+  JavaScript open-source développée par Facebook depuis 2013. N'ayant
+  jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
 
   \bigskip
 
@@ -552,8 +521,9 @@
 
   Le second projet est FinFrog, un site proposant des prêts financés par
   des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le
-  client possédait un site en ligne, mais souhaité changer l'apparence et
-  ajouter des fonctionnalités, ce pourquoi il a fait appel à Dernier cri.
+  client possédait un site en ligne, mais souhaitait changer l'apparence
+  et ajouter des fonctionnalités, ce pourquoi il a fait appel à Dernier
+  cri.
 
   \bigskip
 
@@ -569,16 +539,16 @@
 
   La popularité de ces trois technologies est en forte hausse, et de plus
   en plus demandée et utilisée pour la création d'applications web. C'est
-  pourquoi ce fut une véritable chance d'apprendre ces langages lors de
-  mon stage.
+  pourquoi ce fut une véritable chance d'apprendre ces deux frameworks
+  lors de mon stage.
 
   \bigskip
 
   Ma formation s'est faite à partir du site
   \href{https://www.codeschool.com/}{Code school}, disposant de cours en
-  vidéos ainsi que d'exercices interactifs. Par la suite j'ai également
-  pus compter sur Fabien Gavory, un développeur de Dernier cri, pour
-  m'aider et m'expliquer certains concepts difficiles.
+  vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pu
+  compter sur Fabien Gavory, un développeur de Dernier cri, pour m'aider
+  et m'expliquer certains concepts difficiles.
 
   \bigskip
 
@@ -586,13 +556,13 @@
 
   \bigskip
 
-  Le Javascript est un langage de programmation de scripts incontournable
-  du web. Si à sa création il servait principalement à la réalisation
-  d'animation, il est aujourd'hui au centre des applications. Le javacript
-  sert maintenant à controler presque la totalité de l'application web.
-  Cependant, ce langage n'étant pas prévu pour une telle complexité, il en
-  résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'une
-  mise à jour du langage s'est imposée.
+  Le Javascript est un langage de programmation incontournable du web. Si
+  à sa création il servait principalement à la réalisation d'animation, il
+  est aujourd'hui au centre des applications. Le javacript sert maintenant
+  à contôoler presque la totalité de l'application web. Cependant, ce
+  langage n'étant pas prévu pour une telle complexité, il en résulte une
+  syntaxe complexe et lourde. C'est dans ce contexte qu'une mise à jour du
+  langage s'est imposée.
 
   \bigskip
 
@@ -604,8 +574,93 @@
 
   \bigskip
 
+  Voici quelques nouveautés notoires de ES6 :
+
+  \begin{itemize}
+  \item
+    Introduction du \emph{let} : contrairement au \emph{var} présent dans
+    les anciennes versions, il permet de déclarer une variable limitée à
+    la portée d'un bloc, c'est-à-dire qu'elle ne peut être utilisée que
+    dans le bloc où elle a été déclarée.
+  \item
+    Les littéraux de gabarits (\emph{template literals}): c'est une
+    alternative aux concaténations, qui ne sont pas pratique et lisible.
+    Le \emph{Template String} permet de déclarer des chaînes avec des
+    variables à évaluer à l'intérieur.
+
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \CommentTok{// ES6}
+  \KeywordTok{let} \NormalTok{name }\OperatorTok{=} \StringTok{"Aurélie"}
+  \KeywordTok{let} \NormalTok{result }\OperatorTok{=} \VerbatimStringTok{`Voici le rapport de }\SpecialCharTok{$\{}\NormalTok{me}\SpecialCharTok{\}}\VerbatimStringTok{.`}
+  \CommentTok{// ES5}
+  \KeywordTok{let} \NormalTok{me }\OperatorTok{=} \StringTok{"Aurélie"}\OperatorTok{;}
+  \KeywordTok{let} \NormalTok{result }\OperatorTok{=} \StringTok{"Voici le rapport de "} \OperatorTok{+} \NormalTok{me}\OperatorTok{;}
+  \end{Highlighting}
+  \end{Shaded}
+  \item
+    Paramétres par défauts: auparavant, pour définir une valeur par défaut
+    pour un paramètre, il fallait tester s'il valait undefined et lui
+    affecter une valeur choisie le cas échéant. ES6 permet de faire cela
+    directement lors de sa définition.
+
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \CommentTok{// ES6}
+  \KeywordTok{function} \AttributeTok{f} \NormalTok{(x }\OperatorTok{=} \DecValTok{0}\OperatorTok{,} \NormalTok{y }\OperatorTok{=} \DecValTok{0}\NormalTok{) }\OperatorTok{\{}
+      \ControlFlowTok{return} \NormalTok{x }\OperatorTok{+} \NormalTok{y}
+  \OperatorTok{\}}
+  \CommentTok{// ES5}
+  \KeywordTok{function} \AttributeTok{f} \NormalTok{(x}\OperatorTok{,} \NormalTok{y}\OperatorTok{,} \NormalTok{z) }\OperatorTok{\{}
+      \ControlFlowTok{if} \NormalTok{(x }\OperatorTok{===} \KeywordTok{undefined}\NormalTok{)}
+          \NormalTok{x }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
+      \ControlFlowTok{if} \NormalTok{(y }\OperatorTok{===} \KeywordTok{undefined}\NormalTok{)}
+          \NormalTok{y }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
+      \ControlFlowTok{return} \NormalTok{x }\OperatorTok{+} \NormalTok{y}\OperatorTok{;}
+  \OperatorTok{\};}
+  \end{Highlighting}
+  \end{Shaded}
+  \item
+    Initialisateur d'objet: Il arrive souvent de vouloir utiliser des
+    variables comme propriétés d'un objet. ES6 introduit une notation
+    permettant d'utiliser le nom de la variable comme nom de la propriété
+    de l'objet créé.
+
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \CommentTok{// ES6}
+  \NormalTok{obj }\OperatorTok{=} \OperatorTok{\{} \NormalTok{x}\OperatorTok{,} \NormalTok{y }\OperatorTok{\}}
+  \CommentTok{// ES5}
+  \NormalTok{obj }\OperatorTok{=} \OperatorTok{\{} \DataTypeTok{x}\OperatorTok{:} \NormalTok{x}\OperatorTok{,} \DataTypeTok{y}\OperatorTok{:} \NormalTok{y }\OperatorTok{\};}
+  \end{Highlighting}
+  \end{Shaded}
+  \item
+    Affectation par décomposition:
+
+  \begin{Shaded}
+  \begin{Highlighting}[]
+  \CommentTok{// ES6}
+  \KeywordTok{var} \OperatorTok{\{} \NormalTok{a}\OperatorTok{,} \NormalTok{b}\OperatorTok{,} \NormalTok{c }\OperatorTok{\}} \OperatorTok{=} \AttributeTok{someFunction}\NormalTok{()}
+
+  \CommentTok{// ES5}
+  \KeywordTok{var} \NormalTok{tmp }\OperatorTok{=} \AttributeTok{someFunction}\NormalTok{()}\OperatorTok{;}
+  \KeywordTok{var} \NormalTok{a  }\OperatorTok{=} \VariableTok{tmp}\NormalTok{.}\AttributeTok{a}\OperatorTok{;}
+  \KeywordTok{var} \NormalTok{b }\OperatorTok{=} \VariableTok{tmp}\NormalTok{.}\AttributeTok{b}\OperatorTok{;}
+  \KeywordTok{var} \NormalTok{c }\OperatorTok{=} \VariableTok{tmp}\NormalTok{.}\AttributeTok{c}\OperatorTok{;}
+  \end{Highlighting}
+  \end{Shaded}
+  \end{itemize}
+
+  Arraw fonction ? Classe et héritage ?
+
+  \bigskip
+
   ES6 n'est pas encore totalement supporté par les navigateurs, il est
-  donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js.
+  donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js. Un
+  transcompilateur permet de prendre le code d'un langage de programmation
+  comme son entrée et de récupérer en sorti le code dans un autre langage.
+  Ici Babel.js va traduire les particularité de ES6 en code javascript
+  compatible avec ES5.
 
   \bigskip
 
@@ -619,8 +674,8 @@
   Cela m'a également permi de me familiariser avec les normes ECMAScript
   et de me persuader de la nécessité de rester attentive aux différentes
   actualités et évolutions des langages. En effet, dans le milieu de
-  l'informatique, les normes et bonnes pratiques sont très changeantes et
-  il est donc important de rester attentif à l'actualité.
+  l'informatique, les normes et et les frameworks utilisés sont très
+  changeants et il est donc important de rester attentif à l'actualité.
 
   \bigskip
 
@@ -635,7 +690,7 @@
 
   \bigskip
 
-  Développé depuis 2013 par Facebook, \emph{React} est une bibliothèque
+  Développée depuis 2013 par Facebook, \emph{React} est une bibliothèque
   JavaScript déclarative, efficace et flexible pour la création
   d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment
   par ses performances.
@@ -650,13 +705,13 @@
   Une des particularités de \emph{React} est de découper l'application en
   composants, dépendant d'un état. Lors du changement de l'état d'un
   composant, \emph{React} génère les changements en \emph{HTML} pour les
-  répercutés sur la page.
+  répercuter sur la page.
 
   \bigskip
 
   Cette bibliothèque est aujourd'hui en expansion. Elle a un succès
-  certain auprès de la communautés des développeurs web, et de nombreux
-  outils se développent autours. C'est donc un avantage d'avoir pu
+  certain auprès de la communauté des développeurs web, et de nombreux
+  outils se développent autour. C'est donc un avantage d'avoir pu
   apprendre \emph{React} lors de mon stage, puis d'avoir mis en pratique
   ces connaissances lors des deux projets que j'ai effectué.
 
@@ -707,7 +762,15 @@
 
   \bigskip
 
+  \begin{figure}[h]
+    \centering
+    \includegraphics[height=5cm]{figures/react.png}
+    \caption{Flux entre les différents composants}
+  \end{figure}
+
   \subsection{Gestion de projet}\label{gestion-de-projet}
+
+  \subsubsection{Relation client}\label{relation-client}
 
   \bigskip
 
@@ -789,6 +852,47 @@
   en place.
 
   \newpage
+
+  \subsubsection{Organisation interne}\label{organisation-interne}
+
+  \bigskip
+
+  L'entreprise utilise principalement la plateforme Github comme service
+  web d'hébergement et donc le logiciel de gestion de versions Git. Github
+  est une interface web permettant d'interfacer avec des projets
+  versionnés, et composés de multiples applications aidant à la gestion de
+  projets.
+
+  \bigskip
+
+  Github propose depuis peu une section \emph{Projet} permettant de gérer
+  les \emph{issues}, c'est à dire les tâches. Cette section permet
+  notamment de séparer les tâches en plusieures colonnes, par exemple :
+  \emph{A faire}, \emph{En cours}, \emph{Terminé}. Il est aussi possible
+  d'attribuer les tâches à un contributeur, ou encore de leur attribuer
+  des labels tel que \emph{Urgent}, \emph{Bug} ou encore une estimation de
+  temps quand à la réalisation de la tâche.
+
+  \bigskip
+
+  Dernier cri utilise ces outils mis à disposition par Github pour mettre
+  en place un processus de vérification de la qualité du code et
+  d'entraide. Chaque developpeur, une fois une tâche terminée, propose une
+  \emph{Pull request}, c'est à dire demande à fusionner sa version du
+  projet, modifiée pour résoudre la tâche, avec la version principale,
+  stable. Il demande ensuite à ses collégues ayant des compétences dans le
+  langage utilisé de relire et de commenter cette \emph{Pull request}.
+
+  \bigskip
+
+  C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues
+  sur leur style d'écriture et leur façon de coder, ce qui permet souvent
+  de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs
+  techniques à utiliser. Dernier cri utilise ce système de \emph{code
+  review} pour garantir une certaine qualité du code ainsi qu'un style
+  d'écriture de code homogéne.
+
+  \bigskip
 
   \section{Mes réalisations}\label{mes-ruxe9alisations}
 
@@ -1260,9 +1364,36 @@
 
   \bigskip
 
-  -\textgreater{} pm2r
+  Finalement, pour lancer les processus du site et de l'API, nous avons
+  utilisé PM2. PM2 est un gestionnaire de processus de production pour les
+  applications Node.js avec un équilibreur de charge intégré. Il vous
+  permet de garder les applications en vie pour toujours, de les recharger
+  sans temps d'arrêt et de faciliter les tâches administratives courantes
+  du système.
+
+  \bigskip
 
   \subsubsection{Déroulement}\label{duxe9roulement-1}
+
+  \paragraph{Page d'accueil et demande de
+  prêt}\label{page-daccueil-et-demande-de-pruxeat}
+
+  \bigskip
+
+  A mon arrivée sur le projet, Dernier cri était chargé de l'intégration
+  d'un nouveau design pour le site déjà existant. Cette intégration
+  comprenait tout d'abord la page d'accueil, puis le tunnel de demande de
+  prêt.
+
+  \bigskip
+
+  \bigskip
+
+  \paragraph{Génération de contrat}\label{guxe9nuxe9ration-de-contrat}
+
+  \bigskip
+
+  \bigskip
 
   \begin{itemize}
   \item
@@ -1283,6 +1414,8 @@
   confidentialité
 
   \subsubsection{Conclusion}\label{conclusion-1}
+
+  \newpage
 
   \newpage
 
@@ -1451,6 +1584,20 @@
 
   \section{Conclusion}\label{conclusion-2}
 
+  Ce stage a été très enrichissant pour moi. Il m'a permit de réaliser un
+  développement informatique sous la houlette d'une équipe expérimenté,
+  qui à su me transmettre des compétences techniques et méthodologiques.
+
+  J'ai aussi pu découvrir la réalité des entreprises et appliquer les
+  notions acquises à l'université, apprendre ou de me perfectionner avec
+  certaines technologies ou méthodes et de développer l'aptitude au
+  travail en équipe.
+
+  Enfin, vous pouvez re-situez votre stage dans votre parcours de
+  formation et dans votre projet professionnel. Vos objectifs ont-ils
+  évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix
+  de filière ?
+
   -\textgreater{} Compétences apprises : Node React Redux ES6 Relation
   client Git Github pm2 npm
 
@@ -1463,6 +1610,8 @@
   \newpage
 
   \section{Glossaire ?}\label{glossaire}
+
+  ES6 React Redux Code review Talk
 
 
 \end{document}
