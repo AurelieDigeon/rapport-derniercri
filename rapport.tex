@@ -1,11 +1,9 @@
-\newpage
-
 \section{Remerciements}\label{remerciements}
 
 \bigskip
 
 Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et
-Julien Vanden Torren pour m'avoir acceuilli chez Dernier Cri, pour mon
+Julien Vanden Torren pour m'avoir accueilli chez Dernier Cri, pour mon
 stage.
 
 \bigskip
@@ -17,12 +15,12 @@ Technologiques de Compiègne.
 \bigskip
 
 Merci également à toute l'équipe de \emph{Dernier Cri} pour avoir rendu
-mon stage enrichissant et agréable, et pour m'avoir accueuilli à bras
+mon stage enrichissant et agréable, et pour m'avoir accueilli à bras
 ouverts.
 
 \bigskip
 
-J'aimerai finalement remercier mes parents et mon frère, qui m'ont
+J'aimerais finalement remercier mes parents et mon frère, qui m'ont
 permis de faire ces études et m'ont soutenu durant ce stage.
 
 \newpage
@@ -102,6 +100,12 @@ Cri}}{Dernier Cri}}\label{dernier-cri}
 
 \subsection{Histoire}\label{histoire}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=1cm]{figures/NectifyToDC.png}
+  \caption{De Nectify à Dernier Cri}
+\end{figure}
+
 \bigskip
 
 En 2011, Robin Komiwes et Benjamin Tierny créent \emph{Nectify}, une
@@ -161,6 +165,12 @@ création d'audits.
 
 \subsection{Organisation}\label{organisation}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/team.png}
+  \caption{L'équipe de *Dernier Cri*}
+\end{figure}
+
 \bigskip
 
 \emph{Dernier Cri} est une entreprise à taille humaine. Cela se traduit
@@ -186,27 +196,32 @@ manager}).
 L'entreprise compte aujourd'hui 19 employés, dont trois associés, une
 assistante de direction, une chef de projet et 14 développeurs. L'équipe
 de développeurs est aussi constituée d'un \emph{devops}, et d'un
-\emph{Data Scientist}. Grâce à de nombreux nouveaux projets, elle se
+\emph{data scientist}. Grâce à de nombreux nouveaux projets, elle se
 trouve dans une phase d'expension, avec de nouvelles embauches en
 perspective.
 
 \bigskip
 
-La plupart des développeurs travaille sur plusieurs projets en même
-temps, selon les besoins de l'entreprise et les compétences de chacun.
-Des équipes de 2/3 développeurs sont crées, mélangeant les compétences
-\emph{front} et \emph{back}, de développement et de système.
+Etant donné que la plupart des développeurs travaille sur plusieurs
+projets en même temps - selon les besoins de l'entreprise et les
+compétences de chacun -, des équipes de deux à trois développeurs sont
+créées, mélangeant les compétences de chacun.
 
 \bigskip
 
-TODO gestion de projet, github
+La gestion de projet peut se séparer en deux: la relation client, et la
+gestion de projet en interne. Le chef de projet s'occupe de gérer la
+première, tandis que la seconde se fait principalement par
+l'intermédiaire de \emph{Github}. Ces deux points seront développés plus
+loin dans le rapport.
 
 \bigskip
 
-Dernier Cri a à coeur de développer une culture entreprenariale et
-informatique, c'est pourquoi s'est developpé des présentations internes
-(dont certaines sont diffusées via une chaine youtube) ainsi que des
-présentations publiques par l'intermédiaire de \emph{blog posts} .
+\emph{Dernier Cri} a à coeur de développer une culture entreprenariale
+et informatique, c'est pourquoi s'est developpé des présentations
+internes (dont certaines sont diffusées via une chaine youtube) ainsi
+que des présentations publiques par l'intermédiaire de \emph{blog posts}
+.
 
 \subsubsection{Talk interne}\label{talk-interne}
 
@@ -423,8 +438,8 @@ Voici quelques nouveautés notoires de ES6 :
 \KeywordTok{let} \NormalTok{name }\OperatorTok{=} \StringTok{"Aurélie"}
 \KeywordTok{let} \NormalTok{result }\OperatorTok{=} \VerbatimStringTok{`Voici le rapport de }\SpecialCharTok{$\{}\NormalTok{me}\SpecialCharTok{\}}\VerbatimStringTok{.`}
 \CommentTok{// ES5}
-\KeywordTok{let} \NormalTok{me }\OperatorTok{=} \StringTok{"Aurélie"}\OperatorTok{;}
-\KeywordTok{let} \NormalTok{result }\OperatorTok{=} \StringTok{"Voici le rapport de "} \OperatorTok{+} \NormalTok{me}\OperatorTok{;}
+\KeywordTok{var} \NormalTok{me }\OperatorTok{=} \StringTok{"Aurélie"}\OperatorTok{;}
+\KeywordTok{var} \NormalTok{result }\OperatorTok{=} \StringTok{"Voici le rapport de "} \OperatorTok{+} \NormalTok{me}\OperatorTok{;}
 \end{Highlighting}
 \end{Shaded}
 \item
@@ -440,7 +455,7 @@ Voici quelques nouveautés notoires de ES6 :
     \ControlFlowTok{return} \NormalTok{x }\OperatorTok{+} \NormalTok{y}
 \OperatorTok{\}}
 \CommentTok{// ES5}
-\KeywordTok{function} \AttributeTok{f} \NormalTok{(x}\OperatorTok{,} \NormalTok{y}\OperatorTok{,} \NormalTok{z) }\OperatorTok{\{}
+\KeywordTok{function} \AttributeTok{f} \NormalTok{(x}\OperatorTok{,} \NormalTok{y) }\OperatorTok{\{}
     \ControlFlowTok{if} \NormalTok{(x }\OperatorTok{===} \KeywordTok{undefined}\NormalTok{)}
         \NormalTok{x }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
     \ControlFlowTok{if} \NormalTok{(y }\OperatorTok{===} \KeywordTok{undefined}\NormalTok{)}
@@ -522,19 +537,94 @@ long et laborieux à lire et à écrire.
 Développée depuis 2013 par Facebook, \emph{React} est une bibliothèque
 JavaScript déclarative, efficace et flexible pour la création
 d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment
-par ses performances.
+par ses performances. Elle est aujourd'hui utilisée par de nombreuses
+entreprises telles que Netflix, Yahoo, Airbnb ou encore Sony.
 
 \bigskip
 
-Elle est aujourd'hui utilisée par de nombreuses entreprises telles que
-Netflix, Yahoo, Airbnb ou encore Sony.
+Tout d'abord, React est basé sur l'utilisation d'un \emph{DOM}
+(\emph{Document Object Model}) Virtuel. Le DOM est l'\emph{API} qui
+permet au développeur web d'accéder et de manipuler le contenu d'une
+page web. Cette \emph{API} founit une représentation structurée et
+orientée objet de votre document. Elle fournit également des méthodes
+pour l'ajout et la suppression d'éléments ainsi que la gestion des
+événements, ce qui permet de créer du contenu dynamique. Le problème est
+que la mise à jour du DOM, pour appliquer des modifications, est lente,
+et il faut donc limiter un maximum les interactions avec ce dernier.
 
 \bigskip
 
-Une des particularités de \emph{React} est de découper l'application en
-composants, dépendant d'un état. Lors du changement de l'état d'un
-composant, \emph{React} génère les changements en \emph{HTML} pour les
-répercuter sur la page.
+Grâce à l'utilisation d'un \emph{DOM} virtuel, un composant React ne
+crée pas de HTML mais une représentation sous forme d'objets et de nœuds
+de ce à quoi le HTML final doit ressembler. React va comparer cette
+représentation au DOM réel et en déduire les opérations minimales à
+exécuter pour que les deux soit identiques. Avoir une représentation
+sous forme d'arbre en JavaScript permet de réaliser beaucoup plus
+d'opérations, d'utiliser les meilleurs algorithmes de comparaison
+d'arbres et de faire toutes les modifications du DOM en une opération
+plutôt qu'au fur et à mesure.
+
+\bigskip
+
+Une autre particularités de \emph{React} est de découper l'application
+en composants, dépendant d'un état. C'est après un changement de cet
+état que React déduit les changements à effectué sur le DOM.
+
+\bigskip
+
+Il faut noté que les composants sont des classes, héritant de
+\texttt{React.Component}. Un composant React possède deux types de
+données :
+
+\begin{itemize}
+\tightlist
+\item
+  des paramètres (\emph{props}) immutables définis à son instanciation,
+  qui ne peuvent être manipulés qu'à l'extérieur du composant;
+\item
+  un état (\emph{state}), permettant le dialogue avec l'utilisateur. Cet
+  état ne peut être modifié qu'à l'intérieur du composant;
+\end{itemize}
+
+\bigskip
+
+Pour illustrer cette architecture, prenons l'exemple d'une simple
+application \emph{Todo list}. Elle possède trois composants : la todo
+liste (\texttt{TodoListApp}), le formulaire d'ajout (\texttt{TodoForm})
+et la l'affichage de la liste (\texttt{TodoItems}). Le composant
+principal est la liste, qui possède la logique et les données de
+l'application. Elle passe ses fonctions et ses données a ses composants
+enfants, selon leur besoin.
+
+\begin{verbatim}
+class TodoListApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { items: [] };
+  }
+
+  addItem(element) {
+    var itemArray = this.state.items;
+    itemArray.push(element);
+    this.setState({ items: itemArray });
+    e.preventDefault();
+  }
+
+  render() {
+      return (
+        <div className="todoList">
+          <TodoForm onSubmit={this.addItem} />
+          <TodoItems items={this.state.items}/>
+        </div>
+      );
+    }
+}
+\end{verbatim}
+
+Le formulaire utilisera la fonction \texttt{addItem} de TodoListApp pour
+modifier la liste. Cette modificaton de la liste déclenchera la
+modification du composant TodoItems, puisqu'il reçoit la liste comme
+\emph{props}.
 
 \bigskip
 
@@ -561,6 +651,24 @@ En plus de \emph{React}, Facebook a fourni une architecture appelée
 composants. Cette architecture promet un flot unilatéral des données
 pour que le développeur puisse facilement suivre le trajet des données
 d'un événement et ses conséquences.
+
+\bigskip
+
+Avec Flux, l'application va se décomposer de la façon suivante :
+
+\begin{itemize}
+\tightlist
+\item
+  des \emph{stores} qui sont l'endroit où les données sont concervées ;
+\item
+  des \emph{actions} qui représente toutes les choses que votre appli
+  peut faire ;
+\item
+  un \emph{dispatcher} qui notifie les stores des actions effectuées ;
+\item
+  des vues, les composants, qui vont transformer et afficher les données
+  qu'on leur donne.
+\end{itemize}
 
 \bigskip
 
@@ -681,7 +789,7 @@ vérifier que la \emph{mise en prodcution} c'est bien passée : que le
 site fonctionne toujours et que les nouvelles fonctionnalités sont bien
 en place.
 
-\newpage
+\bigskip
 
 \subsubsection{Organisation interne}\label{organisation-interne}
 
@@ -722,7 +830,7 @@ techniques à utiliser. \emph{Dernier Cri} utilise ce système de
 \emph{code review} pour garantir une certaine qualité du code ainsi
 qu'un style d'écriture de code homogéne.
 
-\bigskip
+\newpage
 
 \section{Mes réalisations}\label{mes-ruxe9alisations}
 

@@ -1,10 +1,8 @@
-\newpage
-
 # Remerciements
 
 \bigskip
 
-Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et Julien Vanden Torren pour m'avoir acceuilli chez Dernier Cri, pour mon stage.
+Je tiens tout d'abord à remercier Benjamin Tierny, Robin Komiwes et Julien Vanden Torren pour m'avoir accueilli chez Dernier Cri, pour mon stage.
 
 \bigskip
 
@@ -12,11 +10,11 @@ Je remercie également mon suiveur Harry Claisse pour son aide et son accompagne
 
 \bigskip
 
-Merci également à toute l'équipe de *Dernier Cri* pour avoir rendu mon stage enrichissant et agréable, et pour m'avoir accueuilli à bras ouverts.
+Merci également à toute l'équipe de *Dernier Cri* pour avoir rendu mon stage enrichissant et agréable, et pour m'avoir accueilli à bras ouverts.
 
 \bigskip
 
-J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de faire ces études et m'ont soutenu durant ce stage.
+J'aimerais finalement remercier mes parents et mon frère, qui m'ont permis de faire ces études et m'ont soutenu durant ce stage.
 
 \newpage
 
@@ -73,6 +71,12 @@ Finalement, il me tient à coeur de présenter la communauté de développeurs L
 
 ## Histoire
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=1cm]{figures/NectifyToDC.png}
+  \caption{De Nectify à Dernier Cri}
+\end{figure}
+
 \bigskip
 
 En 2011, Robin Komiwes et Benjamin Tierny créent *Nectify*, une entreprise dont le but est le développement et la commercialisation de *Fresc*, un outil de partage d'avis sur des visuels. Bien que cet outil connaîtra un succès mérité (on comptabilise aujourd’hui près de 300 entreprises l’utilisant à travers de milliers de projets), la rentabilité financière n'est pas suffisante pour assurer la pérennité de l'entreprise.
@@ -106,6 +110,12 @@ Le secteur de l'informatique est aujourd'hui est en pleine expension. Pour donne
 
 ## Organisation
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/team.png}
+  \caption{L'équipe de *Dernier Cri*}
+\end{figure}
+
 \bigskip
 
 *Dernier Cri* est une entreprise à taille humaine. Cela se traduit par des cycles de décision courts, des dirigeants plus accessibles et la volonté de travailler dans un esprit d'équipe.
@@ -128,7 +138,7 @@ Etant donné que la plupart des développeurs travaille sur plusieurs projets en
 
 \bigskip
 
-TODO gestion de projet, github
+La gestion de projet peut se séparer en deux: la relation client, et la gestion de projet en interne. Le chef de projet s'occupe de gérer la première, tandis que la seconde se fait principalement par l'intermédiaire de *Github*. Ces deux points seront développés plus loin dans le rapport.
 
 \bigskip
 
@@ -311,14 +321,58 @@ J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'uti
 \bigskip
 
 Développée depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
-
-\bigskip
-
 Elle est aujourd'hui utilisée par de nombreuses entreprises telles que Netflix, Yahoo, Airbnb ou encore Sony.
 
 \bigskip
 
-Une des particularités de *React* est de découper l'application en composants, dépendant d'un état. Lors du changement de l'état d'un composant, *React* génère les changements en *HTML* pour les répercuter sur la page.
+Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object Model*) Virtuel. Le DOM est l’*API* qui permet au développeur web d’accéder et de manipuler le contenu d’une page web. Cette *API* founit une représentation structurée et orientée objet de votre document. Elle fournit également des méthodes pour l’ajout et la suppression d'éléments ainsi que la gestion des événements, ce qui permet de créer du contenu dynamique. Le problème est que la mise à jour du DOM, pour appliquer des modifications, est lente, et il faut donc limiter un maximum les interactions avec ce dernier.
+
+\bigskip
+
+Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de HTML mais une représentation sous forme d’objets et de nœuds de ce à quoi le HTML final doit ressembler. React va comparer cette représentation au DOM réel et en déduire les opérations minimales à exécuter pour que les deux soit identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du DOM en une opération plutôt qu’au fur et à mesure.
+
+\bigskip
+
+Une autre particularités de *React* est de découper l'application en composants, dépendant d'un état. C'est après un changement de cet état que React déduit les changements à effectué sur le DOM.
+
+\bigskip
+
+Il faut noté que les composants sont des classes, héritant de `React.Component`.
+Un composant React possède deux types de données :
+
+* des paramètres (*props*) immutables définis à son instanciation, qui ne peuvent être manipulés qu'à l'extérieur du composant;
+* un état (*state*), permettant le dialogue avec l'utilisateur. Cet état ne peut être modifié qu'à l'intérieur du composant;
+
+\bigskip
+
+Pour illustrer cette architecture, prenons l'exemple d'une simple application *Todo list*. Elle possède trois composants : la todo liste (`TodoListApp`), le formulaire d'ajout (`TodoForm`) et la l'affichage de la liste (`TodoItems`). Le composant principal est la liste, qui possède la logique et les données de l'application. Elle passe ses fonctions et ses données a ses composants enfants, selon leur besoin.
+
+```jsx
+class TodoListApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { items: [] };
+  }
+
+  addItem(element) {
+    var itemArray = this.state.items;
+    itemArray.push(element);
+    this.setState({ items: itemArray });
+    e.preventDefault();
+  }
+
+  render() {
+      return (
+        <div className="todoList">
+          <TodoForm onSubmit={this.addItem} />
+          <TodoItems items={this.state.items}/>
+        </div>
+      );
+    }
+}
+```
+
+Le formulaire utilisera la fonction `addItem` de TodoListApp pour modifier la liste. Cette modificaton de la liste déclenchera la modification du composant TodoItems, puisqu'il reçoit la liste comme *props*.
 
 \bigskip
 
@@ -338,6 +392,15 @@ En plus de *React*, Facebook a fourni une architecture appelée *Flux* pour la g
 
 \bigskip
 
+Avec Flux, l'application va se décomposer de la façon suivante :
+
+* des *stores* qui sont l’endroit où les données sont concervées ;
+* des *actions* qui représente l'ensemble des modifications possible ;
+* un  *dispatcher* qui notifie les stores des actions effectuées ;
+* des vues, les composants, qui vont transformer et afficher les données qu’on leur donne.
+
+\bigskip
+
 *Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
 
 \bigskip
@@ -346,7 +409,7 @@ La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un prem
 
 \bigskip
 
-Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser, je pense qu'il s'agit d'une des meilleurs. Elle permet d'appréhender certain concept de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support en cas de problème.
+Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser. Après m'étre beaucoup documenté et avoir discuté des différentes implémentation avec mes collègues, je pense qu'il s'agit d'une des meilleures. *Redux* permet d'appréhender certain concept de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support de la communauté en cas de problème.
 
 \bigskip
 
@@ -358,16 +421,30 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 ## Gestion de projet
 
+Le processus de développment d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraites, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien.
+
+Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois les besoins du client récoltés, il est nécessaire de mettre en place une méthodologie pour répartir les taches, suivres leur avancement et vérifier la qualité du livrable.
+
+\bigskip
+
 ### Relation client
-\bigskip
-
-Le processus de développement chez *Dernier Cri* se passe généralement comme suit. Tout d'abord notre chef de projet, Laetitia Cocusse, discute avec le client pour comprendre ses besoins et ses attentes. Selon les besoins, elle organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de proposer des solutions, peut être un peu différentes de celles imaginées par le client, ou encore de dire son avis sur les prochaines tâches.
 
 \bigskip
 
-Ensuite les taches sont estimées par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client.
+
+Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le CEO, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. Selon les besoins, le chef ce prohjet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client.
 
 \bigskip
+
+Après cette première étape, le chef de projet peut diviser les fonctionnalité en taches et les faires estimer par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client
+
+\bigskip
+
+Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'ets pourquoi un espace de *staging* est mis en place, pour permettre au client de tester et valider les nouvelles fonctionnalité avant la mise en production. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployée les nouvelles fonctionnalités.
+
+\bigskip
+
+Il est également courant de mettre en place des outils de *monitoring* pour assurer la qualités du code auprès du client.
 
 Une fois la tache validée, une *issue* est créé dans Github avec une description, l'estimation et le développeur à qui est attribuée la tache. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *Issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
 
@@ -395,7 +472,7 @@ Laetitia fait une *recette*, c'est à dire vérifie que la version de *staging* 
 
 Une fois un lot de taches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en prodcution* c'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
 
-\newpage
+\bigskip
 
 ### Organisation interne
 
@@ -415,8 +492,7 @@ Github propose depuis peu une section *Projet* permettant de gérer les *issues*
 
 C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogéne.
 
-\bigskip
-
+\newpage
 
 # Mes réalisations
 
@@ -701,6 +777,10 @@ Citer le fait que je n'ai presque pas eu de code review a cause de la confidenti
 \newpage
 
 \newpage
+
+## Autres projets
+
+# Générateur d'image pour les réseaux sociaux
 
 # La communauté Lilloise
 
