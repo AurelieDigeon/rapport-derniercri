@@ -813,8 +813,8 @@
   \item
     des \emph{stores} qui sont l'endroit où les données sont concervées ;
   \item
-    des \emph{actions} qui représente toutes les choses que votre appli
-    peut faire ;
+    des \emph{actions} qui représente l'ensemble des modifications
+    possible ;
   \item
     un \emph{dispatcher} qui notifie les stores des actions effectuées ;
   \item
@@ -844,10 +844,12 @@
   \bigskip
 
   Bien que \emph{Redux} soit la seule implémentation de \emph{Flux} que
-  j'ai eu l'occasion d'utiliser, je pense qu'il s'agit d'une des
-  meilleurs. Elle permet d'appréhender certain concept de la programmation
-  fonctionnel, est simple à utiliser et assez populaire pour offrir un
-  support en cas de problème.
+  j'ai eu l'occasion d'utiliser. Après m'étre beaucoup documenté et avoir
+  discuté des différentes implémentation avec mes collègues, je pense
+  qu'il s'agit d'une des meilleures. \emph{Redux} permet d'appréhender
+  certain concept de la programmation fonctionnel, est simple à utiliser
+  et assez populaire pour offrir un support de la communauté en cas de
+  problème.
 
   \bigskip
 
@@ -859,39 +861,94 @@
 
   \subsection{Gestion de projet}\label{gestion-de-projet}
 
+  Le processus de développment d'une application pour un client possède
+  deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en
+  place une bonne relation client, d'un part pour bien comprendre les
+  besoins et les contraites, d'autre part pour vérifier au fur et à mesure
+  du développement que la solution developpée correspond bien.
+
+  Le deuxième aspect de la gestion de projet est l'organisation interne.
+  Une fois les besoins du client récoltés, il est nécessaire de mettre en
+  place une méthodologie pour répartir les taches, suivres leur avancement
+  et vérifier la qualité du livrable.
+
+  \bigskip
+
   \subsubsection{Relation client}\label{relation-client}
 
   \bigskip
 
-  Le processus de développement chez \emph{Dernier Cri} se passe
-  généralement comme suit. Tout d'abord notre chef de projet, Laetitia
-  Cocusse, discute avec le client pour comprendre ses besoins et ses
-  attentes. Selon les besoins, elle organise une réunion avec le(s)
+  Lors du début du projet, le chef de projet discute avec le client pour
+  comprendre ses besoins et ses attentes. Aidé par le CEO, il essaye de
+  conceptualiser une solution au problèmes du client, en dégageant du
+  discout du client des fonctionnalités techniques à mettre en place.
+  Selon les besoins, le chef ce prohjet organise une réunion avec le(s)
   developpeur(s) et le client pour clarifier certains points ou pour
   discuter des différents approches du problèmes possible. C'est
-  l'occasion pour le développeur de proposer des solutions, peut être un
-  peu différentes de celles imaginées par le client, ou encore de dire son
-  avis sur les prochaines tâches.
+  l'occasion pour le développeur de comprendre la problèmatique métier qui
+  sera au coeur du projet, et de proposer des solutions, peut être un peu
+  différentes de celles imaginées par le client.
 
   \bigskip
 
-  Ensuite les taches sont estimées par un développeur. Il estime le temps
-  qu'il pense passer sur le problème, en prenant en compte l'exploration
-  de l'existant, le développement en lui-même, les tests et les possibles
-  retours. Cette estimation devra ensuite être validée par le client.
+  Après cette première étape, le chef de projet peut diviser les
+  fonctionnalité en taches et les faires estimer par un développeur. Il
+  estime le temps qu'il pense passer sur le problème, en prenant en compte
+  l'exploration de l'existant, le développement en lui-même, les tests et
+  les possibles retours. Cette estimation devra ensuite être validée par
+  le client
 
   \bigskip
 
-  Une fois la tache validée, une \emph{issue} est créé dans Github avec
-  une description, l'estimation et le développeur à qui est attribuée la
-  tache. Cela permet à chacun d'avoir une vue à tout moment de l'évolution
-  du projet, des tâches en cours ou terminées. Il est également possible
-  de commenter chaque \emph{Issue} pour, par exemple, demander des
-  précisions, ou faire remonter une erreur.
+  Il est ensuite temps de commencer le développement du projet. Il est
+  nécessaire de s'assurer tout au long du projet, que le produit en cours
+  de réalisation correspond aux attentes du client. C'est pourquoi un
+  espace de \emph{staging} est mis en place, pour permettre au client de
+  tester et valider les nouvelles fonctionnalité avant la mise en
+  production. Un espace de \emph{staging} est un environnement identique à
+  celui de l'application finale, mais utilisant de fausses données, où
+  sont déployée les nouvelles fonctionnalités.
 
   \bigskip
 
-  Selon les priorités, le développeur choisit ou non l'ordre des tâches.
+  Il est également courant de mettre en place des outils de
+  \emph{monitoring} pour assurer d'une part des performances, en termes de
+  temps de réponse par exemple, et d'autre part la qualité du code. Pour
+  cela \emph{Dernier Cri} utilise des outils tel que \emph{Papertrail}, ou
+  \emph{New Relic}.
+
+  \bigskip
+
+  \subsubsection{Organisation interne}\label{organisation-interne}
+
+  \bigskip
+
+  Une fois le projet découpé en focntionnalités puis en taches, estimé et
+  validé, une seconde phase de gestion de projet commence. C'est la
+  gestion interne du projet.
+
+  L'entreprise utilise principalement la plateforme \emph{Github}, pour
+  héberger le code de ses projets, et donc le logiciel de gestion de
+  versions \emph{Git}. \emph{Github} est une interface web permettant
+  d'interfacer avec des projets versionnés, et composés de multiples
+  applications aidant à la gestion de projets.
+
+  \bigskip
+
+  C'est sur un de ses outils que le chef de projet crée des \emph{issues},
+  c'est à dire un descriptif de chaque tâche. Une interface en forme de
+  tableau permet de séparer les tâches en plusieures colonnes, par exemple
+  : \emph{A faire}, \emph{En cours}, \emph{Terminé}. Il est aussi possible
+  d'attribuer les tâches à un contributeur, ou encore de leur attribuer
+  des labels tel que \emph{Urgent}, \emph{Bug} ou encore une estimation de
+  temps quand à la réalisation de la tâche. Cela permet à chacun d'avoir
+  une vue à tout moment de l'évolution du projet, des tâches en cours ou
+  terminées. Il est également possible de commenter chaque \emph{issue}
+  pour, par exemple, demander des précisions, ou faire remonter une
+  erreur.
+
+  \bigskip
+
   Pour protéger le projet actuel, stable, des nouvelles modifications tant
   que celles-ci ne sont pas testées, le développeur crée une
   \emph{branche} dans Github, c'est à dire une copie du projet qui
@@ -906,81 +963,40 @@
   ordinateur pour simuler l'environnement de production. Cela peut se
   traduire par la création d'une base de données, ou la connexion à une
   \emph{API} spéciale. Il faut faire attention à ce que les données
-  utilisée lors de la phase de développement n'aient pas d'impact sur
+  utilisées lors de la phase de développement n'aient pas d'impact sur
   celles de production.
 
   \bigskip
 
   Quand le développeur estime avoir terminer la tâche, il crée une
-  \emph{Pull request} sur Github (comme expliqué plus haut dans le
-  rapport). C'est alors le moment de prendre en compte les remarques et
-  conseils des autres membres de l'équipe, de corriger éventuellement des
-  éléments, pour s'assurer de la qualité du code avant de l'incorporer
-  dans le projet.
+  \emph{Pull request} sur Github, c'est à dire demande à fusionner sa
+  version du projet, modifiée pour résoudre la tâche, avec la version
+  principale, stable. Il demande ensuite à ses collégues ayant des
+  compétences dans le langage utilisé de relire et de commenter cette
+  \emph{Pull request}. C'est l'occasion pour les développeurs d'avoir
+  l'avis de leurs collégues sur leur style d'écriture et leur façon de
+  coder, ce qui permet souvent de découvrir de nouvelles méthodes et
+  d'argumenter sur les meilleurs techniques à utiliser. \emph{Dernier Cri}
+  utilise ce système de \emph{code review} pour garantir une certaine
+  qualité du code ainsi qu'un style d'écriture de code homogéne.
 
   \bigskip
 
   Une fois le développement de la fonctionnalité validé, la nouvelle
-  version du site est déployé en \emph{Staging}, c'est à dire une version
-  en ligne du site, qui a le même environnement que la production, mais
-  avec des fausses données. Ce site sert à tester les nouvelles
-  fonctionnalités avant de les pousser sur la production.
-
-  \bigskip
-
-  Laetitia fait une \emph{recette}, c'est à dire vérifie que la version de
-  \emph{staging} remplit bien le besoin exprimé par le client, et que la
-  nouvelle fonctionnalité n'a pas cassé autre chose. En cas de problème,
-  le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
+  version du projet est déployé en \emph{staging}. Le chef de projet et,
+  si nécessaire, le client font une \emph{recette}, c'est à dire vérifie
+  que la version de \emph{staging} remplit bien le besoin exprimé par le
+  client, et que la nouvelle fonctionnalité n'a pas endommagé la version
+  existante. En cas de problème, le développeur revient sur la tâche
+  jusqu'à ce que tout soit réglé.
 
   \bigskip
 
   Une fois un lot de taches effectuées, il est décidé en accord avec le
   client de pousser les modifications sur la production. Il faut alors
-  vérifier que la \emph{mise en prodcution} c'est bien passée : que le
+  vérifier que la \emph{mise en production} c'est bien passée : que le
   site fonctionne toujours et que les nouvelles fonctionnalités sont bien
   en place.
-
-  \bigskip
-
-  \subsubsection{Organisation interne}\label{organisation-interne}
-
-  \bigskip
-
-  L'entreprise utilise principalement la plateforme Github comme service
-  web d'hébergement et donc le logiciel de gestion de versions Git. Github
-  est une interface web permettant d'interfacer avec des projets
-  versionnés, et composés de multiples applications aidant à la gestion de
-  projets.
-
-  \bigskip
-
-  Github propose depuis peu une section \emph{Projet} permettant de gérer
-  les \emph{issues}, c'est à dire les tâches. Cette section permet
-  notamment de séparer les tâches en plusieures colonnes, par exemple :
-  \emph{A faire}, \emph{En cours}, \emph{Terminé}. Il est aussi possible
-  d'attribuer les tâches à un contributeur, ou encore de leur attribuer
-  des labels tel que \emph{Urgent}, \emph{Bug} ou encore une estimation de
-  temps quand à la réalisation de la tâche.
-
-  \bigskip
-
-  \emph{Dernier Cri} utilise ces outils mis à disposition par Github pour
-  mettre en place un processus de vérification de la qualité du code et
-  d'entraide. Chaque developpeur, une fois une tâche terminée, propose une
-  \emph{Pull request}, c'est à dire demande à fusionner sa version du
-  projet, modifiée pour résoudre la tâche, avec la version principale,
-  stable. Il demande ensuite à ses collégues ayant des compétences dans le
-  langage utilisé de relire et de commenter cette \emph{Pull request}.
-
-  \bigskip
-
-  C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues
-  sur leur style d'écriture et leur façon de coder, ce qui permet souvent
-  de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs
-  techniques à utiliser. \emph{Dernier Cri} utilise ce système de
-  \emph{code review} pour garantir une certaine qualité du code ainsi
-  qu'un style d'écriture de code homogéne.
 
   \newpage
 
@@ -994,9 +1010,8 @@
 
   \bigskip
 
-  J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes
-  périodes, ainsi que développer un outils pour le site de \emph{Dernier
-  Cri}.
+  Je vous présenterais également un outil que j'ai pus développer pour le
+  site de \emph{Dernier Cri}.
 
   \bigskip
 
@@ -1501,7 +1516,10 @@
 
   \subsubsection{Conclusion}\label{conclusion-1}
 
-  \newpage
+  \subsection{Autres projets}\label{autres-projets}
+
+  \subsubsection{Générateur d'image pour les réseaux
+  sociaux}\label{guxe9nuxe9rateur-dimage-pour-les-ruxe9seaux-sociaux}
 
   \newpage
 

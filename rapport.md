@@ -144,31 +144,34 @@ La gestion de projet peut se séparer en deux: la relation client, et la gestion
 
 *Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire de *blog posts* .
 
-### Talk interne
+### Présentations internes
 
 \bigskip
 
-Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des *talks*, c'est-à-dire de petites présentations. Celles-ci ont pour objectif de présenter certains enjeux et solutions techniques en rapport avec la réalisation d'un projet, le résultat d'une veille, ou tout simplement un sujet qui les intéresse. Les *talks* techniques permettent aux membres d'une équipe de partager entre eux leurs expériences et leurs passions.
+Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des petites présentations (*talks*) sur une technologie, le resultat d'une veille, ou certains enjeux et solutions techniques en rapport avec la réalisation d'un projet. Ces *talks* ont pour objectifs de partager aux collègues des expériences passées et/ou des passions.
 
 \bigskip
 
-Ces présentations ont deux principaux avantages. Tout d'abord elles permettent aux spectateurs de la présentation d'apprendre de nouvelles choses. C'est l'occasion de découvrir un sujet dont on ne se doutait pas de l'intéret ou bien de l'existence. De plus, la présentation est travaillée et structurée, car une personne a déjà fait l'effort de trier les informations et de les présenter de la manière la plus lisible, claire, et/ou ludique. C'est ainsi souvent beaucoup plus facile d'aborder un sujet avec ces *talks*, que de devoir effectuer une recherche d'information sur divers supports.
+Ces présentations ont trois principaux avantages pour les spectateurs:
+
+1. permettre aux spectateurs de la présentation d'apprendre de nouvelles choses - c'est ainsi l'occasion de découvrir un sujet dont on ne se doutait pas de l'intéret ou de l'existence ;  
+2. sensibiliser ses coéquipiers à des problèmes, ou des technologies, qui peut être un véritable gain de temps dans le futur - la présentation est travaillée et structurée, c'est ainsi souvent beaucoup plus facile d'aborder un sujet avec ces *talks*, que de devoir effectuer une recherche d'information sur divers supports ;  
+3. mutualiser la communication, et éviter de devoir expliquer individuellement les concepts.
 
 \bigskip
 
-Le second avantage concerne l'organisateur de la présentation. Tout d'abord, sensibiliser ses coéquipiers à des problèmes, ou des technologies, peut être un véritable gain de temps pour le futur. En effet, cela permet de mutualiser la communication, et d'éviter de devoir expliquer individuellement les concepts.
+De même, l'orateur, par l'intermédiaire de sa présentation, doit devenir un expert sur le sujet qu'il va couvrir. En effet, il devra assez approfondir le sujet pour être capable, d'une part d'être clair dans sa présentation, et d'autre part de répondre aux éventuelles questions posées à la suite de cette dernière.  
+Ainsi, c'est pour lui une occasion de travailler sur ces compétences d'orateur.
 
 \bigskip
 
-De plus, l'organisateur apprend beaucoup car, pour la création de la présentation, il doit devenir un expert sur le sujet qu'il va couvrir. Il devra assez approfondir le sujet pour être capable, d'une part d'être clair dans sa présentation, d'autre part de répondre aux éventuelles questions. Pour lui c'est aussi une occasion de travailler sur ces compétences d'orateur. Cela peut évidemment lui être utile pour son travail, sa vie de tout les jours, mais surtout un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte. En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations, ce qui est  très intéréssant mais aussi peut être assez intimidant. Le présentateur peut tester son talk en interne avant d'en faire partager la communauté.
+Un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte, afin de certifier l'intérêt du sujet, de sonder les angles d'approfondissement possible, de valider la prestance de l'orateur.  
+En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations (_Meetups_, _Take Off_, etc), ce qui est très intéréssant mais aussi peut être assez intimidant. L' orateur peut donc s'entraîner en interne, avant de l'ouvrir à la communauté.
 
 \bigskip
 
-Finalement, présenter un sujet issu d'une veille technologique permet, au-delà de faire découvrir aux autres un sujet potentiellement intéressant, de certifier l'intérêt du sujet. En effet, beaucoup de sujets qui semblent prometteur peuvent, avec un peu de recherche, se révéler creux et sans intêret.
-
-\bigskip
-
-Les *talks* internes sont aussi une très bonne manière de partager des connaissances de manière ludique. Durant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *React*, *Docker*, *Rust*, *MJML*... Mais aussi sur des sujets variés comme le Growth hacking (Ensemble de techniques de marketing permettant d'accélérer rapidement et significativement la croissance d'une *start-up*.), ou encore la fabrication d'un audit.. Ces présentations sont publiées sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg). Cela m'a permis de découvrir de nouveaux sujets et de mieux comprendre les discutions, et les problématiques que rencontraient mes collègues.
+Pendant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *ReactJS*, *Docker*, *Rust*, *MJML*, ou encore la fabrication d'un audit sur le traitement de grosses données pour une _startup_ en pleine expension.  
+Ces présentations sont publiées sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg).
 
 \bigskip
 
@@ -176,23 +179,21 @@ Les *talks* internes sont aussi une très bonne manière de partager des connais
 
 \bigskip
 
-Dernier Cri posséde également un [blog technique](http://derniercri.io/tech-blog) alimenté par les développeurs de l'équipe. Les objectifs sont notablement les mêmes que pour les présentations internes. Mais cela permet aussi à *Dernier Cri* de rayonner et montrer ses compétences techniques et son esprit d'analyse.
+Dernier Cri posséde également un [blog technique](http://derniercri.io/tech-blog), alimenté par les développeurs de l'équipe. Les objectifs sont sensiblement les mêmes que pour les présentations internes. C'est sur ce point que *Dernier Cri* fait le plus de communication externe, afin de rayonner, démontrer ses compétences techniques, et son esprit d'analyse.  
+Le blog technique permet ainsi à Dernier Cri de se positionner en tant qu’expert.
 
 \bigskip
 
-Le blog technique permet à Dernier Cri de se positionner en tant qu’expert. Publier des articles blog est excellent pour la réputation. En délivrant des conseils professionnels utiles, Dernier Cri prouve sa maîtrise de son activité.
+Un blog est également utile pour tenir informée sa clientelle : il permet de rester en contact permanent avec ses prospects, et de les tenir au courant de l’actualité de l'entreprise, comme un nouveau produit, la maitrise d'une nouvelle technologie, etc.
 
 \bigskip
 
-Cela permet également d'améliorer la visibilité de l'entreprise en exposant son savoir et savoir-faire à une large communauté professionnelle. Un blog est également utile pour tenir informée sa communauté : il permet de rester en contact permanent avec ses prospects et de les tenir au courant de toute l’actualité de son entreprise, comme un nouveau produit, une nouvelle technologie maitrisée ...
+Pour le rédacteur de l'article, cela a également de nombreux avantages. Par exemple, cela lui permet de travailler sa rédaction et son argumentation, de partager avec d'autres développeurs à travers les commentaires, de gagner en visibilité et en réputation, ou encore de se forcer à rester à la page, afin de rester exhaustif et à jour dans ses références.
 
 \bigskip
 
-Pour le rédacteur de l'article, cela a également de nombreux avantages. Par exemple, cela lui permet de travailler sa rédaction et son argumentation, de partager avec d'autres développeurs à travers les commentaires, de gagner en visibilité et en réputation, ou encore de se forcer à rester à la page, pour être exhaustif et à jour dans ses références.                               
-
-\bigskip
-
-J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog technique de *Dernier Cri*. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, React et Redux, ainsi que cinq outils que j'ai découvert et qui m'ont facilité la vie pour utiliser ses technologies. Ce fut une expérience très enrichissante. Cela m'a poussé à enrichir mes connaissances dans le domaine, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
+J'ai eu l'occasion lors de mon stage d'écrire un article pour le blog technique de *Dernier Cri*. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, *ReactJS* et *Redux*, ainsi que cinq outils que j'ai découvert et qui ont facilité le développement de mes projets.  
+Ce fut une expérience très enrichissante, car cela m'a poussé à enrichir mes connaissances dans le domaine du web, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
 
 \newpage
 
@@ -200,15 +201,7 @@ J'ai moi-même eu l'occasion lors de mon stage d'écrire un article pour le blog
 
 \bigskip
 
-Durant mon stage j'ai rejoint l'équipe de développeurs de l'entreprise et j'ai pu participer au développement de deux applications. Ces deux projets s'appuyaient sur le framework ReactJS, une bibliothèque JavaScript open-source développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc du tout d'abord me former.
-
-\bigskip
-
-Le premier projet auquel j'ai participé se nomme Photolix. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client en envoyant les photos au serveur dès leur sélection.
-
-\bigskip
-
-Le second projet est FinFrog, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le client possédait un site en ligne, mais souhaitait changer l'apparence et ajouter des fonctionnalités, ce pourquoi il a fait appel à *Dernier Cri*.
+Pendant mon stage, j'ai participer au développement de deux applications web : *Photolix* et *FinFrog*. Ces deux projets s'appuient sur le framework *ReactJS*, une bibliothèque *JavaScript* *open-source* développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc dû tout d'abord me former à l'écosystème *React*.
 
 \bigskip
 
@@ -216,15 +209,12 @@ Le second projet est FinFrog, un site proposant des prêts financés par des par
 
 \bigskip
 
-Lors de mon arrivée chez *Dernier Cri*, j'ai eu l'occasion de me former sur Javascript ES6, React ainsi que Redux, car l'entreprise prévoyait de me mettre sur des projets utilisant ces technologies.
+Je me suis formée sur *Javascript ES6*, *ReactJS* ainsi que *Redux*, car l'entreprise avait prévu de me confier des projets qui utilisent ces technologies.  
+Cette formation s'est faite à partir du site [Code school](https://www.codeschool.com/), qui dispose de cours vidéos et d'exercices interactifs. De même, j'ai également pu compter sur Fabien Gavory, un développeur de *Dernier Cri* spécialisé dans la technologie *ReactJS*, pour m'aider et m'expliquer certains concepts difficiles.
 
 \bigskip
 
-La popularité de ces trois technologies est en forte hausse, et de plus en plus demandée et utilisée pour la création d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces deux frameworks lors de mon stage.
-
-\bigskip
-
-Ma formation s'est faite à partir du site [Code school](https://www.codeschool.com/), disposant de cours en vidéos ainsi que d'exercices interactifs. Par la suite j'ai également pu compter sur Fabien Gavory, un développeur de *Dernier Cri*, pour m'aider et m'expliquer certains concepts difficiles.
+La popularité de ces trois technologies est en forte hausse, et elle sont de plus en plus utilisées pour la création facile, rapide et moderne d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces deux *frameworks* lors de ce stage.
 
 \bigskip
 
@@ -440,37 +430,11 @@ Après cette première étape, le chef de projet peut diviser les fonctionnalit�
 
 \bigskip
 
-Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'ets pourquoi un espace de *staging* est mis en place, pour permettre au client de tester et valider les nouvelles fonctionnalité avant la mise en production. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployée les nouvelles fonctionnalités.
+Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'est pourquoi un espace de *staging* est mis en place, pour permettre au client de tester et valider les nouvelles fonctionnalité avant la mise en production. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployée les nouvelles fonctionnalités.
 
 \bigskip
 
-Il est également courant de mettre en place des outils de *monitoring* pour assurer la qualités du code auprès du client.
-
-Une fois la tache validée, une *issue* est créé dans Github avec une description, l'estimation et le développeur à qui est attribuée la tache. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *Issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
-
-\bigskip
-
-Selon les priorités, le développeur choisit ou non l'ordre des tâches. Pour protéger le projet actuel, stable, des nouvelles modifications tant que celles-ci ne sont pas testées, le développeur crée une *branche* dans Github, c'est à dire une copie du projet qui évoluera indépendamment de la branche principale. C'est sur cette branche que seront faites les modifications destinées à implémenter la nouvelle fonctionnalité.
-
-\bigskip
-
-C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un environnement de developpement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'une base de données, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisée lors de la phase de développement n'aient pas d'impact sur celles de production.
-
-\bigskip
-
-Quand le développeur estime avoir terminer la tâche, il crée une *Pull request* sur Github (comme expliqué plus haut dans le rapport). C'est alors le moment de prendre en compte les remarques et conseils des autres membres de l'équipe, de corriger éventuellement des éléments, pour s'assurer de la qualité du code avant de l'incorporer dans le projet.
-
-\bigskip
-
-Une fois le développement de la fonctionnalité validé, la nouvelle version du site est déployé en *Staging*, c'est à dire une version en ligne du site, qui a le même environnement que la production, mais avec des fausses données. Ce site sert à tester les nouvelles fonctionnalités avant de les pousser sur la production.
-
-\bigskip
-
-Laetitia fait une *recette*, c'est à dire vérifie que la version de *staging* remplit bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas cassé autre chose. En cas de problème, le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
-
-\bigskip
-
-Une fois un lot de taches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en prodcution* c'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
+Il est également courant de mettre en place des outils de *monitoring* pour assurer d'une part des performances, en termes de temps de réponse par exemple, et d'autre part la qualité du code. Pour cela *Dernier Cri* utilise des outils tel que *Papertrail*, ou *New Relic*.
 
 \bigskip
 
@@ -478,19 +442,33 @@ Une fois un lot de taches effectuées, il est décidé en accord avec le client 
 
 \bigskip
 
-L'entreprise utilise principalement la plateforme Github comme service web d'hébergement et donc le logiciel de gestion de versions Git. Github est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
+Une fois le projet découpé en focntionnalités puis en taches, estimé et validé, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
+
+L'entreprise utilise principalement la plateforme *Github*, pour héberger le code de ses projets, et donc le logiciel de gestion de versions *Git*. *Github* est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
 
 \bigskip
 
-Github propose depuis peu une section *Projet* permettant de gérer les *issues*, c'est à dire les tâches. Cette section permet  notamment de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.
+C'est sur un de ses outils que le chef de projet crée des *issues*, c'est à dire un descriptif de chaque tâche. Une interface en forme de tableau permet de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
 
 \bigskip
 
-*Dernier Cri* utilise ces outils mis à disposition par Github pour mettre en place un processus de vérification de la qualité du code et d'entraide. Chaque developpeur, une fois une tâche terminée, propose une *Pull request*, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collégues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*.
+Pour protéger le projet actuel, stable, des nouvelles modifications tant que celles-ci ne sont pas testées, le développeur crée une *branche* dans Github, c'est à dire une copie du projet qui évoluera indépendamment de la branche principale. C'est sur cette branche que seront faites les modifications destinées à implémenter la nouvelle fonctionnalité.
 
 \bigskip
 
-C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogéne.
+C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un environnement de developpement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'une base de données, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisées lors de la phase de développement n'aient pas d'impact sur celles de production.
+
+\bigskip
+
+Quand le développeur estime avoir terminer la tâche, il crée une *Pull request* sur Github, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collégues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*. C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogéne.
+
+\bigskip
+
+Une fois le développement de la fonctionnalité validé, la nouvelle version du projet est déployé en *staging*. Le chef de projet et, si nécessaire, le client font une *recette*, c'est à dire vérifie que la version de *staging* remplit bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas endommagé la version existante. En cas de problème, le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
+
+\bigskip
+
+Une fois un lot de taches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en production* c'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
 
 \newpage
 
@@ -502,7 +480,15 @@ J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon
 
 \bigskip
 
-J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes périodes, ainsi que développer un outils pour le site de *Dernier Cri*.
+Le premier projet auquel j'ai participé se nomme Photolix. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client en envoyant les photos au serveur dès leur sélection.
+
+\bigskip
+
+Le second projet est FinFrog, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le client possédait un site en ligne, mais souhaitait changer l'apparence et ajouter des fonctionnalités, ce pourquoi il a fait appel à *Dernier Cri*.
+
+\bigskip
+
+Je vous présenterais également un outil que j'ai pus développer pour le site de *Dernier Cri*.
 
 \bigskip
 
@@ -512,7 +498,7 @@ J'ai aussi pu travailler sur d'autre projet en renfort sur de courtes périodes,
 
 \bigskip
 
-Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un studio de développement photo sur Lille, et souhaitait proposer à sa clientèle un site simple et efficace.
+Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un studio de développement photo sur Lille, et souhaitait proposer à sa clientèle une application simple et efficace permettant de commander le développement de photos.
 
 \bigskip
 
@@ -520,13 +506,13 @@ Le principal objectif de ce projet était de télécharger les photos vers le se
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo était notamment déjà écrite.
+Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo était notamment déjà développées.
 
 \bigskip
 
-Les objectifs du projet Photolix étaient les suivants :
+Les principaux objectifs du projet Photolix étaient les suivants :
 
-- mettre en place le *design* fournit par le client, à partir des maquettes sur Zeplin;
+- mettre en place le *design* fournit par le client, à partir de maquette ;
 - gérer l'envoi des photos au serveur;
 - mettre en place la possibilité de modifier les photos (formats, orientation...);
 - pages de saisie des informations du client (adresses, informations de paiement) et page de remerciement;
@@ -541,35 +527,31 @@ Lors de mon arrivée sur ce premier projet, j'ai du apprendre à utiliser certai
 
 \bigskip
 
-Tout d'abord, le projet utilise Github comme service web d'hébergement et de gestion de développement, et par conséquent le logiciel de gestion de versions Git. Bien qu'ayant déjà utilisé Git et Github lors de mon DUT informatique, de projet personnel ou bien de projet à l'UTC, je ne connaissais pas certaines fonctionnalités de Github utilisées par l'entreprise, notamment le code review et l'onglet projet. (Voir plus haut)
+Tout d'abord, le projet utilise *Github* pour héberger le code source et pour la gestion de projet, et le logiciel de gestion de versions *Git*. Bien qu'ayant déjà utilisé *Git* et *Github* lors de mon DUT informatique, de projets personnels ou bien de projets à l'UTC, je ne connaissais pas certaines fonctionnalités de Github utilisées par l'entreprise, notamment le code review et les outils de gestion de projet.
 
 \bigskip
 
-Le projet déjà existant utilisait npm comme gestionaire de paquets. npm est le gestionnaire de paquets officiel de Node.js. , automatiquement installé par défaut depuis la version 0.6.3 de Node.js. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car grace à cela on peut construire et lancer l'application en une commande.
+Le projet déjà existant utilisait npm, le gestionnaire de paquets officiel de Node.js. Il permet d'installer des applications Node.js disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car grâce à cela on peut construire et lancer l'application en une commande.
 
 \bigskip
 
-Pour mon environnement de travail, j'ai aussi utilisé un Linter. Code linting est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Il existe des linters de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation.
+Pour mon environnement de travail, j'ai aussi utilisé un *linter*. Le *code linting* est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Il existe des *linters* de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation. J'ai personnellement utilisé *ESLint*, qui est un *linter* JavaScript open-source et libre créé à l'origine par Nicholas C. Zakas en Juin 2013. La principale raison pour laquelle *ESLint* a été créé était de permettre aux développeurs de créer leurs propres règles de filtrage.
 
 \bigskip
 
-J'ai personnellement utilisé ESLint, qui est un utilitaire JavaScript open-source et libre créé à l'origine par Nicholas C. Zakas en Juin 2013. ESLint est écrit en utilisant Node.js pour fournir un environnement d'exécution rapide et une installation facile via npm. La principale raison pour laquelle ESLint a été créé était de permettre aux développeurs de créer leurs propres règles de filtrage.
+J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au Slack de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concrêtement, j'ai principalement utilisé le chatops pour déployer mon application.
 
 \bigskip
 
-J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au Slack de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concraitement, j'ai principalement utilisé le chatops pour déployer mon application.
+L'application était écrite en *React* avec l'utilisation de *Redux*. J'ai pu donc mettre en application les principes appris lors de ma première semaine à *Dernier Cri*.
 
 \bigskip
 
-L'application était écrite en React avec l'utilisation de Redux. J'ai pu donc mettre en application les principes appris lors de ma première semaine.
+Pour l'intégration du style du site, j'ai pu utiliser Zeplin. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de Sketch, un logiciel de création de maquette, et les ajouter aux dossiers de projet dans Zeplin. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple pour le développeur d'intégrer les maquettes.
 
 \bigskip
 
-Pour l'intégration du style du site, j'ai pu utiliser Zeplin. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de Sketch et les ajouter aux dossiers de projet dans Zeplin. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple d'intégrer les maquettes.
-
-\bigskip
-
-Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser SASS. Sass (Syntactically Awesome Stylesheets) est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de CSS3, ajoutant de nouvelles règles dans notre façon d'intégrer un web design. Les principaux ajouts sont : les variables, les mixins, l'héritage de sélection et différents options très utiles.
+Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SASS* (*Syntactically Awesome Stylesheets*). C'est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de *CSS3*, ajoutant de nouvelles règles dans notre façon d'intégrer un design. Les principaux ajouts sont : les variables, les *mixins,* l'héritage de sélection et différents options très utiles.
 
 \bigskip
 
@@ -774,13 +756,13 @@ Citer le fait que je n'ai presque pas eu de code review a cause de la confidenti
 
 ### Conclusion
 
-\newpage
 
-\newpage
 
 ## Autres projets
 
-# Générateur d'image pour les réseaux sociaux
+### Générateur d'image pour les réseaux sociaux
+
+\newpage
 
 # La communauté Lilloise
 
