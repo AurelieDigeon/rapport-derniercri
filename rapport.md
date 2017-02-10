@@ -222,19 +222,22 @@ La popularité de ces trois technologies est en forte hausse, et elle sont de pl
 
 \bigskip
 
-Le Javascript est un langage de programmation incontournable du web. Si à sa création il servait principalement à la réalisation d'animation, il est aujourd'hui au centre des applications. Le javacript sert maintenant à contôoler presque la totalité de l'application web. Cependant, ce langage n'étant pas prévu pour une telle complexité, il en résulte une syntaxe complexe et lourde. C'est dans ce contexte qu'une mise à jour du langage s'est imposée.
+*JavaScript* est un langage de programmation orienté web (pages web dynamiques et serveur grâce à *NodeJS*), devenu incontournable. Créé en 1995 par Brendan Eich, il servait principalement à la réalisation d'animations. Aujourd'hui, il est au centre des applications, car avec ce langage que nous pouvons désormais contrôler la totalité de ces dernières.  
+Cette montée en popularité s'est faite brusquement avec l'arrivée du moteur *V8* de Google, qui est au centre de Chromium. Ce langage n'étant pas prévu à la base pour créer une application web, la syntaxe de *JavaScript* est complexe et lourde. C'est dans ce contexte qu'une mise à jour du langage s'est imposée: *ES6*.
 
 \bigskip
 
-ES6 (ECMAScript Edition 6 ou encore ES2015) a été publiée en juin 2015. Il ajoute un ensemble de normes à celles déjà présentes, pour apporter de nouvelles fonctionnalités qui permettent d'alléger le code, de le structurer, et de le rendre notamment plus maintenable, tout en restant compatible avec le code existant.
+*ES6* (*ECMAScript Edition 6*, ou encore *ES2015*) a été publiée en Juin 2015.  
+Elle ajoute un ensemble de normes à celles déjà présentes, afin d'améliorer des fonctionnalités existantes dans *ES5*, et d'en apporter de nouvelles qui permettent d'alléger le code, ou de mieux le structurer.  
+Ce tout permet de rendre le code source de l'application plus maintenable, tout en restant compatible avec les précédentes versions de *JavaScript*.
 
 \bigskip
 
-Voici quelques nouveautés notoires de ES6 :
+Voici quelques nouveautés notoires de *ES6* :
 
-* Introduction du *let* : contrairement au *var* présent dans les anciennes versions, il permet de déclarer une variable limitée à la portée d'un bloc, c'est-à-dire qu'elle ne peut être utilisée que dans le bloc où elle a été déclarée.
+* L'introduction du mot-clef *let* : tout comme le mot-clef *var*, présent dans les anciennes versions de JavaScript, il permet de déclarer une variable, mais celle-ci reste limitée à la portée d'un bloc - c'est-à-dire que la variable ne peut être utilisée que dans le bloc où elle a été déclarée.
 
-* Les littéraux de gabarits (*template literals*): c'est une alternative aux concaténations, qui ne sont pas pratique et lisible. Le *Template String* permet de déclarer des chaînes avec des variables à évaluer à l'intérieur.
+* Les littéraux de gabarits (*Template Literals*): ils correspondent à une technique d'intégration d'expressions, à l'intérieur de chaînes de caractères. Par rapport aux anciennes versions de JavaScript, ils sont une alternative aux concaténations, qui n'étaient pas pratiques et lisibles (voir exemple ci-dessous).
 
     ```Javascript
     // ES6
@@ -245,13 +248,13 @@ Voici quelques nouveautés notoires de ES6 :
     var result = "Voici le rapport de " + me;
     ```
 
-* Paramétres par défauts: auparavant, pour définir une valeur par défaut pour un paramètre, il fallait tester s'il valait undefined et lui affecter une valeur choisie le cas échéant. ES6 permet de faire cela directement lors de sa définition.
+* Les paramètres par défaut: auparavant, pour définir une valeur par défaut pour un paramètre donné, il fallait tester si ce paramètre avait bien une valeur définie (différente de `undefined`), et lui affecter une valeur choisie le cas échéant. *ES6* permet de faire cela directement lors de sa définition, avec une syntaxe plus concise.
 
     ```Javascript
     // ES6
     function f (x = 0, y = 0) {
         return x + y
-    }
+    };
     // ES5
     function f (x, y) {
         if (x === undefined)
@@ -262,8 +265,7 @@ Voici quelques nouveautés notoires de ES6 :
     };
     ```
 
-* Initialisateur d'objet: Il arrive souvent de vouloir utiliser des variables comme propriétés d'un objet.
-ES6 introduit une notation permettant d'utiliser le nom de la variable comme nom de la propriété de l'objet créé.
+* Initialisateur d'objets: il arrive souvent de vouloir utiliser des variables comme propriétés d'un objet. *ES6* introduit une notation permettant d'utiliser le nom de la variable comme nom de la propriété de l'objet créé.
 
     ```Javascript
     // ES6
@@ -272,7 +274,7 @@ ES6 introduit une notation permettant d'utiliser le nom de la variable comme nom
     obj = { x: x, y: y };
     ```
 
-* Affectation par décomposition:
+* Affectation par décomposition: pour accéder aux valeurs des propriétés d'un objet, il fallait pour cela itérer sur ces propriétés, ce qui était fastidieux et gourmand en lignes de code. *ES6* a introduit une notation permettant de faire cela facilement, de façon compacte et implicite:
 
     ```Javascript
     // ES6
@@ -285,24 +287,27 @@ ES6 introduit une notation permettant d'utiliser le nom de la variable comme nom
     var c = tmp.c;
     ```
 
-Arraw fonction ?
-Classe et héritage ?
+Arraw fonction ? OUI
+Classe et héritage ? OUI
+Héritage de la programmation fonctionnelle à travers `let` et `arrow functions`.
 
 \bigskip
 
-ES6 n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers ES5, comme Babel.js. Un transcompilateur permet de prendre le code d'un langage de programmation comme son entrée et de récupérer en sorti le code dans un autre langage. Ici Babel.js va traduire les particularité de ES6 en code javascript compatible avec ES5.
+Étant donné que *ES6* n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers *ES5*, comme le fait *Babel.js*. Un transcompilateur permet de prendre le code d'un langage de programmation comme son entrée, et de récupérer en sortie le code dans un autre langage.  
+Ici, *Babel.js* va traduire les particularité syntaxiques de *ES6* en *ES5*.
 
 \bigskip
 
-L'apprentissage de ES6 a était primordial pour mon stage : les nouvelles normes rendent vraiment le code plus facile à lire et à écrire. J'ai ainsi dès le début de mon stage, pus prendre de bonnes habitudes quant au style de mon code.
+L'apprentissage de *ES6* a était primordial pour mon stage : les nouvelles normes rendent vraiment le code plus facile à lire et à écrire. J'ai ainsi, dès le début de mon stage, pu prendre de bonnes habitudes quant au style de mon code.
 
 \bigskip
 
-Cela m'a également permi de me familiariser avec les normes ECMAScript et de me persuader de la nécessité de rester attentive aux différentes actualités et évolutions des langages. En effet, dans le milieu de l'informatique, les normes et et les frameworks utilisés sont très changeants et il est donc important de rester attentif à l'actualité.
+En effet, j'ai eu l'occasion durant ce stage de travailler sur un projet *JavaScript* n'utilisant pas *ES6* et j'ai eu de grandes difficultés à me passer des facilités d'écritures. J'ai ainsi pu me rendre compte que, sans *ES6*, le code est beaucoup plus long et laborieux à lire et à écrire.
 
 \bigskip
 
-J'ai eu l'occasion durant mon stage de travailler sur un projet JavaScript n'utilisant pas ES6 et j'ai eu de grande difficultés à me passer des facilités d'écritures. Sans ES6, le code est beaucoup plus long et laborieux à lire et à écrire.
+Cela m'a également permis de me familiariser avec les normes *ECMAScript*, composant les différentes versions du langage *JavaScript*, et de me persuader de la nécessité de rester attentive aux différentes actualités et évolutions des langages.  
+En effet, dans le milieu de l'informatique, les normes et les *frameworks* utilisés changent très souvent, et il est donc important de rester attentif à l'actualité.
 
 \bigskip
 
@@ -476,11 +481,11 @@ Une fois un lot de taches effectuées, il est décidé en accord avec le client 
 
 \bigskip
 
-J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon plus ou moins importantes. Je vais vous présenter dans cette partie les deux principaux projets sur lesquels je me suis investie.
+J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon plus ou moins importantes. Je vais commencer par vous présenter les deux principaux projets sur lesquels je me suis investie.
 
 \bigskip
 
-Le premier projet auquel j'ai participé se nomme Photolix. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client en envoyant les photos au serveur dès leur sélection.
+Le premier projet auquel j'ai participé se nomme Photolix. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client.
 
 \bigskip
 
@@ -513,9 +518,9 @@ Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déj�
 Les principaux objectifs du projet Photolix étaient les suivants :
 
 - mettre en place le *design* fournit par le client, à partir de maquette ;
-- gérer l'envoi des photos au serveur;
-- mettre en place la possibilité de modifier les photos (formats, orientation...);
-- pages de saisie des informations du client (adresses, informations de paiement) et page de remerciement;
+- gérer l'envoi des photos au serveur ;
+- mettre en place la possibilité de modifier les photos (formats, orientation...) ;
+- pages de saisie des informations du client (adresses, informations de paiement) et page de remerciement.
 
 \bigskip
 
@@ -531,15 +536,15 @@ Tout d'abord, le projet utilise *Github* pour héberger le code source et pour l
 
 \bigskip
 
-Le projet déjà existant utilisait npm, le gestionnaire de paquets officiel de Node.js. Il permet d'installer des applications Node.js disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car grâce à cela on peut construire et lancer l'application en une commande.
+Le projet déjà existant utilisait npm, le gestionnaire de paquets officiel de Node.js. Il permet d'installer des applications Node.js disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car elle permet de construire et lancer l'application en une commande.
 
 \bigskip
 
-Pour mon environnement de travail, j'ai aussi utilisé un *linter*. Le *code linting* est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Il existe des *linters* de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation. J'ai personnellement utilisé *ESLint*, qui est un *linter* JavaScript open-source et libre créé à l'origine par Nicholas C. Zakas en Juin 2013. La principale raison pour laquelle *ESLint* a été créé était de permettre aux développeurs de créer leurs propres règles de filtrage.
+Pour mon environnement de travail, j'ai aussi utilisé un *linter*. Le *code linting* est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Concraitement, il permet d'afficher dans un éditeur de texte les erreurs. Il existe des *linters* de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation. J'ai personnellement utilisé *ESLint*, qui est un *linter* JavaScript open-source, libre et qui permet aux développeurs de créer leurs propres règles de filtrage.
 
 \bigskip
 
-J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au Slack de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concrêtement, j'ai principalement utilisé le chatops pour déployer mon application.
+J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au *Slack* (une application de messagerie) de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concrêtement, j'ai principalement utilisé le chatops pour déployer mon application.
 
 \bigskip
 
@@ -563,19 +568,31 @@ Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SA
 
 \bigskip
 
-La première partie du projet consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Mais à la réception des maquettes, l'application était devenue multi-page. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
+La première partie du projet a consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Mais à la réception des maquettes, l'application était devenue multi-page. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
 
 \bigskip
 
 J'ai choisi, après quelques recherches, d'utiliser React Router. [React Router](https://github.com/ReactTraining/react-router) est une bibliothèque de routage pour React. Il dispose d'une *API* simple avec des fonctionnalités puissantes. Il garde l'interface utilisateur synchronisé avec l'*URL*. React Router est très simple à utiliser. Il suffit de lister les différentes routes souhaitées, associées au composant correspondant.
 
+```jsx
+// Exemple de création de routes avec React-Router
+import { Router, Route, hashHistory } from 'react-router'
+
+render((
+  <Router history={hashHistory}>
+    <Route path="/" component={App}/>
+    <Route path="/about" component={About}/>
+  </Router>
+), document.getElementById('app'))
+```
+
 \bigskip
 
-Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feuilles de style. Pour faciliter son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisés dans tout le projet. Le fichier `variable` contient notamment les codes hexadecimaux des couleurs de l'application, les tailles des polices d'écriture utilisées, etc. Utiliser des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
+Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feuilles de style. Pour faciliter son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisés dans tout le projet. Le fichier contient notamment les codes hexadecimaux des couleurs de l'application, les tailles des polices d'écriture utilisées, etc. Utiliser des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
 
 \bigskip
 
-Une fois ces fichiers SASS principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le CSS (Cascading Style Sheets), c'est à dire le langage décrivant la présentation de l'application. En effet, jusque là je n'avais pas eu l'occasion d'appronfondir mes connaissances en intégration.
+Une fois ces fichiers SASS principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le CSS (*Cascading Style Sheets*), c'est à dire le langage décrivant la présentation de l'application.
 
 \bigskip
 
@@ -587,11 +604,11 @@ L'intégration du style fut assez rapide, l'application étant visuellement asse
 
 \bigskip
 
-La deuxième partie du projet était centrée sur le téléchargement des photos vers le serveur. Le client a lui même développé une API assez simple que nous devions manipuler pour envoyer les photos, changer le nombre d'exemplaire, récupérer le prix de la commande...
+La deuxième partie du projet était centrée sur le téléchargement des photos vers le serveur. Le client nous a fourni une *API* assez simple que nous devions manipuler pour envoyer les photos, changer le nombre d'exemplaire, récupérer le prix de la commande...
 
 \bigskip
 
-La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'API. En effet, celle-ci évoluant en même temps que l'application et ne possédant pas de documentation, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'API a ralenti le développement.
+La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférent developper cette partie de l'application lui-même. En effet, celle-ci évoluant en même temps que l'application et ne possédant pas de documentation, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti le développement.
 
 \bigskip
 
@@ -599,7 +616,7 @@ Une autre difficulté était le redimensionnement des images avant l'envoi au se
 
 \bigskip
 
-Cela a donc donné lieu à beaucoup de discutions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimal pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
+Cela a donc donner lieu à beaucoup de discussions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimal pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
 
 \bigskip
 
@@ -611,37 +628,40 @@ L'étape suivante est la création de l'interface et des fonctions permettant à
 
 \bigskip
 
-C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est trés facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [react-cropper](https://github.com/roadmanfong/react-cropper), trouvé sur Github après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
+C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est très facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [react-cropper](https://github.com/roadmanfong/react-cropper), trouvé sur Github après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
 
 \bigskip
 
-Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisé lors du téléchargement initial. J'y ai ajouté des paramétres permettant de choisir le format, l'orientation, si on coupe la photo ou bien on ajoute des bandes blanche...
+Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisée lors du téléchargement initial. J'y ai ajouté des paramètres permettant de choisir le format, l'orientation, si on coupe la photo ou bien on ajoute des bandes blanche...
 
 \bigskip
 
-Enfin, il a fallut mettre en place l'interface utilisateur. Ce fut une étape
+Enfin, il a fallut mettre en place l'interface utilisateur. Durant cette étape nous avons beaucoup échangé avec le client pour essayer de trouver la présentation la plus intuitive et pratique pour le client. Par la suite, lors des premiers test de l'application, nous avons du modifier cette page suite à des retours des testeurs.
 
 #### Pages informations des clients, paiement et remerciement
 
 \bigskip
 
-La dernière partie du projet consisté à mettre en place les autres pages de l'application, servant à récolter les informations nécessaires à la commande, et à les envoyer à l'API. Ces pages étaient la page de saisie des adresses, de livraison et de facturation, la page de paiement, soit par carte bancaire, soit par Paypal, et enfin la page de remerciement avec un récapitulatif de la commande, ainsi que des liens pour partager l'événement sur les réseaux sociaux.
+La dernière partie du projet consistait à mettre en place les autres pages de l'application, servant à récolter les informations nécessaires à la commande, et à les envoyer à l'API. Ces pages sont :
+* la page de saisie des adresses, de livraison et de facturation ;
+* la page de paiements, soit par carte bancaire, soit par Paypal ;
+* la page de remerciements avec un récapitulatif de la commande, ainsi que des liens pour partager l'événement sur les réseaux sociaux.
 
 \bigskip
 
-Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour la première fois un formulaire en React et Redux. Avec ce langage, la création de formulaire est assez peut instactif car il faut répercuter chaque changement des champs, chaque lettre écrite ou effacée, pour que l'état de l'applications soit toujours à jour. C'est assez fastidieux et inhabituel.
+Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour la première fois un formulaire en React et Redux. Avec ce framework, la création de formulaire est assez peut instinctif car il faut répercuter chaque changement des champs, chaque lettre écrite ou effacée, pour que l'état de l'application soit toujours à jour. C'est assez fastidieux et inhabituel.
 
 \bigskip
 
-Après cette première expériences dans la création de formulaire, j'ai pus découvrir un outil, redux-form, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise à jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord du faire toute l'implémentation nécéssaire par moi même m'a permis de prendre conscience des problématiques de cette pile technologique : le maintiens de l'état de l'application, la communication entre les composants...
+Après cette première expérience dans la création de formulaire, j'ai pu découvrir un outil, *redux-form*, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise-à-jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord dû faire toute l'implémentation nécessaire par moi-même m'a permis de prendre conscience des problèmatiques de cette pile technologique : le maintient de l'état de l'application, la communication entre les composants...
 
 \bigskip
 
-J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager sur les réseaux sociaux l'événement. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé a une URL.
+J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager l’évènement sur les réseaux sociaux. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé a une URL.
 
 \bigskip
 
-Finalement, sur les trois pages précédemment citées, j'ai du faire apparaitre un récapitulatif de la commande, avec notamment le nombre de photos commandé, le prix par photos, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandé de la réflection car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolue, il faut récupérer le prix à partir de l'API, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toute les photos ne soient pas encore envoyé à l'API et donc le pris renvoyé par celle-ci n'est pas définitive. IL est alors donc nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'API, puisqu'il s'agit du prix final.
+Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaître un récapitulatif de la commande, avec notamment le nombre de photos commandées, le prix par photo, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandée de la réflexion car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolu, il faut récupérer le prix à partir de l'API, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toute les photos ne soient pas encore envoyé à l'API et donc le prix renvoyé par celle-ci n'est pas définitif. Il est alors donc nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'API, puisqu'il s'agit du prix final.
 
 \bigskip
 
@@ -649,7 +669,7 @@ Finalement, sur les trois pages précédemment citées, j'ai du faire apparaitre
 
 \bigskip
 
-Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet Photolix à Fabien. Il a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leur modification. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante : si l'on monté à une centaine de photos chargées, le navigateur ne supportait pas la charge.
+Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet Photolix à un collègue. Celui-ci a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leurs modifications. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante :  si nous montions à une centaine de photos chargées, le navigateur ne supportait pas la charge.
 
 \bigskip
 
@@ -657,7 +677,7 @@ J'ai pu étudier les modifications apportées par Fabien, et apprendre des erreu
 
 \bigskip
 
-Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier rendu au client, celui-ci souhaité quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon de client pour tester l'application et avait relevé des améliorations possibles à l'interface utilisateur. J'ai donc pu aider Fabien à mettre en place ces modifications.
+Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier rendu au client, celui-ci souhaitait quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon de clients pour tester l'application et avait relevé des améliorations possibles à l'interface utilisateur. J'ai donc pu aider Fabien à mettre en place ces modifications.
 
 \bigskip
 
@@ -687,38 +707,38 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécéssité de fournir un developpeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog.
+Avec l'arrivée d'un nouveau client et la nécedsité de fournir un developpeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog.
 
 \bigskip
 
-Finfrog est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque car ils sont trop faibles ou bien que la personne est au chômage.
+Finfrog est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque.
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un site été déjà en ligne, développé par le client. Le premier objectif était de mettre en place un nouveau design sur ce site, d'abord sur la page d'acceuil, et ensuite sur les formulaires de demande de prêt.
+Lors de mon arrivée sur le projet, un site était déjà en ligne, développé par le client. Le premier objectif était de mettre en place un nouveau design sur ce site, d'abord sur la page d'accueil, et ensuite sur les formulaires de demande de prêt.
 
 \bigskip
 
-Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et préteur, la génération de contrat.
+Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
 
 
 ### Outils utilisés
 
 \bigskip
 
-La projet Finfrog utilisait principalement les même outils que Photolix : utilisation de npm pour la gestion des paquets, de Zeplin pour étudier le design, de React et Redux etc.
+La projet Finfrog utilisait principalement les même outils que Photolix : utilisation de npm pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux* etc.
 
 \bigskip
 
-Cependant à mon arrivée sur FinFrog, le projet était hébergé sur Bitbucket et non pas Github. Il a donc fallut que je m'habitue à ce nouveaux gestionaire. Par la suite nous avons migré le projet sur Github.
+Cependant à mon arrivée sur FinFrog, le projet était hébergé sur *Bitbucket* et non pas Github. Il a donc fallut que je m'habitue à ce nouveaux gestionaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github*.
 
 \bigskip
 
-Sur ce projet, nous avions aussi en charge la partie API et base de donnée. L'API est écrite en Nodejs et la base de donnée est une postgres, donc manipulable en SQL. Cependant il était rare que je doive toucher à la base de donnée.
+Sur ce projet, nous avions aussi en charge la partie API et base de donnée. L'API est écrite en *Nodejs* et la base de donnée est une *postgres*, donc manipulable en *SQL*. Cependant j'ai eu peu d'occasion de manipuler la base de donnée.
 
 \bigskip
 
-Finalement, pour lancer les processus du site et de l'API, nous avons utilisé PM2. PM2 est un gestionnaire de processus de production pour les applications Node.js avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches administratives courantes du système.
+Finalement, pour lancer les processus du site et de l'API, nous avons utilisé *PM2*. *PM2* est un gestionnaire de processus de production pour les applications *Node.js* avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches administratives courantes du système.
 
 \bigskip
 
@@ -754,6 +774,9 @@ A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'u
 
 Citer le fait que je n'ai presque pas eu de code review a cause de la confidentialité
 
+#### Arrivée d'un nouveau dev
+
+
 ### Conclusion
 
 
@@ -770,7 +793,7 @@ Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une c
 
 \bigskip
 
-La ville a notamment reçu le label 'French Tech' fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
+La ville a notamment reçue le label 'French Tech' fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
 
 \bigskip
 
@@ -782,7 +805,7 @@ De plus Lille a mis en place un ensemble de structures favorisant l'accompagneme
 
 \bigskip
 
-La région lilloise posséde d'autre espaces dédié à l'innovation, les *startup* et l'entrepreneuriat : La Plaine Images à Tourcoing et Roubaix, Eurasanté à Lille, La Haute Borne à Villeneuve d'Ascq, La Serre Numérique à Valenciennes, Le Pôle Numérique Culturel Louvre Lens Vallée de Lens...
+La région lilloise posséde d'autre espaces dédié à l'innovation, les *startups* et l'entrepreneuriat : La Plaine Images à Tourcoing et Roubaix, Eurasanté à Lille, La Haute Borne à Villeneuve d'Ascq, La Serre Numérique à Valenciennes, Le Pôle Numérique Culturel Louvre Lens...
 
 \bigskip
 
@@ -798,15 +821,15 @@ Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter 
 
 \bigskip
 
-*Dernier Cri* m'a donné l'occasion durant mon stage d'assister à la [**Take Off Conference**](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement a lieu depuis plusieurs années à EuraTechnologies.
+*Dernier Cri* m'a donné l'occasion durant mon stage d'assister à la [*Take Off Conference*](http://takeoffconf.com/2016) les 20 et 21 octobre 2016. Cet évènement a lieu depuis plusieurs années à EuraTechnologies.
 
 \bigskip
 
-Historiquement, ce sont les fondateurs de *Dernier Cri* qui ont créé la **Take Off Conference**, avec Florian Le Goff. Aujourd'hui ce sont d'autres acteurs de la communauté web de Lille qui ont pris le relais pour proposer une nouvelle édition.
+Historiquement, ce sont les fondateurs de *Dernier Cri* qui ont créé la *Take Off Conference*, avec Florian Le Goff. Aujourd'hui ce sont d'autres acteurs de la communauté web de Lille qui ont pris le relais pour proposer une nouvelle édition.
 
 \bigskip
 
-La **Take Off Conference** est un cycle de conférences anglophones. L’événement dure 2 jours, et accueille des conférenciers du monde entier. Bien qu'elle reste avant tout une conférence pour les développeurs Web, elle reste accessible pour les développeurs en général.
+La *Take Off Conference* est un cycle de conférences anglophones. L’événement dure 2 jours, et accueille des conférenciers du monde entier. Bien qu'elle reste avant tout une conférence pour les développeurs Web, elle reste accessible pour les développeurs en général.
 
 \bigskip
 
@@ -830,11 +853,11 @@ La communauté web de Lille est très active pour organisé des évenements. De 
 
 \bigskip
 
-Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des Meetup de Lille FP (Fonctionnal programming, c'est à dire programmation fonctionnelle) et de Lille Elixir.
+Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des Meetup de Lille FP (*Fonctionnal programming*, c'est à dire programmation fonctionnelle) et de Lille Elixir.
 
 \bigskip
 
-Certains membres de l'équipe sont également investis dans ces rencontres, en tant qu'organisateur ou bien speaker. Les patrons les poussent à (prendre part a la vie de la communauté web). J'ai ainsi pu facilement être au courant des différents évenements Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
+Certains membres de l'équipe sont également investis dans ces rencontres, en tant qu'organisateur ou bien orateur. Les dirigeants de *Dernier Cri* les encouragent également beaucoup à prendre part à la vie de la communauté web. J'ai ainsi pu facilement être au courant des différents évenements Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
 
 \bigskip
 
@@ -850,7 +873,7 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 \bigskip
 
-*Dernier Cri* a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'aspiration et d'envie d'entreprendre.
+*Dernier Cri* a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'inspiration et d'envie d'entreprendre.
 
 \newpage
 
