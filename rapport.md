@@ -673,7 +673,7 @@ Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du 
 
 \bigskip
 
-J'ai pu étudier les modifications apportées par Fabien, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que Fabien reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.
+J'ai pu étudier les modifications apportées par mon collègue, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que mon collègue reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.
 
 \bigskip
 
@@ -686,19 +686,19 @@ Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier re
 
 \bigskip
 
-Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essenciel pour mon intégration dans l'équipe de développement.
+Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essentiel pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
-Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expensions, et évolue beaucoup et ont un belle avenir devant elles. J'ai également pu apprendre a deveopper en front-end, alors que jusque là mes compétences techniques étaient plus tournée vers du back.
+Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expensions, évolue beaucoup et ont un bel avenir devant elles. J'ai également pu apprendre le développement *front-end*, alors que jusque là mes compétences techniques étaient plus tournée vers du *back*.
 
 \bigskip
 
-Evidemment, j'ai connus de nombreuse difficultés lors du développemment de Photolix. Mon inexpérience m'a conduit à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue, Fabien Gavory, pour me soutenir, me corriger et rattraper certaine erreurs, surtout vers la fin du projet. Grace à cela, j'ai pu mettre en place de meilleurs pratiques durant le projet suivant.
+Evidemment, j'ai connu de nombreuses difficultés lors du développemment de Photolix. Mon inexpérience m'a conduite à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue présent sur le projet, pour me soutenir, me corriger et rattraper certaines erreurs, surtout vers la fin du projet. Grâce à cela, j'ai pu mettre en place de meilleures pratiques durant le projet suivant.
 
 \bigskip
 
-Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraie problématiques du developpement d'une application web, de la relation cliente, avec des dates butoire et des évolutions des spécifications en cours de projet.
+Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraie problématiques du développement d'une application web, de la relation cliente, avec des dates butoire et des évolutions des spécifications en cours de projet.
 
 
 ## Finfrog
@@ -707,7 +707,7 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécedsité de fournir un developpeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog.
+Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog.
 
 \bigskip
 
@@ -748,38 +748,143 @@ Finalement, pour lancer les processus du site et de l'API, nous avons utilisé *
 
 \bigskip
 
-A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.
+A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.  
+Ce fut également l'occasion de m'adapter a l'organisation - tant au niveau du code, que du processus de développement - du développeur déjà présent sur le projet chez le client. Au début du projet, je n'avais accès qu'au code du côté *front* de l'application, tandis que le développeur du client gardé la main sur l'API ainsi que la partie du projet calculant les intêrets des prêts.
 
 \bigskip
 
+L'intégration du nouveau design de la page d'accueil fut une bonne entrée en matière : elle était assez simple, principalement du changement de couleur et d'images, pour mettre en place la nouvelle identité visuel de l'application. J'ai pu ainsi me familiariser avec l'organisation du code source du projet ainsi que la logique métier sous-jacente.
 
+\bigskip
+
+Après la page d'accueil j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus techniques : la communications entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'API et récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
+
+\bigskip
+
+Pour la gestion des formulaires, le projet utilisé *Redux Form*, un outils permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fournies par Redux Form pour construire le formulaire. Cela se concrétise principalement par deux éléments :
+
+* une fonction `reduxForm({form: 'formName'})(TestForm)` où `Testform` est un composant contenant le formulaire et `formName` un nom unique, qui identifiera le formulaire, notamment dans le *store*.
+* un composant `Field` qui connectera chaque champ du formulaire avec le *store Redux*. Ce composant prend en propriété un autre composant. Cela peut être un composant de base, comme `input` ou `select` ou bien un composant personnalisé ;
+
+Avec ces deux éléments il est simple de créer un formulaire :
+
+```jsx
+import React from 'react'
+import { Field, reduxForm } from 'redux-form'
+
+const TestForm = (props) => {
+  const { handleSubmit, pristine, submitting } = props
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label>First Name</label>
+        <div>
+          <Field name="email" component="input" type="text" placeholder="Email"/>
+        </div>
+      </div>
+      <div>
+        <label>Last Name</label>
+        <div>
+          <Field name="password" component="input" type="password" placeholder="Password"/>
+        </div>
+      </div>
+      <div>
+        <button type="submit" disabled={pristine || submitting}>Submit</button>
+      </div>
+    </form>
+  )
+}
+
+export default reduxForm({
+  form: 'testForm'
+})(TestForm)
+```
+
+\bigskip
+
+Le tunnel des demande de prêt est constitué de formulaires:
+
+* Le descriptif du projet : l'utilisteur doit sélectionner la catégorie de son projet (travaux, voyages, meubles...) ainsi que le type (personnel, professionel ou étude). Cette information est importante, non seulement pour pouvoir comprendre la catégorie d'utilisteur du site, mais surtout pour respecter les contraite légal d'un prêt. En effet, le taux d'emprunt autorisé varie selon la type du prêt.
+* L'identité et les coordonnées de l'utilisateur : il doit fournir son identité (nom, prénom, date de naissance etc.) ainsi que ses coordonnées. C'est également une contraite légale.
+* Les dépenses et revenus : nous récupérons des informations sur les capacités financière de l'utilisateur pour évaluer sa capacité à rembourser le prêt.
+* Les coordonnées bancaires : l'utilisateur fourni les informations de sa carte bancaire ainsi que son IBAN, pour permettre le transfert de l'argent prêté dans un premier tant, puis le prélévement des remboursements.
+* Le téléchargement de la piéce d'identité (carte d'identité, passport, permis de conduire...) : c'est également une obligation légale de vérifier l'identité de l'utilisateur.
+
+\bigskip
+
+C'est au terme de cette suite de formulaire que la demande de prêt est créée. C'est donc une étape primordiale, puisqu'il faut s'assurer que les utilisateurs n'abandonne pas la demande en cours de route. Pour observer le taux de rétention d'utilisateur sur cette partie du site, j'ai mis en place deux outils sur l'application. Tout d'abord le classique *Google Analytics*, qui permet d'observer l'audience du site, heure par heure, page par page. On peut voir les caractéristiques des utilisateurs : leur systéme d'exploitation, navigateur, sexe, tranche d'age etc. J'ai également mis en place *hotjar*, qui permet entre autre d'enregistrer les interactions entre l’internaute et une page Web (clic, scroll, mouvements de la souris). Cet outil à permis d'identifier un bon nombres de disfonctionnement du site web, en observant les pages où l'utilisteur se retrouvé bloqué, ou bien passé trop de temps par rapport au sénario initialement prévu.
+
+\bigskip
+
+Durant la modification de se formulaire j'ai également du mettre en place le téléchargement de la piéce d'identité sur *Amazon Simple Storage Service* (*Amazon S3*), qui est une solution de stockage sur Internet. En effet, une fois la pièce d'identité envoyée à l'*API* de FinFrog, nous la chargeons dans un stockage extérieur, car la loi impose de pouvoir justifier de l'identité des emprunteurs.
+
+\bigskip
+
+L'un des objectifs de cette première partie était de développer un site *responsive*, c'est à dire un site web dont la conception et le développement vise à offrir le même confort visuel pour des supports différents comme les ordinateurs, smartphones, tablettes, etc. Pour arriver à cela, le client nous a fourni, pour chaque page du site, deux maquettes différentes : une pour la version ordinateur et tablette, et une autre pour la version smartphone.
+
+\bigskip
+
+Un autre point primordial du développement *front* est la compatibilité entre les navigateurs. En effet chaque navigateur dispose de son propre « moteur d’affichage » et un même site pourra avoir un affichage et un comportement très différents selon le navigateur utilisé. La compatibilité multi-navigateurs consiste à essayer d'avoir un rendu et un comportement identitique d'un navigateur à l'autre.
+
+\bigskip
+
+Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, Chrome est le navigateur le plus utilisé (51%), suivi par Safari (18%) et Internet Explorer et Edge (le nouveau navigateur de Microft) (11%).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=4cm]{figures/browsers.png}
+  \caption{Les parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
+\end{figure}
+
+\bigskip
+
+Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il est possible de connaitre les navigateurs utilisés par ces visiteurs grâce à des outils comme Google Analytics, qui fournissent une analyse de l'audiance d'un site web. Pour FinFrog, nous avons pu observer que Chrome était bien le navigateur le plus utilisé (63.71%), suivi par Firefox (14.81%), Internet Explorer (8,54%) et Safari (8.22%).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=5cm]{figures/FF-browsers.png}
+  \caption{Les parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
+\end{figure}
+
+\bigskip
+
+Une fois que les navigateurs principalement utilisés par la cible sont identifié, il faut choisir des outils et méthodes adapté à ceux-ci. On peut utilisé des sites comme [*Can I use*](http://caniuse.com/) qui offre des tableaux de compatibilité pour HTML5, CSS3, SVG et autres technologies dans les différents navigateurs. Nous utilisons également [*BrowserStack*](https://www.browserstack.com/), un outil de test multi-navigateur qui permet aux développeurs de tester leurs sites Web à travers différents navigateurs sur différents systèmes d'exploitation et appareils mobiles, sans devoir installer de machine virtuelle ou autres. On peut ainsi vérifier le rendu visuel, ainsi que le comportement de l'application, sur nos navigateurs cibles.
+
+\bigskip
+
+Voici un exemple de problème qu'un developpeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande prêt, le client à remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardé par défaut en cache, c'est à dire mémorisé, les réponses de l'API. Quand l'utilisateur arrivé sur la page, un premier appel à l'API était effectué, pour afficher la liste des pièce déjà télécharger. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jours. Mais le navigateur ignoré cet appel et utilisé à la place le resultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifié dans la réponse envoyé par l'*API*, que l'information ne doit pas être mémorisée. Cela se traduit par ajouter la valeur `no-cache` au paramétre `Cache-Control` dans le *Header* de la réponse de l'*API*
 
 \bigskip
 
 #### Génération de contrat
 
-\bigskip
+Au bout d'environ un mois, le développeur présent chez le client à quitté le projet. Par conséquent nous avons récupéré la totalité du développement, tant au niveau du *front* que de l'API, ainsi que la partie administrateur.
+
+Une seconde demande était la mise à jour du contrat généré par l'application. Après que l'administrateur est validé la demande de prêt, un contrat est généré et fourni au l'utilisteur dans son espace client. Nous devions mettre à jour les termes du contrat et ajouter des informations manquantes, de manière dynamique.
 
 \bigskip
 
-- Première partie design
--> Page d'acceuil : prendre en main le projet et ses particuliarité -> Accés restraint au debut du projet
--> Tunnel emprunteur : on rentre plus dans le techniques, la manipulation de redux
+Expliquer le changement de paradigme : le gars est parti, on a eu la main sur tout
 
-- génération de contrat
+outils pour la génération de contrat
+exemple
 
-- Grosse passe pour le responsive + cross compatibilité des browsers
+\bigskip
 
-- Communication avec le client ? -> Surtout semaine de noel sans Laetitia
+\bigskip
 
 Citer le fait que je n'ai presque pas eu de code review a cause de la confidentialité
 
-#### Arrivée d'un nouveau dev
+
+#### Mangopay
+
+
+#### Arrivé d'un nouveau dev
 
 
 ### Conclusion
 
-
+Communication avec le client privilégié
 
 ## Autres projets
 
