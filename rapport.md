@@ -707,7 +707,7 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog.
+Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
 
 \bigskip
 
@@ -860,35 +860,178 @@ Voici un exemple de problème qu'un developpeur peut rencontrer à cause des dif
 
 Au bout d'environ un mois, le développeur présent chez le client à quitté le projet. Par conséquent nous avons récupéré la totalité du développement, tant au niveau du *front* que de l'API, ainsi que la partie administrateur.
 
+\bigskip
+
 Une seconde demande était la mise à jour du contrat généré par l'application. Après que l'administrateur est validé la demande de prêt, un contrat est généré et fourni au l'utilisteur dans son espace client. Nous devions mettre à jour les termes du contrat et ajouter des informations manquantes, de manière dynamique.
 
 \bigskip
 
-Expliquer le changement de paradigme : le gars est parti, on a eu la main sur tout
+Le systéme de génération de contrat existant était assez rudimentaire et peut évolutif. Il s'agissait en effet d'une simple concaténation de chaine de caractères et de variables. Il était donc difficil de modifier le style du contrat ou même son contenue.
 
-outils pour la génération de contrat
-exemple
+```JavaScript
+// Ancienne technique pour la génération de contrat
+var getContractContent() = function (loan, borrower) {
+  var content = `<h2>CE CONTRAT DE PRÊT EST CONCLU
+    ENTRE LES SOUSSIGNÉS :</h2><p><b>
+    <span style="text-transform: capitalize">`;
+  content += borrower.title + `</span>
+   <span style="text-transform: uppercase">{{ borrower.last_name}}</span>
+   <span style="text-transform: capitalize">{{ borrower.first_name}}</span>
+    </b> né(e) le <b> `;
+  content += borrower.birthdate + `</b>, à <b> `;
+  content += borrower.birthplace + `</b>, demeurant <b>`;
+  content += borrower.address_line + ' '
+    + borrower.address_postal_code + ' '
+    +  borrower.address_city}} + `</b>, </p>`;
+}
+```
 
 \bigskip
 
+Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de templating. Elle permet de mettre en place un template HTML et d'y intégrer facilement nos varibles. Il nous suffit alors de définir un template en HTML, en y introduisant le nom de nos variable entre accolade, puis d'appeler la librairie Mustache en lui fournissant ce template et un objet contenant les valeurs de nos variables,  `Mustache.render(template, params)`.
+
+```HTML
+<!-- Extrait du template du contrat -->
+<!-- .... -->
+<h2>
+  CE CONTRAT DE PRÊT EST CONCLU ENTRE LES SOUSSIGNÉS :
+</h2>
+<p>
+  <b>
+    <span style="...">{{ borrower.title }}</span>
+    <span style="...">{{ borrower.last_name}}</span>
+    <span style="...">{{ borrower.first_name}}</span>
+  </b>
+  né(e) le
+  <b>{{#toDate}} {{ borrower.birthdate }} {{/toDate}}</b>,
+  à
+  <b>{{ borrower.birthplace }}</b>
+  , demeurant
+  <b>
+    {{ borrower.address_line }},
+    {{ borrower.address_postal_code }}
+    {{ borrower.address_city}}</b>,
+</p>
+<!-- .... -->
+```
+
+```JavaScript
+// Création d'une variable contenant les paramétres du contrat
+var getContractParams = function (loan, borrower, repayments, lenders) {
+  const params = {
+    //...
+    borrower: borrower,
+    //...
+  };
+  return params;
+}
+// Création du contrat avec Mustache.js
+var getContractContent = function (params) {
+  const template = fs.readFileSync('template.html').toString();
+  return Mustache.render(template, params);
+}
+
+// Récupération des paramétres, création du contrat
+// et téléchargement sur Amazon S3
+var createAndUploadContract = function (loan, borrower) {
+  try {
+    var contractParams = getContractParams(loan, borrower);
+    var contractContent = getContractContent(contractParams);
+    uploadContract(contractContent, loan.id);
+  } catch(err) {
+    logger.error('Error while generating contract');
+  }
+}
+```
+
 \bigskip
-
-Citer le fait que je n'ai presque pas eu de code review a cause de la confidentialité
-
 
 #### Mangopay
 
+L'application FinFrog utilise [*Mangopay*](https://www.mangopay.com/fr/) comme partenaire pour gérer les transferts d'argent entre prêteur et emprunteurs. *Mangopay* est solution de paiement dédiée aux marketplaces, plateformes de crowdfunding et acteurs de l’économie collaborative. La société offre à ses clients la possibilité d’accepter des paiements pour le compte de tiers, de créer et gérer des *e-wallets*, de répartir les fonds vers de multiples bénéficiaires, de collecter automatiquement leurs chiffres d’affaires, le tout de manière très simple et sécurisé.
 
-#### Arrivé d'un nouveau dev
+\bigskip
 
+J'ai donc du travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* Mangopay est créé pour chaque utilisateur, à la création de son compte sur FinFrog. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* à la carte et le compte bancaire. L'enregistrement de la carte se fait directement grâce au *front*, car pour des raisons de sécurité nous ne pouvons pas faire transiter ces informations vers l'*API*. Une fois la carte enregistrée, nous créons une préauthorisation associée. Une préautorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt.
+
+\bigskip
+
+Il est également nécessaire de fournir de nombreuse informations sur l'utilisateur à *Mangopay*, dans le cadre du KYC. Le processus *Know your customer* est utilisé dans le but d'assurer que les clients sont conformes aux lois anti-corruption. Cela a également pour but de prévenir l'usurpation d'identité, la fraude financière, le blanchiment d'argent et le financement du terrorisme. C'est un processus donc très important dans le cadre d'entreprise comme FinFrog, qui gére des flux quotidien d'argent. Pour répondre au *KYC*, nous fournissons en plus des informations de base (date et lieu de naissance, adresse etc.) les pièces d'identité récupéré lors de la demande de prêt.
+
+\bigskip
+
+#### Fin du stage
+
+Quelques semaines avant la fin de mon stage chez Dernier Cri, FinFrog à acceuilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le prpjet, nous l'avons acceuilli une journée dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de FinFrog, de l'infrastruture au flux entre le site et l'*API*, en passant par notre gestion de projet.
+
+\bigskip
+
+Ce nouveau developpeur
 
 ### Conclusion
 
-Communication avec le client privilégié
+FinFrog a été un projet très enrichisant car abordant de nombreuses problèmatiques pouvant être rencontrée dans le developpement web, et utilisant de nombreux outils.
 
-## Autres projets
+\bigskip
 
-### Générateur d'image pour les réseaux sociaux
+J'ai eu l'opportunité de participer activement à la conception du site. En effet, notre client était ouvert au sugestions et remarques, et tenait à se que nous comprenions les tenant et aboutissant de chaque décisions et nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des Fintech, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.
+
+\bigskip
+
+Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus ou moins important, comme le service *Mangopay*, des outils de *monitoring* comme *Google Analytics* ou *Hotjar*, ou encore de nombreuse librairie comme *Mustache.js*, *Redux form* ou encore *React Router*.
+
+\bigskip
+
+## Autre projet : Générateur d'image pour Dernier Cri.
+
+\bigskip
+
+Comme dit précédemment, *Dernier Cri* posséde un blog tenu par ses développeurs. L'équipe essaye de tenir un rythme de publication d'un article par semaine. Pour faire la promotion de cette activité, *Dernier Cri* partage les publications sur les réseaux sociaux.
+
+\bigskip
+
+Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisé pour chaque article, qui serait utilisé dans les partages sur les reseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défie et de créer ce générateur d'image.
+
+\bigskip
+
+J'ai tout d'abord choisi, sur les conseils de mon tuteur d'entreprise, d'utiliser [*ImageMagick*](https://www.imagemagick.org/script/index.php) pour générer mes images. *ImageMagick* est un logiciel libre, comprenant une bibliothèque, ainsi qu'un ensemble d'utilitaires en ligne de commande, permettant de créer, de convertir, de modifier et d'afficher des images dans un très grand nombre de formats. Il offre de nombreuse possibilités pour manipuler les images: il est possible de les découper, de modifier leur couleur, de leur faire faire des rotation, d'y inclure du texte etc.  
+J'ai donc commencé par prendre en main *ImageMagick* en ligne de commande, pour doucement créer l'image voulue grâce à un script bash.
+
+\bigskip
+
+Dans ce script, je construisais mon image finale par étape :
+
+- Création de l'image de fond : tout d'abord il fallait redimensionner l'image choisi comme image de fond, puis y appliquer un filtre bleu pour obtenir l'effet souhaité.
+
+```shell
+# Creation du filtre bleu
+convert -size 600x315 xc:rgb\(0,44,92\) blue.png
+
+# Redimensionnement et filtre
+convert -resize ${width}x${height} background.jpg background.png
+convert background.png -colorspace Gray background.png
+composite -blend 90% -gravity South blue.png background.png background.png
+```
+
+- La création de l'image de l'auteur: je récupére l'image de l'auteur de l'article, puis utilise un masque pour la rendre ronde.
+```shell
+# Création de l'image de l'auteur
+convert JS.jpg  -resize $userWidth \
+\( +clone -threshold -1 -negate -fill white -draw "circle `expr $userWidth / 2`, `expr $userWidth / 2`, `expr $userWidth / 2`,0" \) \
+-alpha off -compose copy_opacity -composite xavier.png
+```
+
+- Création des différents textes : je créé ensuite le titre de l'image, ainsi que la signature comprenant le nom de l'auteur ainsi que sa fonction chez *Dernier Cri*.
+
+- Il suffit enfin de superposer les différents éléments pour créer l'image souhaitée.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/blog.png}
+  \caption{Image générée pour un article de blog}
+\end{figure}
+
+\bigskip
 
 \newpage
 

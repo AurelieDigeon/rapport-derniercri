@@ -1285,7 +1285,10 @@ projet}\label{pruxe9sentation-et-objectifs-du-projet-1}
 
 Avec l'arrivée d'un nouveau client et la nécessité de fournir un
 développeur React sur ce projet, j'ai quitté le projet Photolix pour
-rejoindre Finfrog.
+rejoindre Finfrog. L'équipe travaillant sur ce projet était constituée
+d'une chef de projet, d'un \emph{devops} chargé notamment de
+l'infrastruture et des déploiements de l'application, et de moi-même
+pour le développement.
 
 \bigskip
 
@@ -1406,39 +1409,37 @@ concrétise principalement par deux éléments :
 
 Avec ces deux éléments il est simple de créer un formulaire :
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\ImportTok{import} \NormalTok{React }\ImportTok{from} \StringTok{'react'}
-\ImportTok{import} \OperatorTok{\{} \NormalTok{Field}\OperatorTok{,} \NormalTok{reduxForm }\OperatorTok{\}} \ImportTok{from} \StringTok{'redux-form'}
+\begin{verbatim}
+import React from 'react'
+import { Field, reduxForm } from 'redux-form'
 
-\KeywordTok{const} \NormalTok{TestForm }\OperatorTok{=} \NormalTok{(props) }\OperatorTok{=>} \OperatorTok{\{}
-  \KeywordTok{const} \OperatorTok{\{} \NormalTok{handleSubmit}\OperatorTok{,} \NormalTok{pristine}\OperatorTok{,} \NormalTok{submitting }\OperatorTok{\}} \OperatorTok{=} \NormalTok{props}
-  \ControlFlowTok{return} \NormalTok{(}
-    \OperatorTok{<}\NormalTok{form onSubmit}\OperatorTok{=\{}\NormalTok{handleSubmit}\OperatorTok{\}>}
-      \OperatorTok{<}\NormalTok{div}\OperatorTok{>}
-        \OperatorTok{<}\NormalTok{label}\OperatorTok{>}\NormalTok{First Name}\OperatorTok{<}\SpecialStringTok{/label>}
-\SpecialStringTok{        <div>}
-\SpecialStringTok{          <Field name="email" component="input" type="text" placeholder="Email"/}\OperatorTok{>}
-        \OperatorTok{<}\SpecialStringTok{/div>}
-\SpecialStringTok{      </div}\OperatorTok{>}
-      \OperatorTok{<}\NormalTok{div}\OperatorTok{>}
-        \OperatorTok{<}\NormalTok{label}\OperatorTok{>}\NormalTok{Last Name}\OperatorTok{<}\SpecialStringTok{/label>}
-\SpecialStringTok{        <div>}
-\SpecialStringTok{          <Field name="password" component="input" type="password" placeholder="Password"/}\OperatorTok{>}
-        \OperatorTok{<}\SpecialStringTok{/div>}
-\SpecialStringTok{      </div}\OperatorTok{>}
-      \OperatorTok{<}\NormalTok{div}\OperatorTok{>}
-        \OperatorTok{<}\NormalTok{button type}\OperatorTok{=}\StringTok{"submit"} \NormalTok{disabled}\OperatorTok{=\{}\NormalTok{pristine }\OperatorTok{||} \NormalTok{submitting}\OperatorTok{\}>}\NormalTok{Submit}\OperatorTok{<}\SpecialStringTok{/button>}
-\SpecialStringTok{      </div}\OperatorTok{>}
-    \OperatorTok{<}\SpecialStringTok{/form>}
-\SpecialStringTok{  }\SpecialCharTok{)}
-\SpecialStringTok{\}}
+const TestForm = (props) => {
+  const { handleSubmit, pristine, submitting } = props
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label>First Name</label>
+        <div>
+          <Field name="email" component="input" type="text" placeholder="Email"/>
+        </div>
+      </div>
+      <div>
+        <label>Last Name</label>
+        <div>
+          <Field name="password" component="input" type="password" placeholder="Password"/>
+        </div>
+      </div>
+      <div>
+        <button type="submit" disabled={pristine || submitting}>Submit</button>
+      </div>
+    </form>
+  )
+}
 
-\SpecialStringTok{export default reduxForm}\SpecialCharTok{(}\SpecialStringTok{\{}
-\SpecialStringTok{  form: 'testForm'}
-\SpecialStringTok{\}}\SpecialCharTok{)(}\SpecialStringTok{TestForm}\SpecialCharTok{)}
-\end{Highlighting}
-\end{Shaded}
+export default reduxForm({
+  form: 'testForm'
+})(TestForm)
+\end{verbatim}
 
 \bigskip
 
@@ -1587,30 +1588,281 @@ de l'\emph{API}
 
 \paragraph{Génération de contrat}\label{guxe9nuxe9ration-de-contrat}
 
-Expliquer le changement de paradigme : le gars est parti, on a eu la
-main sur tout
-
-outils pour la génération de contrat exemple
-
-\bigskip
+Au bout d'environ un mois, le développeur présent chez le client à
+quitté le projet. Par conséquent nous avons récupéré la totalité du
+développement, tant au niveau du \emph{front} que de l'API, ainsi que la
+partie administrateur.
 
 \bigskip
 
-Citer le fait que je n'ai presque pas eu de code review a cause de la
-confidentialité
+Une seconde demande était la mise à jour du contrat généré par
+l'application. Après que l'administrateur est validé la demande de prêt,
+un contrat est généré et fourni au l'utilisteur dans son espace client.
+Nous devions mettre à jour les termes du contrat et ajouter des
+informations manquantes, de manière dynamique.
+
+\bigskip
+
+Le systéme de génération de contrat existant était assez rudimentaire et
+peut évolutif. Il s'agissait en effet d'une simple concaténation de
+chaine de caractères et de variables. Il était donc difficil de modifier
+le style du contrat ou même son contenue.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{// Ancienne technique pour la génération de contrat}
+\KeywordTok{var} \AttributeTok{getContractContent}\NormalTok{() }\OperatorTok{=} \KeywordTok{function} \NormalTok{(loan}\OperatorTok{,} \NormalTok{borrower) }\OperatorTok{\{}
+  \KeywordTok{var} \NormalTok{content }\OperatorTok{=} \VerbatimStringTok{`<h2>CE CONTRAT DE PRÊT EST CONCLU}
+\VerbatimStringTok{    ENTRE LES SOUSSIGNÉS :</h2><p><b>}
+\VerbatimStringTok{    <span style="text-transform: capitalize">`}\OperatorTok{;}
+  \NormalTok{content }\OperatorTok{+=} \VariableTok{borrower}\NormalTok{.}\AttributeTok{title} \OperatorTok{+} \VerbatimStringTok{`</span>}
+\VerbatimStringTok{   <span style="text-transform: uppercase">\{\{ borrower.last_name\}\}</span>}
+\VerbatimStringTok{   <span style="text-transform: capitalize">\{\{ borrower.first_name\}\}</span>}
+\VerbatimStringTok{    </b> né(e) le <b> `}\OperatorTok{;}
+  \NormalTok{content }\OperatorTok{+=} \VariableTok{borrower}\NormalTok{.}\AttributeTok{birthdate} \OperatorTok{+} \VerbatimStringTok{`</b>, à <b> `}\OperatorTok{;}
+  \NormalTok{content }\OperatorTok{+=} \VariableTok{borrower}\NormalTok{.}\AttributeTok{birthplace} \OperatorTok{+} \VerbatimStringTok{`</b>, demeurant <b>`}\OperatorTok{;}
+  \NormalTok{content }\OperatorTok{+=} \VariableTok{borrower}\NormalTok{.}\AttributeTok{address_line} \OperatorTok{+} \StringTok{' '}
+    \OperatorTok{+} \VariableTok{borrower}\NormalTok{.}\AttributeTok{address_postal_code} \OperatorTok{+} \StringTok{' '}
+    \OperatorTok{+}  \VariableTok{borrower}\NormalTok{.}\AttributeTok{address_city}\OperatorTok{\}}\NormalTok{\} }\OperatorTok{+} \VerbatimStringTok{`</b>, </p>`}\OperatorTok{;}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\bigskip
+
+Pour résoudre ce problème, nous avons décidé d'utiliser
+\href{https://github.com/janl/mustache.js}{\emph{Mustache.js}}, une
+librairie de templating. Elle permet de mettre en place un template HTML
+et d'y intégrer facilement nos varibles. Il nous suffit alors de définir
+un template en HTML, en y introduisant le nom de nos variable entre
+accolade, puis d'appeler la librairie Mustache en lui fournissant ce
+template et un objet contenant les valeurs de nos variables,
+\texttt{Mustache.render(template,\ params)}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{<!-- Extrait du template du contrat -->}
+\CommentTok{<!-- .... -->}
+\KeywordTok{<h2>}
+  \NormalTok{CE CONTRAT DE PRÊT EST CONCLU ENTRE LES SOUSSIGNÉS :}
+\KeywordTok{</h2>}
+\KeywordTok{<p>}
+  \KeywordTok{<b>}
+    \KeywordTok{<span}\OtherTok{ style=}\StringTok{"..."}\KeywordTok{>}\NormalTok{\{\{ borrower.title \}\}}\KeywordTok{</span>}
+    \KeywordTok{<span}\OtherTok{ style=}\StringTok{"..."}\KeywordTok{>}\NormalTok{\{\{ borrower.last_name\}\}}\KeywordTok{</span>}
+    \KeywordTok{<span}\OtherTok{ style=}\StringTok{"..."}\KeywordTok{>}\NormalTok{\{\{ borrower.first_name\}\}}\KeywordTok{</span>}
+  \KeywordTok{</b>}
+  \NormalTok{né(e) le}
+  \KeywordTok{<b>}\NormalTok{\{\{#toDate\}\} \{\{ borrower.birthdate \}\} \{\{/toDate\}\}}\KeywordTok{</b>}\NormalTok{,}
+  \NormalTok{à}
+  \KeywordTok{<b>}\NormalTok{\{\{ borrower.birthplace \}\}}\KeywordTok{</b>}
+  \NormalTok{, demeurant}
+  \KeywordTok{<b>}
+    \NormalTok{\{\{ borrower.address_line \}\},}
+    \NormalTok{\{\{ borrower.address_postal_code \}\}}
+    \NormalTok{\{\{ borrower.address_city\}\}}\KeywordTok{</b>}\NormalTok{,}
+\KeywordTok{</p>}
+\CommentTok{<!-- .... -->}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{// Création d'une variable contenant les paramétres du contrat}
+\KeywordTok{var} \NormalTok{getContractParams }\OperatorTok{=} \KeywordTok{function} \NormalTok{(loan}\OperatorTok{,} \NormalTok{borrower}\OperatorTok{,} \NormalTok{repayments}\OperatorTok{,} \NormalTok{lenders) }\OperatorTok{\{}
+  \KeywordTok{const} \NormalTok{params }\OperatorTok{=} \OperatorTok{\{}
+    \CommentTok{//...}
+    \DataTypeTok{borrower}\OperatorTok{:} \NormalTok{borrower}\OperatorTok{,}
+    \CommentTok{//...}
+  \OperatorTok{\};}
+  \ControlFlowTok{return} \NormalTok{params}\OperatorTok{;}
+\OperatorTok{\}}
+\CommentTok{// Création du contrat avec Mustache.js}
+\KeywordTok{var} \NormalTok{getContractContent }\OperatorTok{=} \KeywordTok{function} \NormalTok{(params) }\OperatorTok{\{}
+  \KeywordTok{const} \NormalTok{template }\OperatorTok{=} \VariableTok{fs}\NormalTok{.}\AttributeTok{readFileSync}\NormalTok{(}\StringTok{'template.html'}\NormalTok{).}\AttributeTok{toString}\NormalTok{()}\OperatorTok{;}
+  \ControlFlowTok{return} \VariableTok{Mustache}\NormalTok{.}\AttributeTok{render}\NormalTok{(template}\OperatorTok{,} \NormalTok{params)}\OperatorTok{;}
+\OperatorTok{\}}
+
+\CommentTok{// Récupération des paramétres, création du contrat}
+\CommentTok{// et téléchargement sur Amazon S3}
+\KeywordTok{var} \NormalTok{createAndUploadContract }\OperatorTok{=} \KeywordTok{function} \NormalTok{(loan}\OperatorTok{,} \NormalTok{borrower) }\OperatorTok{\{}
+  \ControlFlowTok{try} \OperatorTok{\{}
+    \KeywordTok{var} \NormalTok{contractParams }\OperatorTok{=} \AttributeTok{getContractParams}\NormalTok{(loan}\OperatorTok{,} \NormalTok{borrower)}\OperatorTok{;}
+    \KeywordTok{var} \NormalTok{contractContent }\OperatorTok{=} \AttributeTok{getContractContent}\NormalTok{(contractParams)}\OperatorTok{;}
+    \AttributeTok{uploadContract}\NormalTok{(contractContent}\OperatorTok{,} \VariableTok{loan}\NormalTok{.}\AttributeTok{id}\NormalTok{)}\OperatorTok{;}
+  \OperatorTok{\}} \ControlFlowTok{catch}\NormalTok{(err) }\OperatorTok{\{}
+    \VariableTok{logger}\NormalTok{.}\AttributeTok{error}\NormalTok{(}\StringTok{'Error while generating contract'}\NormalTok{)}\OperatorTok{;}
+  \OperatorTok{\}}
+\OperatorTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\bigskip
 
 \paragraph{Mangopay}\label{mangopay}
 
-\paragraph{Arrivé d'un nouveau dev}\label{arrivuxe9-dun-nouveau-dev}
+L'application FinFrog utilise
+\href{https://www.mangopay.com/fr/}{\emph{Mangopay}} comme partenaire
+pour gérer les transferts d'argent entre prêteur et emprunteurs.
+\emph{Mangopay} est solution de paiement dédiée aux marketplaces,
+plateformes de crowdfunding et acteurs de l'économie collaborative. La
+société offre à ses clients la possibilité d'accepter des paiements pour
+le compte de tiers, de créer et gérer des \emph{e-wallets}, de répartir
+les fonds vers de multiples bénéficiaires, de collecter automatiquement
+leurs chiffres d'affaires, le tout de manière très simple et sécurisé.
+
+\bigskip
+
+J'ai donc du travailler avec l'\emph{API} de \emph{Mangopay}, notamment
+pour gérer l'enregistrement des coordonnées bancaires des utilisateurs.
+Pour pouvoir faire cela, un \emph{e-wallet} Mangopay est créé pour
+chaque utilisateur, à la création de son compte sur FinFrog. Puis, lors
+de la récupération de l'IBAN et des informations de la carte bancaire de
+l'utilisateur, nous associons à ce \emph{e-wallet} à la carte et le
+compte bancaire. L'enregistrement de la carte se fait directement grâce
+au \emph{front}, car pour des raisons de sécurité nous ne pouvons pas
+faire transiter ces informations vers l'\emph{API}. Une fois la carte
+enregistrée, nous créons une préauthorisation associée. Une
+préautorisation est une action qui permet de vérifier si l'utilisateur à
+une certaine capacité financière sur son compte bancaire. Cela nous
+permet donc de vérifier s'il sera en mesure de rembourser son prêt.
+
+\bigskip
+
+Il est également nécessaire de fournir de nombreuse informations sur
+l'utilisateur à \emph{Mangopay}, dans le cadre du KYC. Le processus
+\emph{Know your customer} est utilisé dans le but d'assurer que les
+clients sont conformes aux lois anti-corruption. Cela a également pour
+but de prévenir l'usurpation d'identité, la fraude financière, le
+blanchiment d'argent et le financement du terrorisme. C'est un processus
+donc très important dans le cadre d'entreprise comme FinFrog, qui gére
+des flux quotidien d'argent. Pour répondre au \emph{KYC}, nous
+fournissons en plus des informations de base (date et lieu de naissance,
+adresse etc.) les pièces d'identité récupéré lors de la demande de prêt.
+
+\bigskip
+
+\paragraph{Fin du stage}\label{fin-du-stage}
+
+Quelques semaines avant la fin de mon stage chez Dernier Cri, FinFrog à
+acceuilli un nouveau développeur sur le projet, engagé par le client.
+Pour lui permettre de découvrir et appréhender correctement le prpjet,
+nous l'avons acceuilli une journée dans nos locaux. Au cours de cette
+journée, nous lui avons présenté tout les aspects de FinFrog, de
+l'infrastruture au flux entre le site et l'\emph{API}, en passant par
+notre gestion de projet.
+
+\bigskip
+
+Ce nouveau developpeur
 
 \subsubsection{Conclusion}\label{conclusion-1}
 
-Communication avec le client privilégié
+FinFrog a été un projet très enrichisant car abordant de nombreuses
+problèmatiques pouvant être rencontrée dans le developpement web, et
+utilisant de nombreux outils.
 
-\subsection{Autres projets}\label{autres-projets}
+\bigskip
 
-\subsubsection{Générateur d'image pour les réseaux
-sociaux}\label{guxe9nuxe9rateur-dimage-pour-les-ruxe9seaux-sociaux}
+J'ai eu l'opportunité de participer activement à la conception du site.
+En effet, notre client était ouvert au sugestions et remarques, et
+tenait à se que nous comprenions les tenant et aboutissant de chaque
+décisions et nouveaux développements. C'est pour cela que nous avions de
+nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu
+appréhender les problématiques des Fintech, ses entreprises qui
+utilisent la technologie pour lancer des services bancaires et
+financiers innovants.
+
+\bigskip
+
+Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus
+ou moins important, comme le service \emph{Mangopay}, des outils de
+\emph{monitoring} comme \emph{Google Analytics} ou \emph{Hotjar}, ou
+encore de nombreuse librairie comme \emph{Mustache.js}, \emph{Redux
+form} ou encore \emph{React Router}.
+
+\bigskip
+
+\subsection{Autre projet : Générateur d'image pour Dernier
+Cri.}\label{autre-projet-guxe9nuxe9rateur-dimage-pour-dernier-cri.}
+
+\bigskip
+
+Comme dit précédemment, \emph{Dernier Cri} posséde un blog tenu par ses
+développeurs. L'équipe essaye de tenir un rythme de publication d'un
+article par semaine. Pour faire la promotion de cette activité,
+\emph{Dernier Cri} partage les publications sur les réseaux sociaux.
+
+\bigskip
+
+Pour permettre une meilleure communication, il est venue l'idée de créer
+des images personnalisé pour chaque article, qui serait utilisé dans les
+partages sur les reseaux sociaux. Evidemment, la création de ces images
+serait automatisée. J'ai décidé de relever ce défie et de créer ce
+générateur d'image.
+
+\bigskip
+
+J'ai tout d'abord choisi, sur les conseils de mon tuteur d'entreprise,
+d'utiliser
+\href{https://www.imagemagick.org/script/index.php}{\emph{ImageMagick}}
+pour générer mes images. \emph{ImageMagick} est un logiciel libre,
+comprenant une bibliothèque, ainsi qu'un ensemble d'utilitaires en ligne
+de commande, permettant de créer, de convertir, de modifier et
+d'afficher des images dans un très grand nombre de formats. Il offre de
+nombreuse possibilités pour manipuler les images: il est possible de les
+découper, de modifier leur couleur, de leur faire faire des rotation,
+d'y inclure du texte etc.\\
+J'ai donc commencé par prendre en main \emph{ImageMagick} en ligne de
+commande, pour doucement créer l'image voulue grâce à un script bash.
+
+\bigskip
+
+Dans ce script, je construisais mon image finale par étape :
+
+\begin{itemize}
+\tightlist
+\item
+  Création de l'image de fond : tout d'abord il fallait redimensionner
+  l'image choisi comme image de fond, puis y appliquer un filtre bleu
+  pour obtenir l'effet souhaité.
+\end{itemize}
+
+\begin{verbatim}
+# Creation du filtre bleu
+convert -size 600x315 xc:rgb\(0,44,92\) blue.png
+
+# Redimensionnement et filtre
+convert -resize ${width}x${height} background.jpg background.png
+convert background.png -colorspace Gray background.png
+composite -blend 90% -gravity South blue.png background.png background.png
+\end{verbatim}
+
+\begin{itemize}
+\item
+  La création de l'image de l'auteur: je récupére l'image de l'auteur de
+  l'article, puis utilise un masque pour la rendre ronde.
+
+\begin{verbatim}
+# Création de l'image de l'auteur
+convert JS.jpg  -resize $userWidth \
+\( +clone -threshold -1 -negate -fill white -draw "circle `expr $userWidth / 2`, `expr $userWidth / 2`, `expr $userWidth / 2`,0" \) \
+-alpha off -compose copy_opacity -composite xavier.png
+\end{verbatim}
+\item
+  Création des différents textes : je créé ensuite le titre de l'image,
+  ainsi que la signature comprenant le nom de l'auteur ainsi que sa
+  fonction chez \emph{Dernier Cri}.
+\item
+  Il suffit enfin de superposer les différents éléments pour créer
+  l'image souhaitée.
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/blog.png}
+  \caption{L'équipe de *Dernier Cri*}
+\end{figure}
 
 \newpage
 
