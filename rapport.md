@@ -1233,7 +1233,7 @@ Certains membres de l'équipe sont également investis dans ces rencontres, en t
 
 \bigskip
 
-La Maker Faire est un autre événement majeur organisé à Lille durant mon stage. Ce concept totalement unique regroupe stands de démonstration, ateliers de découverte, spectacles et conférences autour des thèmes de la créativité, de la fabrication, des cultures Do It Yourself et Makers.
+La Maker Faire est un autre événement majeur organisé à Lille durant mon stage. Ce concept totalement unique regroupe stands de démonstration, ateliers de découverte, spectacles et conférences autour des thèmes de la créativité, de la fabrication, des cultures *Do It Yourself* et *Makers*.
 
 \bigskip
 
@@ -1251,8 +1251,8 @@ Ce stage chez *Dernier Cri* et ma participation aux projets *Photolix* et *FinFr
 
 \bigskip
 
-Ce stage a été très enrichissant pour moi. Il m'a permit de participer au développement d'application web, , à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimentécomplet qui à su me transmettre des compétences techniques et méthodologiques.  
-J'ai notamment pu prendre en main de nombreuses bibliothéques, comme *React*, *Redux*, des langages comme *Ruby on Rails* ou encore travailler avec des partenaires comme *Mangopay*.  
+Ce stage a été très enrichissant pour moi. Il m'a permit de participer au développement d'application web, à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimenté qui à su me transmettre des compétences techniques et méthodologiques.  
+J'ai notamment pu prendre en main de nombreuses bibliothèques, comme *React*, *Redux*, des langages comme *Ruby on Rails* ou encore travailler avec des partenaires comme *Mangopay*.  
 
 \bigskip
 
@@ -1260,14 +1260,20 @@ J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions a
 
 \bigskip
 
+J'ai également appris beaucoup plus que je ne m'y attendais, sur la gestion de projet et la relation cliente. Le chef de projet était très disponible, tout en laissant l'autonomie nécessaire. J'ai pû communiquer directement avec mes clients, découvrir les processus de gestion de projet et de management.
 
-Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dans votre projet professionnel. Vos objectifs ont-ils évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix de filière ?
+\bigskip
 
--> Compétences apprises : Node React Redux ES6 Relation client Git Github pm2 npm
+Mon stage fut aussi une belle aventure. La ville de Lille est une ville pleine de vie et d'événement liés à l'informatique. De plus, l'équipe de *Dernier Cri* est pleine d'initiative et de projet. En plus des présentations internes, des articles de blog, et des rencontres organisé dans les locaux, de nombreux projets internes animes la vie d'entreprise. On peut citer le développement de *side-project*, la mise à disposition de matériels électronique, comme des *beacons* ou des *Arduinos*, etc.  
+*Dernier Cri* prend également soin de ses employé, en leur fournissant un environnement agréable et inspirant (mise à disposition de divers livres, livraison de fruit et *smoothie*, etc.). Tout les trois mois, *Dernier Cri* organise également une réunion pour présenter l'évolution de l'entreprise, et les objectifs pour les mois à venir. Cette réunion est suivie par une activité visant à renforcer les liens entre les membres de l'équipe.
 
--> Important : relation client et autonomie, apprentissage rapide, equipe disponible et polivalente (qui peut t'aider sur tout)
+\bigskip
 
--> environnement cool : Ambiance, tech off conf , meetup, plus belle vue de Lille
+Tout cela m'a aidé à dessiner mon projet professionnel. Mon stage a conforté ma résolution de travailler dans une petite entreprise, qui se concentre sur le bien être de ses employés. J'ai également pu découvrir les difficultés de cet environnement; en effet, il faut être très autonome, et ne pas compter ses heures.
+
+\bigskip
+
+Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'ai beaucoup apprécié la possibilité que j'ai eu d'aborder de nombreux aspects de l'informatique, et faire partie d'une équipe pluridisciplinaire. C'est pourquoi je souhaite garder cette diversité dans ma formation et choisir des Unités de Valeur (UVs) recouvrants des domaines différents.
 
 \newpage
 
