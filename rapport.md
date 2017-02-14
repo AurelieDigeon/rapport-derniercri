@@ -417,7 +417,9 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 ## Gestion de projet
 
-Le processus de développement d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraintes, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien.
+Le processus de développement d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraintes, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien. Le chef de projet reste en contact, plus ou moins régulierement, avec le client pour présentation l'avancement et receuillir les retours.
+
+\bigskip
 
 Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois les besoins du client récoltés, il est nécessaire de mettre en place une méthodologie pour répartir les tâches, suivre leur avancement et vérifier la qualité du livrable.
 
@@ -426,7 +428,6 @@ Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois
 ### Relation client
 
 \bigskip
-
 
 Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. A partir de l’analyse de la demande, ils conceptualisent le projet (diagramme de séquence, MCD, et architecture logicielle) et le valident auprès du client avant de débuter les développements. Selon les besoins, le chef de projet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client. En effet, le développeur à souvent une approche différente du client: il peut proposer des solutions légérements différentes mais beaucoup moins longues à mettre en place techniquement, ou bien proposer des solutions techniques dont le client ignoré l'existence.
 
@@ -495,7 +496,7 @@ Le second projet est FinFrog, un site proposant des prêts financés par des par
 
 \bigskip
 
-Je vous présenterais également un outil que j'ai pus développer pour le site de *Dernier Cri*.
+Je vous présenterai également un outil que j'ai pu développer pour le site de *Dernier Cri*: un générateur d'image de partage des articles sur les réseaux sociaux.
 
 \bigskip
 
@@ -505,11 +506,11 @@ Je vous présenterais également un outil que j'ai pus développer pour le site 
 
 \bigskip
 
-Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un studio de développement photo sur Lille, et souhaitait proposer à sa clientèle une application simple et efficace permettant de commander le développement de photos.
+Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un laboratoire de développement photo sur Lille, et souhaitait proposer à sa clientèle une application simple et efficace permettant de commander le développement de photos.
 
 \bigskip
 
-Le principal objectif de ce projet était de télécharger les photos vers le serveur au fur et à mesure de leur sélection, pour ainsi éviter le temps d'attente du client à la fin de la saisie de ses informations.
+Le principal objectif de ce projet était de télécharger les photos vers le serveur au fur et à mesure de leur sélection, pour ainsi éviter le temps d'attente du client lors de la saisie des informations dans le tunnel de commande.
 
 \bigskip
 
@@ -566,11 +567,20 @@ Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SA
 
 \bigskip
 
+#### Historique du projet
+
+\bigskip
+
+Le projet a été initialement développé par un autre développeur de *Dernier Cri*. Après avoir receuilli les besoins du client, il avait fournit un premier jet, présentant le découpage du site, en monopage.  
+Après ce premier rendu, le client a fait appel à un graphiste pour nous fournir une maquette de l'application voulue. Après ce travail de formalisation, il a été décidé que l'application contiendrait finalement plusieurs pages.
+
+\bigskip
+
 #### Intégration des maquettes
 
 \bigskip
 
-La première partie du projet a consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Mais à la réception des maquettes, l'application était devenue multi-page. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
+La première partie du projet a consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
 
 \bigskip
 
@@ -606,19 +616,19 @@ L'intégration du style fut assez rapide, l'application étant visuellement asse
 
 \bigskip
 
-La deuxième partie du projet était centrée sur le téléchargement des photos vers le serveur. Le client nous a fourni une *API* assez simple que nous devions manipuler pour envoyer les photos, changer le nombre d'exemplaire, récupérer le prix de la commande...
+La deuxième partie du projet était centrée sur le téléchargement des photos vers le serveur. Le client nous a fourni une *API* assez simple que nous devions manipuler pour envoyer les photos, changer le nombre d'exemplaires, récupérer le prix de la commande...
 
 \bigskip
 
-La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférent developper cette partie de l'application lui-même. En effet, celle-ci évoluant en même temps que l'application et ne possédant pas de documentation, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti le développement.
+La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférant developper cette partie de l'application lui-même. La conception de l’API avait été réalisé sans concertation avec les équipes *front*, ce qui ne permettait donc pas de supposer son fonctionnement et surtout comment s'interfacer avec. De plus, la documentation fournie n'était pas exhaustive et peu détaillée, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti considérablement le développement.
 
 \bigskip
 
-Une autre difficulté était le redimensionnement des images avant l'envoi au serveur. En effet, quand l'utilisateur sélectionne des photos, nous devons tout d'abord passer la photo au format sélectionné, et donc gérer les formats incompatibles. Cela a apporté beaucoup de questions. Par exemple, si une photo est en 10x15 et que l'utilisateur a sélectionné le format 11x15 que fait-on ? Coupe-t-on des morceaux de la photo pour arriver au format voulu ? Ou bien ajoute-t-on des bandes ?
+Une autre difficulté était le redimensionnement des images avant l'envoi au serveur. En effet, quand l'utilisateur sélectionne des photos, nous devons tout d'abord passer la photo au format sélectionné, et donc gérer les formats incompatibles. Cela a apporté beaucoup de questions. Par exemple, si une photo est en 10x15 et que l'utilisateur a sélectionné le format 11x15 que fait-on ? Coupe-t-on des morceaux de la photo pour arriver au format voulu ? Ou bien conserve-t-on l’intégrité de la photo en ajoutant des bandes ?
 
 \bigskip
 
-Cela a donc donner lieu à beaucoup de discussions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimal pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
+Cela a donc donner lieu à beaucoup de discussions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimale pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
 
 \bigskip
 
