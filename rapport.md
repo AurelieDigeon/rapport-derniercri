@@ -14,7 +14,7 @@ Merci également à toute l'équipe de *Dernier Cri* pour avoir rendu mon stage 
 
 \bigskip
 
-J'aimerais finalement remercier mes parents et mon frère, qui m'ont permis de faire ces études et m'ont soutenu durant ce stage.
+J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de faire ces études et m'ont soutenu durant ce stage.
 
 \newpage
 
@@ -45,7 +45,7 @@ Dernier Cri est une *start-up* créée en 2011, spécialisée dans l'innovation 
 \bigskip
 
 Ma mission a été d'intégrer l'équipe de développeurs web pour aider au développement d'applications.  
-J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active. En plus de mon implications dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles de blog. J'ai également pu participer activement à la relation client lors de mes projets.
+J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active. En plus de mon implication dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles pour le blog de l’entreprise. J'ai également pu participer activement à la relation client lors de mes projets.
 
 \bigskip
 
@@ -57,7 +57,7 @@ Dans une seconde partie, je vous exposerai mes missions au sein de l'entreprise.
 
 \bigskip
 
-Ensuite, je détaillerai mes réalisations à travers les objectifs qui m'ont été fixé, les outils utilisés ainsi qu'une description des tâches réalisées.
+Ensuite, je détaillerai mes réalisations à travers les objectifs qui m'ont été fixés, les outils utilisés ainsi qu'une description des tâches réalisées.
 
 \bigskip
 
@@ -100,7 +100,7 @@ De la conception à la réalisation, l'entreprise accompagne ses clients de A à
 
 \bigskip
 
-Le secteur de l'informatique est aujourd'hui est en pleine expension. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et ne cesse de croître depuis ces cinq dernières années.
+Le secteur de l'informatique est aujourd'hui est en pleine expansion. Pour donner un ordre d'idée, le marché de la programmation et des services informatiques embauche près de 400 000 personnes dans ses 21 000 ESN (Entreprises de Services du Numérique) et ne cesse de croître depuis ces cinq dernières années.
 
 \bigskip
 
@@ -134,11 +134,11 @@ L'entreprise compte aujourd'hui 19 employés, dont trois associés, une assistan
 
 \bigskip
 
-Etant donné que la plupart des développeurs travaille sur plusieurs projets en même temps - selon les besoins de l'entreprise et les compétences de chacun -, des équipes de deux à trois développeurs sont créées, mélangeant les compétences de chacun.
+Selon la demande, et les compétences recherchées par un client, il peut arriver que des développeurs travaillent sur plus d’un projet à la fois, des équipes de deux à trois développeurs sont donc créées, mélangeant les compétences de chacun.
 
 \bigskip
 
-La gestion de projet peut se séparer en deux: la relation client, et la gestion de projet en interne. Le chef de projet s'occupe de gérer la première, tandis que la seconde se fait principalement par l'intermédiaire de *Github*. Ces deux points seront développés plus loin dans le rapport.
+La gestion de projet peut se séparer en deux: la relation client, et la gestion de projet en interne. Le chef de projet s'occupe de gérer la première en récoltant les besoins du clients tout au long du projet, la seconde se fait principalement par l'intermédiaire de *Github*, que le chef de projet tient à jour pour permettre aux développeurs d'être efficaces. Ces deux points seront développés plus loin dans le rapport.
 
 \bigskip
 
@@ -165,13 +165,13 @@ Ainsi, c'est pour lui une occasion de travailler sur ces compétences d'orateur.
 
 \bigskip
 
-Un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte, afin de certifier l'intérêt du sujet, de sonder les angles d'approfondissement possible, de valider la prestance de l'orateur.  
-En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations (_Meetups_, _Take Off_, etc), ce qui est très intéréssant mais aussi peut être assez intimidant. L' orateur peut donc s'entraîner en interne, avant de l'ouvrir à la communauté.
+Un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte, afin de certifier l'intérêt du sujet, de sonder les angles d'approfondissement possibles, de valider la prestance de l'orateur.  
+En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations (_Meetups_, _Take Off_, etc), ce qui est très intéréssant mais aussi peut être assez intimidant. L'orateur peut donc s'entraîner en interne, avant de l'ouvrir à la communauté.
 
 \bigskip
 
 Pendant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *ReactJS*, *Docker*, *Rust*, *MJML*, ou encore la fabrication d'un audit sur le traitement de grosses données pour une _startup_ en pleine expension.  
-Ces présentations sont publiées sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg).
+La grande majorité de ces présentations sont publiées et ouvertes au public sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg).
 
 \bigskip
 
@@ -201,7 +201,7 @@ Ce fut une expérience très enrichissante, car cela m'a poussé à enrichir mes
 
 \bigskip
 
-Pendant mon stage, j'ai participer au développement de deux applications web : *Photolix* et *FinFrog*. Ces deux projets s'appuient sur le framework *ReactJS*, une bibliothèque *JavaScript* *open-source* développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc dû tout d'abord me former à l'écosystème *React*.
+Pendant mon stage, j'ai participé au développement de deux applications web : *Photolix* et *FinFrog*. Ces deux projets s'appuient sur le framework *ReactJS*, une bibliothèque *JavaScript* *open-source* développée par Facebook depuis 2013. N'ayant jamais utilisé cette bibliothèque, j'ai donc dû tout d'abord me former à l'écosystème *React*.
 
 \bigskip
 
@@ -321,32 +321,31 @@ En effet, dans le milieu de l'informatique, les normes et les *frameworks* utili
 
 \bigskip
 
-Développée depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
+Développée depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarquée notamment par ses performances.
 Elle est aujourd'hui utilisée par de nombreuses entreprises telles que *Netflix*, *Yahoo*, *Airbnb* ou encore *Sony*.
 
 \bigskip
 
-Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object Model*) Virtuel. Le DOM est l’*API* qui permet au développeur web d’accéder et de manipuler le contenu d’une page web. Cette *API* founit une représentation structurée et orientée objet de votre document. Elle fournit également des méthodes pour l’ajout et la suppression d'éléments ainsi que la gestion des événements, ce qui permet de créer du contenu dynamique. Le problème est que la mise à jour du DOM, pour appliquer des modifications, est lente, et il faut donc limiter un maximum les interactions avec ce dernier.
+Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object Model*) Virtuel. Le DOM est l’*API* qui permet au développeur web d’accéder et de manipuler le contenu d’une page web. Cette *API* founit une représentation structurée et orientée objet de votre document. Elle fournit également des méthodes pour l’ajout et la suppression d'éléments ainsi que la gestion des événements, ce qui permet de créer du contenu dynamique. Le problème est que la mise à jour du DOM, pour appliquer des modifications, est lente, il est donc nécessaire de limiter les interactions avec celui-ci lors de l’application de modifications.
+\bigskip
+
+Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de *HTML* mais une représentation sous forme d’objets et de nœuds de ce à quoi le *HTML* final doit ressembler. React va comparer cette représentation au *DOM* réel et en déduire les opérations minimales à exécuter pour que les deux soient identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du *DOM* en une opération plutôt qu’au fur et à mesure.
 
 \bigskip
 
-Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de *HTML* mais une représentation sous forme d’objets et de nœuds de ce à quoi le *HTML* final doit ressembler. React va comparer cette représentation au *DOM* réel et en déduire les opérations minimales à exécuter pour que les deux soit identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du *DOM* en une opération plutôt qu’au fur et à mesure.
+Une autre particularité de *React* est de découper l'application en composants, dépendant d'un état. C'est après un changement de cet état que *React* déduit les changements à effectuer sur le *DOM*.
 
 \bigskip
 
-Une autre particularités de *React* est de découper l'application en composants, dépendant d'un état. C'est après un changement de cet état que *React* déduit les changements à effectué sur le *DOM*.
-
-\bigskip
-
-Il faut noté que les composants sont des classes, héritant de `React.Component`.
+Il faut noter que les composants sont des classes, héritant de `React.Component`.
 Un composant *React* possède deux types de données :
 
-* des paramètres (*props*) immutables définis à son instanciation, qui ne peuvent être manipulés qu'à l'extérieur du composant;
+* des paramètres (*props*) immutables définis à leur instanciation, qui ne peuvent être manipulés qu'à l'extérieur du composant;
 * un état (*state*), permettant le dialogue avec l'utilisateur. Cet état ne peut être modifié qu'à l'intérieur du composant;
 
 \bigskip
 
-Pour illustrer cette architecture, prenons l'exemple d'une simple application *Todo list*. Elle possède trois composants : la todo liste (`TodoListApp`), le formulaire d'ajout (`TodoForm`) et la l'affichage de la liste (`TodoItems`). Le composant principal est la liste, qui possède la logique et les données de l'application. Elle passe ses fonctions et ses données a ses composants enfants, selon leur besoin.
+Pour illustrer cette architecture, prenons l'exemple d'une simple application *Todo list*. Elle possède trois composants : la *todo liste* (`TodoListApp`), le formulaire d'ajout (`TodoForm`) et l'affichage de la liste (`TodoItems`). Le composant principal est la liste, qui possède la logique et les données de l'application. Elle passe ses fonctions et ses données a ses composants enfants, selon leur besoin.
 
 ```jsx
 class TodoListApp extends React.Component {
@@ -385,10 +384,6 @@ Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain aupr
 
 \bigskip
 
-React, même s'il n'impose pas de bibliothèque pour les donnés et la communication des composants, offre une approche nommée *Flux* très intéressante.
-
-\bigskip
-
 En plus de *React*, Facebook a fourni une architecture appelée *Flux* pour la gestion des donnés et la communication des composants. Cette architecture promet un flot unilatéral des données pour que le développeur puisse facilement suivre le trajet des données d'un événement et ses conséquences.
 
 \bigskip
@@ -402,7 +397,7 @@ Avec Flux, l'application va se décomposer de la façon suivante :
 
 \bigskip
 
-*Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
+*Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifient en utilisant des concepts liés à la programmation fonctionnelle.
 
 \bigskip
 
@@ -410,7 +405,7 @@ La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un prem
 
 \bigskip
 
-Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser. Après m'étre beaucoup documenté et avoir discuté des différentes implémentation avec mes collègues, je pense qu'il s'agit d'une des meilleures. *Redux* permet d'appréhender certain concept de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support de la communauté en cas de problème.
+Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser, après m'étre beaucoup documenté et avoir discuté des différentes implémentations avec mes collègues (qui ont eu l’occasion de l’utiliser sur des projets), je pense qu'il s'agit d'une des meilleures. *Redux* permet d'appréhender certain concept de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support de la communauté en cas de problème.
 
 \bigskip
 
@@ -422,9 +417,9 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 ## Gestion de projet
 
-Le processus de développment d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraites, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien.
+Le processus de développement d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraintes, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien.
 
-Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois les besoins du client récoltés, il est nécessaire de mettre en place une méthodologie pour répartir les taches, suivres leur avancement et vérifier la qualité du livrable.
+Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois les besoins du client récoltés, il est nécessaire de mettre en place une méthodologie pour répartir les tâches, suivre leur avancement et vérifier la qualité du livrable.
 
 \bigskip
 
@@ -433,15 +428,15 @@ Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois
 \bigskip
 
 
-Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. Selon les besoins, le chef de projet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client.
+Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. A partir de l’analyse de la demande, ils conceptualisent le projet (diagramme de séquence, MCD, et architecture logicielle) et le valident auprès du client avant de débuter les développements. Selon les besoins, le chef de projet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client. En effet, le développeur à souvent une approche différente du client: il peut proposer des solutions légérements différentes mais beaucoup moins longues à mettre en place techniquement, ou bien proposer des solutions techniques dont le client ignoré l'existence.
 
 \bigskip
 
-Après cette première étape, le chef de projet peut diviser les fonctionnalité en taches et les faires estimer par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client
+Après cette première étape, le chef de projet peut diviser les fonctionnalités en tâches et les faire estimer par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client. Elle sert notamment quand le projet est forfait. Dans ce type de projet, si les développeurs dépassent l'estimation donnée, le surplus n'est pas facturé, contrairement au projet en régie.
 
 \bigskip
 
-Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'est pourquoi un espace de *staging* est mis en place, pour permettre au client de tester et valider les nouvelles fonctionnalité avant la mise en production. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployée les nouvelles fonctionnalités.
+Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'est pourquoi un environnement de *staging* est mis en place. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployées les nouvelles fonctionnalités. Il permet au client de tester et valider les nouvelles fonctionnalités avant la mise en production.
 
 \bigskip
 
@@ -453,13 +448,14 @@ Il est également courant de mettre en place des outils de *monitoring* pour ass
 
 \bigskip
 
-Une fois le projet découpé en fonctionnalités puis en tâches, estimées et validées, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
+Une fois le projet découpé en fonctionnalités puis en tâches - où sont listés l’ensemble des fonctionnalités à intégrer, et comportement souhaité -, estimées et validées, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
 
 L'entreprise utilise principalement la plateforme *Github*, pour héberger le code de ses projets, et donc le logiciel de gestion de versions *Git*. *Github* est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
 
 \bigskip
 
-C'est sur un de ses outils que le chef de projet crée des *issues*, c'est à dire un descriptif de chaque tâche. Une interface en forme de tableau permet de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche. Cela permet à chacun d'avoir une vue à tout moment de l'évolution du projet, des tâches en cours ou terminées. Il est également possible de commenter chaque *issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
+C'est sur un de ses outils que le chef de projet crée des *issues*, c'est à dire un descriptif de chaque tâche. Une interface en forme de tableau permet de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.  
+Cela permet à chacun d’avoir une vue d’ensemble du projet (chef de projet et développeurs) et de connaitre les priorités. Il est également possible de commenter chaque *issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
 
 \bigskip
 
@@ -479,7 +475,7 @@ Une fois le développement de la fonctionnalité validé, la nouvelle version du
 
 \bigskip
 
-Une fois un lot de taches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en production* c'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
+Une fois un lot de tâches effectuées, il est décidé en accord avec le client de pousser les modifications sur la production. Il faut alors vérifier que la *mise en production* s'est bien passée : que le site fonctionne toujours et que les nouvelles fonctionnalités sont bien en place.
 
 \newpage
 
@@ -972,7 +968,7 @@ Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* à acc
 
 \bigskip
 
-Ce nouveau developpeur
+Passage de forfait a regie
 
 ### Conclusion
 
@@ -1211,19 +1207,19 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 # Glossaire
 
-***ACCOUNT manager:*** c'est un intermédiaire entre l'entreprise et le client. Il cherche de nouveaux clients, prend note de leurs besoins et identifie ensuite le produit ou le service qui y répond le mieux. Il essaie également de fidéliser les clients actuels en leur fournissant un service après-vente optimal.
+**Account manager:** c'est un intermédiaire entre l'entreprise et le client. Il cherche de nouveaux clients, prend note de leurs besoins et identifie ensuite le produit ou le service qui y répond le mieux. Il essaie également de fidéliser les clients actuels en leur fournissant un service après-vente optimal.
 
 \bigskip
 
-***API***(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est à dire un ensemble normalisé de classes, de méthodes ou de fonctions qui qui permet à un un logiciel de fournir des services à d'autres logiciels.
+**API**(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est à dire un ensemble normalisé de classes, de méthodes ou de fonctions qui qui permet à un un logiciel de fournir des services à d'autres logiciels.
 
 \bigskip
 
-***Back*** Partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
+**Back** Partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
 
 \bigskip
 
-***CEO*** (*chief executive officer*)**:**  directeur général d'une entreprise.
+**CEO** (*chief executive officer*)**:**  directeur général d'une entreprise.
 
 \bigskip
 
@@ -1231,27 +1227,27 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
-***Code review*** (Revu de code) **:** examen systématique du code source, pour vérifier le respect d'un ensemble de règles de programmation, trouver des bugs, corriger des erreurs de conception, améliorer la qualité, la maintenabilité et la sécurité.
+**Code review** (Revu de code) **:** examen systématique du code source, pour vérifier le respect d'un ensemble de règles de programmation, trouver des bugs, corriger des erreurs de conception, améliorer la qualité, la maintenabilité et la sécurité.
 
 \bigskip
 
-***CTO*** (*Chief Technology Officer*)**:** directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
+**CTO** (*Chief Technology Officer*)**:** directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
 
 \bigskip
 
-***Data scientist :*** (scientifique de données) expert de la gestion et de l'analyse pointue de données massives ("big data"). Il détermine des indicateurs permettant la mise en place d'une stratégie à partir de sources de données multiples et dispersées.
+**Data scientist :** (scientifique de données) expert de la gestion et de l'analyse pointue de données massives ("big data"). Il détermine des indicateurs permettant la mise en place d'une stratégie à partir de sources de données multiples et dispersées.
 
 \bigskip
 
-***Devops:*** employé doté des compétences nécessaires pour travailler à la fois en tant que développeur et ingénieur système.
+**Devops:** employé doté des compétences nécessaires pour travailler à la fois en tant que développeur et ingénieur système.
 
 \bigskip
 
-***DOM*** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
+**DOM** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
 
 \bigskip
 
-***ECMAScript:*** ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International.
+**ECMAScript:** ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International.
 
 \bigskip
 
@@ -1259,15 +1255,15 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
-***Framework:*** ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.
+**Framework:** ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.
 
 \bigskip
 
-***Front:*** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
+**Front:** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
 
 \bigskip
 
-***Git:*** logiciel de gestion de versions décentralisé.
+**Git:** logiciel de gestion de versions décentralisé.
 
 \bigskip
 
@@ -1279,11 +1275,11 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
-***Monitoring:*** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse etc.).
+**Monitoring:** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse etc.).
 
 \bigskip
 
-***Open source:*** programme informatique dont le code source est distribué sous une licence permettant à quiconque de lire, modifier ou redistribuer ce logiciel.
+**Open source:** programme informatique dont le code source est distribué sous une licence permettant à quiconque de lire, modifier ou redistribuer ce logiciel.
 
 \bigskip
 
@@ -1295,4 +1291,4 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
-***Startup:*** jeune entreprise innovante à fort potentiel de croissance, ou entreprise en construction.
+**Startup:** jeune entreprise innovante à fort potentiel de croissance, ou entreprise en construction.
