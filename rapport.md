@@ -1018,11 +1018,23 @@ Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* a accu
 
 \bigskip
 
-TODO Passage de forfait a regie
+Pendant la fin du stage nous avons mis en place avec lui un plan d'amélioration du code de l'application. En effet, le projet ayant était développer assez rapidement par le premier développeur de *FrinFrog*, certain choix de conception ne sont aujourd'hui plus pertinant. Nous avons également besoin de nouveaux outils: générer une documentation à partir des commentaires de l'application, mettre en place des migrations pour la bases de données etc.
+
+\bigskip
+
+C'est également à ce moment que le projet est passé d'une facturation au forfait, à une facturation en régie. Lorsqu'un projet est en mode forfait, il était nécessaire d'estimer chaque tâches, et les dépassements n'étaient pas facturés. En mode régie,  tout le temps de développement est facturé.
+
+\bigskip
+
+D'une part cela signifie que le client est satisfait de notre travail et nous fait confiance, d'autre part cela nous permet d'avoir une plus grande liberté de mouvement : nous ne devons plus attendre la validation d'une estimation avant de débuter son développement.
+
+\bigskip
 
 ### Conclusion
 
-*FinFrog* a été un projet très enrichissant, car abordant de nombreuses problèmatiques pouvant être rencontrées dans le développement web, et utilisant de nombreux outils.
+\bigskip
+
+*FinFrog* a été un projet très enrichissant, car abordant de nombreuses problématiques pouvant être rencontrées dans le développement web, et utilisant de nombreux outils.
 
 \bigskip
 

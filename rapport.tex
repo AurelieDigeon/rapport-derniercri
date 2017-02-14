@@ -50,7 +50,7 @@ d'ingénieur en informatique à l'Université de Technologique de Compiègne
 
 \bigskip
 
-Dernier Cri est une \emph{start-up} créée en 2011, spécialisée dans
+Dernier Cri est une \emph{startup} créée en 2011, spécialisée dans
 l'innovation numérique. L'équipe est en charge du développement, du
 déploiement et de la maintenance d'applications pour le compte de
 plusieurs clients.
@@ -227,8 +227,8 @@ que des présentations publiques par l'intermédiaire d'articles de blog.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[height=1cm]{figures/talk.jpg}
-  \caption{De Nectify à Dernier Cri}
+  \includegraphics[height=4cm]{figures/talk.jpg}
+  \caption{Fabien présentant comment fabriquer son propre hardware}
 \end{figure}
 
 \bigskip
@@ -1120,14 +1120,14 @@ nombre d'exemplaires, récupérer le prix de la commande\ldots{}
 
 La majeur difficulté durant cette étape fut de ne pas avoir accès
 directement à l'\emph{API}, le client préférant developper cette partie
-de l'application lui-même. La conception de l'API avait été réalisé sans
-concertation avec les équipes \emph{front}, ce qui ne permettait donc
-pas de supposer son fonctionnement et surtout comment s'interfacer avec.
-De plus, la documentation fournie n'était pas exhaustive et peu
-détaillée, il était souvent nécessaire de demander des précisions ou des
-évolutions au client. Même si la communication était assez rapide, le
-fait de ne pas avoir la main sur l'\emph{API} a ralenti considérablement
-le développement.
+de l'application lui-même. La conception de l'\emph{API}avait été
+réalisé sans concertation avec les équipes \emph{front}, ce qui ne
+permettait donc pas de supposer son fonctionnement et surtout comment
+s'interfacer avec. De plus, la documentation fournie n'était pas
+exhaustive et peu détaillée, il était souvent nécessaire de demander des
+précisions ou des évolutions au client. Même si la communication était
+assez rapide, le fait de ne pas avoir la main sur l'\emph{API} a ralenti
+considérablement le développement.
 
 \bigskip
 
@@ -1218,7 +1218,7 @@ remerciement}\label{pages-informations-des-clients-paiement-et-remerciement}
 
 La dernière partie du projet consistait à mettre en place les autres
 pages de l'application, servant à récolter les informations nécessaires
-à la commande, et à les envoyer à l'API. Ces pages sont :
+à la commande, et à les envoyer à l'\emph{API}. Ces pages sont :
 
 \begin{itemize}
 \tightlist
@@ -1267,13 +1267,13 @@ photos commandées, le prix par photo, le prix total, ainsi que la
 possibilité d'entrer un code de promotion avant le paiement. Cette
 partie à demandée de la réflexion car le calculs des prix était
 différent avant et après le paiement. En effet, dans l'absolu, il faut
-récupérer le prix à partir de l'API, pour être certain de son
+récupérer le prix à partir de l'\emph{API}, pour être certain de son
 exactitude. Cependant, avant le paiement il est possible que toutes les
-photos ne soient pas encore envoyées à l'API et donc le prix renvoyé par
-celle-ci n'est pas définitif. Il est alors nécéssaire de faire le calcul
-du prix dans l'application, et d'afficher ce resultat dans le
-récapitulatif. Une fois le paiement effectué, il faut afficher le prix
-envoyé par l'API, puisqu'il s'agit du prix final.
+photos ne soient pas encore envoyées à l'\emph{API}et donc le prix
+renvoyé par celle-ci n'est pas définitif. Il est alors nécéssaire de
+faire le calcul du prix dans l'application, et d'afficher ce resultat
+dans le récapitulatif. Une fois le paiement effectué, il faut afficher
+le prix envoyé par l'\emph{API}, puisqu'il s'agit du prix final.
 
 \bigskip
 
@@ -1356,7 +1356,7 @@ aux vraies problématiques du développement d'une application web, de la
 relation cliente, avec des dates butoires et des évolutions des
 spécifications en cours de projet.
 
-\subsection{Finfrog}\label{finfrog}
+\subsection{FinFrog}\label{finfrog}
 
 \subsubsection{Présentation et objectifs du
 projet}\label{pruxe9sentation-et-objectifs-du-projet-1}
@@ -1364,7 +1364,7 @@ projet}\label{pruxe9sentation-et-objectifs-du-projet-1}
 \bigskip
 
 Avec l'arrivée d'un nouveau client et la nécessité de fournir un
-développeur \emph{React} sur ce projet, j'ai quitté le projet
+développeur \emph{React} sur son projet, j'ai quitté le projet
 \emph{Photolix} pour rejoindre \emph{Finfrog}. L'équipe travaillant sur
 ce projet était constituée d'une chef de projet, d'un \emph{devops}
 chargé notamment de l'infrastruture et des déploiements de
@@ -1373,10 +1373,10 @@ l'application, et de moi-même pour le développement.
 \bigskip
 
 \emph{Finfrog} est un projet de prêt collaboratif, c'est à dire que le
-site propose des prêts financés par des particuliers. Les prêts proposés
-vont de 200 à 600 euros, à rembourser sur une durée d'un à 3 mois.
-L'objectif de \emph{FinFrog} est de proposer des petits prêts, avec un
-remboursement sur de petites mensualités, à des particuliers.
+site propose des prêts financés par des particuliers. L'objectif de
+\emph{FinFrog} est de proposer des petits prêts, avec un remboursement
+sur de petites mensualités, à des particuliers. Les prêts proposés vont
+de 200 à 600 euros, à rembourser sur une durée d'un à trois mois.
 
 \bigskip
 La demande client était de réaliser une refonte du site. \emph{Dernier
@@ -1387,7 +1387,7 @@ repartir de zéro.
 \bigskip
 
 Le site était déjà en ligne, développé par un développeur de chez
-FinFrog. Il a été fermé le temps de réaliser les changements à la
+\emph{FinFrog}. Il a été fermé le temps de réaliser les changements à la
 demande du client.
 
 \bigskip
@@ -1411,29 +1411,30 @@ génération de contrats.
 
 La projet \emph{Finfrog} utilisait principalement les même outils que
 \emph{Photolix} : utilisation de \emph{npm} pour la gestion des paquets,
-de \emph{Zeplin} pour étudier le design, de \emph{React} et \emph{Redux}
-etc.
+de \emph{Zeplin} pour étudier le design, de \emph{React} et
+\emph{Redux}, etc.
 
 \bigskip
 
 Cependant à mon arrivée sur \emph{FinFrog}, le projet était hébergé sur
 \emph{Bitbucket} et non pas \emph{Github}. Il a donc fallut que je
-m'habitue à ce nouveaux gestionaire, à son interface et ses
+m'habitue à ce nouveaux gestionnaire, à son interface et ses
 fonctionnalités différentes de \emph{Github}. Par la suite nous avons
-migré le projet sur \emph{Github}.
+migré le projet sur \emph{Github} afin d'accéder aux fonctionnalités de
+gestion de projet qu'il fournit.
 
 \bigskip
 
-Sur ce projet, nous avions aussi en charge la partie API et base de
-donnée. L'API est écrite en \emph{Nodejs} et la base de donnée est une
-\emph{postgres}, donc manipulable en \emph{SQL}. Cependant j'ai eu peu
-d'occasion de manipuler la base de donnée.
+Sur ce projet, nous avions aussi en charge la partie \emph{API}et base
+de données. L'\emph{API} est écrite en \emph{Nodejs} et la base de
+donnée est une \emph{PostgreSQL}, donc manipulable en \emph{SQL}.
+Cependant j'ai eu peu d'occasion de manipuler la base de donnée.
 
 \bigskip
 
-Finalement, pour lancer les processus du site et de l'API, nous avons
-utilisé \emph{PM2}. \emph{PM2} est un gestionnaire de processus de
-production pour les applications \emph{Node.js} avec un équilibreur de
+Finalement, pour lancer les processus du site et de l'\emph{API}, nous
+avons utilisé \emph{PM2}. \emph{PM2} est un gestionnaire de processus de
+production pour les applications \emph{Node.js}, avec un équilibreur de
 charge intégré. Il vous permet de garder les applications en vie pour
 toujours, de les recharger sans temps d'arrêt et de faciliter les tâches
 administratives courantes du système.
@@ -1448,42 +1449,42 @@ prêt}\label{page-daccueil-et-demande-de-pruxeat}
 \bigskip
 
 A mon arrivée sur le projet, \emph{Dernier Cri} était chargé de
-l'intégration d'un nouveau design pour le site déjà existant. Cette
-intégration comprenait tout d'abord la page d'accueil, puis le tunnel de
-demande de prêt.\\
+l'intégration d'un nouveau \emph{design} pour le site déjà existant.
+Cette intégration comprenait tout d'abord la page d'accueil, puis le
+tunnel de demande de prêt.\\
 Ce fut également l'occasion de m'adapter a l'organisation - tant au
-niveau du code, que du processus de développement - du développeur déjà
-présent sur le projet chez le client. Au début du projet, je n'avais
-accès qu'au code du côté \emph{front} de l'application, tandis que le
-développeur du client gardé la main sur l'API ainsi que la partie du
-projet calculant les intêrets des prêts.
+niveau du code, que du processus de développement - du projet. Au début
+de celui-ci, je n'avais accès qu'au code du côté \emph{front} de
+l'application, tandis que le développeur du client gardait la main sur
+l'\emph{API} ainsi que la partie du projet calculant les intérêts des
+prêts.
 
 \bigskip
 
-L'intégration du nouveau design de la page d'accueil fut une bonne
-entrée en matière : elle était assez simple, principalement du
+L'intégration du nouveau \emph{design} de la page d'accueil fut une
+bonne entrée en matière : elle était assez simple, principalement du
 changement de couleur et d'images, pour mettre en place la nouvelle
-identité visuel de l'application. J'ai pu ainsi me familiariser avec
+identité visuelle de l'application. J'ai ainsi pu me familiariser avec
 l'organisation du code source du projet ainsi que la logique métier
 sous-jacente.
 
 \bigskip
 
-Après la page d'accueil j'ai du m'occuper du tunnel de réservation. Sur
+Après la page d'accueil, j'ai du m'occuper du tunnel de réservation. Sur
 l'application existante, les fomulaires étaient déjà en place. Il était
 question d'ajouter certain champs et de redécouper les formulaires selon
 les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du
-site plus techniques : la communications entre les composants, les
-pages, les outils utilisés pour la gestion des formulaires, les appels à
-l'\emph{API} et récupéré les informations de l'utilisateur, et
+site plus technique : la communication entre les composants, les pages,
+les outils utilisés pour la gestion des formulaires, les appels à
+l'\emph{API} pour récupéré les informations de l'utilisateur, et
 enregistrer les modifications etc.
 
 \bigskip
 
-Pour la gestion des formulaires, le projet utilisé \emph{Redux Form}, un
-outils permettant de maintenir l'état du formulaire à jour dans le
+Pour la gestion des formulaires, le projet utilisait \emph{Redux Form},
+un outil permettant de maintenir l'état du formulaire à jour dans le
 \emph{store Redux}. Il suffit d'utiliser les composants et fonctions
-fournies par \emph{Redux Form} pour construire le formulaire. Cela se
+fourni‡s par \emph{Redux Form} pour construire le formulaire. Cela se
 concrétise principalement par deux éléments :
 
 \begin{itemize}
@@ -1491,17 +1492,17 @@ concrétise principalement par deux éléments :
 \item
   une fonction
   \texttt{reduxForm(\{form:\ \textquotesingle{}formName\textquotesingle{}\})(TestForm)}
-  où \emph{Testform} est un composant contenant le formulaire et
-  \texttt{formName} un nom unique, qui identifiera le formulaire,
-  notamment dans le \emph{store}.
+  où \emph{Testform} est un composant contenant le formulaire, et
+  \texttt{formName} un nom unique, qui identifiera le formulaire dans le
+  \emph{store}.
 \item
   un composant \texttt{Field} qui connectera chaque champ du formulaire
-  avec le \emph{store Redux}. Ce composant prend en propriété un autre
-  composant. Cela peut être un composant de base, comme \texttt{input}
-  ou \texttt{select} ou bien un composant personnalisé ;
+  avec le \emph{store Redux}. Ce composant prend comme propriété un
+  autre composant. Cela peut être un composant de base, comme
+  \texttt{input} ou \texttt{select}, ou bien un composant personnalisé.
 \end{itemize}
 
-Avec ces deux éléments il est simple de créer un formulaire :
+Avec ces deux éléments, il est simple de créer un formulaire :
 
 \begin{verbatim}
 import React from 'react'
@@ -1547,61 +1548,69 @@ export default reduxForm({
 
 \bigskip
 
-Le tunnel des demande de prêt est constitué de formulaires:
+Le tunnel des demandes de prêt est constitué de formulaires:
 
 \begin{itemize}
 \tightlist
 \item
-  Le descriptif du projet : l'utilisteur doit sélectionner la catégorie
-  de son projet (travaux, voyages, meubles\ldots{}) ainsi que le type
+  Le descriptif du projet : l'utilisateur doit sélectionner la catégorie
+  de son projet (travaux, voyages, meubles, etc.) ainsi que le type
   (personnel, professionel ou étude). Cette information est importante,
-  non seulement pour pouvoir comprendre la catégorie d'utilisteur du
-  site, mais surtout pour respecter les contraite légal d'un prêt. En
-  effet, le taux d'emprunt autorisé varie selon la type du prêt.
+  non seulement pour pouvoir comprendre la catégorie d'utilisateur du
+  site, mais surtout pour respecter les contraintes légales d'un prêt.
+  En effet, le taux d'emprunt autorisé varie selon le type du prêt.
 \item
   L'identité et les coordonnées de l'utilisateur : il doit fournir son
-  identité (nom, prénom, date de naissance etc.) ainsi que ses
-  coordonnées. C'est également une contraite légale.
+  identité (nom, prénom, date de naissance, etc.) ainsi que ses
+  coordonnées. C'est également une contrainte légale.
 \item
   Les dépenses et revenus : nous récupérons des informations sur les
-  capacités financière de l'utilisateur pour évaluer sa capacité à
+  capacités financières de l'utilisateur pour évaluer sa capacité à
   rembourser le prêt.
 \item
-  Les coordonnées bancaires : l'utilisateur fourni les informations de
+  Les coordonnées bancaires : l'utilisateur fournit les informations de
   sa carte bancaire ainsi que son IBAN, pour permettre le transfert de
-  l'argent prêté dans un premier tant, puis le prélévement des
+  l'argent prêté dans un premier temps, puis le prélèvement des
   remboursements.
 \item
-  Le téléchargement de la piéce d'identité (carte d'identité, passport,
-  permis de conduire\ldots{}) : c'est également une obligation légale de
+  Le téléchargement de la pièce d'identité (carte d'identité, passeport,
+  permis de conduire, etc.) : c'est également une obligation légale de
   vérifier l'identité de l'utilisateur.
 \end{itemize}
 
 \bigskip
 
-C'est au terme de cette suite de formulaire que la demande de prêt est
+C'est au terme de cette suite de formulaires que la demande de prêt est
 créée. C'est donc une étape primordiale, puisqu'il faut s'assurer que
-les utilisateurs n'abandonne pas la demande en cours de route. Pour
-observer le taux de rétention d'utilisateur sur cette partie du site,
-j'ai mis en place deux outils sur l'application. Tout d'abord le
-classique \emph{Google Analytics}, qui permet d'observer l'audience du
-site, heure par heure, page par page. On peut voir les caractéristiques
-des utilisateurs : leur systéme d'exploitation, navigateur, sexe,
-tranche d'age etc. J'ai également mis en place \emph{hotjar}, qui permet
-entre autre d'enregistrer les interactions entre l'internaute et une
-page Web (clic, scroll, mouvements de la souris). Cet outil à permis
-d'identifier un bon nombres de disfonctionnement du site web, en
-observant les pages où l'utilisteur se retrouvé bloqué, ou bien passé
-trop de temps par rapport au sénario initialement prévu.
+les utilisateurs n'abandonnent pas la demande en cours de route. Pour
+observer le taux de rétention d'utilisateurs sur cette partie du site,
+j'ai mis en place deux outils sur l'application :
+
+\begin{itemize}
+\tightlist
+\item
+  Tout d'abord le classique \emph{Google Analytics}, qui permet
+  d'observer l'audience du site, heure par heure, page par page. On peut
+  voir les caractéristiques des utilisateurs : leur système
+  d'exploitation, navigateur, sexe, tranche d'âge, etc. ;
+\item
+  J'ai également mis en place \emph{hotjar}, un outil qui permet entre
+  autre d'enregistrer les interactions entre l'internaute et une page
+  web (clic, \emph{scroll}, mouvements de la souris, etc.). Cet outil a
+  permis d'identifier un bon nombre de disfonctionnements de
+  l'application, en observant les pages où l'utilisateur se retrouvait
+  bloquer, ou passait trop de temps (par rapport au scénario
+  initialement prévu).
+\end{itemize}
 
 \bigskip
 
-Durant la modification de se formulaire j'ai également du mettre en
-place le téléchargement de la piéce d'identité sur \emph{Amazon Simple
+Durant la modification de ce formulaire j'ai également dû mettre en
+place le téléchargement de la pièce d'identité sur \emph{Amazon Simple
 Storage Service} (\emph{Amazon S3}), qui est une solution de stockage
 sur Internet. En effet, une fois la pièce d'identité envoyée à
 l'\emph{API} de \emph{FinFrog}, nous la chargeons dans un stockage
-extérieur, car la loi impose de pouvoir justifier de l'identité des
+externe, car la loi impose de pouvoir justifier de l'identité des
 emprunteurs.
 
 \bigskip
@@ -1609,27 +1618,26 @@ emprunteurs.
 L'un des objectifs de cette première partie était de développer un site
 \emph{responsive}, c'est à dire un site web dont la conception et le
 développement vise à offrir le même confort visuel pour des supports
-différents comme les ordinateurs, smartphones, tablettes, etc. Pour
+différents (comme les ordinateurs, smartphones, tablettes, etc.). Pour
 arriver à cela, le client nous a fourni, pour chaque page du site, deux
-maquettes différentes : une pour la version ordinateur et tablette, et
-une autre pour la version smartphone.
+maquettes différentes : une pour la version ordinateur et tablette, une
+autre pour la version \emph{smartphone}.
 
 \bigskip
 
 Un autre point primordial du développement \emph{front} est la
 compatibilité entre les navigateurs. En effet chaque navigateur dispose
-de son propre « moteur d'affichage » et un même site pourra avoir un
-affichage et un comportement très différents selon le navigateur
-utilisé. La compatibilité multi-navigateurs consiste à essayer d'avoir
-un rendu et un comportement identitique d'un navigateur à l'autre.
+de son propre « moteur d'affichage », et un même site pourra avoir un
+affichage et un comportement très différent selon le navigateur utilisé.
+La compatibilité multi-navigateurs consiste à essayer d'avoir un rendu
+et un comportement identique d'un navigateur à l'autre.
 
 \bigskip
 
 Une première étape pour y arriver est de connaitre les navigateurs les
 plus utilisés. Aujourd'hui, \emph{Chrome} est le navigateur le plus
-utilisé (51\%), suivi par \emph{Safari} (18\%) et \emph{Internet
-Explorer} et \emph{Edge} (le nouveau navigateur de \emph{Microsoft})
-(11\%).
+utilisé (51\%), suivi par \emph{Safari} (18\%), \emph{Internet Explorer}
+et \emph{Edge} (le nouveau navigateur de \emph{Microsoft}) (11\%).
 
 \begin{figure}[h]
   \centering
@@ -1640,12 +1648,12 @@ Explorer} et \emph{Edge} (le nouveau navigateur de \emph{Microsoft})
 \bigskip
 
 Une fois le site en ligne et visité par un nombre d'utilisateurs
-suffisant, il est possible de connaitre les navigateurs utilisés par ces
-visiteurs grâce à des outils comme \emph{Google Analytics}, qui
-fournissent une analyse de l'audiance d'un site web. Pour
-\emph{FinFrog}, nous avons pu observer que \emph{Chrome} était bien le
-navigateur le plus utilisé (63.71\%), suivi par \emph{Firefox}
-(14.81\%), \emph{Internet Explorer} (8,54\%) et \emph{Safari} (8.22\%).
+suffisant, il est possible de connaître les navigateurs utilisés par ces
+visiteurs, grâce à des outils comme \emph{Google Analytics}, qui
+permettent d'analyser l'audience d'un site web. Pour \emph{FinFrog},
+nous avons pu observer que \emph{Chrome} était bien le navigateur le
+plus utilisé (63.71\%), suivi par \emph{Firefox} (14.81\%),
+\emph{Internet Explorer} (8,54\%) et \emph{Safari} (8.22\%).
 
 \begin{figure}[h]
   \centering
@@ -1656,64 +1664,65 @@ navigateur le plus utilisé (63.71\%), suivi par \emph{Firefox}
 \bigskip
 
 Une fois que les navigateurs principalement utilisés par la cible sont
-identifié, il faut choisir des outils et méthodes adapté à ceux-ci. On
+identifiés, il faut choisir des outils et méthodes adaptés à ceux-ci. On
 peut utilisé des sites comme \href{http://caniuse.com/}{\emph{Can I
 use}} qui offre des tableaux de compatibilité pour \emph{HTML5},
-\emph{CSS3}, \emph{SVG} et autres technologies dans les différents
+\emph{CSS3}, \emph{SVG}, et autres technologies dans les différents
 navigateurs. Nous utilisons également
 \href{https://www.browserstack.com/}{\emph{BrowserStack}}, un outil de
-test multi-navigateur qui permet aux développeurs de tester leurs sites
-Web à travers différents navigateurs sur différents systèmes
+test multi-navigateurs qui permet aux développeurs de tester leurs sites
+web à travers différents navigateurs sur différents systèmes
 d'exploitation et appareils mobiles, sans devoir installer de machine
-virtuelle ou autres. On peut ainsi vérifier le rendu visuel, ainsi que
-le comportement de l'application, sur nos navigateurs cibles.
+virtuelle. On peut ainsi vérifier le rendu visuel, ainsi que le
+comportement de l'application, sur nos navigateurs cibles.
 
 \bigskip
 
-Voici un exemple de problème qu'un developpeur peut rencontrer à cause
+Voici un exemple de problème qu'un développeur peut rencontrer à cause
 des différences de comportement entre navigateurs. Après la mise en
-place du tunnel de demande prêt, le client à remonté un
+place du tunnel de demande de prêt, notre client nous a remonté un
 disfonctionnement sur la page de téléchargement de la pièce d'identité.
 Sur \emph{Internet Explorer 11} (\emph{IE11}), après le téléchargement,
 l'image ne s'affichait pas sur l'interface. Il était alors impossible
 pour l'utilisateur de passer à la page suivante. Après de nombreux tests
-sur \emph{BrowserStack}, j'ai découvert que \emph{IE11} gardé par défaut
-en cache, c'est à dire mémorisé, les réponses de l'\emph{API}. Quand
-l'utilisateur arrivé sur la page, un premier appel à l'\emph{API} était
-effectué, pour afficher la liste des pièce déjà télécharger. Cet appel
-était mémorisé par le navigateur, et quand l'utilisateur faisait une
-action (télécharger une nouvelle pièce d'identité, ou en supprimer une),
-un nouvel appel était fait pour récupérer la liste mise à jours. Mais le
-navigateur ignoré cet appel et utilisé à la place le resultat mémorisé
-du premier appel. Pour résoudre ce problème, il m'a suffit de spécifié
-dans la réponse envoyé par l'\emph{API}, que l'information ne doit pas
-être mémorisée. Cela se traduit par ajouter la valeur \texttt{no-cache}
-au paramétre \texttt{Cache-Control} dans le \emph{Header} de la réponse
-de l'\emph{API}
+sur \emph{BrowserStack}, j'ai découvert que \emph{IE11} gardait les
+réponses de l'\emph{API} en cache par défaut, c'est à dire les mémoriser
+dans l'espace de stockage alloué au navigateur. Quand l'utilisateur
+arrivait sur la page, un premier appel à l'\emph{API} était effectué,
+afin d'afficher la liste des pièces déjà téléchargées. Cet appel était
+mémorisé par le navigateur, et quand l'utilisateur faisait une action
+(télécharger une nouvelle pièce d'identité, ou en supprimer une), un
+nouvel appel était fait pour récupérer la liste mise à jour. Mais, le
+navigateur ignorait cet appel et utilisait à la place le résultat
+mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de
+spécifier dans la réponse envoyée par l'\emph{API}, que l'information ne
+doit pas être mise en cache. Cela se traduit par l'ajout de la valeur
+\texttt{no-cache} au paramètre \texttt{Cache-Control}, dans le
+\emph{Header} de la réponse de l'\emph{API}
 
 \bigskip
 
-\paragraph{Génération de contrat}\label{guxe9nuxe9ration-de-contrat}
+\paragraph{Génération de contrats}\label{guxe9nuxe9ration-de-contrats}
 
-Au bout d'environ un mois, le développeur présent chez le client à
-quitté le projet. Par conséquent nous avons récupéré la totalité du
-développement, tant au niveau du \emph{front} que de l'API, ainsi que la
-partie administrateur.
+Au bout d'environ un mois, le développeur présent chez le client a
+quitté le projet. Par conséquent, nous avons récupéré la totalité du
+développement, tant au niveau du \emph{front} que de l'\emph{API}, ainsi
+que la partie administrateur.
 
 \bigskip
 
 Une seconde demande était la mise à jour du contrat généré par
-l'application. Après que l'administrateur est validé la demande de prêt,
-un contrat est généré et fourni au l'utilisteur dans son espace client.
+l'application. Après que l'administrateur ait validé la demande de prêt,
+un contrat est généré et fourni à l'utilisateur, dans son espace client.
 Nous devions mettre à jour les termes du contrat et ajouter des
 informations manquantes, de manière dynamique.
 
 \bigskip
 
-Le systéme de génération de contrat existant était assez rudimentaire et
-peut évolutif. Il s'agissait en effet d'une simple concaténation de
-chaine de caractères et de variables. Il était donc difficil de modifier
-le style du contrat ou même son contenue.
+Le système de génération de contrats existant était assez rudimentaire
+et peu évolutif. Il s'agissait en effet d'une simple concaténation de
+chaînes de caractères, et de variables. Il était donc difficile de
+modifier le style du contrat, ou même son contenu.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1741,12 +1750,13 @@ le style du contrat ou même son contenue.
 
 Pour résoudre ce problème, nous avons décidé d'utiliser
 \href{https://github.com/janl/mustache.js}{\emph{Mustache.js}}, une
-librairie de templating. Elle permet de mettre en place un template HTML
-et d'y intégrer facilement nos varibles. Il nous suffit alors de définir
-un template en HTML, en y introduisant le nom de nos variable entre
-accolade, puis d'appeler la librairie \emph{Mustache.js} en lui
-fournissant ce template et un objet contenant les valeurs de nos
-variables, \texttt{Mustache.render(template,\ params)}.
+librairie de \emph{templating}. Elle permet de mettre en place un
+\emph{template HTML} et d'y intégrer facilement nos variables. Il nous
+suffit alors de définir un \emph{template} en \emph{HTML}, en y
+introduisant le nom de nos variable entre accolades, puis d'appeler la
+librairie \emph{Mustache.js} en lui fournissant ce \emph{template} et un
+objet, contenant les valeurs de nos variables,
+\texttt{Mustache.render(template,\ params)}.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1810,99 +1820,121 @@ variables, \texttt{Mustache.render(template,\ params)}.
 
 \paragraph{Mangopay}\label{mangopay}
 
-L'application FinFrog utilise
+L'application \emph{FinFrog} utilise
 \href{https://www.mangopay.com/fr/}{\emph{Mangopay}} comme partenaire
-pour gérer les transferts d'argent entre prêteur et emprunteurs.
-\emph{Mangopay} est solution de paiement dédiée aux marketplaces,
-plateformes de crowdfunding et acteurs de l'économie collaborative. La
-société offre à ses clients la possibilité d'accepter des paiements pour
-le compte de tiers, de créer et gérer des \emph{e-wallets}, de répartir
-les fonds vers de multiples bénéficiaires, de collecter automatiquement
-leurs chiffres d'affaires, le tout de manière très simple et sécurisé.
+pour gérer les transferts d'argent, entre prêteurs et emprunteurs.
+\emph{Mangopay} est une solution de paiements dédiée aux
+\emph{marketplaces}, plateformes de \emph{crowdfunding} et acteurs de
+l'économie collaborative. La société offre à ses clients la possibilité
+d'accepter des paiements pour le compte de tiers, de créer et gérer des
+\emph{e-wallets}, de répartir les fonds vers de multiples bénéficiaires,
+et de collecter automatiquement leurs chiffres d'affaires, le tout de
+manière très simple et sécurisé.
 
 \bigskip
 
-J'ai donc du travailler avec l'\emph{API} de \emph{Mangopay}, notamment
+J'ai donc dû travailler avec l'\emph{API} de \emph{Mangopay}, notamment
 pour gérer l'enregistrement des coordonnées bancaires des utilisateurs.
 Pour pouvoir faire cela, un \emph{e-wallet} \emph{Mangopay} est créé
 pour chaque utilisateur, à la création de son compte sur \emph{FinFrog}.
 Puis, lors de la récupération de l'IBAN et des informations de la carte
-bancaire de l'utilisateur, nous associons à ce \emph{e-wallet} à la
-carte et le compte bancaire. L'enregistrement de la carte se fait
-directement grâce au \emph{front}, car pour des raisons de sécurité nous
-ne pouvons pas faire transiter ces informations vers l'\emph{API}. Une
-fois la carte enregistrée, nous créons une préauthorisation associée.
-Une préautorisation est une action qui permet de vérifier si
-l'utilisateur à une certaine capacité financière sur son compte
-bancaire. Cela nous permet donc de vérifier s'il sera en mesure de
-rembourser son prêt.
+bancaire de l'utilisateur, nous associons à ce \emph{e-wallet} la carte
+et le compte bancaire. Les informations de la carte bancaire sont
+envoyées directement à \emph{Mangopay} car, pour des raisons de
+sécurité, nous ne pouvons pas faire transiter ces dernières vers
+l'\emph{API}. Une fois la carte enregistrée, nous créons une
+pré-authorisation associée. Une pré-autorisation est une action qui
+permet de vérifier si l'utilisateur à une certaine capacité financière
+sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en
+mesure de rembourser son prêt ou non.
 
 \bigskip
 
-Il est également nécessaire de fournir de nombreuse informations sur
-l'utilisateur à \emph{Mangopay}, dans le cadre du \emph{KYC}. Le
-processus \emph{Know your customer} est utilisé dans le but d'assurer
+Il est également nécessaire de fournir à \emph{Mangopay} de nombreuses
+informations sur l'utilisateur, dans le cadre du \emph{KYC}. Le
+processus \emph{Know Your Customer} est utilisé dans le but d'assurer
 que les clients sont conformes aux lois anti-corruption. Cela a
 également pour but de prévenir l'usurpation d'identité, la fraude
 financière, le blanchiment d'argent et le financement du terrorisme.
-C'est un processus donc très important dans le cadre d'entreprise comme
-FinFrog, qui gére des flux quotidien d'argent. Pour répondre au
-\emph{KYC}, nous fournissons en plus des informations de base (date et
-lieu de naissance, adresse etc.) les pièces d'identité récupéré lors de
-la demande de prêt.
+C'est un processus donc très important dans le cadre d'entreprises comme
+\emph{FinFrog}, qui gèrent des flux quotidiens d'argent. Pour répondre
+au \emph{KYC}, nous fournissons, en plus des informations de base (date
+et lieu de naissance, adresse, etc.), les pièces d'identité récupérées
+lors de la demande de prêt.
 
 \bigskip
 
 \paragraph{Fin du stage}\label{fin-du-stage}
 
 Quelques semaines avant la fin de mon stage chez \emph{Dernier Cri},
-\emph{FinFrog} à acceuilli un nouveau développeur sur le projet, engagé
+\emph{FinFrog} a accueilli un nouveau développeur sur le projet, engagé
 par le client. Pour lui permettre de découvrir et appréhender
-correctement le prpjet, nous l'avons acceuilli une journée dans nos
-locaux. Au cours de cette journée, nous lui avons présenté tout les
-aspects de \emph{FinFrog}, de l'infrastruture au flux entre le site et
-l'\emph{API}, en passant par notre gestion de projet.
+correctement le projet, nous lui avons présenté notre travail sur le
+projet, dans nos locaux. Au cours de cette journée, nous lui avons
+présenté tout les aspects de \emph{FinFrog}, de l'infrastructure, aux
+flux entre le site et l'\emph{API}, en passant par notre gestion de
+projets.
 
 \bigskip
 
-Passage de forfait a regie
+Pendant la fin du stage nous avons mis en place avec lui un plan
+d'amélioration du code de l'application. En effet, le projet ayant était
+développer assez rapidement par le premier développeur de
+\emph{FrinFrog}, certain choix de conception ne sont aujourd'hui plus
+pertinant. Nous avons également besoin de nouveaux outils: générer une
+documentation à partir des commentaires de l'application, mettre en
+place des migrations pour la bases de données etc.
+
+\bigskip
+
+C'est également à ce moment que le mode de facturation du projet est
+passé de forfait à régie. Auparavant, en mode forfait, nous devions
+estimé chaque tâche, et les dépassements n'étaient pas facturés. En mode
+régie, le tout temps de développement est facturé. D'une part cela
+signifie que le client est satisfait de notre travail et nous fait
+confiance, d'autre part cela nous permet d'avoir une plus grande liberté
+de mouvement: nous ne devons plus attendre une estimations et une
+validations avant de se lancer dans un développement.
+
+\bigskip
 
 \subsubsection{Conclusion}\label{conclusion-1}
 
-\emph{FinFrog} a été un projet très enrichisant car abordant de
-nombreuses problèmatiques pouvant être rencontrée dans le developpement
+\emph{FinFrog} a été un projet très enrichissant, car abordant de
+nombreuses problématiques pouvant être rencontrées dans le développement
 web, et utilisant de nombreux outils.
 
 \bigskip
 
-J'ai eu l'opportunité de participer activement aux reflections
-concernant la conception du site. En effet, notre client était ouvert au
-sugestions et remarques, et tenait à se que nous comprenions les tenant
-et aboutissant de chaque décisions et nouveaux développements. C'est
-pour cela que nous avions de nombreuses réunions téléphoniques, et débat
-écrits. J'ai ainsi pu appréhender les problématiques des \emph{Fintech},
-ses entreprises qui utilisent la technologie pour lancer des services
-bancaires et financiers innovants.\\
+J'ai eu l'opportunité de participer activement aux réflexions concernant
+la conception du site. En effet, notre client était ouvert au
+suggestions et remarques, et tenait à se que nous comprenions les
+tenants et aboutissants de chaque décision et des nouveaux
+développements. C'est pour cela que nous avions de nombreuses réunions
+téléphoniques, et débat écrits. J'ai ainsi pu appréhender les
+problématiques des \emph{Fintech}, ses entreprises qui utilisent la
+technologie pour lancer des services bancaires et financiers
+innovants.\\
 Cela m'a également permis de travailler sur mon relationnel client,
 grâce au contact presque journalier avec notre client pour récolter ses
-besoins, puis ses retours par rapports aux fonctionnalitées développées.
+besoins, puis ses retours par rapport aux fonctionnalités développées.
 
 \bigskip
 
 Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus
-ou moins important, comme le service \emph{Mangopay}, des outils de
+ou moins importants, comme le service \emph{Mangopay}, des outils de
 \emph{monitoring} comme \emph{Google Analytics} ou \emph{Hotjar}, ou
 encore de nombreuse librairie comme \emph{Mustache.js}, \emph{Redux
-form} ou encore \emph{React Router}.
+Form} ou encore \emph{React Router}.
 
 \bigskip
 
-\subsection{Autre projet : Générateur d'image pour Dernier
-Cri.}\label{autre-projet-guxe9nuxe9rateur-dimage-pour-dernier-cri.}
+\subsection{Autre projet : Générateur d'images pour Dernier
+Cri.}\label{autre-projet-guxe9nuxe9rateur-dimages-pour-dernier-cri.}
 
 \bigskip
 
-Comme dit précédemment, \emph{Dernier Cri} posséde un blog tenu par ses
+Comme dit précédemment, \emph{Dernier Cri} possède un blog tenu par ses
 développeurs. L'équipe essaye de tenir un rythme de publication d'un
 article par semaine. Pour faire la promotion de cette activité,
 \emph{Dernier Cri} partage les publications sur les réseaux sociaux.
@@ -1910,10 +1942,10 @@ article par semaine. Pour faire la promotion de cette activité,
 \bigskip
 
 Pour permettre une meilleure communication, il est venue l'idée de créer
-des images personnalisé pour chaque article, qui serait utilisé dans les
-partages sur les réseaux sociaux. Evidemment, la création de ces images
-serait automatisée. J'ai décidé de relever ce défie et de créer ce
-générateur d'image.
+des images personnalisées pour chaque article, qui seraient utilisées
+sur les réseaux sociaux. Evidemment, la création de ces images serait
+automatisée. J'ai décidé de relever ce défi et de créer ce générateur
+d'images.
 
 \bigskip
 
@@ -1922,13 +1954,14 @@ d'utiliser
 \href{https://www.imagemagick.org/script/index.php}{\emph{ImageMagick}}
 pour générer mes images. \emph{ImageMagick} est un logiciel libre,
 comprenant une bibliothèque, ainsi qu'un ensemble d'utilitaires en ligne
-de commande, permettant de créer, de convertir, de modifier et
-d'afficher des images dans un très grand nombre de formats. Il offre de
-nombreuse possibilités pour manipuler les images: il est possible de les
-découper, de modifier leur couleur, de leur faire faire des rotation,
-d'y inclure du texte etc.\\
+de commande, permettant de créer, convertir, modifier et afficher des
+images dans un très grand nombre de formats. Il offre de nombreuses
+possibilités pour manipuler les images: il est possible de les découper,
+de modifier leurs couleurs, de leur faire faire des rotations, d'y
+inclure du texte, etc.\\
 J'ai donc commencé par prendre en main \emph{ImageMagick} en ligne de
-commande, pour doucement créer l'image voulue grâce à un script bash.
+commande, pour doucement créer l'image voulue grâce à un script
+\emph{bash}.
 
 \bigskip
 
@@ -1938,7 +1971,7 @@ Dans ce script, je construisais mon image finale par étape :
 \tightlist
 \item
   Création de l'image de fond : tout d'abord il fallait redimensionner
-  l'image choisi comme image de fond, puis y appliquer un filtre bleu
+  l'image choisie comme image de fond, puis y appliquer un filtre bleu
   pour obtenir l'effet souhaité.
 \end{itemize}
 
@@ -1954,7 +1987,7 @@ composite -blend 90% -gravity South blue.png background.png
 
 \begin{itemize}
 \item
-  La création de l'image de l'auteur: je récupére l'image de l'auteur de
+  La création de l'image de l'auteur: je récupère l'image de l'auteur de
   l'article, puis utilise un masque pour la rendre ronde.
 
 \begin{verbatim}
@@ -1984,20 +2017,20 @@ convert JS.jpg  -resize $userWidth \
 
 Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à
 l'intégré au site web de \emph{Dernier Cri}. Ce dernier étant développé
-en \emph{Ruby on Rails}, j'ai tout d'abord du me familiariser avec cette
-pile technologique à travers différents tutoriaux, avant de pouvoir
-coder mon générateur d'image.
+en \emph{Ruby on Rails}, j'ai tout d'abord dû me familiariser avec cette
+pile technologique, à travers différents tutoriels, avant de pouvoir
+coder ce générateur.
 
 \bigskip
 
-Pour intégrer le processus de génération d'image au site web, j'ai
+Pour intégrer le processus de génération d'images au site web, j'ai
 utilisé \href{https://github.com/rmagick/rmagick}{\emph{RMagick}}, une
-bibliothéque servant d'interface entre le langage \emph{Ruby} et la
-bibliothéque \emph{ImageMagick}. J'ai donc pu traduire mon processus de
-création d'image en \emph{Ruby} et l'intégrer au site sans
+bibliothèque servant d'interface entre le langage \emph{Ruby} et la
+bibliothèque \emph{ImageMagick}. J'ai donc pû traduire mon processus de
+création d'images en \emph{Ruby}, et l'intégrer au site sans
 difficultés.\\
 Voici un exemple de traduction, avec la superposition du logo de
-\emph{Dernier Cri} sur l'image de fond.
+\emph{Dernier Cri} sur l'image de fond :
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -2010,6 +2043,7 @@ Voici un exemple de traduction, avec la superposition du logo de
 
 \begin{Shaded}
 \begin{Highlighting}[]
+\CommentTok{# Traduction en Ruby}
 \KeywordTok{def} \NormalTok{add_logo(background)}
   \NormalTok{logo = }\DataTypeTok{Magick}\NormalTok{::}\DataTypeTok{Image}\NormalTok{.from_blob(}
     \NormalTok{open(}\DataTypeTok{Settings}\NormalTok{.blog_post_cover.logo_url).read}
@@ -2029,37 +2063,38 @@ Voici un exemple de traduction, avec la superposition du logo de
 \bigskip
 
 Les articles du blogs sont stockés et gérés sur \emph{Contenful}, un
-\emph{Content Management System} (CMS) ou, en français, Système de
-gestion de contenu. C'est donc en m'interfaçant avec \emph{Contenful}
-que je peux récupérer les informations nécéssaires à la génaration
-d'image: le titre de l'article, son auteur, sa photo etc.
+système de gestion de contenu. C'est donc en interfaçant mon programme
+avec \emph{Contenful} que je peux récupérer les informations nécessaires
+à la génération d'images: le titre de l'article, son auteur, sa photo,
+etc.
 
 \bigskip
 
-La génération de l'image terminé, j'ai du mettre en place un service
+La génération de l'image terminée, j'ai dû mettre en place un service
 pour garder en mémoire cette image, et ne pas la régénérer à chaque
-partage. Pour cela j'ai utilisé \emph{CloudFront} de \emph{AWS}
+partage. Pour cela, j'ai utilisé \emph{CloudFront} de \emph{AWS}
 (\emph{Amazon Web Service}) qui permet de garder en cache l'image après
 le premier appel. En effet, je fourni pour le partage comme adresse de
 l'image le nom de domaine de mon \emph{CloudFront}, avec le nom de mon
-image, par exemple \texttt{http://XXXXX.cloudfront.net/monoide} :
+image (par exemple \texttt{http://XXXXX.cloudfront.net/monoide}).\\
+Voici ce qu'il se passe lorsque l'on contacte cette \emph{URL}:
 
 \begin{itemize}
 \item
-  Si mon image n'a jamais été généré, et donc que \emph{CloudFront} ne
+  Si mon image n'a jamais été générée, et donc que \emph{CloudFront} ne
   l'a pas dans son cache, le service va faire un appel au site
-  \emph{Dernier cri}, sur l'adresse du générateur, pour récupéré
-  l'image, la retournée et la mémorisée.
+  \emph{Dernier Cri}, sur l'adresse du générateur, pour récupérer cette
+  image, la retourner et la mémoriser.
 \item
   Lors des prochains appels, \emph{CloudFront} pourra retourner
-  directement l'image et donc éviter de redemander la génération.
+  directement l'image, et donc éviter de redemander sa génération.
 \end{itemize}
 
 \bigskip
 
-Finalement il m'a suffit d'ajouter l'adresse de mon image dans
-\emph{CloudFront} dans les balises des pages des articles de blog, pour
-que lors du partage sur les réseaux sociaux l'image soit utilisée.
+Finalement, pour que l'image soit utilisée sur les réseaux sociaux, il
+m'a suffit d'ajouter l'adresse de mon image dans \emph{CloudFront},
+directement dans les balises des pages associées aux articles de blog.
 
 \begin{figure}[h]
   \centering
@@ -2081,7 +2116,7 @@ récompenser son dynamiste dans le numérique et l'innovation. Ce label,
 en plus de récompenser les efforts de la ville, constitue le point
 d'entrée vers des dispositifs nationaux comme des programmes pour
 attirer les entrepreneurs étrangers qui veulent créer leur
-\emph{start-up} en France.
+\emph{startup} en France.
 
 \bigskip
 
@@ -2316,6 +2351,12 @@ améliorer la qualité, la maintenabilité et la sécurité.
 
 \bigskip
 
+\textbf{Crowdfunding:} (financement participatif) expression décrivant
+tous les outils et méthodes de transactions financières qui font appel à
+un grand nombre de personnes afin de financer un projet.
+
+\bigskip
+
 \textbf{CTO} (\emph{Chief Technology Officer})\textbf{:} directeur
 technique, chargé de s'occuper de la direction des questions
 scientifiques et techniques.
@@ -2345,6 +2386,11 @@ programmation de type script et standardisées par Ecma International.
 
 \bigskip
 
+\textbf{E-wallet:} dispositif électronique qui permet à un individu de
+faire des transactions électroniques.
+
+\bigskip
+
 \textbf{Fintech:} contraction de `Finance' et `Technologie', c'est un
 domaine d'activité dans lequel les entreprises utilisent les services
 informatique pour fournir des services financiers.
@@ -2368,6 +2414,11 @@ finaux, qui permet d'interagir avec les reste de l'application (le
 
 \textbf{Immutable:} Se dit des types de variables qui ne peuvent pas
 changer de valeur pendant l'exécution du programme.
+
+\bigskip
+
+\textbf{Marketplace:} plateforme dont l'objectif est de mettre en
+relation des vendeurs et des acheteurs, particuliers ou professionnels.
 
 \bigskip
 
@@ -2399,3 +2450,9 @@ les données d'un expéditeur jusqu'à un ou plusieurs destinataires.
 
 \textbf{Startup:} jeune entreprise innovante à fort potentiel de
 croissance, ou entreprise en construction.
+
+\bigskip
+
+\textbf{Template:} est un élement qui fait office de gabarit (modèle) où
+seuls certains éléments sont modifiables (le contenu texte, les images,
+les couleurs etc\ldots{}).
