@@ -1185,18 +1185,18 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 # Conclusion
 
-## Personnelle
-
-## Professionnelle
-
 Ce stage chez *Dernier Cri* et ma participation aux projets *Photolix* et *FinFrog* ont été très enrichissante.  J'ai pu mettre en application
+
+\bigskip
 
 Ce stage a été très enrichissant pour moi. Il m'a permit de participer au développement d'application web, , à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimentécomplet qui à su me transmettre des compétences techniques et méthodologiques.  
 J'ai notamment pu prendre en main de nombreuses bibliothéques, comme *React*, *Redux*, des langages comme *Ruby on Rails* ou encore travailler avec des partenaires comme *Mangopay*.  
 
+\bigskip
+
 J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions acquises à l'université, apprendre ou de me perfectionner avec certaines technologies ou méthodes et de développer l'aptitude au travail en équipe.  
 
-
+\bigskip
 
 
 Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dans votre projet professionnel. Vos objectifs ont-ils évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix de filière ?
@@ -1213,48 +1213,86 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 ***ACCOUNT manager:*** c'est un intermédiaire entre l'entreprise et le client. Il cherche de nouveaux clients, prend note de leurs besoins et identifie ensuite le produit ou le service qui y répond le mieux. Il essaie également de fidéliser les clients actuels en leur fournissant un service après-vente optimal.
 
+\bigskip
+
 ***API***(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est à dire un ensemble normalisé de classes, de méthodes ou de fonctions qui qui permet à un un logiciel de fournir des services à d'autres logiciels.
 
-bibliothéque
-
-***CEO*** (*chief executive officer*)**:**  directeur général d'une entreprise.
-
-
-**Chatops:** outil d'administration d'infrastructure par la discussion.
-
-***Code review*** (Revu de code) **:** examen systématique du code source, pour vérifier le respect d'un ensemble de règles de programmation, trouver des bugs, corriger des erreurs de conception, améliorer la qualité, la maintenabilité et la sécurité.
-
-CTO (Chief Technology Officer): directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
-
-
-***Data scientist :*** (scientifique de données) expert de la gestion et de l'analyse pointue de données massives ("big data"). Il détermine des indicateurs permettant la mise en place d'une stratégie à partir de sources de données multiples et dispersées.
-
-***Devops:*** employé doté des compétences nécessaires pour travailler à la fois en tant que développeur et ingénieur système.
-
-***DOM*** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
-
-***ECMAScript:*** ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International.
-
-
-**Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatique pour fournir des services financiers.
-
-***Framework:*** ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.
-
-***Front:*** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
+\bigskip
 
 ***Back*** Partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
 
+\bigskip
+
+***CEO*** (*chief executive officer*)**:**  directeur général d'une entreprise.
+
+\bigskip
+
+**Chatops:** outil d'administration d'infrastructure par la discussion.
+
+\bigskip
+
+***Code review*** (Revu de code) **:** examen systématique du code source, pour vérifier le respect d'un ensemble de règles de programmation, trouver des bugs, corriger des erreurs de conception, améliorer la qualité, la maintenabilité et la sécurité.
+
+\bigskip
+
+***CTO*** (*Chief Technology Officer*)**:** directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
+
+\bigskip
+
+***Data scientist :*** (scientifique de données) expert de la gestion et de l'analyse pointue de données massives ("big data"). Il détermine des indicateurs permettant la mise en place d'une stratégie à partir de sources de données multiples et dispersées.
+
+\bigskip
+
+***Devops:*** employé doté des compétences nécessaires pour travailler à la fois en tant que développeur et ingénieur système.
+
+\bigskip
+
+***DOM*** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
+
+\bigskip
+
+***ECMAScript:*** ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International.
+
+\bigskip
+
+**Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatique pour fournir des services financiers.
+
+\bigskip
+
+***Framework:*** ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.
+
+\bigskip
+
+***Front:*** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
+
+\bigskip
+
 ***Git:*** logiciel de gestion de versions décentralisé.
+
+\bigskip
 
 **Immutable:** Se dit des types de variables qui ne peuvent pas changer de valeur pendant l’exécution du programme.
 
+\bigskip
+
 **Mise en production:** déployer des modifications sur la version du projet accéssible aux utilisateurs finaux.
+
+\bigskip
 
 ***Monitoring:*** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse etc.).
 
-***Open source:***
-Pull request
-recette
-routage
-staging
-start up
+\bigskip
+
+***Open source:*** programme informatique dont le code source est distribué sous une licence permettant à quiconque de lire, modifier ou redistribuer ce logiciel.
+
+\bigskip
+
+**Recette:** phase de test des nouvelles fonctionnalités, visant à s'assurer que le produit est conforme aux spécifications.
+
+\bigskip
+
+**Routage:** sélection des chemins dans un réseau pour acheminer les données d'un expéditeur jusqu'à un ou plusieurs destinataires.
+
+\bigskip
+
+***Startup:*** jeune entreprise innovante à fort potentiel de croissance, ou entreprise en construction.
