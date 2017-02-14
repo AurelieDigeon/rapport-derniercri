@@ -36,16 +36,16 @@ J'aimerai finalement remercier mes parents et mon frère, qui m'ont permis de fa
 
 \bigskip
 
-Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en informatique à l'Université de Technologique de Compiègne (UTC), j'ai effectué un stage de six mois chez *Dernier Cri*.
+Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en informatique à l'Université de Technologie de Compiègne (UTC), j'ai effectué un stage de six mois chez *Dernier Cri*.
 
 \bigskip
 
-Dernier Cri est une *startup* créée en 2011, spécialisée dans l'innovation numérique. L'équipe est en charge du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
+Dernier Cri est une *startup* créée en 2011, spécialisée dans l'innovation numérique. L'équipe est chargée du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
 
 \bigskip
 
 Ma mission a été d'intégrer l'équipe de développeurs web pour aider au développement d'applications.  
-J'ai pu, lors de ce stage, intégrer une équipe dynamique et pro-active. En plus de mon implication dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles pour le blog de l’entreprise. J'ai également pu participer activement à la relation client lors de mes projets.
+J'ai pu, lors de ce stage, intégrer une équipe dynamique et proactive. En plus de mon implication dans les projets pour des clients, j'ai pu prendre part à de nombreuses présentations internes sur différentes technologies, et à l'écriture d'articles pour le blog de l’entreprise. J'ai également pu participer activement à la relation client lors de mes projets.
 
 \bigskip
 
@@ -53,7 +53,7 @@ Dans ce rapport je vais vous présenter tout d'abord *Dernier Cri*, l'entreprise
 
 \bigskip
 
-Dans une seconde partie, je vous exposerai mes missions au sein de l'entreprise. Je détaillerai ainsi les technologies que j'ai utilisé lors de ces dernières, ainsi que la gestion de projets (cliente et interne).
+Dans une seconde partie, je vous exposerai mes missions au sein de l'entreprise. Je détaillerai ainsi les technologies que j'ai utilisées lors de ces dernières, ainsi que la gestion de projets (cliente et interne).
 
 \bigskip
 
@@ -87,11 +87,11 @@ En 2011, Robin Komiwes et Benjamin Tierny créent *Nectify*, une entreprise dont
 
 \bigskip
 
-Début 2014, la majeure partie du chiffre d'affaire de *Nectify* était dû aux activités de prestations de services, *Fresc* ne représentant qu'une part marginale.
+Début 2014, la majeure partie du chiffre d'affaires de *Nectify* était dû aux activités de prestations de services, *Fresc* ne représentant qu'une part marginale.
 
 \bigskip
 
-Devenant donc une agence spécialisée dans l'innovation numérique, *Nectify* choisit de créer sa propre image, distincte de *Fresc*. C'est dans ce mouvement que la société est devenue *Dernier Cri*, une agence web qui met un point d'honneur à proposer à ses clients une solution complète et adaptée à leur problèmatique.  
+Devenant donc une agence spécialisée dans l'innovation numérique, *Nectify* choisit de créer sa propre image, distincte de *Fresc*. C'est dans ce mouvement que la société est devenue *Dernier Cri*, une agence web qui met un point d'honneur à proposer à ses clients une solution complète et adaptée à leur problématique.  
 De la conception à la réalisation, l'entreprise accompagne ses clients de A à Z pour aboutir à un produit au plus proche de leurs besoins. Cela permet aux développeurs d'opérer dans différents domaines d'activités, et d'avoir une vue globale du développement du produit.
 
 \bigskip
@@ -104,7 +104,7 @@ Le secteur de l'informatique est aujourd'hui est en pleine expansion. Pour donne
 
 \bigskip
 
-*Dernier Cri* se démarque des autres agences web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de gros volumes de données. Celà pour permettre d'augmenter la capacité d'innovation d'entreprises tiers, qui se traduit notamment par de l'exploitation de données, ou la création d'audits.
+*Dernier Cri* se démarque des autres agences web en proposant plusieurs services, dont évidemment la création d'applications web/mobile, mais aussi l'application de la recherche fondamentale en apprentissage automatique et traitement de gros volumes de données. Cela pour permettre d'augmenter la capacité d'innovation d'entreprises tiers, qui se traduit notamment par de l'exploitation de données, ou la création d'audits.
 
 \bigskip
 
@@ -122,15 +122,15 @@ Le secteur de l'informatique est aujourd'hui est en pleine expansion. Pour donne
 
 \bigskip
 
-*Dernier Cri* posséde une organisation souple qui offre l'opportunité à tous ses employés de s'impliquer dans des projets variés, que ce soit pour des clients ou bien en interne (*side-project*).
+*Dernier Cri* possède une organisation souple qui offre l'opportunité à tous ses employés de s'impliquer dans des projets variés, que ce soit pour des clients ou bien en interne (*side-project*).
 
 \bigskip
 
-Au sommet de l'organisation de l'entreprise se trouve les deux fondateurs, Benjamin Tierny (*CEO*) et Robin Komiwes (*CTO*), ainsi que le troisième associé, Julien Vanden Torren (*Account manager*).
+Au sommet de l'organisation de l'entreprise se trouvent les deux fondateurs, Benjamin Tierny (*CEO*) et Robin Komiwes (*CTO*), ainsi que le troisième associé, Julien Vanden Torren (*Account manager*).
 
 \bigskip
 
-L'entreprise compte aujourd'hui 19 employés, dont trois associés, une assistante de direction, une chef de projet et 14 développeurs. L'équipe de développeurs est aussi constituée d'un *devops*, et d'un *data scientist*. Grâce à de nombreux nouveaux projets, elle se trouve dans une phase d'expension, avec de nouvelles embauches en perspective.
+L'entreprise compte aujourd'hui 19 employés, dont trois associés, une assistante de direction, une chef de projet et 14 développeurs. L'équipe de développeurs est aussi constituée d'un *devops*, et d'un *data scientist*. Grâce à de nombreux nouveaux projets, elle se trouve dans une phase d'expansion, avec de nouvelles embauches en perspective.
 
 \bigskip
 
@@ -138,29 +138,29 @@ Selon la demande, et les compétences recherchées par un client, il peut arrive
 
 \bigskip
 
-La gestion de projet peut se séparer en deux: la relation client, et la gestion de projet en interne. Le chef de projet s'occupe de gérer la première en récoltant les besoins du clients tout au long du projet, la seconde se fait principalement par l'intermédiaire de *Github*, que le chef de projet tient à jour pour permettre aux développeurs d'être efficaces. Ces deux points seront développés plus loin dans le rapport.
+La gestion de projet peut se séparer en deux: la relation client, et la gestion de projet en interne. Le chef de projet s'occupe de gérer la première en récoltant les besoins du client tout au long du projet, la seconde se fait principalement par l'intermédiaire de *Github*, que le chef de projet tient à jour pour permettre aux développeurs d'être efficaces. Ces deux points seront développés plus loin dans le rapport.
 
 \bigskip
 
-*Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire d'articles de blog.
+*Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est développé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire d'articles de blog.
 
 ### Présentations internes
 
 \begin{figure}[h]
   \centering
   \includegraphics[height=4cm]{figures/talk.jpg}
-  \caption{Fabien présentant comment fabriquer son propre hardware}
+  \caption{Fabien Gavory présentant comment fabriquer son propre hardware}
 \end{figure}
 
 \bigskip
 
-Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des petites présentations (*talks*) sur une technologie, le resultat d'une veille, ou certains enjeux et solutions techniques en rapport avec la réalisation d'un projet. Ces *talks* ont pour objectifs de partager aux collègues des expériences passées et/ou des passions.
+Dans l'optique d'un partage du savoir dans l'entreprise, les employés sont invités à faire des petites présentations (*talks*) sur une technologie, le résultat d'une veille, ou certains enjeux et solutions techniques en rapport avec la réalisation d'un projet. Ces *talks* ont pour objectifs de partager aux collègues des expériences passées et/ou des passions.
 
 \bigskip
 
 Ces présentations ont trois principaux avantages pour les spectateurs:
 
-1. permettre aux spectateurs de la présentation d'apprendre de nouvelles choses - c'est ainsi l'occasion de découvrir un sujet dont on ne se doutait pas de l'intéret ou de l'existence ;  
+1. permettre aux spectateurs de la présentation d'apprendre de nouvelles choses - c'est ainsi l'occasion de découvrir un sujet dont on ne se doutait pas de l'intérêt ou de l'existence ;  
 2. sensibiliser ses coéquipiers à des problèmes, ou des technologies, qui peut être un véritable gain de temps dans le futur - la présentation est travaillée et structurée, c'est ainsi souvent beaucoup plus facile d'aborder un sujet avec ces *talks*, que de devoir effectuer une recherche d'information sur divers supports ;  
 3. mutualiser la communication, et éviter de devoir expliquer individuellement les concepts.
 
@@ -172,11 +172,11 @@ Ainsi, c'est pour lui une occasion de travailler sur ces compétences d'orateur.
 \bigskip
 
 Un *talk* interne peut faire office d'incubation pour une présentation dans un autre contexte, afin de certifier l'intérêt du sujet, de sonder les angles d'approfondissement possibles, de valider la prestance de l'orateur.  
-En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations (_Meetups_, _Take Off_, etc), ce qui est très intéréssant mais aussi peut être assez intimidant. L'orateur peut donc s'entraîner en interne, avant de l'ouvrir à la communauté.
+En effet, il existe à Lille de nombreux évènements où il est possible de faire des présentations (_Meetups_, _Take Off_, etc), ce qui est très intéressant, mais aussi peut être assez intimidant. L'orateur peut donc s'entraîner en interne, avant de l'ouvrir à la communauté.
 
 \bigskip
 
-Pendant mon stage j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *ReactJS*, *Docker*, *Rust*, *MJML*, ou encore la fabrication d'un audit sur le traitement de grosses données pour une _startup_ en pleine expension.  
+Pendant mon stage, j'ai eu l'occasion d'assister à des présentations sur de nombreuses technologies telles que *ReactJS*, *Docker*, *Rust*, *MJML*, ou encore la fabrication d'un audit sur le traitement de grosses données pour une _startup_ en pleine expansion.  
 La grande majorité de ces présentations sont publiées et ouvertes au public sur la [chaîne youtube *Dernier Cri*](https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg).
 
 \bigskip
@@ -185,12 +185,12 @@ La grande majorité de ces présentations sont publiées et ouvertes au public s
 
 \bigskip
 
-Dernier Cri posséde également un [blog technique](http://derniercri.io/tech-blog), alimenté par les développeurs de l'équipe. Les objectifs sont sensiblement les mêmes que pour les présentations internes. C'est sur ce point que *Dernier Cri* fait le plus de communication externe, afin de rayonner, démontrer ses compétences techniques, et son esprit d'analyse.  
+Dernier Cri possède également un [blog technique](http://derniercri.io/tech-blog), alimenté par les développeurs de l'équipe. Les objectifs sont sensiblement les mêmes que pour les présentations internes. C'est sur ce point que *Dernier Cri* fait le plus de communication externe, afin de rayonner, démontrer ses compétences techniques, et son esprit d'analyse.  
 Le blog technique permet ainsi à Dernier Cri de se positionner en tant qu’expert.
 
 \bigskip
 
-Un blog est également utile pour tenir informée sa clientelle : il permet de rester en contact permanent avec ses prospects, et de les tenir au courant de l’actualité de l'entreprise, comme un nouveau produit, la maitrise d'une nouvelle technologie, etc.
+Un blog est également utile pour tenir informée sa clientèle : il permet de rester en contact permanent avec ses prospects, et de les tenir au courant de l’actualité de l'entreprise, comme un nouveau produit, la maîtrise d'une nouvelle technologie, etc.
 
 \bigskip
 
@@ -198,7 +198,7 @@ Pour le rédacteur de l'article, cela a également de nombreux avantages. Par ex
 
 \bigskip
 
-J'ai eu l'occasion lors de mon stage d'écrire un article pour le blog technique de *Dernier Cri*. Dans cet article je décris les technologies que j'ai utilisé lors de mon stage, *ReactJS* et *Redux*, ainsi que cinq outils que j'ai découvert et qui ont facilité le développement de mes projets.  
+J'ai eu l'occasion lors de mon stage d'écrire un article pour le blog technique de *Dernier Cri*. Dans cet article je décris les technologies que j'ai utilisées lors de mon stage, *ReactJS* et *Redux*, ainsi que cinq outils que j'ai découverts et qui ont facilité le développement de mes projets.  
 Ce fut une expérience très enrichissante, car cela m'a poussé à enrichir mes connaissances dans le domaine du web, de clarifier les concepts pour savoir les expliquer à tous et de travailler ma qualité de rédaction.
 
 \newpage
@@ -220,7 +220,7 @@ Cette formation s'est faite à partir du site [Code school](https://www.codescho
 
 \bigskip
 
-La popularité de ces trois technologies est en forte hausse, et elle sont de plus en plus utilisées pour la création facile, rapide et moderne d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces deux *frameworks* lors de ce stage.
+La popularité de ces trois technologies est en forte hausse, et elles sont de plus en plus utilisées pour la création facile, rapide et moderne d'applications web. C'est pourquoi ce fut une véritable chance d'apprendre ces deux *frameworks* lors de ce stage.
 
 \bigskip
 
@@ -235,7 +235,7 @@ Cette montée en popularité s'est faite brusquement avec l'arrivée du moteur *
 
 *ES6* (*ECMAScript Edition 6*, ou encore *ES2015*) a été publiée en Juin 2015.  
 Elle ajoute un ensemble de normes à celles déjà présentes, afin d'améliorer des fonctionnalités existantes dans *ES5*, et d'en apporter de nouvelles qui permettent d'alléger le code, ou de mieux le structurer.  
-Ce tout permet de rendre le code source de l'application plus maintenable, tout en restant compatible avec les précédentes versions de *JavaScript*.
+Le tout permet de rendre le code source de l'application plus maintenable, tout en restant compatible avec les précédentes versions de *JavaScript*.
 
 \bigskip
 
@@ -292,7 +292,7 @@ Voici quelques nouveautés notoires de *ES6* :
     var c = tmp.c;
     ```
 
-* Les *arrow functions*: elles offrent une syntaxe plus courte, sont des fonctions anonymes (une fonction n'ayant pas de nom) et partage le contexte de leur parent.
+* Les *arrow functions*: elles offrent une syntaxe plus courte, sont des fonctions anonymes (une fonction n'ayant pas de nom) et partagent le contexte de leur parent.
 
     ```JavaScript
     /* fonction anonymes classique */
@@ -306,7 +306,7 @@ Voici quelques nouveautés notoires de *ES6* :
 \bigskip
 
 Étant donné que *ES6* n'est pas encore totalement supporté par les navigateurs, il est donc utile d'utiliser un transcompilateur vers *ES5*, comme le fait *Babel.js*. Un transcompilateur permet de prendre le code d'un langage de programmation comme son entrée, et de récupérer en sortie le code dans un autre langage.  
-Ici, *Babel.js* va traduire les particularité syntaxiques de *ES6* en *ES5*.
+Ici, *Babel.js* va traduire les particularités syntaxiques de *ES6* en *ES5*.
 
 \bigskip
 
@@ -332,10 +332,18 @@ Elle est aujourd'hui utilisée par de nombreuses entreprises telles que *Netflix
 
 \bigskip
 
-Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object Model*) Virtuel. Le DOM est l’*API* qui permet au développeur web d’accéder et de manipuler le contenu d’une page web. Cette *API* founit une représentation structurée et orientée objet de votre document. Elle fournit également des méthodes pour l’ajout et la suppression d'éléments ainsi que la gestion des événements, ce qui permet de créer du contenu dynamique. Le problème est que la mise à jour du DOM, pour appliquer des modifications, est lente, il est donc nécessaire de limiter les interactions avec celui-ci lors de l’application de modifications.
+Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object Model*) Virtuel. Le DOM est l’*API* qui permet au développeur web d’accéder et de manipuler le contenu d’une page web. Cette *API* fournit une représentation structurée et orientée objet de votre document. Elle fournit également des méthodes pour l’ajout et la suppression d'éléments ainsi que la gestion des événements, ce qui permet de créer du contenu dynamique. Le problème est que la mise à jour du DOM, pour appliquer des modifications, est lente, il est donc nécessaire de limiter les interactions avec celui-ci lors de l’application de modifications.
 \bigskip
 
-Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de *HTML* mais une représentation sous forme d’objets et de nœuds de ce à quoi le *HTML* final doit ressembler. React va comparer cette représentation au *DOM* réel et en déduire les opérations minimales à exécuter pour que les deux soient identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du *DOM* en une opération plutôt qu’au fur et à mesure.
+Grâce à l'utilisation d'un *DOM* virtuel, un composant *React* ne crée pas de *HTML* mais une représentation sous forme d’objets et de nœuds de ce à quoi le *HTML* final doit ressembler. *React* va comparer cette représentation au *DOM* réel et en déduire les opérations minimales à exécuter pour que les deux soient identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du *DOM* en une opération plutôt qu’au fur et à mesure.
+
+\bigskip
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=7cm]{figures/react-map.png}
+  \caption{Logique React}
+\end{figure}
 
 \bigskip
 
@@ -378,7 +386,7 @@ class TodoListApp extends React.Component {
 }
 ```
 
-Le formulaire utilisera la fonction `addItem` de TodoListApp pour modifier la liste. Cette modificaton de la liste déclenchera la modification du composant TodoItems, puisqu'il reçoit la liste comme *props*.
+Le formulaire utilisera la fonction `addItem` de TodoListApp pour modifier la liste. Cette modification de la liste déclenchera la modification du composant TodoItems, puisqu'il reçoit la liste comme *props*.
 
 \bigskip
 
@@ -390,28 +398,28 @@ Cette bibliothèque est aujourd'hui en expansion. Elle a un succès certain aupr
 
 \bigskip
 
-En plus de *React*, Facebook a fourni une architecture appelée *Flux* pour la gestion des donnés et la communication des composants. Cette architecture promet un flot unilatéral des données pour que le développeur puisse facilement suivre le trajet des données d'un événement et ses conséquences.
+En plus de *React*, Facebook a fourni une architecture appelée *Flux* pour la gestion des données et la communication des composants. Cette architecture promet un flot unilatéral des données pour que le développeur puisse facilement suivre le trajet des données d'un événement et ses conséquences.
 
 \bigskip
 
 Avec Flux, l'application va se décomposer de la façon suivante :
 
-* des *stores* qui sont l’endroit où les données sont concervées ;
-* des *actions* qui représente l'ensemble des modifications possible ;
+* des *stores* qui sont l’endroit où les données sont conservées ;
+* des *actions* qui représentent l'ensemble des modifications possible ;
 * un  *dispatcher* qui notifie les stores des actions effectuées ;
 * des vues, les composants, qui vont transformer et afficher les données qu’on leur donne.
 
 \bigskip
 
-*Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifient en utilisant des concepts liés à la programmation fonctionnelle.
+*Redux* est une des implémentations de *Flux* les plus populaires, créée en Mai 2015 par Dan Abramov. Bien que reprenant les concepts de *Flux*, *Redux* les simplifie en utilisant des concepts liés à la programmation fonctionnelle.
 
 \bigskip
 
-La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un premier temps laborieuse, car elle impose de nombreux fichiers, de nombreux composants différents et une façon de penser qui peut désarçonner au début. Mais une fois les bases mises en place, cette architecture a l'avantage d'offrir une bonne lisibilité quant aux changements d'état. Il est possible de se retrouver dans le code très rapidement et d'ajouter des composants sans difficultés puisque *React* et *Flux* sont conçus pour être modulable. Flux trouve donc son utilité dans les grandes applications.
+La mise en place de *Redux*, ou de *Flux* en général peut sembler dans un premier temps laborieuse, car elle impose de nombreux fichiers, de nombreux composants différents et une façon de penser qui peut désarçonner au début. Mais une fois les bases mises en place, cette architecture a l'avantage d'offrir une bonne lisibilité quant aux changements d'état. Il est possible de se retrouver dans le code très rapidement et d'ajouter des composants sans difficulté puisque *React* et *Flux* sont conçus pour être modulables. Flux trouve donc son utilité dans les grandes applications.
 
 \bigskip
 
-Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser, après m'étre beaucoup documenté et avoir discuté des différentes implémentations avec mes collègues (qui ont eu l’occasion de l’utiliser sur des projets), je pense qu'il s'agit d'une des meilleures. *Redux* permet d'appréhender certain concept de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support de la communauté en cas de problème.
+Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion d'utiliser, après m'être beaucoup documenté et avoir discuté des différentes implémentations avec mes collègues (qui ont eu l’occasion de l’utiliser sur des projets), je pense qu'il s'agit d'une des meilleures. *Redux* permet d'appréhender certains concepts de la programmation fonctionnel, est simple à utiliser et assez populaire pour offrir un support de la communauté en cas de problème.
 
 \bigskip
 
@@ -423,7 +431,7 @@ Bien que *Redux* soit la seule implémentation de *Flux* que j'ai eu l'occasion 
 
 ## Gestion de projet
 
-Le processus de développement d'une application pour un client possède deux aspects fondamentaux. Tout d'abord il est nécessaire de mettre en place une bonne relation client, d'un part pour bien comprendre les besoins et les contraintes, d'autre part pour vérifier au fur et à mesure du développement que la solution developpée correspond bien. Le chef de projet reste en contact, plus ou moins régulierement, avec le client pour présentation l'avancement et receuillir les retours.
+Le processus de développement d'une application pour un client possède deux aspects fondamentaux. Tout d'abord, il est nécessaire de mettre en place une bonne relation client, d'une part pour bien comprendre les besoins et les contraintes, d'autre part pour vérifier au fur et à mesure du développement que la solution développée correspond bien. Le chef de projet reste en contact, plus ou moins régulièrement, avec le client pour présenter l'avancement et recueillir les retours.
 
 \bigskip
 
@@ -435,19 +443,19 @@ Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois
 
 \bigskip
 
-Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. A partir de l’analyse de la demande, ils conceptualisent le projet (diagramme de séquence, MCD, et architecture logicielle) et le valident auprès du client avant de débuter les développements. Selon les besoins, le chef de projet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client. En effet, le développeur à souvent une approche différente du client: il peut proposer des solutions légérements différentes mais beaucoup moins longues à mettre en place techniquement, ou bien proposer des solutions techniques dont le client ignoré l'existence.
+Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution aux problèmes du client, en dégageant du discourt du client des fonctionnalités techniques à mettre en place. À partir de l’analyse de la demande, ils conceptualisent le projet (diagramme de séquence, MCD, et architecture logicielle) et le valident auprès du client avant de débuter les développements. Selon les besoins, le chef de projet organise une réunion avec le(s) développeur(s) et le client pour clarifier certains points ou pour discuter des différentes approches du problème possibles. C'est l'occasion pour le développeur de comprendre la problématique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client. En effet, le développeur à souvent une approche différente du client: il peut proposer des solutions légèrement différentes mais beaucoup moins longues à mettre en place techniquement, ou bien proposer des solutions techniques dont le client ignoré l'existence.
 
 \bigskip
 
-Après cette première étape, le chef de projet peut diviser les fonctionnalités en tâches et les faire estimer par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client. Elle sert notamment quand le projet est forfait. Dans ce type de projet, si les développeurs dépassent l'estimation donnée, le surplus n'est pas facturé, contrairement au projet en régie.
+Après cette première étape, le chef de projet peut diviser les fonctionnalités en tâches et les faire estimer par un développeur. Il estime le temps qu'il pense passer sur le problème, en prenant en compte l'exploration de l'existant, le développement en lui-même, les tests et les possibles retours. Cette estimation devra ensuite être validée par le client. Elle sert notamment quand le projet est en mode forfait. Dans ce type de projet, si les développeurs dépassent l'estimation donnée, le surplus n'est pas facturé, contrairement au projet en régie.
 
 \bigskip
 
-Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet, que le produit en cours de réalisation correspond aux attentes du client. C'est pourquoi un environnement de *staging* est mis en place. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployées les nouvelles fonctionnalités. Il permet au client de tester et valider les nouvelles fonctionnalités avant la mise en production.
+Il est ensuite temps de commencer le développement du projet. Il est nécessaire de s'assurer tout au long du projet que le produit en cours de réalisation correspond aux attentes du client. C'est pourquoi un environnement de *staging* est mis en place. Un espace de *staging* est un environnement identique à celui de l'application finale, mais utilisant de fausses données, où sont déployées les nouvelles fonctionnalités. Il permet au client de tester et valider les nouvelles fonctionnalités avant la mise en production.
 
 \bigskip
 
-Il est également courant de mettre en place des outils de *monitoring* pour assurer d'une part des performances, en termes de temps de réponse par exemple, et d'autre part la qualité du code. Pour cela *Dernier Cri* utilise des outils tel que *Papertrail*, ou *New Relic*.
+Il est également courant de mettre en place des outils de *monitoring* pour assurer d'une part des performances, en termes de temps de réponse par exemple, et d'autre part la qualité du code. Pour cela *Dernier Cri* utilise des outils tels que *Papertrail*, ou *New Relic*.
 
 \bigskip
 
@@ -455,14 +463,14 @@ Il est également courant de mettre en place des outils de *monitoring* pour ass
 
 \bigskip
 
-Une fois le projet découpé en fonctionnalités puis en tâches - où sont listés l’ensemble des fonctionnalités à intégrer, et comportement souhaité -, estimées et validées, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
+Une fois le projet découpé en fonctionnalités puis en tâches - où sont listés l’ensemble des fonctionnalités à intégrer, et comportements souhaités -, estimées et validées, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
 
-L'entreprise utilise principalement la plateforme *Github*, pour héberger le code de ses projets, et donc le logiciel de gestion de versions *Git*. *Github* est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
+L'entreprise utilise principalement la plateforme *Github*, pour héberger le code de ses projets, et donc le logiciel de gestion de versions *Git*. *Github* est une interface web permettant de gérer des projets versionnés, et qui contient de multiples applications aidant à la gestion de projets.
 
 \bigskip
 
-C'est sur un de ses outils que le chef de projet crée des *issues*, c'est à dire un descriptif de chaque tâche. Une interface en forme de tableau permet de séparer les tâches en plusieures colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quand à la réalisation de la tâche.  
-Cela permet à chacun d’avoir une vue d’ensemble du projet (chef de projet et développeurs) et de connaitre les priorités. Il est également possible de commenter chaque *issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
+C'est sur un de ses outils que le chef de projet crée des *issues*, c'est-à-dire un descriptif de chaque tâche. Une interface en forme de tableau permet de séparer les tâches en plusieurs colonnes, par exemple : *A faire*, *En cours*, *Terminé*. Il est aussi possible d'attribuer les tâches à un contributeur, ou encore de leur attribuer des labels tel que *Urgent*, *Bug* ou encore une estimation de temps quant à la réalisation de la tâche.  
+Cela permet à chacun d’avoir une vue d’ensemble du projet (chef de projet et développeurs) et de connaître les priorités. Il est également possible de commenter chaque *issue* pour, par exemple, demander des précisions, ou faire remonter une erreur.
 
 \bigskip
 
@@ -470,15 +478,15 @@ Pour protéger le projet actuel, stable, des nouvelles modifications tant que ce
 
 \bigskip
 
-C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un environnement de developpement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'une base de données, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisées lors de la phase de développement n'aient pas d'impact sur celles de production.
+C'est ensuite le moment de passer au développement à proprement parler. Le développeur utilise un environnement de développement sur son propre ordinateur pour simuler l'environnement de production. Cela peut se traduire par la création d'une base de données, ou la connexion à une *API* spéciale. Il faut faire attention à ce que les données utilisées lors de la phase de développement n'aient pas d'impact sur celles de production.
 
 \bigskip
 
-Quand le développeur estime avoir terminer la tâche, il crée une *Pull request* sur Github, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collégues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*. C'est l'occasion pour les développeurs d'avoir l'avis de leurs collégues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogéne.
+Quand le développeur estime avoir terminé la tâche, il crée une *Pull request* sur Github, c'est à dire demande à fusionner sa version du projet, modifiée pour résoudre la tâche, avec la version principale, stable. Il demande ensuite à ses collègues ayant des compétences dans le langage utilisé de relire et de commenter cette *Pull request*. C'est l'occasion pour les développeurs d'avoir l'avis de leurs collègues sur leur style d'écriture et leur façon de coder, ce qui permet souvent de découvrir de nouvelles méthodes et d'argumenter sur les meilleurs techniques à utiliser. *Dernier Cri* utilise ce système de *code review* pour garantir une certaine qualité du code ainsi qu'un style d'écriture de code homogêne.
 
 \bigskip
 
-Une fois le développement de la fonctionnalité validé, la nouvelle version du projet est déployé en *staging*. Le chef de projet et, si nécessaire, le client font une *recette*, c'est à dire vérifie que la version de *staging* remplit bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas endommagé la version existante. En cas de problème, le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
+Une fois le développement de la fonctionnalité validé, la nouvelle version du projet est déployée en *staging*. Le chef de projet et, si nécessaire, le client font une *recette*, c'est-à-dire vérifie que la version de *staging* remplit bien le besoin exprimé par le client, et que la nouvelle fonctionnalité n'a pas endommagé la version existante. En cas de problème, le développeur revient sur la tâche jusqu'à ce que tout soit réglé.
 
 \bigskip
 
@@ -490,15 +498,15 @@ Une fois un lot de tâches effectuées, il est décidé en accord avec le client
 
 \bigskip
 
-J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon plus ou moins importantes. Je vais commencer par vous présenter les deux principaux projets sur lesquels je me suis investie.
+J'ai eu la chance de participer à plusieurs projets durant mon stage, de façon plus ou moins importante. Je vais commencer par vous présenter les deux principaux projets sur lesquels je me suis investie.
 
 \bigskip
 
-Le premier projet auquel j'ai participé se nomme Photolix. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client.
+Le premier projet auquel j'ai participé se nomme *Photolix*. C'est un site internet de développement de photos, avec pour objectifs de toucher un large public et de limiter au maximum le temps d'attente du client.
 
 \bigskip
 
-Le second projet est FinFrog, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivé. Le client possédait un site en ligne, mais souhaitait changer l'apparence et ajouter des fonctionnalités, ce pourquoi il a fait appel à *Dernier Cri*.
+Le second projet est *FinFrog*, un site proposant des prêts financés par des particuliers. Ce projet était déjà assez avancé à mon arrivée. Le client possédait un site en ligne, mais souhaitait changer l'apparence et ajouter des fonctionnalités, ce pour quoi il a fait appel à *Dernier Cri*.
 
 \bigskip
 
@@ -512,7 +520,7 @@ Je vous présenterai également un outil que j'ai pu développer pour le site de
 
 \bigskip
 
-Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo. Le client possède un laboratoire de développement photo sur Lille, et souhaitait proposer à sa clientèle une application simple et efficace permettant de commander le développement de photos.
+Dès mon arrivée dans l'entreprise j'ai été assigné à la réalisation d'une application de développement photo : [*Photolix*](https://app.photolix.fr/). Le client possède un laboratoire de développement photo sur Lille, et souhaitait proposer à sa clientèle une application simple et efficace permettant de commander le développement de photos.
 
 \bigskip
 
@@ -520,13 +528,13 @@ Le principal objectif de ce projet était de télécharger les photos vers le se
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo était notamment déjà développées.
+Lors de mon arrivée sur le projet, un développeur de *Dernier Cri* avait déjà posé des bases. Les fonctions de recadrage et de compression de la photo étaient notamment déjà développées.
 
 \bigskip
 
 Les principaux objectifs du projet Photolix étaient les suivants :
 
-- mettre en place le *design* fournit par le client, à partir de maquette ;
+- mettre en place le *design* fourni par le client, à partir de maquette ;
 - gérer l'envoi des photos au serveur ;
 - mettre en place la possibilité de modifier les photos (formats, orientation...) ;
 - pages de saisie des informations du client (adresses, informations de paiement) et page de remerciement.
@@ -537,7 +545,7 @@ Les principaux objectifs du projet Photolix étaient les suivants :
 
 \bigskip
 
-Lors de mon arrivée sur ce premier projet, j'ai du apprendre à utiliser certains outils, tant au niveau de la gestion de projet, que du développement en lui-même.
+Lors de mon arrivée sur ce premier projet, j'ai dû apprendre à utiliser certains outils, tant au niveau de la gestion de projet, que du développement en lui-même.
 
 \bigskip
 
@@ -545,15 +553,15 @@ Tout d'abord, le projet utilise *Github* pour héberger le code source et pour l
 
 \bigskip
 
-Le projet déjà existant utilisait *npm*, le gestionnaire de paquets officiel de *Node.js*. Il permet d'installer des applications *Node.js* disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car elle permet de construire et lancer l'application en une commande.
+Le projet déjà existant utilisait *npm*, le gestionnaire de paquets officiel de *Node.js*. Il permet d'installer des applications *Node.js* disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique, car elle permet de construire et lancer l'application en une commande.
 
 \bigskip
 
-Pour mon environnement de travail, j'ai aussi utilisé un *linter*. Le *code linting* est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Concraitement, il permet d'afficher dans un éditeur de texte les erreurs. Il existe des *linters* de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation. J'ai personnellement utilisé *ESLint*, qui est un *linter* JavaScript open-source, libre et qui permet aux développeurs de créer leurs propres règles de filtrage.
+Pour mon environnement de travail, j'ai aussi utilisé un *linter*. Le *code linting* est un type d'analyse statique qui est fréquemment utilisé pour trouver des modèles problématiques ou le code qui ne respecte pas certaines directives de style. Concrètement, il permet d'afficher dans un éditeur de texte les erreurs. Il existe des *linters* de code pour la plupart des langages de programmation, et les compilateurs incorporent parfois le linting dans le processus de compilation. J'ai personnellement utilisé *ESLint*, qui est un *linter* JavaScript open-source, libre et qui permet aux développeurs de créer leurs propres règles de filtrage.
 
 \bigskip
 
-J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au *Slack* (une application de messagerie) de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concrêtement, j'ai principalement utilisé le chatops pour déployer mon application.
+J'ai également pu utiliser le *chatops* de *Dernier Cri*, un outil d'administration système via la conversation. Intégré au *Slack* (une application de messagerie) de l'entreprise, il permet à tout le personnel d'obtenir des informations sur un serveur ou une application et d'effectuer des résolutions simples en cas de panne. Concrètement, j'ai principalement utilisé le chatops pour déployer mon application.
 
 \bigskip
 
@@ -561,11 +569,11 @@ L'application était écrite en *React* avec l'utilisation de *Redux*. J'ai pu d
 
 \bigskip
 
-Pour l'intégration du style du site, j'ai pu utiliser *Zeplin*. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de *Sketch*, un logiciel de création de maquette, et les ajouter aux dossiers de projet dans *Zeplin*. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple pour le développeur d'intégrer les maquettes.
+Pour l'intégration du style du site, j'ai pu utiliser *Zeplin*. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de *Sketch*, un logiciel de création de maquettes, et les ajouter aux dossiers de projet dans *Zeplin*. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple pour le développeur d'intégrer les maquettes.
 
 \bigskip
 
-Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SASS* (*Syntactically Awesome Stylesheets*). C'est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de *CSS3*, ajoutant de nouvelles règles dans notre façon d'intégrer un design. Les principaux ajouts sont : les variables, les *mixins,* l'héritage de sélection et différents options très utiles.
+Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SASS* (*Syntactically Awesome Stylesheets*). C'est un langage de génération dynamique de feuilles de style. On peut le voir comme une extension de *CSS3*, ajoutant de nouvelles règles dans notre façon d'intégrer un design. Les principaux ajouts sont : les variables, les *mixins,* l'héritage de sélection et différentes options très utiles.
 
 \bigskip
 
@@ -577,7 +585,7 @@ Finalement, pour l'intégration des maquettes, j'ai fait le choix d'utiliser *SA
 
 \bigskip
 
-Le projet a été initialement développé par un autre développeur de *Dernier Cri*. Après avoir receuilli les besoins du client, il avait fournit un premier jet, présentant le découpage du site, en monopage.  
+Le projet a été initialement développé par un autre développeur de *Dernier Cri*. Après avoir recueilli les besoins du client, il avait fourni un premier jet, présentant le découpage du site, en monopage.  
 Après ce premier rendu, le client a fait appel à un graphiste pour nous fournir une maquette de l'application voulue. Après ce travail de formalisation, il a été décidé que l'application contiendrait finalement plusieurs pages.
 
 \bigskip
@@ -586,11 +594,11 @@ Après ce premier rendu, le client a fait appel à un graphiste pour nous fourni
 
 \bigskip
 
-La première partie du projet a consisté à intégrer les maquettes fournit par le client. Dans un premier temps, j'ai du redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Il a donc tout d'abord fallut mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
+La première partie du projet a consisté à intégrer les maquettes fournies par le client. Dans un premier temps, j'ai dû redécouper l'application. En effet, lors du premier jet réalisé par mon collègue, le client était parti sur une application monopage. Il a donc tout d'abord fallu mettre en place un routeur pour permettre à l'utilisateur de naviguer entre les pages.
 
 \bigskip
 
-J'ai choisi, après quelques recherches, d'utiliser React Router. [React Router](https://github.com/ReactTraining/react-router) est une bibliothèque de routage pour React. Il dispose d'une *API* simple avec des fonctionnalités puissantes. Il garde l'interface utilisateur synchronisé avec l'*URL*. React Router est très simple à utiliser. Il suffit de lister les différentes routes souhaitées, associées au composant correspondant.
+J'ai choisi, après quelques recherches, d'utiliser *React Router*. [React Router](https://github.com/ReactTraining/react-router) est une bibliothèque de routage pour React. Il dispose d'une *API* simple avec des fonctionnalités puissantes. Il garde l'interface utilisateur synchronisée avec l'*URL*. *React* Router est très simple à utiliser. Il suffit de lister les différentes routes souhaitées, associées au composant correspondant.
 
 ```jsx
 // Exemple de création de routes avec React-Router
@@ -606,15 +614,15 @@ render((
 
 \bigskip
 
-Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feuilles de style. Pour faciliter son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisés dans tout le projet. Le fichier contient notamment les codes hexadecimaux des couleurs de l'application, les tailles des polices d'écriture utilisées, etc. Utiliser des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
+Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feuilles de style. Pour faciliter son utilisation, j'ai créé plusieurs fichiers avec les variables et fonctions (mixins) qui seront utilisés dans tout le projet. Le fichier contient notamment les codes hexadécimaux des couleurs de l'application, les tailles des polices d'écriture utilisées, etc. Utiliser des variables évite de devoir revenir sur tous les fichiers du projet si l'on décide de changer l'une de ses variables.
 
 \bigskip
 
-Une fois ces fichiers *SASS* principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le *CSS* (*Cascading Style Sheets*), c'est à dire le langage décrivant la présentation de l'application.
+Une fois ces fichiers *SASS* principaux créés, j'ai simplement créé un fichier SASS pour chaque composant *React* de l'application, qui contient donc tout le style de ce composant. J'ai dû faire beaucoup de recherches pour être à l'aise avec le *CSS* (*Cascading Style Sheets*), c'est-à-dire le langage décrivant la présentation de l'application.
 
 \bigskip
 
-L'intégration du style fut assez rapide, l'application étant visuellement assez simple. Grâce à cette première étape j'ai pu me familiariser avec l'organisation du projet avant d'attaquer des parties plus difficiles.
+L'intégration du style fut assez rapide, l'application étant visuellement assez simple. Grâce à cette première étape, j'ai pu me familiariser avec l'organisation du projet avant d'attaquer des parties plus difficiles.
 
 \bigskip
 
@@ -626,7 +634,7 @@ La deuxième partie du projet était centrée sur le téléchargement des photos
 
 \bigskip
 
-La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférant developper cette partie de l'application lui-même. La conception de l’*API*avait été réalisé sans concertation avec les équipes *front*, ce qui ne permettait donc pas de supposer son fonctionnement et surtout comment s'interfacer avec. De plus, la documentation fournie n'était pas exhaustive et peu détaillée, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti considérablement le développement.
+La difficulté principale durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférant développer cette partie de l'application lui-même. La conception de l’*API* avait été réalisée sans concertation avec les équipes *front*, ce qui ne permettait donc pas de supposer son fonctionnement et surtout comment s'interfacer avec. De plus, la documentation fournie n'était pas exhaustive et peu détaillée, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti considérablement le développement.
 
 \bigskip
 
@@ -634,7 +642,7 @@ Une autre difficulté était le redimensionnement des images avant l'envoi au se
 
 \bigskip
 
-Cela a donc donner lieu à beaucoup de discussions avec le client pour résoudre toutes ses problèmatiques avant de developper les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'a 300dpi (point par pouce). C'est la résolution optimale pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
+Cela a donc donné lieu à beaucoup de discussions avec le client pour résoudre toutes ses problématiques avant de développer les solutions. La fonction de redimensionnement est une fonction clé du projet. Une fois la photo redimensionnée, nous réduisons la résolution de la photo jusqu'à 300dpi (point par pouce). C'est la résolution optimale pour l'impression de photo : assez élevée pour garantir une bonne qualité à l'impression, et assez faible pour rendre le téléchargement vers le serveur le plus rapide possible.
 
 \bigskip
 
@@ -642,26 +650,32 @@ Cela a donc donner lieu à beaucoup de discussions avec le client pour résoudre
 
 \bigskip
 
-L'étape suivante est la création de l'interface et des fonctions permettant à l'utilisateur de modifier ses photos. Il peut changer le format, recadrer la photo, changer l'orientation... J'ai tout d'abord chercher s'il existait déja un outil pour le recadrage de la photo.
+L'étape suivante est la création de l'interface et des fonctions permettant à l'utilisateur de modifier ses photos. Il peut changer le format, recadrer la photo, changer l'orientation... J'ai tout d'abord cherché s'il existait déjà un outil pour le recadrage de la photo.
 
 \bigskip
 
-C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est très facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [*react-cropper*](https://github.com/roadmanfong/react-cropper), trouvé sur *Github* après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
+C'est à ce moment que j'ai découvert la diversité des outils *React* proposés par la communauté : il est très facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [*react-cropper*](https://github.com/roadmanfong/react-cropper), trouvé sur *Github* après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
 
 \bigskip
 
-Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisée lors du téléchargement initial. J'ai pu mettre en place les modifications possible sur une photo demandées :
+Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisée lors du téléchargement initial. J'ai pu mettre en place les modifications suivantes sur une photo:
 
 * Choix du format (10x15, 11x15 et 08x10);
 * Choix de l'orientation (portrait ou paysage) ;
 * Possibilité de recadrer la photo ;
-* Choix de concerver ou non l’intégrité de la photo ;
+* Choix de conserver ou non l’intégrité de la photo ;
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{figures/photolix-1.png}
+  \caption{Actions de modification possibles sur une photo}
+\end{figure}
 
 \bigskip
 
-Enfin, il a fallut mettre en place l'interface utilisateur. Durant cette étape nous avons beaucoup échangé avec le client pour essayer de trouver la présentation la plus intuitive et pratique pour les utilisateurs de *Photolix*.
+Enfin, il a fallu mettre en place l'interface utilisateur. Durant cette étape nous avons beaucoup échangé avec le client pour essayer de trouver la présentation la plus intuitive et pratique pour les utilisateurs de *Photolix*.
 
-Un premier livrable a été fourni au client (toujours sur l’environnement de staging) afin qu’il puisse effectuer des tests utilisateurs. Ces tests on permit de remonter plusieurs informations : peu de disfonctionnement nous ont été remonté ce qui est un point très favorable , la grande majorité des retours sont des erreurs de conception, rendant l'application peu confortable à l'usge. J'ai donc pu reprendre le développement pour résoudre ces problèmes et rendre l'application plus ergonomique et fonctionnel.
+Un premier livrable a été fourni au client (toujours sur l’environnement de *staging*) afin qu’il puisse effectuer des tests utilisateurs. Ces tests on permit de remonter plusieurs informations : peu de dysfonctionnement nous ont été remonté ce qui est un point très favorable , la grande majorité des retours sont des erreurs de conception, rendant l'application peu confortable à l'usage. J'ai donc pu reprendre le développement pour résoudre ces problèmes et rendre l'application plus ergonomique et fonctionnelle.
 
 #### Pages informations des clients, paiement et remerciement
 
@@ -675,19 +689,25 @@ La dernière partie du projet consistait à mettre en place les autres pages de 
 
 \bigskip
 
-Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour la première fois un formulaire en React et Redux. Avec ce framework, la création de formulaire est assez peut instinctif car il faut répercuter chaque changement des champs, chaque lettre écrite ou effacée, pour que l'état de l'application soit toujours à jour. C'est assez fastidieux et inhabituel.
+Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour la première fois un formulaire en *React* et Redux. Avec ce framework, la création de formulaires est assez peu instinctive car il faut répercuter chaque changement des champs, chaque lettre écrite ou effacée, pour que l'état de l'application soit toujours à jour. C'est assez fastidieux et inhabituel.
 
 \bigskip
 
-Après cette première expérience dans la création de formulaire, j'ai pu découvrir un outil, *redux-form*, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise-à-jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord dû faire toute l'implémentation nécessaire par moi-même m'a permis de prendre conscience des problèmatiques de cette pile technologique : le maintien de l'état de l'application, la communication entre les composants etc.
+Après cette première expérience dans la création de formulaires, j'ai pu découvrir un outil, *redux-form*, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise à jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord dû faire toute l'implémentation nécessaire par moi-même m'a permis de prendre conscience des problématiques de cette pile technologique : le maintien de l'état de l'application, la communication entre les composants, etc.
 
 \bigskip
 
-J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager l’évènement sur les réseaux sociaux. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé à une *URL*.
+J'ai ensuite travaillé sur la page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager l’évènement sur les réseaux sociaux. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé à une *URL*.
 
 \bigskip
 
-Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaître un récapitulatif de la commande, avec notamment le nombre de photos commandées, le prix par photo, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandée de la réflexion car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolu, il faut récupérer le prix à partir de l'*API*, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toutes les photos ne soient pas encore envoyées à l'*API*et donc le prix renvoyé par celle-ci n'est pas définitif. Il est alors nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'*API*, puisqu'il s'agit du prix final.
+Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaître un récapitulatif de la commande, avec notamment le nombre de photos commandées, le prix par photo, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie a demandé de la réflexion, car le calcul des prix était différent avant et après le paiement. En effet, dans l'absolu, il faut récupérer le prix à partir de l'*API*, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toutes les photos ne soient pas encore envoyées à l'*API* et donc le prix renvoyé par celle-ci n'est pas définitif. Il est alors nécessaire de faire le calcul du prix dans l'application, et d'afficher ce résultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'*API*, puisqu'il s'agit du prix final.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{figures/photolix-2.png}
+  \caption{Récapitulatif de la commande}
+\end{figure}
 
 \bigskip
 
@@ -695,39 +715,39 @@ Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaît
 
 \bigskip
 
-Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet *Photolix* au collègue ayant commencé le projet. Celui-ci a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leurs modifications. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante :  si nous montions à une centaine de photos chargées, le navigateur ne supportait pas la charge.
+Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet *Photolix* au collègue ayant commencé le projet. Celui-ci a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leurs modifications. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au début n'était pas assez performante :  si nous montions à une centaine de photos chargées, le navigateur ne supportait pas la charge.
 
 \bigskip
 
-J'ai pu étudier les modifications apportées par mon collègue, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que mon collègue reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.  
-Cependant la majorité de mon développement était fonctionnel et n'a pas nécéssité de retours de sa part.
+J'ai pu étudier les modifications apportées par mon collègue, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travaillé la gestion des erreurs. Il a fallu que mon collègue reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.  
+Cependant la majorité de mon développement était fonctionnel et n'a pas nécessité de retours de sa part.
 
 \bigskip
 
-Finalement, j'ai pu retravailler sur le projet en décembre. Après un premier rendu au client, celui-ci souhaitait quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon d'utilisateurs pour tester l'application et avait relevé des améliorations possibles à l'interface. J'ai donc pu aider Fabien à mettre en place ces modifications.
+Finalement, j'ai pu retravailler sur le projet en décembre. Après un premier rendu au client, celui-ci souhaitait quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon d'utilisateurs pour tester l'application et avait relevé des améliorations possibles à l'interface. J'ai donc pu aider mon collègue à mettre en place ces modifications.
 
 \bigskip
 
-Aujourd'hui *Photolix* est en ligne et fonctionnel. L'équipe de dévelopemment de *Dernier Cri* reste à disposition en cas de disfonctionnement ou d'améliorations souhaitées.
+Aujourd'hui *Photolix* est en ligne et fonctionnel. L'équipe de développement de *Dernier Cri* reste à disposition en cas de dysfonctionnement ou d'améliorations souhaitées.
 
 
 ### Conclusion
 
 \bigskip
 
-Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utilisés chez *Dernier Cri*, tel que *Github*, avec toute la gestion des différentes branches, les *Pull Request* ainsi que la gestion des issues etc. Ce fut une étape essentielle pour mon intégration dans l'équipe de développement.
+Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser avec les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du problème, jusque sa mise en productuon. Dans le même temps j'ai pu prendre en main les outils utilisés chez *Dernier Cri*, tel que *Github*, avec toute la gestion des différentes branches, les *Pull Request* ainsi que la gestion des issues, etc. Ce fut une étape essentielle pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
-Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expansions, évolue beaucoup et ont un bel avenir devant elles. J'ai également pu apprendre le développement *front-end*, alors que jusque là mes compétences techniques étaient plus tournées vers du *back*.
+Ce projet m'a également permis d'apprendre à utiliser *React* et *Redux*. Ces technologies sont aujourd'hui en pleines expansions, évoluent beaucoup et ont un bel avenir devant elles. J'ai également pu apprendre le développement *front-end*, alors que jusque là mes compétences techniques étaient plus tournées vers du *back*.
 
 \bigskip
 
-Evidemment, j'ai connu de nombreuses difficultés lors du développemment de *Photolix*. Mon inexpérience m'a conduite à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue présent sur le projet, pour me soutenir, me corriger et rattraper certaines erreurs, surtout vers la fin du projet, à travers le processus de *code review* décrit précédemment. Grâce à cela, j'ai pu mettre en place de meilleures pratiques durant le projet suivant.
+Évidemment, j'ai connu de nombreuses difficultés lors du développement de *Photolix*. Mon inexpérience m'a conduite à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collègue présent sur le projet, pour me soutenir, me corriger et rattraper certaines erreurs, surtout vers la fin du projet, à travers le processus de *code review* décrit précédemment. Grâce à cela, j'ai pu mettre en place de meilleures pratiques durant le projet suivant.
 
 \bigskip
 
-Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraies problématiques du développement d'une application web, de la relation cliente, avec des dates butoires et des évolutions des spécifications en cours de projet.
+Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraies problématiques du développement d'une application web, de la relation cliente, avec des dates butoirs et des évolutions des spécifications en cours de projet.
 
 
 ## FinFrog
@@ -736,11 +756,11 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur *React* sur son projet, j'ai quitté le projet *Photolix* pour rejoindre *Finfrog*. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
+Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur *React* sur son projet, j'ai quitté le projet *Photolix* pour rejoindre *Finfrog*. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastructure et des déploiements de l'application, et de moi-même pour le développement.
 
 \bigskip
 
-*Finfrog* est un projet de prêt collaboratif, c'est à dire que le site propose des prêts financés par des particuliers. L’objectif de *FinFrog* est de proposer des petits prêts, avec un remboursement sur de petites mensualités, à des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser sur une durée d’un à trois mois.
+[*Finfrog*](https://finfrog.fr/) est un projet de prêt collaboratif, c'est-à-dire que le site propose des prêts financés par des particuliers. L’objectif de *FinFrog* est de proposer des petits prêts, avec un remboursement sur de petites mensualités, à des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser sur une durée d’un à trois mois.
 
 \bigskip
 La demande client était de réaliser une refonte du site. *Dernier Cri* a décidé d’accepter cet existant, de s’adapter à lui, et de pouvoir le modifier, y ajouter les fonctionnalités souhaitées, sans devoir repartir de zéro.
@@ -755,7 +775,7 @@ La première demande était de mettre en place un nouveau design sur le site, d�
 
 \bigskip
 
-Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour *Finfrog*, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
+Par la suite, j'ai été amené à développer de nouvelles fonctionnalités pour *Finfrog*, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
 
 \bigskip
 
@@ -763,15 +783,15 @@ Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour
 
 \bigskip
 
-La projet *Finfrog* utilisait principalement les même outils que *Photolix* : utilisation de *npm* pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux*, etc.
+Le projet *Finfrog* utilisait principalement les mêmes outils que *Photolix* : utilisation de *npm* pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux*, etc.
 
 \bigskip
 
-Cependant à mon arrivée sur *FinFrog*, le projet était hébergé sur *Bitbucket* et non pas *Github*. Il a donc fallut que je m'habitue à ce nouveaux gestionnaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github* afin d'accéder aux fonctionnalités de gestion de projet qu'il fournit.
+Cependant à mon arrivée sur *FinFrog*, le projet était hébergé sur *Bitbucket* et non pas *Github*. Il a donc fallu que je m'habitue à ce nouveau gestionnaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github* afin d'accéder aux fonctionnalités de gestion de projet qu'il fournit.
 
 \bigskip
 
-Sur ce projet, nous avions aussi en charge la partie *API*et base de données. L'*API* est écrite en *Nodejs* et la base de donnée est une *PostgreSQL*, donc manipulable en *SQL*. Cependant j'ai eu peu d'occasion de manipuler la base de donnée.
+Sur ce projet, nous avions aussi en charge la partie *API* et base de données. L'*API* est écrite en *Nodejs* et la base de données est une *PostgreSQL*, donc manipulable en *SQL*. Cependant j'ai eu peu d'occasions de manipuler la base de données.
 
 \bigskip
 
@@ -786,7 +806,7 @@ Finalement, pour lancer les processus du site et de l'*API*, nous avons utilisé
 \bigskip
 
 A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau *design* pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.  
-Ce fut également l'occasion de m'adapter a l'organisation - tant au niveau du code, que du processus de développement - du projet. Au début de celui-ci, je n'avais accès qu'au code du côté *front* de l'application, tandis que le développeur du client gardait la main sur l'*API* ainsi que la partie du projet calculant les intérêts des prêts.
+Ce fut également l'occasion de m'adapter à l'organisation - tant au niveau du code, que du processus de développement - du projet. Au début de celui-ci, je n'avais accès qu'au code du côté *front* de l'application, tandis que le développeur du client gardait la main sur l'*API* ainsi que la partie du projet calculant les intérêts des prêts.
 
 \bigskip
 
@@ -794,11 +814,11 @@ L'intégration du nouveau *design* de la page d'accueil fut une bonne entrée en
 
 \bigskip
 
-Après la page d'accueil, j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus technique : la communication entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'*API* pour récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
+Après la page d'accueil, j'ai dû m'occuper du tunnel de réservation. Sur l'application existante, les formulaires étaient déjà en place. Il était question d'ajouter certains champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai dû me plonger dans la partie du site plus technique : la communication entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'*API* pour récupérer les informations de l'utilisateur, et enregistrer les modifications, etc.
 
 \bigskip
 
-Pour la gestion des formulaires, le projet utilisait *Redux Form*, un outil permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fourni‡s par *Redux Form* pour construire le formulaire. Cela se concrétise principalement par deux éléments :
+Pour la gestion des formulaires, le projet utilisait *Redux Form*, un outil permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fournis par *Redux Form* pour construire le formulaire. Cela se concrétise principalement par deux éléments :
 
 * une fonction `reduxForm({form: 'formName'})(TestForm)` où *Testform* est un composant contenant le formulaire, et `formName` un nom unique, qui identifiera le formulaire dans le *store*.
 * un composant `Field` qui connectera chaque champ du formulaire avec le *store Redux*. Ce composant prend comme propriété un autre composant. Cela peut être un composant de base, comme `input` ou `select`, ou bien un composant personnalisé.
@@ -851,7 +871,7 @@ export default reduxForm({
 
 Le tunnel des demandes de prêt est constitué de formulaires:
 
-* Le descriptif du projet : l'utilisateur doit sélectionner la catégorie de son projet (travaux, voyages, meubles, etc.) ainsi que le type (personnel, professionel ou étude). Cette information est importante, non seulement pour pouvoir comprendre la catégorie d'utilisateur du site, mais surtout pour respecter les contraintes légales d'un prêt. En effet, le taux d'emprunt autorisé varie selon le type du prêt.
+* Le descriptif du projet : l'utilisateur doit sélectionner la catégorie de son projet (travaux, voyages, meubles, etc.) ainsi que le type (personnel, professionnel ou étude). Cette information est importante, non seulement pour pouvoir comprendre la catégorie d'utilisateur du site, mais surtout pour respecter les contraintes légales d'un prêt. En effet, le taux d'emprunt autorisé varie selon le type du prêt.
 * L'identité et les coordonnées de l'utilisateur : il doit fournir son identité (nom, prénom, date de naissance, etc.) ainsi que ses coordonnées. C'est également une contrainte légale.
 * Les dépenses et revenus : nous récupérons des informations sur les capacités financières de l'utilisateur pour évaluer sa capacité à rembourser le prêt.
 * Les coordonnées bancaires : l'utilisateur fournit les informations de sa carte bancaire ainsi que son IBAN, pour permettre le transfert de l'argent prêté dans un premier temps, puis le prélèvement des remboursements.
@@ -862,7 +882,7 @@ Le tunnel des demandes de prêt est constitué de formulaires:
 C'est au terme de cette suite de formulaires que la demande de prêt est créée. C'est donc une étape primordiale, puisqu'il faut s'assurer que les utilisateurs n'abandonnent pas la demande en cours de route. Pour observer le taux de rétention d'utilisateurs sur cette partie du site, j'ai mis en place deux outils sur l'application :
 
 * Tout d'abord le classique *Google Analytics*, qui permet d'observer l'audience du site, heure par heure, page par page. On peut voir les caractéristiques des utilisateurs : leur système d'exploitation, navigateur, sexe, tranche d'âge, etc. ;
-* J'ai également mis en place *hotjar*, un outil qui permet entre autre d'enregistrer les interactions entre l’internaute et une page web (clic, *scroll*, mouvements de la souris, etc.). Cet outil a permis d'identifier un bon nombre de disfonctionnements de l'application, en observant les pages où l'utilisateur se retrouvait bloquer, ou passait trop de temps (par rapport au scénario initialement prévu).
+* J'ai également mis en place *hotjar*, un outil qui permet entre autres d'enregistrer les interactions entre l’internaute et une page web (clic, *scroll*, mouvements de la souris, etc.). Cet outil a permis d'identifier un bon nombre de dysfonctionnements de l'application, en observant les pages où l'utilisateur se retrouvait bloquer, ou passait trop de temps (par rapport au scénario initialement prévu).
 
 \bigskip
 
@@ -870,7 +890,7 @@ Durant la modification de ce formulaire j'ai également dû mettre en place le t
 
 \bigskip
 
-L'un des objectifs de cette première partie était de développer un site *responsive*, c'est à dire un site web dont la conception et le développement vise à offrir le même confort visuel pour des supports différents (comme les ordinateurs, smartphones, tablettes, etc.). Pour arriver à cela, le client nous a fourni, pour chaque page du site, deux maquettes différentes : une pour la version ordinateur et tablette, une autre pour la version *smartphone*.
+L'un des objectifs de cette première partie était de développer un site *responsive*, c'est-à-dire un site web dont la conception et le développement visent à offrir le même confort visuel pour des supports différents (comme les ordinateurs, smartphones, tablettes, etc.). Pour arriver à cela, le client nous a fourni, pour chaque page du site, deux maquettes différentes : une pour la version ordinateur et tablette, une autre pour la version *smartphone*.
 
 \bigskip
 
@@ -878,7 +898,7 @@ Un autre point primordial du développement *front* est la compatibilité entre 
 
 \bigskip
 
-Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, *Chrome* est le navigateur le plus utilisé (51%), suivi par *Safari* (18%), *Internet Explorer* et *Edge* (le nouveau navigateur de *Microsoft*) (11%).
+Une première étape pour y arriver est de connaître les navigateurs les plus utilisés. Aujourd'hui, *Chrome* est le navigateur le plus utilisé (51%), suivi par *Safari* (18%), *Internet Explorer* et *Edge* (le nouveau navigateur de *Microsoft*) (11%).
 
 \begin{figure}[h]
   \centering
@@ -893,7 +913,7 @@ Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il 
 \begin{figure}[h]
   \centering
   \includegraphics[height=5cm]{figures/FF-browsers.png}
-  \caption{Parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
+  \caption{Répartition des navigateurs utilisés par les utilisatuers de Finfrog}
 \end{figure}
 
 \bigskip
@@ -902,9 +922,18 @@ Une fois que les navigateurs principalement utilisés par la cible sont identifi
 
 \bigskip
 
-Voici un exemple de problème qu'un développeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande de prêt, notre client nous a remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardait les réponses de l'*API* en cache par défaut, c'est à dire les mémoriser dans l'espace de stockage alloué au navigateur. Quand l'utilisateur arrivait sur la page, un premier appel à l'*API* était effectué, afin d'afficher la liste des pièces déjà téléchargées. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jour. Mais, le navigateur ignorait cet appel et utilisait à la place le résultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifier dans la réponse envoyée par l'*API*, que l'information ne doit pas être mise en cache. Cela se traduit par l'ajout de la valeur `no-cache` au paramètre `Cache-Control`, dans le *Header* de la réponse de l'*API*
+Voici un exemple de problème qu'un développeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande de prêt, notre client nous a remonté un dysfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardait les réponses de l'*API* en cache par défaut, c'est à dire les mémoriser dans l'espace de stockage alloué au navigateur. Quand l'utilisateur arrivait sur la page, un premier appel à l'*API* était effectué, afin d'afficher la liste des pièces déjà téléchargées. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jour. Mais, le navigateur ignorait cet appel et utilisait à la place le résultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffi de spécifier dans la réponse envoyée par l'*API*, que l'information ne doit pas être mise en cache. Cela se traduit par l'ajout de la valeur `no-cache` au paramètre `Cache-Control`, dans le *Header* de la réponse de l'*API*
 
 \bigskip
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=5cm]{figures/finfrog-1.png}
+  \includegraphics[width=5cm]{figures/finfrog-2.png}
+  \caption{Changement d'affichage normal lors de l'ajout d'une pièce d'identité}
+\end{figure}
+
 
 #### Génération de contrats
 
@@ -940,7 +969,7 @@ var getContractContent() = function (loan, borrower) {
 
 \bigskip
 
-Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de *templating*. Elle permet de mettre en place un *template HTML* et d'y intégrer facilement nos variables. Il nous suffit alors de définir un *template* en *HTML*, en y introduisant le nom de nos variable entre accolades, puis d'appeler la librairie *Mustache.js* en lui fournissant ce *template* et un objet, contenant les valeurs de nos variables, `Mustache.render(template, params)`.
+Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de *templating*. Elle permet de mettre en place un *template HTML* et d'y intégrer facilement nos variables. Il nous suffit alors de définir un *template* en *HTML*, en y introduisant le nom de nos variables entre accolades, puis d'appeler la librairie *Mustache.js* en lui fournissant ce *template* et un objet, contenant les valeurs de nos variables, `Mustache.render(template, params)`.
 
 ```HTML
 <!-- Extrait du template du contrat -->
@@ -1000,11 +1029,11 @@ var createAndUploadContract = function (loan, borrower) {
 
 #### Mangopay
 
-L'application *FinFrog* utilise [*Mangopay*](https://www.mangopay.com/fr/) comme partenaire pour gérer les transferts d'argent, entre prêteurs et emprunteurs. *Mangopay* est une solution de paiements dédiée aux *marketplaces*, plateformes de *crowdfunding* et acteurs de l’économie collaborative. La société offre à ses clients la possibilité d’accepter des paiements pour le compte de tiers, de créer et gérer des *e-wallets*, de répartir les fonds vers de multiples bénéficiaires, et de collecter automatiquement leurs chiffres d’affaires, le tout de manière très simple et sécurisé.
+L'application *FinFrog* utilise [*Mangopay*](https://www.mangopay.com/fr/) comme partenaire pour gérer les transferts d'argent, entre prêteurs et emprunteurs. *Mangopay* est une solution de paiements dédiée aux *marketplaces*, plateformes de *crowdfunding* et acteurs de l’économie collaborative. La société offre à ses clients la possibilité d’accepter des paiements pour le compte de tiers, de créer et gérer des *e-wallets*, de répartir les fonds vers de multiples bénéficiaires, et de collecter automatiquement leurs chiffres d’affaires, le tout de manière très simple et sécurisée.
 
 \bigskip
 
-J'ai donc dû travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* *Mangopay* est créé pour chaque utilisateur, à la création de son compte sur *FinFrog*. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* la carte et le compte bancaire. Les informations de la carte bancaire sont envoyées directement à *Mangopay* car, pour des raisons de sécurité, nous ne pouvons pas faire transiter ces dernières vers l'*API*. Une fois la carte enregistrée, nous créons une pré-authorisation associée. Une pré-autorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt ou non.
+J'ai donc dû travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* *Mangopay* est créé pour chaque utilisateur, à la création de son compte sur *FinFrog*. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* la carte et le compte bancaire. Les informations de la carte bancaire sont envoyées directement à *Mangopay* car, pour des raisons de sécurité, nous ne pouvons pas faire transiter ces dernières vers l'*API*. Une fois la carte enregistrée, nous créons une préauthorisation associée. Une préautorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt ou non.
 
 \bigskip
 
@@ -1014,15 +1043,15 @@ Il est également nécessaire de fournir à *Mangopay* de nombreuses information
 
 #### Fin du stage
 
-Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* a accueilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le projet, nous lui avons présenté notre travail sur le projet, dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de *FinFrog*, de l'infrastructure, aux flux entre le site et l'*API*, en passant par notre gestion de projets.
+Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* a accueilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le projet, nous lui avons présenté notre travail sur le projet, dans nos locaux. Au cours de cette journée, nous lui avons présenté tous les aspects de *FinFrog*, de l'infrastructure, aux flux entre le site et l'*API*, en passant par notre gestion de projets.
 
 \bigskip
 
-Pendant la fin du stage nous avons mis en place avec lui un plan d'amélioration du code de l'application. En effet, le projet ayant était développer assez rapidement par le premier développeur de *FrinFrog*, certain choix de conception ne sont aujourd'hui plus pertinant. Nous avons également besoin de nouveaux outils: générer une documentation à partir des commentaires de l'application, mettre en place des migrations pour la bases de données etc.
+Pendant la fin du stage, nous avons mis en place avec lui un plan d'amélioration du code de l'application. En effet, le projet ayant était développé assez rapidement par le premier développeur de *FrinFrog*, certain choix de conception ne sont aujourd'hui plus pertinent. Nous avons également besoin de nouveaux outils: générer une documentation à partir des commentaires de l'application, mettre en place des migrations pour la bases de données, etc.
 
 \bigskip
 
-C'est également à ce moment que le projet est passé d'une facturation au forfait, à une facturation en régie. Lorsqu'un projet est en mode forfait, il était nécessaire d'estimer chaque tâches, et les dépassements n'étaient pas facturés. En mode régie,  tout le temps de développement est facturé.
+C'est également à ce moment que le projet est passé d'une facturation au forfait, à une facturation en régie. Lorsqu'un projet est en mode forfait, il était nécessaire d'estimer chaque tâche, et les dépassements n'étaient pas facturés. En mode régie,  tout le temps de développement est facturé.
 
 \bigskip
 
@@ -1038,12 +1067,12 @@ D'une part cela signifie que le client est satisfait de notre travail et nous fa
 
 \bigskip
 
-J'ai eu l'opportunité de participer activement aux réflexions concernant la conception du site. En effet, notre client était ouvert au suggestions et remarques, et tenait à se que nous comprenions les tenants et aboutissants de chaque décision et des nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des *Fintech*, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.  
+J'ai eu l'opportunité de participer activement aux réflexions concernant la conception du site. En effet, notre client était ouvert aux suggestions et remarques, et tenait à ce que nous comprenions les tenants et aboutissants de chaque décision et des nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des *Fintech*, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.  
 Cela m'a également permis de travailler sur mon relationnel client, grâce au contact presque journalier avec notre client pour récolter ses besoins, puis ses retours par rapport aux fonctionnalités développées.
 
 \bigskip
 
-Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus ou moins importants, comme le service *Mangopay*, des outils de *monitoring* comme *Google Analytics* ou *Hotjar*, ou encore de nombreuse librairie comme *Mustache.js*, *Redux Form* ou encore *React Router*.
+Grâce à ce projet, j'ai également pu découvrir de nombreux outils, plus ou moins importants, comme le service *Mangopay*, des outils de *monitoring* comme *Google Analytics* ou *Hotjar*, ou encore de nombreuse librairie comme *Mustache.js*, *Redux Form* ou encore *React Router*.
 
 \bigskip
 
@@ -1055,7 +1084,7 @@ Comme dit précédemment, *Dernier Cri* possède un blog tenu par ses développe
 
 \bigskip
 
-Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisées pour chaque article, qui seraient utilisées sur les réseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défi et de créer ce générateur d'images.
+Pour permettre une meilleure communication, il est venu l'idée de créer des images personnalisées pour chaque article, qui seraient utilisées sur les réseaux sociaux. Évidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défi et de créer ce générateur d'images.
 
 \bigskip
 
@@ -1079,6 +1108,7 @@ composite -blend 90% -gravity South blue.png background.png
 ```
 
 - La création de l'image de l'auteur: je récupère l'image de l'auteur de l'article, puis utilise un masque pour la rendre ronde.
+
 ```shell
 # Création de l'image de l'auteur
 convert JS.jpg  -resize $userWidth \
@@ -1100,11 +1130,11 @@ convert JS.jpg  -resize $userWidth \
 
 \bigskip
 
-Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à l'intégré au site web de *Dernier Cri*. Ce dernier étant développé en *Ruby on Rails*, j'ai tout d'abord dû me familiariser avec cette pile technologique, à travers différents tutoriels, avant de pouvoir coder ce générateur.
+Une fois le processus maîtrisé en ligne de commande, j'ai pu commencer à l'intégré au site web de *Dernier Cri*. Ce dernier étant développé en *Ruby on Rails*, j'ai tout d'abord dû me familiariser avec cette pile technologique, à travers différents tutoriels, avant de pouvoir coder ce générateur.
 
 \bigskip
 
-Pour intégrer le processus de génération d'images au site web, j'ai utilisé [*RMagick*](https://github.com/rmagick/rmagick), une bibliothèque servant d'interface entre le langage *Ruby* et la bibliothèque *ImageMagick*. J'ai donc pû traduire mon processus de création d'images en *Ruby*, et l'intégrer au site sans difficultés.  
+Pour intégrer le processus de génération d'images au site web, j'ai utilisé [*RMagick*](https://github.com/rmagick/rmagick), une bibliothèque servant d'interface entre le langage *Ruby* et la bibliothèque *ImageMagick*. J'ai donc pu traduire mon processus de création d'images en *Ruby*, et l'intégrer au site sans difficulté.  
 Voici un exemple de traduction, avec la superposition du logo de *Dernier Cri* sur l'image de fond :
 
 ```bash
@@ -1130,13 +1160,19 @@ def add_logo(background)
 end
 ```
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/partage-blog.png}
+  \caption{Exemple de partage d'article sur Twitter}
+\end{figure}
+
 \bigskip
 
-Les articles du blogs sont stockés et gérés sur *Contenful*, un système de gestion de contenu. C'est donc en interfaçant mon programme avec *Contenful* que je peux récupérer les informations nécessaires à la génération d'images: le titre de l'article, son auteur, sa photo, etc.
+Les articles du blog sont stockés et gérés sur *Contenful*, un système de gestion de contenu. C'est donc en interfaçant mon programme avec *Contenful* que je peux récupérer les informations nécessaires à la génération d'images: le titre de l'article, son auteur, sa photo, etc.
 
 \bigskip
 
-La génération de l'image terminée, j'ai dû mettre en place un service pour garder en mémoire cette image, et ne pas la régénérer à chaque partage. Pour cela, j'ai utilisé *CloudFront* de *AWS* (*Amazon Web Service*) qui permet de garder en cache l'image après le premier appel. En effet, je fourni pour le partage comme adresse de l'image le nom de domaine de mon *CloudFront*, avec le nom de mon image (par exemple `http://XXXXX.cloudfront.net/monoide`).  
+La génération de l'image terminée, j'ai dû mettre en place un service pour garder en mémoire cette image, et ne pas la régénérer à chaque partage. Pour cela, j'ai utilisé *CloudFront* de *AWS* (*Amazon Web Service*) qui permet de garder en cache l'image après le premier appel. En effet, je fournis pour le partage comme adresse de l'image le nom de domaine de mon *CloudFront*, avec le nom de mon image (par exemple `http://XXXXX.cloudfront.net/monoide`).  
 Voici ce qu'il se passe lorsque l'on contacte cette *URL*:
 
 * Si mon image n'a jamais été générée, et donc que *CloudFront* ne l'a pas dans son cache, le service va faire un appel au site *Dernier Cri*, sur l'adresse du générateur, pour récupérer cette image, la retourner et la mémoriser.
@@ -1145,13 +1181,7 @@ Voici ce qu'il se passe lorsque l'on contacte cette *URL*:
 
 \bigskip
 
-Finalement, pour que l'image soit utilisée sur les réseaux sociaux, il m'a suffit d'ajouter l'adresse de mon image dans *CloudFront*, directement dans les balises des pages associées aux articles de blog.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[height=6cm]{figures/partage-blog.png}
-  \caption{Exemple de partage d'article sur Twitter}
-\end{figure}
+Finalement, pour que l'image soit utilisée sur les réseaux sociaux, il m'a suffi d'ajouter l'adresse de mon image dans *CloudFront*, directement dans les balises des pages associées aux articles de blog.
 
 \newpage
 
@@ -1161,7 +1191,7 @@ Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une c
 
 \bigskip
 
-La ville a notamment reçue le label *French Tech* fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *startup* en France.
+La ville a notamment reçu le label *French Tech* fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *startup* en France.
 
 \bigskip
 
@@ -1169,19 +1199,19 @@ La région profite de la présence de grands groupes nationaux comme Orange, Cap
 
 \bigskip
 
-De plus Lille a mis en place un ensemble de structures favorisant l'accompagnement et la croissance des startups vers un marché mondial. La plus notable est évidemment Euratechnologie, le Pôle d'excellence économique dédié aux Technologies de l'Information et de la Communication (TIC) de la métropole lilloise. EuraTechnologies a été classé dans le top 10 des accélérateurs de *startup* d’Europe par Fundacity, et le 1er en France. Euratechnologie posséde des espaces dédiés à la recherche, la formation et l'entrepreneuriat, un incubateur et un accélérateur.
+De plus Lille a mis en place un ensemble de structures favorisant l'accompagnement et la croissance des *startups* vers un marché mondial. La plus notable est évidemment Euratechnologie, le Pôle d'excellence économique dédié aux Technologies de l'Information et de la Communication (TIC) de la métropole lilloise. EuraTechnologies a été classé dans le top 10 des accélérateurs de *startup* d’Europe par Fundacity, et le 1er en France. Euratechnologie possède des espaces dédiés à la recherche, la formation et l'entreprenariat, un incubateur et un accélérateur.
 
 \bigskip
 
-La région lilloise posséde d'autre espaces dédié à l'innovation, les *startups* et l'entrepreneuriat : La Plaine Images à Tourcoing et Roubaix, Eurasanté à Lille, La Haute Borne à Villeneuve d'Ascq, La Serre Numérique à Valenciennes, Le Pôle Numérique Culturel Louvre Lens...
+La région lilloise possède d'autres espaces dédiés à l'innovation, les *startups* et l'entreprenariat : La Plaine Images à Tourcoing et Roubaix, Eurasanté à Lille, La Haute Borne à Villeneuve d'Ascq, La Serre Numérique à Valenciennes, Le Pôle Numérique Culturel Louvre Lens...
 
 \bigskip
 
-La région a connu l'émergence de nombreuse entreprises, prometteuses ou déjà fructueuses : Big Ben, Ankama, OVH, Addictiz, Stereograph, Clic & Walk, Giroptic, Mazeberry, Vekia, Sparkow, Mdoloris, A-volute, Critizr, Intent Technologies...
+La région a connu l'émergence de nombreuses entreprises, prometteuses ou déjà fructueuses : Big Ben, Ankama, OVH, Addictiz, Stereograph, Clic & Walk, Giroptic, Mazeberry, Vekia, Sparkow, Mdoloris, A-volute, Critizr, Intent Technologies...
 
 \bigskip
 
-Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter de cette écosysteme riche et actif. J'ai pu participer à des conférences, des salons et des réunions qui m'ont beaucoup apporté, tant au niveau technique que social. Cela m'a permit de préciser mon projet professionnel, en m'immergeant dans la vie entreprenariale d'une ville.
+Avoir eu la chance de faire mon stage dans cette région m'a permis de profiter de cet écosystème riche et actif. J'ai pu participer à des conférences, des salons et des réunions qui m'ont beaucoup apporté, tant au niveau technique que social. Cela m'a permi de préciser mon projet professionnel, en m'immergeant dans la vie entreprenariale d'une ville.
 
 \bigskip
 
@@ -1201,15 +1231,15 @@ La *Take Off Conference* est un cycle de conférences anglophones. L’événeme
 
 \bigskip
 
-*Dernier Cri* m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéréssantes et inspirantes, sur des sujets très variés allant de la compréhension des enjeux de mise en place de nouveau outils, à des sujets plus sociaux comme l'acceuil des developpeurs anglais après le Brexit.
+*Dernier Cri* m'a permis de participer à cette conférence avec l'un de mes collègues. Ce fut une véritable chance pour moi de rencontrer et échanger avec des conférenciers du monde entier. Les conférences étaient très intéressantes et inspirantes, sur des sujets très variés allant de la compréhension des enjeux de mise en place de nouveaux outils, à des sujets plus sociaux comme l'accueil des développeurs anglais après le Brexit.
 
 \bigskip
 
-Des évènements ont également été organisé le soir pour permettre aux participants et aux conférenciers d'échanger dans un cadre plus détendu.
+Des évènements ont également été organisés le soir pour permettre aux participants et aux conférenciers d'échanger dans un cadre plus détendu.
 
 \bigskip
 
-Ce fut une excellente occasion de découvrir de nouvelles technologies, de m'ouvrir à des problématiques que je ne connaissais pas ainsi que de rencontrer des développeurs qualifiés et passionnés. Lors de ses échanges, j'ai pu me rendre compte de la portée internationale de la programmation : des personnes des quatres coins du monde se retrouvaient sur les mêmes problématiques.
+Ce fut une excellente occasion de découvrir de nouvelles technologies, de m'ouvrir à des problématiques que je ne connaissais pas ainsi que de rencontrer des développeurs qualifiés et passionnés. Lors de ses échanges, j'ai pu me rendre compte de la portée internationale de la programmation : des personnes des quatre coins du monde se retrouvaient sur les mêmes problématiques.
 
 \bigskip
 
@@ -1217,15 +1247,15 @@ Ce fut une excellente occasion de découvrir de nouvelles technologies, de m'ouv
 
 \bigskip
 
-La communauté web de Lille est très active pour organisé des évenements. De très nombreux Meetup sont organisés sur différents domaines du web, acceuillant autant des experts que des débutants ou simplement des curieux.
+La communauté web de Lille est très active pour organiser des évènements. De très nombreux *Meetup* sont organisés sur différents domaines du web, accueillant autant des experts que des débutants ou simplement des curieux.
 
 \bigskip
 
-Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des *Meetups* de *Lille FP* (*Fonctionnal programming*, c'est à dire programmation fonctionnelle) et de *Lille Elixir*.
+Très actif dans cette communauté, *Dernier Cri* accueille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des *Meetups* de *Lille FP* (*Fonctionnal programming*, c'est-à-dire programmation fonctionnelle) et de *Lille Elixir*.
 
 \bigskip
 
-Certains membres de l'équipe sont également investis dans ces rencontres, en tant qu'organisateur ou bien orateur. Les dirigeants de *Dernier Cri* les encouragent également beaucoup à prendre part à la vie de la communauté web. J'ai ainsi pu facilement être au courant des différents évenements Lillois et y participer avec mes collégues, ce qui m'a permis d'être bien intégré.
+Certains membres de l'équipe sont également investis dans ces rencontres, en tant qu'organisateur ou bien orateur. Les dirigeants de *Dernier Cri* les encouragent également beaucoup à prendre part à la vie de la communauté web. J'ai ainsi pu facilement être au courant des différents évènements Lillois et y participer avec mes collègues, ce qui m'a permis d'être bien intégré.
 
 \bigskip
 
@@ -1241,17 +1271,15 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 \bigskip
 
-*Dernier Cri* a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment décrouvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'inspiration et d'envie d'entreprendre.
+*Dernier Cri* a été invité à assister à la Maker Faire, notamment car nous développons l'application web de TechShop, l'atelier collaboratif de Leroy Merlin. Dans ce contexte j'ai pu découvrir la communauté *Maker* de Lille. J'ai pu notamment découvrir les *repair coffee*, lieux où l'on peut amener ses appareils électroniques cassés et recevoir de l'aide pour leur réparation. Il y avait également des robots, des imprimantes 3D, des casques de réalité augmentée ... C'était un endroit plein d'inspiration et d'envie d'entreprendre.
 
 \newpage
 
 # Conclusion
 
-Ce stage chez *Dernier Cri* et ma participation aux projets *Photolix* et *FinFrog* ont été très enrichissante.  J'ai pu mettre en application
-
 \bigskip
 
-Ce stage a été très enrichissant pour moi. Il m'a permit de participer au développement d'application web, à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimenté qui à su me transmettre des compétences techniques et méthodologiques.  
+Ce stage a été très enrichissant pour moi. Il m'a permi de participer au développement d'application web, à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimentée qui a su me transmettre des compétences techniques et méthodologiques.  
 J'ai notamment pu prendre en main de nombreuses bibliothèques, comme *React*, *Redux*, des langages comme *Ruby on Rails* ou encore travailler avec des partenaires comme *Mangopay*.  
 
 \bigskip
@@ -1260,20 +1288,20 @@ J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions a
 
 \bigskip
 
-J'ai également appris beaucoup plus que je ne m'y attendais, sur la gestion de projet et la relation cliente. Le chef de projet était très disponible, tout en laissant l'autonomie nécessaire. J'ai pû communiquer directement avec mes clients, découvrir les processus de gestion de projet et de management.
+J'ai également appris beaucoup plus que je ne m'y attendais, sur la gestion de projet et la relation cliente. Le chef de projet était très disponible, tout en laissant l'autonomie nécessaire. J'ai pu communiquer directement avec mes clients, découvrir les processus de gestion de projet et de management.
 
 \bigskip
 
-Mon stage fut aussi une belle aventure. La ville de Lille est une ville pleine de vie et d'événement liés à l'informatique. De plus, l'équipe de *Dernier Cri* est pleine d'initiative et de projet. En plus des présentations internes, des articles de blog, et des rencontres organisé dans les locaux, de nombreux projets internes animes la vie d'entreprise. On peut citer le développement de *side-project*, la mise à disposition de matériels électronique, comme des *beacons* ou des *Arduinos*, etc.  
-*Dernier Cri* prend également soin de ses employé, en leur fournissant un environnement agréable et inspirant (mise à disposition de divers livres, livraison de fruit et *smoothie*, etc.). Tout les trois mois, *Dernier Cri* organise également une réunion pour présenter l'évolution de l'entreprise, et les objectifs pour les mois à venir. Cette réunion est suivie par une activité visant à renforcer les liens entre les membres de l'équipe.
+Mon stage fut aussi une belle aventure. La ville de Lille est une ville pleine de vie et d'événements liés à l'informatique. De plus, l'équipe de *Dernier Cri* est pleine d'initiative et de projets. En plus des présentations internes, des articles de blog, et des rencontres organisées dans les locaux, de nombreux projets internes animent la vie d'entreprise. On peut citer le développement de *side-project*, la mise à disposition de matériels électroniques, comme des *beacons* ou des *Arduinos*, etc.  
+*Dernier Cri* prend également soin de ses employés, en leur fournissant un environnement agréable et inspirant (mise à disposition de divers livres, livraison de fruit et *smoothie*, etc.). Tous les trois mois, *Dernier Cri* organise également une réunion pour présenter l'évolution de l'entreprise, et les objectifs pour les mois à venir. Cette réunion est suivie par une activité visant à renforcer les liens entre les membres de l'équipe.
 
 \bigskip
 
-Tout cela m'a aidé à dessiner mon projet professionnel. Mon stage a conforté ma résolution de travailler dans une petite entreprise, qui se concentre sur le bien être de ses employés. J'ai également pu découvrir les difficultés de cet environnement; en effet, il faut être très autonome, et ne pas compter ses heures.
+Tout cela m'a aidé à dessiner mon projet professionnel. Mon stage a conforté ma résolution de travailler dans une petite entreprise, qui se concentre sur le bien-être de ses employés. J'ai également pu découvrir les difficultés de cet environnement; en effet, il faut être très autonome, et ne pas compter ses heures.
 
 \bigskip
 
-Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'ai beaucoup apprécié la possibilité que j'ai eu d'aborder de nombreux aspects de l'informatique, et faire partie d'une équipe pluridisciplinaire. C'est pourquoi je souhaite garder cette diversité dans ma formation et choisir des Unités de Valeur (UVs) recouvrants des domaines différents.
+Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'ai beaucoup apprécié la possibilité que j'ai eue d'aborder de nombreux aspects de l'informatique, et faire partie d'une équipe pluridisciplinaire. C'est pourquoi je souhaite garder cette diversité dans ma formation et choisir des Unités de Valeur (UVs) recouvrant des domaines différents.
 
 \newpage
 
@@ -1283,11 +1311,11 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**API**(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est à dire un ensemble normalisé de classes, de méthodes ou de fonctions qui qui permet à un un logiciel de fournir des services à d'autres logiciels.
+**API**(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est-à-dire un ensemble normalisé de classes, de méthodes ou de fonctions qui permet à un logiciel de fournir des services à d'autres logiciels.
 
 \bigskip
 
-**Back** Partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
+**Back:** partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
 
 \bigskip
 
@@ -1319,7 +1347,7 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**DOM** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
+**DOM** (*Document Object Model*)**:** interface de programmation qui fournit une représentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
 
 \bigskip
 
@@ -1331,7 +1359,7 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatique pour fournir des services financiers.
+**Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatiques pour fournir des services financiers.
 
 \bigskip
 
@@ -1339,7 +1367,7 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**Front:** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
+**Front:** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec le reste de l'application (le *back*).
 
 \bigskip
 
@@ -1347,7 +1375,7 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**Immutable:** Se dit des types de variables qui ne peuvent pas changer de valeur pendant l’exécution du programme.
+**Immutable:** se dit des types de variables qui ne peuvent pas changer de valeur pendant l’exécution du programme.
 
 \bigskip
 
@@ -1359,7 +1387,7 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**Monitoring:** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse etc.).
+**Monitoring:** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse, etc.).
 
 \bigskip
 
@@ -1379,4 +1407,4 @@ Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'a
 
 \bigskip
 
-**Template:** est un élement qui fait office de gabarit (modèle) où seuls certains éléments sont modifiables (le contenu texte, les images, les couleurs etc...).
+**Template:** est un élèment qui fait office de gabarit (modèle) où seuls certains éléments sont modifiables (le contenu texte, les images, les couleurs, etc...).

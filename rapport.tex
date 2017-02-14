@@ -228,7 +228,7 @@ que des présentations publiques par l'intermédiaire d'articles de blog.
 \begin{figure}[h]
   \centering
   \includegraphics[height=4cm]{figures/talk.jpg}
-  \caption{Fabien présentant comment fabriquer son propre hardware}
+  \caption{Fabien Gavory présentant comment fabriquer son propre hardware}
 \end{figure}
 
 \bigskip
@@ -574,6 +574,14 @@ Avoir une représentation sous forme d'arbre en JavaScript permet de
 réaliser beaucoup plus d'opérations, d'utiliser les meilleurs
 algorithmes de comparaison d'arbres et de faire toutes les modifications
 du \emph{DOM} en une opération plutôt qu'au fur et à mesure.
+
+\bigskip
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=7cm]{figures/react-map.png}
+  \caption{Logique React}
+\end{figure}
 
 \bigskip
 
@@ -1195,6 +1203,12 @@ les modifications possible sur une photo demandées :
   Choix de concerver ou non l'intégrité de la photo ;
 \end{itemize}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{figures/photolix-1.png}
+  \caption{Actions de modification possibles sur une photo}
+\end{figure}
+
 \bigskip
 
 Enfin, il a fallut mettre en place l'interface utilisateur. Durant cette
@@ -1269,11 +1283,17 @@ partie à demandée de la réflexion car le calculs des prix était
 différent avant et après le paiement. En effet, dans l'absolu, il faut
 récupérer le prix à partir de l'\emph{API}, pour être certain de son
 exactitude. Cependant, avant le paiement il est possible que toutes les
-photos ne soient pas encore envoyées à l'\emph{API}et donc le prix
+photos ne soient pas encore envoyées à l'\emph{API} et donc le prix
 renvoyé par celle-ci n'est pas définitif. Il est alors nécéssaire de
 faire le calcul du prix dans l'application, et d'afficher ce resultat
 dans le récapitulatif. Une fois le paiement effectué, il faut afficher
 le prix envoyé par l'\emph{API}, puisqu'il s'agit du prix final.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{figures/photolix-2.png}
+  \caption{Récapitulatif de la commande}
+\end{figure}
 
 \bigskip
 
@@ -1307,7 +1327,7 @@ Finalement, j'ai pu retravailler sur le projet en décembre. Après un
 premier rendu au client, celui-ci souhaitait quelques corrections ainsi
 que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon
 d'utilisateurs pour tester l'application et avait relevé des
-améliorations possibles à l'interface. J'ai donc pu aider Fabien à
+améliorations possibles à l'interface. J'ai donc pu aider mon collégue à
 mettre en place ces modifications.
 
 \bigskip
@@ -1658,7 +1678,7 @@ plus utilisé (63.71\%), suivi par \emph{Firefox} (14.81\%),
 \begin{figure}[h]
   \centering
   \includegraphics[height=5cm]{figures/FF-browsers.png}
-  \caption{Parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
+  \caption{Répartition des navigateurs utilisés par les utilisatuers de Finfrog}
 \end{figure}
 
 \bigskip
@@ -1701,6 +1721,13 @@ doit pas être mise en cache. Cela se traduit par l'ajout de la valeur
 \emph{Header} de la réponse de l'\emph{API}
 
 \bigskip
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=5cm]{figures/finfrog-1.png}
+  \includegraphics[width=5cm]{figures/finfrog-2.png}
+  \caption{Changement d'affichage normal lors de l'ajout d'une pièce d'identité}
+\end{figure}
 
 \paragraph{Génération de contrats}\label{guxe9nuxe9ration-de-contrats}
 
@@ -1887,18 +1914,24 @@ place des migrations pour la bases de données etc.
 
 \bigskip
 
-C'est également à ce moment que le mode de facturation du projet est
-passé de forfait à régie. Auparavant, en mode forfait, nous devions
-estimé chaque tâche, et les dépassements n'étaient pas facturés. En mode
-régie, le tout temps de développement est facturé. D'une part cela
-signifie que le client est satisfait de notre travail et nous fait
-confiance, d'autre part cela nous permet d'avoir une plus grande liberté
-de mouvement: nous ne devons plus attendre une estimations et une
-validations avant de se lancer dans un développement.
+C'est également à ce moment que le projet est passé d'une facturation au
+forfait, à une facturation en régie. Lorsqu'un projet est en mode
+forfait, il était nécessaire d'estimer chaque tâches, et les
+dépassements n'étaient pas facturés. En mode régie, tout le temps de
+développement est facturé.
+
+\bigskip
+
+D'une part cela signifie que le client est satisfait de notre travail et
+nous fait confiance, d'autre part cela nous permet d'avoir une plus
+grande liberté de mouvement : nous ne devons plus attendre la validation
+d'une estimation avant de débuter son développement.
 
 \bigskip
 
 \subsubsection{Conclusion}\label{conclusion-1}
+
+\bigskip
 
 \emph{FinFrog} a été un projet très enrichissant, car abordant de
 nombreuses problématiques pouvant être rencontrées dans le développement
@@ -2060,6 +2093,12 @@ Voici un exemple de traduction, avec la superposition du logo de
 \end{Highlighting}
 \end{Shaded}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/partage-blog.png}
+  \caption{Exemple de partage d'article sur Twitter}
+\end{figure}
+
 \bigskip
 
 Les articles du blogs sont stockés et gérés sur \emph{Contenful}, un
@@ -2095,12 +2134,6 @@ Voici ce qu'il se passe lorsque l'on contacte cette \emph{URL}:
 Finalement, pour que l'image soit utilisée sur les réseaux sociaux, il
 m'a suffit d'ajouter l'adresse de mon image dans \emph{CloudFront},
 directement dans les balises des pages associées aux articles de blog.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[height=6cm]{figures/partage-blog.png}
-  \caption{Exemple de partage d'article sur Twitter}
-\end{figure}
 
 \newpage
 
@@ -2244,7 +2277,8 @@ qui m'a permis d'être bien intégré.
 La Maker Faire est un autre événement majeur organisé à Lille durant mon
 stage. Ce concept totalement unique regroupe stands de démonstration,
 ateliers de découverte, spectacles et conférences autour des thèmes de
-la créativité, de la fabrication, des cultures Do It Yourself et Makers.
+la créativité, de la fabrication, des cultures \emph{Do It Yourself} et
+\emph{Makers}.
 
 \bigskip
 
@@ -2278,11 +2312,11 @@ mettre en application
 \bigskip
 
 Ce stage a été très enrichissant pour moi. Il m'a permit de participer
-au développement d'application web, , à travers les projets
+au développement d'application web, à travers les projets
 \emph{Photolix} et \emph{FrinFrog}, sous la houlette d'une équipe
-expérimentécomplet qui à su me transmettre des compétences techniques et
+expérimenté qui à su me transmettre des compétences techniques et
 méthodologiques.\\
-J'ai notamment pu prendre en main de nombreuses bibliothéques, comme
+J'ai notamment pu prendre en main de nombreuses bibliothèques, comme
 \emph{React}, \emph{Redux}, des langages comme \emph{Ruby on Rails} ou
 encore travailler avec des partenaires comme \emph{Mangopay}.
 
@@ -2295,19 +2329,46 @@ travail en équipe.
 
 \bigskip
 
-Enfin, vous pouvez re-situez votre stage dans votre parcours de
-formation et dans votre projet professionnel. Vos objectifs ont-ils
-évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix
-de filière ?
+J'ai également appris beaucoup plus que je ne m'y attendais, sur la
+gestion de projet et la relation cliente. Le chef de projet était très
+disponible, tout en laissant l'autonomie nécessaire. J'ai pû communiquer
+directement avec mes clients, découvrir les processus de gestion de
+projet et de management.
 
--\textgreater{} Compétences apprises : Node React Redux ES6 Relation
-client Git Github pm2 npm
+\bigskip
 
--\textgreater{} Important : relation client et autonomie, apprentissage
-rapide, equipe disponible et polivalente (qui peut t'aider sur tout)
+Mon stage fut aussi une belle aventure. La ville de Lille est une ville
+pleine de vie et d'événement liés à l'informatique. De plus, l'équipe de
+\emph{Dernier Cri} est pleine d'initiative et de projet. En plus des
+présentations internes, des articles de blog, et des rencontres organisé
+dans les locaux, de nombreux projets internes animes la vie
+d'entreprise. On peut citer le développement de \emph{side-project}, la
+mise à disposition de matériels électronique, comme des \emph{beacons}
+ou des \emph{Arduinos}, etc.\\
+\emph{Dernier Cri} prend également soin de ses employé, en leur
+fournissant un environnement agréable et inspirant (mise à disposition
+de divers livres, livraison de fruit et \emph{smoothie}, etc.). Tout les
+trois mois, \emph{Dernier Cri} organise également une réunion pour
+présenter l'évolution de l'entreprise, et les objectifs pour les mois à
+venir. Cette réunion est suivie par une activité visant à renforcer les
+liens entre les membres de l'équipe.
 
--\textgreater{} environnement cool : Ambiance, tech off conf , meetup,
-plus belle vue de Lille
+\bigskip
+
+Tout cela m'a aidé à dessiner mon projet professionnel. Mon stage a
+conforté ma résolution de travailler dans une petite entreprise, qui se
+concentre sur le bien être de ses employés. J'ai également pu découvrir
+les difficultés de cet environnement; en effet, il faut être très
+autonome, et ne pas compter ses heures.
+
+\bigskip
+
+Mon stage a également confirmé ma volonté de garder un profil
+polyvalent. J'ai beaucoup apprécié la possibilité que j'ai eu d'aborder
+de nombreux aspects de l'informatique, et faire partie d'une équipe
+pluridisciplinaire. C'est pourquoi je souhaite garder cette diversité
+dans ma formation et choisir des Unités de Valeur (UVs) recouvrants des
+domaines différents.
 
 \newpage
 
