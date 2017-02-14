@@ -40,7 +40,7 @@ Dans le cadre de mon stage de TN09, lors de ma quatrième année d'ingénieur en
 
 \bigskip
 
-Dernier Cri est une *start-up* créée en 2011, spécialisée dans l'innovation numérique. L'équipe est en charge du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
+Dernier Cri est une *startup* créée en 2011, spécialisée dans l'innovation numérique. L'équipe est en charge du développement, du déploiement et de la maintenance d'applications pour le compte de plusieurs clients.
 
 \bigskip
 
@@ -65,7 +65,7 @@ Finalement, il me tient à coeur de présenter la communauté de développeurs L
 
 \newpage
 
-# *Dernier Cri*
+# Dernier Cri
 
 \bigskip
 
@@ -145,6 +145,12 @@ La gestion de projet peut se séparer en deux: la relation client, et la gestion
 *Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire d'articles de blog.
 
 ### Présentations internes
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=4cm]{figures/talk.jpg}
+  \caption{Fabien présentant comment fabriquer son propre hardware}
+\end{figure}
 
 \bigskip
 
@@ -620,7 +626,7 @@ La deuxième partie du projet était centrée sur le téléchargement des photos
 
 \bigskip
 
-La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférant developper cette partie de l'application lui-même. La conception de l’API avait été réalisé sans concertation avec les équipes *front*, ce qui ne permettait donc pas de supposer son fonctionnement et surtout comment s'interfacer avec. De plus, la documentation fournie n'était pas exhaustive et peu détaillée, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti considérablement le développement.
+La majeur difficulté durant cette étape fut de ne pas avoir accès directement à l'*API*, le client préférant developper cette partie de l'application lui-même. La conception de l’*API*avait été réalisé sans concertation avec les équipes *front*, ce qui ne permettait donc pas de supposer son fonctionnement et surtout comment s'interfacer avec. De plus, la documentation fournie n'était pas exhaustive et peu détaillée, il était souvent nécessaire de demander des précisions ou des évolutions au client. Même si la communication était assez rapide, le fait de ne pas avoir la main sur l'*API* a ralenti considérablement le développement.
 
 \bigskip
 
@@ -644,20 +650,28 @@ C'est à ce moment que j'ai découvert la diversité des outils React proposés 
 
 \bigskip
 
-Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisée lors du téléchargement initial. J'y ai ajouté des paramètres permettant de choisir le format, l'orientation, si on coupe la photo ou bien on ajoute des bandes blanche...
+Pour mettre en place mes autres fonctions de modification des photos, j'ai surtout dû modifier la fonction principale de redimensionnement des photos, utilisée lors du téléchargement initial. J'ai pu mettre en place les modifications possible sur une photo demandées :
+
+* Choix du format (10x15, 11x15 et 08x10);
+* Choix de l'orientation (portrait ou paysage) ;
+* Possibilité de recadrer la photo ;
+* Choix de concerver ou non l’intégrité de la photo ;
 
 \bigskip
 
-Enfin, il a fallut mettre en place l'interface utilisateur. Durant cette étape nous avons beaucoup échangé avec le client pour essayer de trouver la présentation la plus intuitive et pratique pour le client. Par la suite, lors des premiers test de l'application, nous avons du modifier cette page suite à des retours des testeurs.
+Enfin, il a fallut mettre en place l'interface utilisateur. Durant cette étape nous avons beaucoup échangé avec le client pour essayer de trouver la présentation la plus intuitive et pratique pour les utilisateurs de *Photolix*.
+
+Un premier livrable a été fourni au client (toujours sur l’environnement de staging) afin qu’il puisse effectuer des tests utilisateurs. Ces tests on permit de remonter plusieurs informations : peu de disfonctionnement nous ont été remonté ce qui est un point très favorable , la grande majorité des retours sont des erreurs de conception, rendant l'application peu confortable à l'usge. J'ai donc pu reprendre le développement pour résoudre ces problèmes et rendre l'application plus ergonomique et fonctionnel.
 
 #### Pages informations des clients, paiement et remerciement
 
 \bigskip
 
-La dernière partie du projet consistait à mettre en place les autres pages de l'application, servant à récolter les informations nécessaires à la commande, et à les envoyer à l'API. Ces pages sont :
-* la page de saisie des adresses, de livraison et de facturation ;
-* la page de paiements, soit par carte bancaire, soit par Paypal ;
-* la page de remerciements avec un récapitulatif de la commande, ainsi que des liens pour partager l'événement sur les réseaux sociaux.
+La dernière partie du projet consistait à mettre en place les autres pages de l'application, servant à récolter les informations nécessaires à la commande, et à les envoyer à l'*API*. Ces pages sont :
+
+* La page de saisie des adresses, de livraison et de facturation ;
+* La page de paiements, soit par carte bancaire, soit par Paypal ;
+* La page de remerciements avec un récapitulatif de la commande, ainsi que des liens pour partager l'événement sur les réseaux sociaux.
 
 \bigskip
 
@@ -665,15 +679,15 @@ Pour la page de saisie de l'adresse, ce fut l'occasion pour moi de créer pour l
 
 \bigskip
 
-Après cette première expérience dans la création de formulaire, j'ai pu découvrir un outil, *redux-form*, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise-à-jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord dû faire toute l'implémentation nécessaire par moi-même m'a permis de prendre conscience des problèmatiques de cette pile technologique : le maintient de l'état de l'application, la communication entre les composants...
+Après cette première expérience dans la création de formulaire, j'ai pu découvrir un outil, *redux-form*, permettant de créer beaucoup plus facilement des formulaires et gérant automatiquement la mise-à-jour de l'état de l'application. J'ai pu utiliser cet outil dans mon second projet. Mais je pense que le fait d'avoir d'abord dû faire toute l'implémentation nécessaire par moi-même m'a permis de prendre conscience des problèmatiques de cette pile technologique : le maintien de l'état de l'application, la communication entre les composants etc.
 
 \bigskip
 
-J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager l’évènement sur les réseaux sociaux. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé a une URL.
+J'ai ensuite travaillé sur le page de remerciement. Sur cette page, on affiche un récapitulatif de la commande ainsi que des liens pour partager l’évènement sur les réseaux sociaux. J'ai ainsi pu apprendre comment partager sur Facebook et Tweeter un message, associé à une *URL*.
 
 \bigskip
 
-Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaître un récapitulatif de la commande, avec notamment le nombre de photos commandées, le prix par photo, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandée de la réflexion car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolu, il faut récupérer le prix à partir de l'API, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toute les photos ne soient pas encore envoyé à l'API et donc le prix renvoyé par celle-ci n'est pas définitif. Il est alors donc nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'API, puisqu'il s'agit du prix final.
+Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaître un récapitulatif de la commande, avec notamment le nombre de photos commandées, le prix par photo, le prix total, ainsi que la possibilité d'entrer un code de promotion avant le paiement. Cette partie à demandée de la réflexion car le calculs des prix était différent avant et après le paiement. En effet, dans l'absolu, il faut récupérer le prix à partir de l'*API*, pour être certain de son exactitude. Cependant, avant le paiement il est possible que toutes les photos ne soient pas encore envoyées à l'*API*et donc le prix renvoyé par celle-ci n'est pas définitif. Il est alors nécéssaire de faire le calcul du prix dans l'application, et d'afficher ce resultat dans le récapitulatif. Une fois le paiement effectué, il faut afficher le prix envoyé par l'*API*, puisqu'il s'agit du prix final.
 
 \bigskip
 
@@ -681,76 +695,87 @@ Finalement, sur les trois pages précédemment citées, j'ai dû faire apparaît
 
 \bigskip
 
-Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet Photolix à un collègue. Celui-ci a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leurs modifications. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante :  si nous montions à une centaine de photos chargées, le navigateur ne supportait pas la charge.
+Vers mi-octobre, j'ai été réaffectée à un autre projet, laissant la fin du projet *Photolix* au collègue ayant commencé le projet. Celui-ci a fini de mettre en place la gestion du téléchargement des photos vers le serveur, notamment après leurs modifications. Il a également revu la fonction de redimensionnement des photos, car celle utilisée au debut n'était pas assez performante :  si nous montions à une centaine de photos chargées, le navigateur ne supportait pas la charge.
 
 \bigskip
 
-J'ai pu étudier les modifications apportées par mon collègue, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que mon collègue reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.
+J'ai pu étudier les modifications apportées par mon collègue, et apprendre des erreurs que j'ai pu commettre. Par exemple, je n'avais pas assez travailler la gestion des erreurs. Il a fallut que mon collègue reprenne mon travail pour ajouter l'affichage des erreurs, en cas par exemple d'erreur lors du téléchargement des photos. Ces enseignements m'ont permis de ne pas reproduire ces erreurs dans le second projet sur lequel j'ai été affecté.  
+Cependant la majorité de mon développement était fonctionnel et n'a pas nécéssité de retours de sa part.
 
 \bigskip
 
-Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier rendu au client, celui-ci souhaitait quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon de clients pour tester l'application et avait relevé des améliorations possibles à l'interface utilisateur. J'ai donc pu aider Fabien à mettre en place ces modifications.
+Finalement, j'ai pu retravailler sur le projet en décembre. Après un premier rendu au client, celui-ci souhaitait quelques corrections ainsi que l'ajout de quelques fonctionnalités. Il avait utilisé un échantillon d'utilisateurs pour tester l'application et avait relevé des améliorations possibles à l'interface. J'ai donc pu aider Fabien à mettre en place ces modifications.
 
 \bigskip
+
+Aujourd'hui *Photolix* est en ligne et fonctionnel. L'équipe de dévelopemment de *Dernier Cri* reste à disposition en cas de disfonctionnement ou d'améliorations souhaitées.
 
 
 ### Conclusion
 
 \bigskip
 
-Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que *Github*, avec toute la gestion des différentes branches, les *Pull Request* ainsi que la gestion des issues... Ce fut une étape essentiel pour mon intégration dans l'équipe de développement.
+Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utilisés chez *Dernier Cri*, tel que *Github*, avec toute la gestion des différentes branches, les *Pull Request* ainsi que la gestion des issues etc. Ce fut une étape essentielle pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
-Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expensions, évolue beaucoup et ont un bel avenir devant elles. J'ai également pu apprendre le développement *front-end*, alors que jusque là mes compétences techniques étaient plus tournée vers du *back*.
+Ce projet m'a également permit d'apprendre à utiliser React et Redux. Ces technologies sont aujourd'hui en pleine expansions, évolue beaucoup et ont un bel avenir devant elles. J'ai également pu apprendre le développement *front-end*, alors que jusque là mes compétences techniques étaient plus tournées vers du *back*.
 
 \bigskip
 
-Evidemment, j'ai connu de nombreuses difficultés lors du développemment de Photolix. Mon inexpérience m'a conduite à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue présent sur le projet, pour me soutenir, me corriger et rattraper certaines erreurs, surtout vers la fin du projet. Grâce à cela, j'ai pu mettre en place de meilleures pratiques durant le projet suivant.
+Evidemment, j'ai connu de nombreuses difficultés lors du développemment de *Photolix*. Mon inexpérience m'a conduite à faire des erreurs, à fournir un résultat qui n'était pas optimal. J'ai heureusement pu compter sur mon collégue présent sur le projet, pour me soutenir, me corriger et rattraper certaines erreurs, surtout vers la fin du projet, à travers le processus de *code review* décrit précédemment. Grâce à cela, j'ai pu mettre en place de meilleures pratiques durant le projet suivant.
 
 \bigskip
 
-Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraie problématiques du développement d'une application web, de la relation cliente, avec des dates butoire et des évolutions des spécifications en cours de projet.
+Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraies problématiques du développement d'une application web, de la relation cliente, avec des dates butoires et des évolutions des spécifications en cours de projet.
 
 
-## Finfrog
+## FinFrog
 
 ### Présentation et objectifs du projet
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur *React* sur ce projet, j'ai quitté le projet *Photolix* pour rejoindre *Finfrog*. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
+Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur *React* sur son projet, j'ai quitté le projet *Photolix* pour rejoindre *Finfrog*. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
 
 \bigskip
 
-*Finfrog* est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque.
+*Finfrog* est un projet de prêt collaboratif, c'est à dire que le site propose des prêts financés par des particuliers. L’objectif de *FinFrog* est de proposer des petits prêts, avec un remboursement sur de petites mensualités, à des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser sur une durée d’un à trois mois.
+
+\bigskip
+La demande client était de réaliser une refonte du site. *Dernier Cri* a décidé d’accepter cet existant, de s’adapter à lui, et de pouvoir le modifier, y ajouter les fonctionnalités souhaitées, sans devoir repartir de zéro.
 
 \bigskip
 
-Lors de mon arrivée sur le projet, un site était déjà en ligne, développé par le client. Le premier objectif était de mettre en place un nouveau design sur ce site, d'abord sur la page d'accueil, et ensuite sur les formulaires de demande de prêt.
+Le site était déjà en ligne, développé par un développeur de chez *FinFrog*. Il a été fermé le temps de réaliser les changements à la demande du client.
+
+\bigskip
+
+La première demande était de mettre en place un nouveau design sur le site, d’abord sur la page d’accueil, puis sur les formulaires de demande de prêts (le chemin emprunteur).
 
 \bigskip
 
 Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour *Finfrog*, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
 
+\bigskip
 
 ### Outils utilisés
 
 \bigskip
 
-La projet *Finfrog* utilisait principalement les même outils que *Photolix* : utilisation de *npm* pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux* etc.
+La projet *Finfrog* utilisait principalement les même outils que *Photolix* : utilisation de *npm* pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux*, etc.
 
 \bigskip
 
-Cependant à mon arrivée sur *FinFrog*, le projet était hébergé sur *Bitbucket* et non pas *Github*. Il a donc fallut que je m'habitue à ce nouveaux gestionaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github*.
+Cependant à mon arrivée sur *FinFrog*, le projet était hébergé sur *Bitbucket* et non pas *Github*. Il a donc fallut que je m'habitue à ce nouveaux gestionnaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github* afin d'accéder aux fonctionnalités de gestion de projet qu'il fournit.
 
 \bigskip
 
-Sur ce projet, nous avions aussi en charge la partie API et base de donnée. L'API est écrite en *Nodejs* et la base de donnée est une *postgres*, donc manipulable en *SQL*. Cependant j'ai eu peu d'occasion de manipuler la base de donnée.
+Sur ce projet, nous avions aussi en charge la partie *API*et base de données. L'*API* est écrite en *Nodejs* et la base de donnée est une *PostgreSQL*, donc manipulable en *SQL*. Cependant j'ai eu peu d'occasion de manipuler la base de donnée.
 
 \bigskip
 
-Finalement, pour lancer les processus du site et de l'API, nous avons utilisé *PM2*. *PM2* est un gestionnaire de processus de production pour les applications *Node.js* avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches administratives courantes du système.
+Finalement, pour lancer les processus du site et de l'*API*, nous avons utilisé *PM2*. *PM2* est un gestionnaire de processus de production pour les applications *Node.js*, avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches administratives courantes du système.
 
 \bigskip
 
@@ -760,25 +785,25 @@ Finalement, pour lancer les processus du site et de l'API, nous avons utilisé *
 
 \bigskip
 
-A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau design pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.  
-Ce fut également l'occasion de m'adapter a l'organisation - tant au niveau du code, que du processus de développement - du développeur déjà présent sur le projet chez le client. Au début du projet, je n'avais accès qu'au code du côté *front* de l'application, tandis que le développeur du client gardé la main sur l'API ainsi que la partie du projet calculant les intêrets des prêts.
+A mon arrivée sur le projet, *Dernier Cri* était chargé de l'intégration d'un nouveau *design* pour le site déjà existant. Cette intégration comprenait tout d'abord la page d'accueil, puis le tunnel de demande de prêt.  
+Ce fut également l'occasion de m'adapter a l'organisation - tant au niveau du code, que du processus de développement - du projet. Au début de celui-ci, je n'avais accès qu'au code du côté *front* de l'application, tandis que le développeur du client gardait la main sur l'*API* ainsi que la partie du projet calculant les intérêts des prêts.
 
 \bigskip
 
-L'intégration du nouveau design de la page d'accueil fut une bonne entrée en matière : elle était assez simple, principalement du changement de couleur et d'images, pour mettre en place la nouvelle identité visuel de l'application. J'ai pu ainsi me familiariser avec l'organisation du code source du projet ainsi que la logique métier sous-jacente.
+L'intégration du nouveau *design* de la page d'accueil fut une bonne entrée en matière : elle était assez simple, principalement du changement de couleur et d'images, pour mettre en place la nouvelle identité visuelle de l'application. J'ai ainsi pu me familiariser avec l'organisation du code source du projet ainsi que la logique métier sous-jacente.
 
 \bigskip
 
-Après la page d'accueil j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus techniques : la communications entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'*API* et récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
+Après la page d'accueil, j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus technique : la communication entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'*API* pour récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
 
 \bigskip
 
-Pour la gestion des formulaires, le projet utilisé *Redux Form*, un outils permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fournies par *Redux Form* pour construire le formulaire. Cela se concrétise principalement par deux éléments :
+Pour la gestion des formulaires, le projet utilisait *Redux Form*, un outil permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fourni‡s par *Redux Form* pour construire le formulaire. Cela se concrétise principalement par deux éléments :
 
-* une fonction `reduxForm({form: 'formName'})(TestForm)` où `Testform` est un composant contenant le formulaire et `formName` un nom unique, qui identifiera le formulaire, notamment dans le *store*.
-* un composant `Field` qui connectera chaque champ du formulaire avec le *store Redux*. Ce composant prend en propriété un autre composant. Cela peut être un composant de base, comme `input` ou `select` ou bien un composant personnalisé ;
+* une fonction `reduxForm({form: 'formName'})(TestForm)` où *Testform* est un composant contenant le formulaire, et `formName` un nom unique, qui identifiera le formulaire dans le *store*.
+* un composant `Field` qui connectera chaque champ du formulaire avec le *store Redux*. Ce composant prend comme propriété un autre composant. Cela peut être un composant de base, comme `input` ou `select`, ou bien un composant personnalisé.
 
-Avec ces deux éléments il est simple de créer un formulaire :
+Avec ces deux éléments, il est simple de créer un formulaire :
 
 ```jsx
 import React from 'react'
@@ -791,17 +816,27 @@ const TestForm = (props) => {
       <div>
         <label>First Name</label>
         <div>
-          <Field name="email" component="input" type="text" placeholder="Email"/>
+          <Field
+            name="email"
+            component="input"
+            type="text"
+            placeholder="Email"/>
         </div>
       </div>
       <div>
         <label>Last Name</label>
         <div>
-          <Field name="password" component="input" type="password" placeholder="Password"/>
+          <Field
+            name="password"
+            component="input"
+            type="password"
+            placeholder="Password"/>
         </div>
       </div>
       <div>
-        <button type="submit" disabled={pristine || submitting}>Submit</button>
+        <button type="submit" disabled={submitting}>
+          Submit
+        </button>
       </div>
     </form>
   )
@@ -814,33 +849,36 @@ export default reduxForm({
 
 \bigskip
 
-Le tunnel des demande de prêt est constitué de formulaires:
+Le tunnel des demandes de prêt est constitué de formulaires:
 
-* Le descriptif du projet : l'utilisteur doit sélectionner la catégorie de son projet (travaux, voyages, meubles...) ainsi que le type (personnel, professionel ou étude). Cette information est importante, non seulement pour pouvoir comprendre la catégorie d'utilisteur du site, mais surtout pour respecter les contraite légal d'un prêt. En effet, le taux d'emprunt autorisé varie selon la type du prêt.
-* L'identité et les coordonnées de l'utilisateur : il doit fournir son identité (nom, prénom, date de naissance etc.) ainsi que ses coordonnées. C'est également une contraite légale.
-* Les dépenses et revenus : nous récupérons des informations sur les capacités financière de l'utilisateur pour évaluer sa capacité à rembourser le prêt.
-* Les coordonnées bancaires : l'utilisateur fourni les informations de sa carte bancaire ainsi que son IBAN, pour permettre le transfert de l'argent prêté dans un premier tant, puis le prélévement des remboursements.
-* Le téléchargement de la piéce d'identité (carte d'identité, passport, permis de conduire...) : c'est également une obligation légale de vérifier l'identité de l'utilisateur.
-
-\bigskip
-
-C'est au terme de cette suite de formulaire que la demande de prêt est créée. C'est donc une étape primordiale, puisqu'il faut s'assurer que les utilisateurs n'abandonne pas la demande en cours de route. Pour observer le taux de rétention d'utilisateur sur cette partie du site, j'ai mis en place deux outils sur l'application. Tout d'abord le classique *Google Analytics*, qui permet d'observer l'audience du site, heure par heure, page par page. On peut voir les caractéristiques des utilisateurs : leur systéme d'exploitation, navigateur, sexe, tranche d'age etc. J'ai également mis en place *hotjar*, qui permet entre autre d'enregistrer les interactions entre l’internaute et une page Web (clic, scroll, mouvements de la souris). Cet outil à permis d'identifier un bon nombres de disfonctionnement du site web, en observant les pages où l'utilisteur se retrouvé bloqué, ou bien passé trop de temps par rapport au sénario initialement prévu.
+* Le descriptif du projet : l'utilisateur doit sélectionner la catégorie de son projet (travaux, voyages, meubles, etc.) ainsi que le type (personnel, professionel ou étude). Cette information est importante, non seulement pour pouvoir comprendre la catégorie d'utilisateur du site, mais surtout pour respecter les contraintes légales d'un prêt. En effet, le taux d'emprunt autorisé varie selon le type du prêt.
+* L'identité et les coordonnées de l'utilisateur : il doit fournir son identité (nom, prénom, date de naissance, etc.) ainsi que ses coordonnées. C'est également une contrainte légale.
+* Les dépenses et revenus : nous récupérons des informations sur les capacités financières de l'utilisateur pour évaluer sa capacité à rembourser le prêt.
+* Les coordonnées bancaires : l'utilisateur fournit les informations de sa carte bancaire ainsi que son IBAN, pour permettre le transfert de l'argent prêté dans un premier temps, puis le prélèvement des remboursements.
+* Le téléchargement de la pièce d'identité (carte d'identité, passeport, permis de conduire, etc.) : c'est également une obligation légale de vérifier l'identité de l'utilisateur.
 
 \bigskip
 
-Durant la modification de se formulaire j'ai également du mettre en place le téléchargement de la piéce d'identité sur *Amazon Simple Storage Service* (*Amazon S3*), qui est une solution de stockage sur Internet. En effet, une fois la pièce d'identité envoyée à l'*API* de *FinFrog*, nous la chargeons dans un stockage extérieur, car la loi impose de pouvoir justifier de l'identité des emprunteurs.
+C'est au terme de cette suite de formulaires que la demande de prêt est créée. C'est donc une étape primordiale, puisqu'il faut s'assurer que les utilisateurs n'abandonnent pas la demande en cours de route. Pour observer le taux de rétention d'utilisateurs sur cette partie du site, j'ai mis en place deux outils sur l'application :
+
+* Tout d'abord le classique *Google Analytics*, qui permet d'observer l'audience du site, heure par heure, page par page. On peut voir les caractéristiques des utilisateurs : leur système d'exploitation, navigateur, sexe, tranche d'âge, etc. ;
+* J'ai également mis en place *hotjar*, un outil qui permet entre autre d'enregistrer les interactions entre l’internaute et une page web (clic, *scroll*, mouvements de la souris, etc.). Cet outil a permis d'identifier un bon nombre de disfonctionnements de l'application, en observant les pages où l'utilisateur se retrouvait bloquer, ou passait trop de temps (par rapport au scénario initialement prévu).
 
 \bigskip
 
-L'un des objectifs de cette première partie était de développer un site *responsive*, c'est à dire un site web dont la conception et le développement vise à offrir le même confort visuel pour des supports différents comme les ordinateurs, smartphones, tablettes, etc. Pour arriver à cela, le client nous a fourni, pour chaque page du site, deux maquettes différentes : une pour la version ordinateur et tablette, et une autre pour la version smartphone.
+Durant la modification de ce formulaire j'ai également dû mettre en place le téléchargement de la pièce d'identité sur *Amazon Simple Storage Service* (*Amazon S3*), qui est une solution de stockage sur Internet. En effet, une fois la pièce d'identité envoyée à l'*API* de *FinFrog*, nous la chargeons dans un stockage externe, car la loi impose de pouvoir justifier de l'identité des emprunteurs.
 
 \bigskip
 
-Un autre point primordial du développement *front* est la compatibilité entre les navigateurs. En effet chaque navigateur dispose de son propre « moteur d’affichage » et un même site pourra avoir un affichage et un comportement très différents selon le navigateur utilisé. La compatibilité multi-navigateurs consiste à essayer d'avoir un rendu et un comportement identitique d'un navigateur à l'autre.
+L'un des objectifs de cette première partie était de développer un site *responsive*, c'est à dire un site web dont la conception et le développement vise à offrir le même confort visuel pour des supports différents (comme les ordinateurs, smartphones, tablettes, etc.). Pour arriver à cela, le client nous a fourni, pour chaque page du site, deux maquettes différentes : une pour la version ordinateur et tablette, une autre pour la version *smartphone*.
 
 \bigskip
 
-Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, *Chrome* est le navigateur le plus utilisé (51%), suivi par *Safari* (18%) et *Internet Explorer* et *Edge* (le nouveau navigateur de *Microsoft*) (11%).
+Un autre point primordial du développement *front* est la compatibilité entre les navigateurs. En effet chaque navigateur dispose de son propre « moteur d’affichage », et un même site pourra avoir un affichage et un comportement très différent selon le navigateur utilisé. La compatibilité multi-navigateurs consiste à essayer d'avoir un rendu et un comportement identique d'un navigateur à l'autre.
+
+\bigskip
+
+Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, *Chrome* est le navigateur le plus utilisé (51%), suivi par *Safari* (18%), *Internet Explorer* et *Edge* (le nouveau navigateur de *Microsoft*) (11%).
 
 \begin{figure}[h]
   \centering
@@ -850,7 +888,7 @@ Une première étape pour y arriver est de connaitre les navigateurs les plus ut
 
 \bigskip
 
-Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il est possible de connaitre les navigateurs utilisés par ces visiteurs grâce à des outils comme *Google Analytics*, qui fournissent une analyse de l'audiance d'un site web. Pour *FinFrog*, nous avons pu observer que *Chrome* était bien le navigateur le plus utilisé (63.71%), suivi par *Firefox* (14.81%), *Internet Explorer* (8,54%) et *Safari* (8.22%).
+Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il est possible de connaître les navigateurs utilisés par ces visiteurs, grâce à des outils comme *Google Analytics*, qui permettent d'analyser l'audience d'un site web. Pour *FinFrog*, nous avons pu observer que *Chrome* était bien le navigateur le plus utilisé (63.71%), suivi par *Firefox* (14.81%), *Internet Explorer* (8,54%) et *Safari* (8.22%).
 
 \begin{figure}[h]
   \centering
@@ -860,25 +898,25 @@ Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il 
 
 \bigskip
 
-Une fois que les navigateurs principalement utilisés par la cible sont identifié, il faut choisir des outils et méthodes adapté à ceux-ci. On peut utilisé des sites comme [*Can I use*](http://caniuse.com/) qui offre des tableaux de compatibilité pour *HTML5*, *CSS3*, *SVG* et autres technologies dans les différents navigateurs. Nous utilisons également [*BrowserStack*](https://www.browserstack.com/), un outil de test multi-navigateur qui permet aux développeurs de tester leurs sites Web à travers différents navigateurs sur différents systèmes d'exploitation et appareils mobiles, sans devoir installer de machine virtuelle ou autres. On peut ainsi vérifier le rendu visuel, ainsi que le comportement de l'application, sur nos navigateurs cibles.
+Une fois que les navigateurs principalement utilisés par la cible sont identifiés, il faut choisir des outils et méthodes adaptés à ceux-ci. On peut utilisé des sites comme [*Can I use*](http://caniuse.com/) qui offre des tableaux de compatibilité pour *HTML5*, *CSS3*, *SVG*, et autres technologies dans les différents navigateurs. Nous utilisons également [*BrowserStack*](https://www.browserstack.com/), un outil de test multi-navigateurs qui permet aux développeurs de tester leurs sites web à travers différents navigateurs sur différents systèmes d'exploitation et appareils mobiles, sans devoir installer de machine virtuelle. On peut ainsi vérifier le rendu visuel, ainsi que le comportement de l'application, sur nos navigateurs cibles.
 
 \bigskip
 
-Voici un exemple de problème qu'un developpeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande prêt, le client à remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardé par défaut en cache, c'est à dire mémorisé, les réponses de l'*API*. Quand l'utilisateur arrivé sur la page, un premier appel à l'*API* était effectué, pour afficher la liste des pièce déjà télécharger. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jours. Mais le navigateur ignoré cet appel et utilisé à la place le resultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifié dans la réponse envoyé par l'*API*, que l'information ne doit pas être mémorisée. Cela se traduit par ajouter la valeur `no-cache` au paramétre `Cache-Control` dans le *Header* de la réponse de l'*API*
+Voici un exemple de problème qu'un développeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande de prêt, notre client nous a remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardait les réponses de l'*API* en cache par défaut, c'est à dire les mémoriser dans l'espace de stockage alloué au navigateur. Quand l'utilisateur arrivait sur la page, un premier appel à l'*API* était effectué, afin d'afficher la liste des pièces déjà téléchargées. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jour. Mais, le navigateur ignorait cet appel et utilisait à la place le résultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifier dans la réponse envoyée par l'*API*, que l'information ne doit pas être mise en cache. Cela se traduit par l'ajout de la valeur `no-cache` au paramètre `Cache-Control`, dans le *Header* de la réponse de l'*API*
 
 \bigskip
 
-#### Génération de contrat
+#### Génération de contrats
 
-Au bout d'environ un mois, le développeur présent chez le client à quitté le projet. Par conséquent nous avons récupéré la totalité du développement, tant au niveau du *front* que de l'API, ainsi que la partie administrateur.
-
-\bigskip
-
-Une seconde demande était la mise à jour du contrat généré par l'application. Après que l'administrateur est validé la demande de prêt, un contrat est généré et fourni au l'utilisteur dans son espace client. Nous devions mettre à jour les termes du contrat et ajouter des informations manquantes, de manière dynamique.
+Au bout d'environ un mois, le développeur présent chez le client a quitté le projet. Par conséquent, nous avons récupéré la totalité du développement, tant au niveau du *front* que de l'*API*, ainsi que la partie administrateur.
 
 \bigskip
 
-Le systéme de génération de contrat existant était assez rudimentaire et peut évolutif. Il s'agissait en effet d'une simple concaténation de chaine de caractères et de variables. Il était donc difficil de modifier le style du contrat ou même son contenue.
+Une seconde demande était la mise à jour du contrat généré par l'application. Après que l'administrateur ait validé la demande de prêt, un contrat est généré et fourni à l'utilisateur, dans son espace client. Nous devions mettre à jour les termes du contrat et ajouter des informations manquantes, de manière dynamique.
+
+\bigskip
+
+Le système de génération de contrats existant était assez rudimentaire et peu évolutif. Il s'agissait en effet d'une simple concaténation de chaînes de caractères, et de variables. Il était donc difficile de modifier le style du contrat, ou même son contenu.
 
 ```JavaScript
 // Ancienne technique pour la génération de contrat
@@ -887,8 +925,10 @@ var getContractContent() = function (loan, borrower) {
     ENTRE LES SOUSSIGNÉS :</h2><p><b>
     <span style="text-transform: capitalize">`;
   content += borrower.title + `</span>
-   <span style="text-transform: uppercase">{{ borrower.last_name}}</span>
-   <span style="text-transform: capitalize">{{ borrower.first_name}}</span>
+   <span style="text-transform: uppercase">`;
+  conente += borrower.last_name`</span>
+   <span style="text-transform: capitalize">`;
+  content += borrower.first_name `</span>
     </b> né(e) le <b> `;
   content += borrower.birthdate + `</b>, à <b> `;
   content += borrower.birthplace + `</b>, demeurant <b>`;
@@ -900,7 +940,7 @@ var getContractContent() = function (loan, borrower) {
 
 \bigskip
 
-Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de templating. Elle permet de mettre en place un template HTML et d'y intégrer facilement nos varibles. Il nous suffit alors de définir un template en HTML, en y introduisant le nom de nos variable entre accolade, puis d'appeler la librairie *Mustache.js* en lui fournissant ce template et un objet contenant les valeurs de nos variables,  `Mustache.render(template, params)`.
+Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de *templating*. Elle permet de mettre en place un *template HTML* et d'y intégrer facilement nos variables. Il nous suffit alors de définir un *template* en *HTML*, en y introduisant le nom de nos variable entre accolades, puis d'appeler la librairie *Mustache.js* en lui fournissant ce *template* et un objet, contenant les valeurs de nos variables, `Mustache.render(template, params)`.
 
 ```HTML
 <!-- Extrait du template du contrat -->
@@ -929,7 +969,7 @@ Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](http
 
 ```JavaScript
 // Création d'une variable contenant les paramétres du contrat
-var getContractParams = function (loan, borrower, repayments, lenders) {
+var getContractParams = function (loan, borrower) {
   const params = {
     //...
     borrower: borrower,
@@ -960,61 +1000,61 @@ var createAndUploadContract = function (loan, borrower) {
 
 #### Mangopay
 
-L'application FinFrog utilise [*Mangopay*](https://www.mangopay.com/fr/) comme partenaire pour gérer les transferts d'argent entre prêteur et emprunteurs. *Mangopay* est solution de paiement dédiée aux marketplaces, plateformes de crowdfunding et acteurs de l’économie collaborative. La société offre à ses clients la possibilité d’accepter des paiements pour le compte de tiers, de créer et gérer des *e-wallets*, de répartir les fonds vers de multiples bénéficiaires, de collecter automatiquement leurs chiffres d’affaires, le tout de manière très simple et sécurisé.
+L'application *FinFrog* utilise [*Mangopay*](https://www.mangopay.com/fr/) comme partenaire pour gérer les transferts d'argent, entre prêteurs et emprunteurs. *Mangopay* est une solution de paiements dédiée aux *marketplaces*, plateformes de *crowdfunding* et acteurs de l’économie collaborative. La société offre à ses clients la possibilité d’accepter des paiements pour le compte de tiers, de créer et gérer des *e-wallets*, de répartir les fonds vers de multiples bénéficiaires, et de collecter automatiquement leurs chiffres d’affaires, le tout de manière très simple et sécurisé.
 
 \bigskip
 
-J'ai donc du travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* *Mangopay* est créé pour chaque utilisateur, à la création de son compte sur *FinFrog*. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* à la carte et le compte bancaire. L'enregistrement de la carte se fait directement grâce au *front*, car pour des raisons de sécurité nous ne pouvons pas faire transiter ces informations vers l'*API*. Une fois la carte enregistrée, nous créons une préauthorisation associée. Une préautorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt.
+J'ai donc dû travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* *Mangopay* est créé pour chaque utilisateur, à la création de son compte sur *FinFrog*. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* la carte et le compte bancaire. Les informations de la carte bancaire sont envoyées directement à *Mangopay* car, pour des raisons de sécurité, nous ne pouvons pas faire transiter ces dernières vers l'*API*. Une fois la carte enregistrée, nous créons une pré-authorisation associée. Une pré-autorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt ou non.
 
 \bigskip
 
-Il est également nécessaire de fournir de nombreuse informations sur l'utilisateur à *Mangopay*, dans le cadre du *KYC*. Le processus *Know your customer* est utilisé dans le but d'assurer que les clients sont conformes aux lois anti-corruption. Cela a également pour but de prévenir l'usurpation d'identité, la fraude financière, le blanchiment d'argent et le financement du terrorisme. C'est un processus donc très important dans le cadre d'entreprise comme FinFrog, qui gére des flux quotidien d'argent. Pour répondre au *KYC*, nous fournissons en plus des informations de base (date et lieu de naissance, adresse etc.) les pièces d'identité récupéré lors de la demande de prêt.
+Il est également nécessaire de fournir à *Mangopay* de nombreuses informations sur l'utilisateur, dans le cadre du *KYC*. Le processus *Know Your Customer* est utilisé dans le but d'assurer que les clients sont conformes aux lois anti-corruption. Cela a également pour but de prévenir l'usurpation d'identité, la fraude financière, le blanchiment d'argent et le financement du terrorisme. C'est un processus donc très important dans le cadre d'entreprises comme *FinFrog*, qui gèrent des flux quotidiens d'argent. Pour répondre au *KYC*, nous fournissons, en plus des informations de base (date et lieu de naissance, adresse, etc.), les pièces d'identité récupérées lors de la demande de prêt.
 
 \bigskip
 
 #### Fin du stage
 
-Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* à acceuilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le prpjet, nous l'avons acceuilli une journée dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de *FinFrog*, de l'infrastruture au flux entre le site et l'*API*, en passant par notre gestion de projet.
+Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* a accueilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le projet, nous lui avons présenté notre travail sur le projet, dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de *FinFrog*, de l'infrastructure, aux flux entre le site et l'*API*, en passant par notre gestion de projets.
 
 \bigskip
 
-Passage de forfait a regie
+TODO Passage de forfait a regie
 
 ### Conclusion
 
-*FinFrog* a été un projet très enrichisant car abordant de nombreuses problèmatiques pouvant être rencontrée dans le developpement web, et utilisant de nombreux outils.
+*FinFrog* a été un projet très enrichissant, car abordant de nombreuses problèmatiques pouvant être rencontrées dans le développement web, et utilisant de nombreux outils.
 
 \bigskip
 
-J'ai eu l'opportunité de participer activement aux reflections concernant la conception du site. En effet, notre client était ouvert au sugestions et remarques, et tenait à se que nous comprenions les tenant et aboutissant de chaque décisions et nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des *Fintech*, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.  
-Cela m'a également permis de travailler sur mon relationnel client, grâce au contact presque journalier avec notre client pour récolter ses besoins, puis ses retours par rapports aux fonctionnalitées développées.
+J'ai eu l'opportunité de participer activement aux réflexions concernant la conception du site. En effet, notre client était ouvert au suggestions et remarques, et tenait à se que nous comprenions les tenants et aboutissants de chaque décision et des nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des *Fintech*, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.  
+Cela m'a également permis de travailler sur mon relationnel client, grâce au contact presque journalier avec notre client pour récolter ses besoins, puis ses retours par rapport aux fonctionnalités développées.
 
 \bigskip
 
-Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus ou moins important, comme le service *Mangopay*, des outils de *monitoring* comme *Google Analytics* ou *Hotjar*, ou encore de nombreuse librairie comme *Mustache.js*, *Redux form* ou encore *React Router*.
+Grâce à ce projet j'ai également pu découvrir de nombreux outils, plus ou moins importants, comme le service *Mangopay*, des outils de *monitoring* comme *Google Analytics* ou *Hotjar*, ou encore de nombreuse librairie comme *Mustache.js*, *Redux Form* ou encore *React Router*.
 
 \bigskip
 
-## Autre projet : Générateur d'image pour Dernier Cri.
+## Autre projet : Générateur d'images pour Dernier Cri.
 
 \bigskip
 
-Comme dit précédemment, *Dernier Cri* posséde un blog tenu par ses développeurs. L'équipe essaye de tenir un rythme de publication d'un article par semaine. Pour faire la promotion de cette activité, *Dernier Cri* partage les publications sur les réseaux sociaux.
+Comme dit précédemment, *Dernier Cri* possède un blog tenu par ses développeurs. L'équipe essaye de tenir un rythme de publication d'un article par semaine. Pour faire la promotion de cette activité, *Dernier Cri* partage les publications sur les réseaux sociaux.
 
 \bigskip
 
-Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisé pour chaque article, qui serait utilisé dans les partages sur les réseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défie et de créer ce générateur d'image.
+Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisées pour chaque article, qui seraient utilisées sur les réseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défi et de créer ce générateur d'images.
 
 \bigskip
 
-J'ai tout d'abord choisi, sur les conseils de mon tuteur d'entreprise, d'utiliser [*ImageMagick*](https://www.imagemagick.org/script/index.php) pour générer mes images. *ImageMagick* est un logiciel libre, comprenant une bibliothèque, ainsi qu'un ensemble d'utilitaires en ligne de commande, permettant de créer, de convertir, de modifier et d'afficher des images dans un très grand nombre de formats. Il offre de nombreuse possibilités pour manipuler les images: il est possible de les découper, de modifier leur couleur, de leur faire faire des rotation, d'y inclure du texte etc.  
-J'ai donc commencé par prendre en main *ImageMagick* en ligne de commande, pour doucement créer l'image voulue grâce à un script bash.
+J'ai tout d'abord choisi, sur les conseils de mon tuteur d'entreprise, d'utiliser [*ImageMagick*](https://www.imagemagick.org/script/index.php) pour générer mes images. *ImageMagick* est un logiciel libre, comprenant une bibliothèque, ainsi qu'un ensemble d'utilitaires en ligne de commande, permettant de créer, convertir, modifier et afficher des images dans un très grand nombre de formats. Il offre de nombreuses possibilités pour manipuler les images: il est possible de les découper, de modifier leurs couleurs, de leur faire faire des rotations, d'y inclure du texte, etc.  
+J'ai donc commencé par prendre en main *ImageMagick* en ligne de commande, pour doucement créer l'image voulue grâce à un script *bash*.
 
 \bigskip
 
 Dans ce script, je construisais mon image finale par étape :
 
-- Création de l'image de fond : tout d'abord il fallait redimensionner l'image choisi comme image de fond, puis y appliquer un filtre bleu pour obtenir l'effet souhaité.
+- Création de l'image de fond : tout d'abord il fallait redimensionner l'image choisie comme image de fond, puis y appliquer un filtre bleu pour obtenir l'effet souhaité.
 
 ```shell
 # Creation du filtre bleu
@@ -1023,14 +1063,16 @@ convert -size 600x315 xc:rgb\(0,44,92\) blue.png
 # Redimensionnement et filtre
 convert -resize ${width}x${height} background.jpg background.png
 convert background.png -colorspace Gray background.png
-composite -blend 90% -gravity South blue.png background.png background.png
+composite -blend 90% -gravity South blue.png background.png
 ```
 
-- La création de l'image de l'auteur: je récupére l'image de l'auteur de l'article, puis utilise un masque pour la rendre ronde.
+- La création de l'image de l'auteur: je récupère l'image de l'auteur de l'article, puis utilise un masque pour la rendre ronde.
 ```shell
 # Création de l'image de l'auteur
 convert JS.jpg  -resize $userWidth \
-\( +clone -threshold -1 -negate -fill white -draw "circle `expr $userWidth / 2`, `expr $userWidth / 2`, `expr $userWidth / 2`,0" \) \
+\( +clone -threshold -1 -negate -fill white -draw \
+"circle `expr $userWidth / 2`,
+`expr $userWidth / 2`, `expr $userWidth / 2`,0" \) \
 -alpha off -compose copy_opacity -composite xavier.png
 ```
 
@@ -1046,12 +1088,12 @@ convert JS.jpg  -resize $userWidth \
 
 \bigskip
 
-Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à l'intégré au site web de *Dernier Cri*. Ce dernier étant développé en *Ruby on Rails*, j'ai tout d'abord du me familiariser avec cette pile technologique à travers différents tutoriaux, avant de pouvoir coder mon générateur d'image.
+Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à l'intégré au site web de *Dernier Cri*. Ce dernier étant développé en *Ruby on Rails*, j'ai tout d'abord dû me familiariser avec cette pile technologique, à travers différents tutoriels, avant de pouvoir coder ce générateur.
 
 \bigskip
 
-Pour intégrer le processus de génération d'image au site web, j'ai utilisé [*RMagick*](https://github.com/rmagick/rmagick), une bibliothéque servant d'interface entre le langage *Ruby* et la bibliothéque *ImageMagick*. J'ai donc pu traduire mon processus de création d'image en *Ruby* et l'intégrer au site sans difficultés.  
-Voici un exemple de traduction, avec la superposition du logo de *Dernier Cri* sur l'image de fond.
+Pour intégrer le processus de génération d'images au site web, j'ai utilisé [*RMagick*](https://github.com/rmagick/rmagick), une bibliothèque servant d'interface entre le langage *Ruby* et la bibliothèque *ImageMagick*. J'ai donc pû traduire mon processus de création d'images en *Ruby*, et l'intégrer au site sans difficultés.  
+Voici un exemple de traduction, avec la superposition du logo de *Dernier Cri* sur l'image de fond :
 
 ```bash
 # Script Image Magick
@@ -1060,6 +1102,7 @@ composite \
   -gravity NorthEast -geometry +10+10 background.png background.png
 ```
 ```Ruby
+# Traduction en Ruby
 def add_logo(background)
   logo = Magick::Image.from_blob(
     open(Settings.blog_post_cover.logo_url).read
@@ -1077,19 +1120,20 @@ end
 
 \bigskip
 
-Les articles du blogs sont stockés et gérés sur *Contenful*, un *Content Management System* (CMS) ou, en français, Système de gestion de contenu. C'est donc en m'interfaçant avec *Contenful* que je peux récupérer les informations nécéssaires à la génaration d'image: le titre de l'article, son auteur, sa photo etc.
+Les articles du blogs sont stockés et gérés sur *Contenful*, un système de gestion de contenu. C'est donc en interfaçant mon programme avec *Contenful* que je peux récupérer les informations nécessaires à la génération d'images: le titre de l'article, son auteur, sa photo, etc.
 
 \bigskip
 
-La génération de l'image terminé, j'ai du mettre en place un service pour garder en mémoire cette image, et ne pas la régénérer à chaque partage. Pour cela j'ai utilisé *CloudFront* de *AWS* (*Amazon Web Service*) qui permet de garder en cache l'image après le premier appel. En effet, je fourni pour le partage comme adresse de l'image le nom de domaine de mon *CloudFront*, avec le nom de mon image, par exemple `http://XXXXX.cloudfront.net/monoide` :
+La génération de l'image terminée, j'ai dû mettre en place un service pour garder en mémoire cette image, et ne pas la régénérer à chaque partage. Pour cela, j'ai utilisé *CloudFront* de *AWS* (*Amazon Web Service*) qui permet de garder en cache l'image après le premier appel. En effet, je fourni pour le partage comme adresse de l'image le nom de domaine de mon *CloudFront*, avec le nom de mon image (par exemple `http://XXXXX.cloudfront.net/monoide`).  
+Voici ce qu'il se passe lorsque l'on contacte cette *URL*:
 
-* Si mon image n'a jamais été généré, et donc que *CloudFront* ne l'a pas dans son cache, le service va faire un appel au site *Dernier cri*, sur l'adresse du générateur, pour récupéré l'image, la retournée et la mémorisée.
+* Si mon image n'a jamais été générée, et donc que *CloudFront* ne l'a pas dans son cache, le service va faire un appel au site *Dernier Cri*, sur l'adresse du générateur, pour récupérer cette image, la retourner et la mémoriser.
 
-* Lors des prochains appels, *CloudFront* pourra retourner directement l'image et donc éviter de redemander la génération.
+* Lors des prochains appels, *CloudFront* pourra retourner directement l'image, et donc éviter de redemander sa génération.
 
 \bigskip
 
-Finalement il m'a suffit d'ajouter l'adresse de mon image dans *CloudFront* dans les balises des pages des articles de blog, pour que lors du partage sur les réseaux sociaux l'image soit utilisée.
+Finalement, pour que l'image soit utilisée sur les réseaux sociaux, il m'a suffit d'ajouter l'adresse de mon image dans *CloudFront*, directement dans les balises des pages associées aux articles de blog.
 
 \begin{figure}[h]
   \centering
@@ -1105,7 +1149,7 @@ Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une c
 
 \bigskip
 
-La ville a notamment reçue le label *French Tech* fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
+La ville a notamment reçue le label *French Tech* fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *startup* en France.
 
 \bigskip
 
@@ -1241,6 +1285,10 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
+**Crowdfunding:** (financement participatif) expression décrivant tous les outils et méthodes de transactions financières qui font appel à un grand nombre de personnes afin de financer un projet.
+
+\bigskip
+
 **CTO** (*Chief Technology Officer*)**:** directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
 
 \bigskip
@@ -1261,6 +1309,10 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \bigskip
 
+**E-wallet:** dispositif électronique qui permet à un individu de faire des transactions électroniques.
+
+\bigskip
+
 **Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatique pour fournir des services financiers.
 
 \bigskip
@@ -1278,6 +1330,10 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 \bigskip
 
 **Immutable:** Se dit des types de variables qui ne peuvent pas changer de valeur pendant l’exécution du programme.
+
+\bigskip
+
+**Marketplace:** plateforme dont l'objectif est de mettre en relation des vendeurs et des acheteurs, particuliers ou professionnels.
 
 \bigskip
 
@@ -1302,3 +1358,7 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 \bigskip
 
 **Startup:** jeune entreprise innovante à fort potentiel de croissance, ou entreprise en construction.
+
+\bigskip
+
+**Template:** est un élement qui fait office de gabarit (modèle) où seuls certains éléments sont modifiables (le contenu texte, les images, les couleurs etc...).
