@@ -113,7 +113,7 @@ Le secteur de l'informatique est aujourd'hui est en pleine expension. Pour donne
 \begin{figure}[h]
   \centering
   \includegraphics[height=6cm]{figures/team.png}
-  \caption{L'équipe de *Dernier Cri*}
+  \caption{L'équipe de Dernier Cri}
 \end{figure}
 
 \bigskip
@@ -142,7 +142,7 @@ La gestion de projet peut se séparer en deux: la relation client, et la gestion
 
 \bigskip
 
-*Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire de *blog posts* .
+*Dernier Cri* a à coeur de développer une culture entreprenariale et informatique, c'est pourquoi s'est developpé des présentations internes (dont certaines sont diffusées via une chaine youtube) ainsi que des présentations publiques par l'intermédiaire d'articles de blog.
 
 ### Présentations internes
 
@@ -279,7 +279,6 @@ Voici quelques nouveautés notoires de *ES6* :
     ```Javascript
     // ES6
     var { a, b, c } = someFunction()
-
     // ES5
     var tmp = someFunction();
     var a  = tmp.a;
@@ -287,9 +286,16 @@ Voici quelques nouveautés notoires de *ES6* :
     var c = tmp.c;
     ```
 
-Arraw fonction ? OUI
-Classe et héritage ? OUI
-Héritage de la programmation fonctionnelle à travers `let` et `arrow functions`.
+* Les *arrow functions*: elles offrent une syntaxe plus courte, sont des fonctions anonymes (une fonction n'ayant pas de nom) et partage le contexte de leur parent.
+
+    ```JavaScript
+    /* fonction anonymes classique */
+    let multiple = function (value) {  
+      return value * 10
+    }
+    /* arrow function */
+    let multiple = value => value * 10  
+    ```
 
 \bigskip
 
@@ -316,7 +322,7 @@ En effet, dans le milieu de l'informatique, les normes et les *frameworks* utili
 \bigskip
 
 Développée depuis 2013 par Facebook, *React* est une bibliothèque JavaScript déclarative, efficace et flexible pour la création d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment par ses performances.
-Elle est aujourd'hui utilisée par de nombreuses entreprises telles que Netflix, Yahoo, Airbnb ou encore Sony.
+Elle est aujourd'hui utilisée par de nombreuses entreprises telles que *Netflix*, *Yahoo*, *Airbnb* ou encore *Sony*.
 
 \bigskip
 
@@ -324,16 +330,16 @@ Tout d’abord, React est basé sur l'utilisation d'un *DOM* (*Document Object M
 
 \bigskip
 
-Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de HTML mais une représentation sous forme d’objets et de nœuds de ce à quoi le HTML final doit ressembler. React va comparer cette représentation au DOM réel et en déduire les opérations minimales à exécuter pour que les deux soit identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du DOM en une opération plutôt qu’au fur et à mesure.
+Grâce à l'utilisation d'un *DOM* virtuel, un composant React ne crée pas de *HTML* mais une représentation sous forme d’objets et de nœuds de ce à quoi le *HTML* final doit ressembler. React va comparer cette représentation au *DOM* réel et en déduire les opérations minimales à exécuter pour que les deux soit identiques. Avoir une représentation sous forme d’arbre en JavaScript permet de réaliser beaucoup plus d’opérations, d’utiliser les meilleurs algorithmes de comparaison d’arbres et de faire toutes les modifications du *DOM* en une opération plutôt qu’au fur et à mesure.
 
 \bigskip
 
-Une autre particularités de *React* est de découper l'application en composants, dépendant d'un état. C'est après un changement de cet état que React déduit les changements à effectué sur le DOM.
+Une autre particularités de *React* est de découper l'application en composants, dépendant d'un état. C'est après un changement de cet état que *React* déduit les changements à effectué sur le *DOM*.
 
 \bigskip
 
 Il faut noté que les composants sont des classes, héritant de `React.Component`.
-Un composant React possède deux types de données :
+Un composant *React* possède deux types de données :
 
 * des paramètres (*props*) immutables définis à son instanciation, qui ne peuvent être manipulés qu'à l'extérieur du composant;
 * un état (*state*), permettant le dialogue avec l'utilisateur. Cet état ne peut être modifié qu'à l'intérieur du composant;
@@ -427,7 +433,7 @@ Le deuxième aspect de la gestion de projet est l'organisation interne. Une fois
 \bigskip
 
 
-Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le CEO, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. Selon les besoins, le chef ce prohjet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client.
+Lors du début du projet, le chef de projet discute avec le client pour comprendre ses besoins et ses attentes. Aidé par le *CEO*, il essaye de conceptualiser une solution au problèmes du client, en dégageant du discout du client des fonctionnalités techniques à mettre en place. Selon les besoins, le chef de projet organise une réunion avec le(s) developpeur(s) et le client pour clarifier certains points ou pour discuter des différents approches du problèmes possible. C'est l'occasion pour le développeur de comprendre la problèmatique métier qui sera au coeur du projet, et de proposer des solutions, peut être un peu différentes de celles imaginées par le client.
 
 \bigskip
 
@@ -447,7 +453,7 @@ Il est également courant de mettre en place des outils de *monitoring* pour ass
 
 \bigskip
 
-Une fois le projet découpé en focntionnalités puis en taches, estimé et validé, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
+Une fois le projet découpé en fonctionnalités puis en tâches, estimées et validées, une seconde phase de gestion de projet commence. C'est la gestion interne du projet.
 
 L'entreprise utilise principalement la plateforme *Github*, pour héberger le code de ses projets, et donc le logiciel de gestion de versions *Git*. *Github* est une interface web permettant d’interfacer avec des projets versionnés, et composés de multiples applications aidant à la gestion de projets.
 
@@ -536,7 +542,7 @@ Tout d'abord, le projet utilise *Github* pour héberger le code source et pour l
 
 \bigskip
 
-Le projet déjà existant utilisait npm, le gestionnaire de paquets officiel de Node.js. Il permet d'installer des applications Node.js disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car elle permet de construire et lancer l'application en une commande.
+Le projet déjà existant utilisait *npm*, le gestionnaire de paquets officiel de *Node.js*. Il permet d'installer des applications *Node.js* disponibles sur le dépôt npm et gère les dépendances pour une application. Il offre également la possibilité de créer des scripts. C'est une option vraiment pratique car elle permet de construire et lancer l'application en une commande.
 
 \bigskip
 
@@ -552,7 +558,7 @@ L'application était écrite en *React* avec l'utilisation de *Redux*. J'ai pu d
 
 \bigskip
 
-Pour l'intégration du style du site, j'ai pu utiliser Zeplin. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de Sketch, un logiciel de création de maquette, et les ajouter aux dossiers de projet dans Zeplin. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple pour le développeur d'intégrer les maquettes.
+Pour l'intégration du style du site, j'ai pu utiliser *Zeplin*. C'est une application de collaboration pour les designers et les intégrateurs. Il permet aux designers de télécharger leurs maquettes fonctionnelles directement à partir de *Sketch*, un logiciel de création de maquette, et les ajouter aux dossiers de projet dans *Zeplin*. Les annotations seront automatiquement ajoutées aux designs (tailles, couleurs, marges et même suggestions CSS pour certains éléments). Il est alors beaucoup plus simple pour le développeur d'intégrer les maquettes.
 
 \bigskip
 
@@ -592,7 +598,7 @@ Une fois ce découpage effectué, j'ai mis en place SASS pour la gestion des feu
 
 \bigskip
 
-Une fois ces fichiers SASS principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le CSS (*Cascading Style Sheets*), c'est à dire le langage décrivant la présentation de l'application.
+Une fois ces fichiers *SASS* principaux créés, j'ai simplement créé un fichier SASS pour chaque composant React de l'application, qui contient donc tout le style de ce composant. J'ai du faire beaucoup de recherches pour être à l'aise avec le *CSS* (*Cascading Style Sheets*), c'est à dire le langage décrivant la présentation de l'application.
 
 \bigskip
 
@@ -628,7 +634,7 @@ L'étape suivante est la création de l'interface et des fonctions permettant à
 
 \bigskip
 
-C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est très facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [react-cropper](https://github.com/roadmanfong/react-cropper), trouvé sur Github après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
+C'est à ce moment que j'ai découvert la diversité des outils React proposés par la communauté : il est très facile de trouver des composants sur Github qui correspondent à votre besoin. J'ai donc pu utiliser [*react-cropper*](https://github.com/roadmanfong/react-cropper), trouvé sur *Github* après quelques recherches, qui s'est révélé très efficace. Il permet de gérer le recadrage, fournit des fonctions renvoyant toutes les données intéressantes (dimensions du recadrage, rotation de la zone de recadrage...). Ce fut ma première intégration d'un outil React.
 
 \bigskip
 
@@ -686,7 +692,7 @@ Finalement, j'ai pu retravailler sur le projet en decembre. Après un premier re
 
 \bigskip
 
-Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que Github, avec toute la gestion des différentes branches, les Pull Request ainsi que la gestion des issues... Ce fut une étape essentiel pour mon intégration dans l'équipe de développement.
+Ce premier projet chez *Dernier Cri* m'a beaucoup apporté. Pour commencer, j'ai pu me familiariser aves les méthodes de gestion de projet de l'entreprise, le processus allant de la formalisation du probléme, jusque sa mise en ligne. Dans le même temps j'ai pu prendre en main les outils utiliser chez *Dernier Cri*, tel que *Github*, avec toute la gestion des différentes branches, les *Pull Request* ainsi que la gestion des issues... Ce fut une étape essentiel pour mon intégration dans l'équipe de développement.
 
 \bigskip
 
@@ -707,11 +713,11 @@ Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur u
 
 \bigskip
 
-Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur React sur ce projet, j'ai quitté le projet Photolix pour rejoindre Finfrog. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
+Avec l'arrivée d'un nouveau client et la nécessité de fournir un développeur *React* sur ce projet, j'ai quitté le projet *Photolix* pour rejoindre *Finfrog*. L'équipe travaillant sur ce projet était constituée d'une chef de projet, d'un *devops* chargé notamment de l'infrastruture et des déploiements de l'application, et de moi-même pour le développement.
 
 \bigskip
 
-Finfrog est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque.
+*Finfrog* est un projet de prêt collaboratif, c'est à dire que le site propose des prêt financés par des particuliers. Les prêts proposés vont de 200 à 600 euros, à rembourser en 1 à 3 mois. Le but de ce site est d'ouvrir, en acceptant des prêts qui ne seraient pas validé par une banque.
 
 \bigskip
 
@@ -719,18 +725,18 @@ Lors de mon arrivée sur le projet, un site était déjà en ligne, développé 
 
 \bigskip
 
-Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour Finfrog, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
+Par la suite, j'ai été amené à developper de nouvelles fonctionnalités pour *Finfrog*, comme la partie du site réservée à la gestion des prêts par l'administrateur, les espaces emprunteur et prêteur, la génération de contrats.
 
 
 ### Outils utilisés
 
 \bigskip
 
-La projet Finfrog utilisait principalement les même outils que Photolix : utilisation de npm pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux* etc.
+La projet *Finfrog* utilisait principalement les même outils que *Photolix* : utilisation de *npm* pour la gestion des paquets, de *Zeplin* pour étudier le design, de *React* et *Redux* etc.
 
 \bigskip
 
-Cependant à mon arrivée sur FinFrog, le projet était hébergé sur *Bitbucket* et non pas Github. Il a donc fallut que je m'habitue à ce nouveaux gestionaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github*.
+Cependant à mon arrivée sur *FinFrog*, le projet était hébergé sur *Bitbucket* et non pas *Github*. Il a donc fallut que je m'habitue à ce nouveaux gestionaire, à son interface et ses fonctionnalités différentes de *Github*. Par la suite nous avons migré le projet sur *Github*.
 
 \bigskip
 
@@ -757,11 +763,11 @@ L'intégration du nouveau design de la page d'accueil fut une bonne entrée en m
 
 \bigskip
 
-Après la page d'accueil j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus techniques : la communications entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'API et récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
+Après la page d'accueil j'ai du m'occuper du tunnel de réservation. Sur l'application existante, les fomulaires étaient déjà en place. Il était question d'ajouter certain champs et de redécouper les formulaires selon les nouvelles maquettes. Pour cela, j'ai du me plonger dans la partie du site plus techniques : la communications entre les composants, les pages, les outils utilisés pour la gestion des formulaires, les appels à l'*API* et récupéré les informations de l'utilisateur, et enregistrer les modifications etc.
 
 \bigskip
 
-Pour la gestion des formulaires, le projet utilisé *Redux Form*, un outils permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fournies par Redux Form pour construire le formulaire. Cela se concrétise principalement par deux éléments :
+Pour la gestion des formulaires, le projet utilisé *Redux Form*, un outils permettant de maintenir l'état du formulaire à jour dans le *store Redux*. Il suffit d'utiliser les composants et fonctions fournies par *Redux Form* pour construire le formulaire. Cela se concrétise principalement par deux éléments :
 
 * une fonction `reduxForm({form: 'formName'})(TestForm)` où `Testform` est un composant contenant le formulaire et `formName` un nom unique, qui identifiera le formulaire, notamment dans le *store*.
 * un composant `Field` qui connectera chaque champ du formulaire avec le *store Redux*. Ce composant prend en propriété un autre composant. Cela peut être un composant de base, comme `input` ou `select` ou bien un composant personnalisé ;
@@ -816,7 +822,7 @@ C'est au terme de cette suite de formulaire que la demande de prêt est créée.
 
 \bigskip
 
-Durant la modification de se formulaire j'ai également du mettre en place le téléchargement de la piéce d'identité sur *Amazon Simple Storage Service* (*Amazon S3*), qui est une solution de stockage sur Internet. En effet, une fois la pièce d'identité envoyée à l'*API* de FinFrog, nous la chargeons dans un stockage extérieur, car la loi impose de pouvoir justifier de l'identité des emprunteurs.
+Durant la modification de se formulaire j'ai également du mettre en place le téléchargement de la piéce d'identité sur *Amazon Simple Storage Service* (*Amazon S3*), qui est une solution de stockage sur Internet. En effet, une fois la pièce d'identité envoyée à l'*API* de *FinFrog*, nous la chargeons dans un stockage extérieur, car la loi impose de pouvoir justifier de l'identité des emprunteurs.
 
 \bigskip
 
@@ -828,7 +834,7 @@ Un autre point primordial du développement *front* est la compatibilité entre 
 
 \bigskip
 
-Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, Chrome est le navigateur le plus utilisé (51%), suivi par Safari (18%) et Internet Explorer et Edge (le nouveau navigateur de Microft) (11%).
+Une première étape pour y arriver est de connaitre les navigateurs les plus utilisés. Aujourd'hui, *Chrome* est le navigateur le plus utilisé (51%), suivi par *Safari* (18%) et *Internet Explorer* et *Edge* (le nouveau navigateur de *Microsoft*) (11%).
 
 \begin{figure}[h]
   \centering
@@ -838,21 +844,21 @@ Une première étape pour y arriver est de connaitre les navigateurs les plus ut
 
 \bigskip
 
-Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il est possible de connaitre les navigateurs utilisés par ces visiteurs grâce à des outils comme Google Analytics, qui fournissent une analyse de l'audiance d'un site web. Pour FinFrog, nous avons pu observer que Chrome était bien le navigateur le plus utilisé (63.71%), suivi par Firefox (14.81%), Internet Explorer (8,54%) et Safari (8.22%).
+Une fois le site en ligne et visité par un nombre d'utilisateurs suffisant, il est possible de connaitre les navigateurs utilisés par ces visiteurs grâce à des outils comme *Google Analytics*, qui fournissent une analyse de l'audiance d'un site web. Pour *FinFrog*, nous avons pu observer que *Chrome* était bien le navigateur le plus utilisé (63.71%), suivi par *Firefox* (14.81%), *Internet Explorer* (8,54%) et *Safari* (8.22%).
 
 \begin{figure}[h]
   \centering
   \includegraphics[height=5cm]{figures/FF-browsers.png}
-  \caption{Les parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
+  \caption{Parts de marché des navigateurs Web dans le monde, toutes plates-formes confondues (janvier 2017, source Wikipedia)}
 \end{figure}
 
 \bigskip
 
-Une fois que les navigateurs principalement utilisés par la cible sont identifié, il faut choisir des outils et méthodes adapté à ceux-ci. On peut utilisé des sites comme [*Can I use*](http://caniuse.com/) qui offre des tableaux de compatibilité pour HTML5, CSS3, SVG et autres technologies dans les différents navigateurs. Nous utilisons également [*BrowserStack*](https://www.browserstack.com/), un outil de test multi-navigateur qui permet aux développeurs de tester leurs sites Web à travers différents navigateurs sur différents systèmes d'exploitation et appareils mobiles, sans devoir installer de machine virtuelle ou autres. On peut ainsi vérifier le rendu visuel, ainsi que le comportement de l'application, sur nos navigateurs cibles.
+Une fois que les navigateurs principalement utilisés par la cible sont identifié, il faut choisir des outils et méthodes adapté à ceux-ci. On peut utilisé des sites comme [*Can I use*](http://caniuse.com/) qui offre des tableaux de compatibilité pour *HTML5*, *CSS3*, *SVG* et autres technologies dans les différents navigateurs. Nous utilisons également [*BrowserStack*](https://www.browserstack.com/), un outil de test multi-navigateur qui permet aux développeurs de tester leurs sites Web à travers différents navigateurs sur différents systèmes d'exploitation et appareils mobiles, sans devoir installer de machine virtuelle ou autres. On peut ainsi vérifier le rendu visuel, ainsi que le comportement de l'application, sur nos navigateurs cibles.
 
 \bigskip
 
-Voici un exemple de problème qu'un developpeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande prêt, le client à remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardé par défaut en cache, c'est à dire mémorisé, les réponses de l'API. Quand l'utilisateur arrivé sur la page, un premier appel à l'API était effectué, pour afficher la liste des pièce déjà télécharger. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jours. Mais le navigateur ignoré cet appel et utilisé à la place le resultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifié dans la réponse envoyé par l'*API*, que l'information ne doit pas être mémorisée. Cela se traduit par ajouter la valeur `no-cache` au paramétre `Cache-Control` dans le *Header* de la réponse de l'*API*
+Voici un exemple de problème qu'un developpeur peut rencontrer à cause des différences de comportement entre navigateurs. Après la mise en place du tunnel de demande prêt, le client à remonté un disfonctionnement sur la page de téléchargement de la pièce d'identité. Sur *Internet Explorer 11* (*IE11*), après le téléchargement, l'image ne s'affichait pas sur l'interface. Il était alors impossible pour l'utilisateur de passer à la page suivante. Après de nombreux tests sur *BrowserStack*, j'ai découvert que *IE11* gardé par défaut en cache, c'est à dire mémorisé, les réponses de l'*API*. Quand l'utilisateur arrivé sur la page, un premier appel à l'*API* était effectué, pour afficher la liste des pièce déjà télécharger. Cet appel était mémorisé par le navigateur, et quand l'utilisateur faisait une action (télécharger une nouvelle pièce d'identité, ou en supprimer une), un nouvel appel était fait pour récupérer la liste mise à jours. Mais le navigateur ignoré cet appel et utilisé à la place le resultat mémorisé du premier appel. Pour résoudre ce problème, il m'a suffit de spécifié dans la réponse envoyé par l'*API*, que l'information ne doit pas être mémorisée. Cela se traduit par ajouter la valeur `no-cache` au paramétre `Cache-Control` dans le *Header* de la réponse de l'*API*
 
 \bigskip
 
@@ -888,7 +894,7 @@ var getContractContent() = function (loan, borrower) {
 
 \bigskip
 
-Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de templating. Elle permet de mettre en place un template HTML et d'y intégrer facilement nos varibles. Il nous suffit alors de définir un template en HTML, en y introduisant le nom de nos variable entre accolade, puis d'appeler la librairie Mustache en lui fournissant ce template et un objet contenant les valeurs de nos variables,  `Mustache.render(template, params)`.
+Pour résoudre ce problème, nous avons décidé d'utiliser [*Mustache.js*](https://github.com/janl/mustache.js), une librairie de templating. Elle permet de mettre en place un template HTML et d'y intégrer facilement nos varibles. Il nous suffit alors de définir un template en HTML, en y introduisant le nom de nos variable entre accolade, puis d'appeler la librairie *Mustache.js* en lui fournissant ce template et un objet contenant les valeurs de nos variables,  `Mustache.render(template, params)`.
 
 ```HTML
 <!-- Extrait du template du contrat -->
@@ -952,17 +958,17 @@ L'application FinFrog utilise [*Mangopay*](https://www.mangopay.com/fr/) comme p
 
 \bigskip
 
-J'ai donc du travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* Mangopay est créé pour chaque utilisateur, à la création de son compte sur FinFrog. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* à la carte et le compte bancaire. L'enregistrement de la carte se fait directement grâce au *front*, car pour des raisons de sécurité nous ne pouvons pas faire transiter ces informations vers l'*API*. Une fois la carte enregistrée, nous créons une préauthorisation associée. Une préautorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt.
+J'ai donc du travailler avec l'*API* de *Mangopay*, notamment pour gérer l'enregistrement des coordonnées bancaires des utilisateurs. Pour pouvoir faire cela, un *e-wallet* *Mangopay* est créé pour chaque utilisateur, à la création de son compte sur *FinFrog*. Puis, lors de la récupération de l'IBAN et des informations de la carte bancaire de l'utilisateur, nous associons à ce *e-wallet* à la carte et le compte bancaire. L'enregistrement de la carte se fait directement grâce au *front*, car pour des raisons de sécurité nous ne pouvons pas faire transiter ces informations vers l'*API*. Une fois la carte enregistrée, nous créons une préauthorisation associée. Une préautorisation est une action qui permet de vérifier si l'utilisateur à une certaine capacité financière sur son compte bancaire. Cela nous permet donc de vérifier s'il sera en mesure de rembourser son prêt.
 
 \bigskip
 
-Il est également nécessaire de fournir de nombreuse informations sur l'utilisateur à *Mangopay*, dans le cadre du KYC. Le processus *Know your customer* est utilisé dans le but d'assurer que les clients sont conformes aux lois anti-corruption. Cela a également pour but de prévenir l'usurpation d'identité, la fraude financière, le blanchiment d'argent et le financement du terrorisme. C'est un processus donc très important dans le cadre d'entreprise comme FinFrog, qui gére des flux quotidien d'argent. Pour répondre au *KYC*, nous fournissons en plus des informations de base (date et lieu de naissance, adresse etc.) les pièces d'identité récupéré lors de la demande de prêt.
+Il est également nécessaire de fournir de nombreuse informations sur l'utilisateur à *Mangopay*, dans le cadre du *KYC*. Le processus *Know your customer* est utilisé dans le but d'assurer que les clients sont conformes aux lois anti-corruption. Cela a également pour but de prévenir l'usurpation d'identité, la fraude financière, le blanchiment d'argent et le financement du terrorisme. C'est un processus donc très important dans le cadre d'entreprise comme FinFrog, qui gére des flux quotidien d'argent. Pour répondre au *KYC*, nous fournissons en plus des informations de base (date et lieu de naissance, adresse etc.) les pièces d'identité récupéré lors de la demande de prêt.
 
 \bigskip
 
 #### Fin du stage
 
-Quelques semaines avant la fin de mon stage chez Dernier Cri, FinFrog à acceuilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le prpjet, nous l'avons acceuilli une journée dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de FinFrog, de l'infrastruture au flux entre le site et l'*API*, en passant par notre gestion de projet.
+Quelques semaines avant la fin de mon stage chez *Dernier Cri*, *FinFrog* à acceuilli un nouveau développeur sur le projet, engagé par le client. Pour lui permettre de découvrir et appréhender correctement le prpjet, nous l'avons acceuilli une journée dans nos locaux. Au cours de cette journée, nous lui avons présenté tout les aspects de *FinFrog*, de l'infrastruture au flux entre le site et l'*API*, en passant par notre gestion de projet.
 
 \bigskip
 
@@ -970,11 +976,12 @@ Ce nouveau developpeur
 
 ### Conclusion
 
-FinFrog a été un projet très enrichisant car abordant de nombreuses problèmatiques pouvant être rencontrée dans le developpement web, et utilisant de nombreux outils.
+*FinFrog* a été un projet très enrichisant car abordant de nombreuses problèmatiques pouvant être rencontrée dans le developpement web, et utilisant de nombreux outils.
 
 \bigskip
 
-J'ai eu l'opportunité de participer activement à la conception du site. En effet, notre client était ouvert au sugestions et remarques, et tenait à se que nous comprenions les tenant et aboutissant de chaque décisions et nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des Fintech, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.
+J'ai eu l'opportunité de participer activement aux reflections concernant la conception du site. En effet, notre client était ouvert au sugestions et remarques, et tenait à se que nous comprenions les tenant et aboutissant de chaque décisions et nouveaux développements. C'est pour cela que nous avions de nombreuses réunions téléphoniques, et débat écrits. J'ai ainsi pu appréhender les problématiques des *Fintech*, ses entreprises qui utilisent la technologie pour lancer des services bancaires et financiers innovants.  
+Cela m'a également permis de travailler sur mon relationnel client, grâce au contact presque journalier avec notre client pour récolter ses besoins, puis ses retours par rapports aux fonctionnalitées développées.
 
 \bigskip
 
@@ -990,7 +997,7 @@ Comme dit précédemment, *Dernier Cri* posséde un blog tenu par ses développe
 
 \bigskip
 
-Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisé pour chaque article, qui serait utilisé dans les partages sur les reseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défie et de créer ce générateur d'image.
+Pour permettre une meilleure communication, il est venue l'idée de créer des images personnalisé pour chaque article, qui serait utilisé dans les partages sur les réseaux sociaux. Evidemment, la création de ces images serait automatisée. J'ai décidé de relever ce défie et de créer ce générateur d'image.
 
 \bigskip
 
@@ -1033,6 +1040,57 @@ convert JS.jpg  -resize $userWidth \
 
 \bigskip
 
+Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à l'intégré au site web de *Dernier Cri*. Ce dernier étant développé en *Ruby on Rails*, j'ai tout d'abord du me familiariser avec cette pile technologique à travers différents tutoriaux, avant de pouvoir coder mon générateur d'image.
+
+\bigskip
+
+Pour intégrer le processus de génération d'image au site web, j'ai utilisé [*RMagick*](https://github.com/rmagick/rmagick), une bibliothéque servant d'interface entre le langage *Ruby* et la bibliothéque *ImageMagick*. J'ai donc pu traduire mon processus de création d'image en *Ruby* et l'intégrer au site sans difficultés.  
+Voici un exemple de traduction, avec la superposition du logo de *Dernier Cri* sur l'image de fond.
+
+```bash
+# Script Image Magick
+composite \
+  \( logo.png -resize x$logoHeight \) \
+  -gravity NorthEast -geometry +10+10 background.png background.png
+```
+```Ruby
+def add_logo(background)
+  logo = Magick::Image.from_blob(
+    open(Settings.blog_post_cover.logo_url).read
+  ).first
+
+  background.composite!(
+    logo,
+    Magick::NorthEastGravity,
+    10,
+    10,
+    Magick::AtopCompositeOp
+  )
+end
+```
+
+\bigskip
+
+Les articles du blogs sont stockés et gérés sur *Contenful*, un *Content Management System* (CMS) ou, en français, Système de gestion de contenu. C'est donc en m'interfaçant avec *Contenful* que je peux récupérer les informations nécéssaires à la génaration d'image: le titre de l'article, son auteur, sa photo etc.
+
+\bigskip
+
+La génération de l'image terminé, j'ai du mettre en place un service pour garder en mémoire cette image, et ne pas la régénérer à chaque partage. Pour cela j'ai utilisé *CloudFront* de *AWS* (*Amazon Web Service*) qui permet de garder en cache l'image après le premier appel. En effet, je fourni pour le partage comme adresse de l'image le nom de domaine de mon *CloudFront*, avec le nom de mon image, par exemple `http://XXXXX.cloudfront.net/monoide` :
+
+* Si mon image n'a jamais été généré, et donc que *CloudFront* ne l'a pas dans son cache, le service va faire un appel au site *Dernier cri*, sur l'adresse du générateur, pour récupéré l'image, la retournée et la mémorisée.
+
+* Lors des prochains appels, *CloudFront* pourra retourner directement l'image et donc éviter de redemander la génération.
+
+\bigskip
+
+Finalement il m'a suffit d'ajouter l'adresse de mon image dans *CloudFront* dans les balises des pages des articles de blog, pour que lors du partage sur les réseaux sociaux l'image soit utilisée.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/partage-blog.png}
+  \caption{Exemple de partage d'article sur Twitter}
+\end{figure}
+
 \newpage
 
 # La communauté Lilloise
@@ -1041,7 +1099,7 @@ Durant mon stage à Lille j'ai pu me rendre compte que la ville possédait une c
 
 \bigskip
 
-La ville a notamment reçue le label 'French Tech' fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
+La ville a notamment reçue le label *French Tech* fin 2014, pour récompenser son dynamiste dans le numérique et l'innovation. Ce label, en plus de récompenser les efforts de la ville, constitue le point d’entrée vers des dispositifs nationaux comme des programmes pour attirer les entrepreneurs étrangers qui veulent créer leur *start-up* en France.
 
 \bigskip
 
@@ -1101,7 +1159,7 @@ La communauté web de Lille est très active pour organisé des évenements. De 
 
 \bigskip
 
-Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des Meetup de Lille FP (*Fonctionnal programming*, c'est à dire programmation fonctionnelle) et de Lille Elixir.
+Très actif dans cette communauté, *Dernier Cri* acceuille au sein de ses locaux certaines de ses rencontres. J'ai notamment eu l'occasion d'assister à des *Meetups* de *Lille FP* (*Fonctionnal programming*, c'est à dire programmation fonctionnelle) et de *Lille Elixir*.
 
 \bigskip
 
@@ -1131,9 +1189,15 @@ Cet événement, présenté par Leroy Merlin en partenariat avec la Ville de Lil
 
 ## Professionnelle
 
-Ce stage a été très enrichissant pour moi. Il m'a permit de réaliser un développement informatique sous la houlette d'une équipe expérimenté, qui à su me transmettre des compétences techniques et méthodologiques.
+Ce stage chez *Dernier Cri* et ma participation aux projets *Photolix* et *FinFrog* ont été très enrichissante.  J'ai pu mettre en application
 
-J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions acquises à l'université, apprendre ou de me perfectionner avec certaines technologies ou méthodes et de développer l'aptitude au travail en équipe.
+Ce stage a été très enrichissant pour moi. Il m'a permit de participer au développement d'application web, , à travers les projets *Photolix* et *FrinFrog*, sous la houlette d'une équipe expérimentécomplet qui à su me transmettre des compétences techniques et méthodologiques.  
+J'ai notamment pu prendre en main de nombreuses bibliothéques, comme *React*, *Redux*, des langages comme *Ruby on Rails* ou encore travailler avec des partenaires comme *Mangopay*.  
+
+J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions acquises à l'université, apprendre ou de me perfectionner avec certaines technologies ou méthodes et de développer l'aptitude au travail en équipe.  
+
+
+
 
 Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dans votre projet professionnel. Vos objectifs ont-ils évolué ? Par exemple, en quoi ce stage confirme (ou infirme) votre choix de filière ?
 
@@ -1145,10 +1209,52 @@ Enfin, vous pouvez re-situez votre stage dans votre parcours de formation et dan
 
 \newpage
 
-# Glossaire ?
+# Glossaire
 
-ES6
-React
-Redux
-Code review
-Talk
+***ACCOUNT manager:*** c'est un intermédiaire entre l'entreprise et le client. Il cherche de nouveaux clients, prend note de leurs besoins et identifie ensuite le produit ou le service qui y répond le mieux. Il essaie également de fidéliser les clients actuels en leur fournissant un service après-vente optimal.
+
+***API***(*Application Programming Interface*)**:** c'est une interface de programmation applicative, c'est à dire un ensemble normalisé de classes, de méthodes ou de fonctions qui qui permet à un un logiciel de fournir des services à d'autres logiciels.
+
+bibliothéque
+
+***CEO*** (*chief executive officer*)**:**  directeur général d'une entreprise.
+
+
+**Chatops:** outil d'administration d'infrastructure par la discussion.
+
+***Code review*** (Revu de code) **:** examen systématique du code source, pour vérifier le respect d'un ensemble de règles de programmation, trouver des bugs, corriger des erreurs de conception, améliorer la qualité, la maintenabilité et la sécurité.
+
+CTO (Chief Technology Officer): directeur technique, chargé de s'occuper de la direction des questions scientifiques et techniques.
+
+
+***Data scientist :*** (scientifique de données) expert de la gestion et de l'analyse pointue de données massives ("big data"). Il détermine des indicateurs permettant la mise en place d'une stratégie à partir de sources de données multiples et dispersées.
+
+***Devops:*** employé doté des compétences nécessaires pour travailler à la fois en tant que développeur et ingénieur système.
+
+***DOM*** (*Document Object Model*)**:** interface de programmation qui fournit une réprésentation du contenue de la page web pour permettre à des scripts d'examiner et de modifier son contenu.
+
+***ECMAScript:*** ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International.
+
+
+**Fintech:** contraction de 'Finance' et 'Technologie', c'est un domaine d'activité dans lequel les entreprises utilisent les services informatique pour fournir des services financiers.
+
+***Framework:*** ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.
+
+***Front:*** partie de l'application accessible aux utilisateurs finaux, qui permet d'interagir avec les reste de l'application (le *back*).
+
+***Back*** Partie de l'application non accessible aux utilisateurs finaux, elle communique avec le *front* pour lui fournir des services.
+
+***Git:*** logiciel de gestion de versions décentralisé.
+
+**Immutable:** Se dit des types de variables qui ne peuvent pas changer de valeur pendant l’exécution du programme.
+
+**Mise en production:** déployer des modifications sur la version du projet accéssible aux utilisateurs finaux.
+
+***Monitoring:*** supervision de l'application par la mesure de divers indicateurs (nombre d'erreur, temps de réponse etc.).
+
+***Open source:***
+Pull request
+recette
+routage
+staging
+start up

@@ -168,7 +168,7 @@ création d'audits.
 \begin{figure}[h]
   \centering
   \includegraphics[height=6cm]{figures/team.png}
-  \caption{L'équipe de *Dernier Cri*}
+  \caption{L'équipe de Dernier Cri}
 \end{figure}
 
 \bigskip
@@ -220,8 +220,7 @@ loin dans le rapport.
 \emph{Dernier Cri} a à coeur de développer une culture entreprenariale
 et informatique, c'est pourquoi s'est developpé des présentations
 internes (dont certaines sont diffusées via une chaine youtube) ainsi
-que des présentations publiques par l'intermédiaire de \emph{blog posts}
-.
+que des présentations publiques par l'intermédiaire d'articles de blog.
 
 \subsubsection{Présentations internes}\label{pruxe9sentations-internes}
 
@@ -473,7 +472,6 @@ Voici quelques nouveautés notoires de \emph{ES6} :
 \begin{Highlighting}[]
 \CommentTok{// ES6}
 \KeywordTok{var} \OperatorTok{\{} \NormalTok{a}\OperatorTok{,} \NormalTok{b}\OperatorTok{,} \NormalTok{c }\OperatorTok{\}} \OperatorTok{=} \AttributeTok{someFunction}\NormalTok{()}
-
 \CommentTok{// ES5}
 \KeywordTok{var} \NormalTok{tmp }\OperatorTok{=} \AttributeTok{someFunction}\NormalTok{()}\OperatorTok{;}
 \KeywordTok{var} \NormalTok{a  }\OperatorTok{=} \VariableTok{tmp}\NormalTok{.}\AttributeTok{a}\OperatorTok{;}
@@ -481,11 +479,22 @@ Voici quelques nouveautés notoires de \emph{ES6} :
 \KeywordTok{var} \NormalTok{c }\OperatorTok{=} \VariableTok{tmp}\NormalTok{.}\AttributeTok{c}\OperatorTok{;}
 \end{Highlighting}
 \end{Shaded}
-\end{itemize}
+\item
+  Les \emph{arrow functions}: elles offrent une syntaxe plus courte,
+  sont des fonctions anonymes (une fonction n'ayant pas de nom) et
+  partage le contexte de leur parent.
 
-Arraw fonction ? OUI Classe et héritage ? OUI Héritage de la
-programmation fonctionnelle à travers \texttt{let} et
-\texttt{arrow\ functions}.
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{/* fonction anonymes classique */}
+\KeywordTok{let} \NormalTok{multiple }\OperatorTok{=} \KeywordTok{function} \NormalTok{(value) }\OperatorTok{\{}  
+  \ControlFlowTok{return} \NormalTok{value }\OperatorTok{*} \DecValTok{10}
+\OperatorTok{\}}
+\CommentTok{/* arrow function */}
+\KeywordTok{let} \NormalTok{multiple }\OperatorTok{=} \NormalTok{value }\OperatorTok{=>} \NormalTok{value }\OperatorTok{*} \DecValTok{10}  
+\end{Highlighting}
+\end{Shaded}
+\end{itemize}
 
 \bigskip
 
@@ -532,7 +541,8 @@ Développée depuis 2013 par Facebook, \emph{React} est une bibliothèque
 JavaScript déclarative, efficace et flexible pour la création
 d'interfaces utilisateurs. Cette bibliothèque s'est démarqué notamment
 par ses performances. Elle est aujourd'hui utilisée par de nombreuses
-entreprises telles que Netflix, Yahoo, Airbnb ou encore Sony.
+entreprises telles que \emph{Netflix}, \emph{Yahoo}, \emph{Airbnb} ou
+encore \emph{Sony}.
 
 \bigskip
 
@@ -549,26 +559,27 @@ et il faut donc limiter un maximum les interactions avec ce dernier.
 \bigskip
 
 Grâce à l'utilisation d'un \emph{DOM} virtuel, un composant React ne
-crée pas de HTML mais une représentation sous forme d'objets et de nœuds
-de ce à quoi le HTML final doit ressembler. React va comparer cette
-représentation au DOM réel et en déduire les opérations minimales à
-exécuter pour que les deux soit identiques. Avoir une représentation
-sous forme d'arbre en JavaScript permet de réaliser beaucoup plus
-d'opérations, d'utiliser les meilleurs algorithmes de comparaison
-d'arbres et de faire toutes les modifications du DOM en une opération
-plutôt qu'au fur et à mesure.
+crée pas de \emph{HTML} mais une représentation sous forme d'objets et
+de nœuds de ce à quoi le \emph{HTML} final doit ressembler. React va
+comparer cette représentation au \emph{DOM} réel et en déduire les
+opérations minimales à exécuter pour que les deux soit identiques. Avoir
+une représentation sous forme d'arbre en JavaScript permet de réaliser
+beaucoup plus d'opérations, d'utiliser les meilleurs algorithmes de
+comparaison d'arbres et de faire toutes les modifications du \emph{DOM}
+en une opération plutôt qu'au fur et à mesure.
 
 \bigskip
 
 Une autre particularités de \emph{React} est de découper l'application
 en composants, dépendant d'un état. C'est après un changement de cet
-état que React déduit les changements à effectué sur le DOM.
+état que \emph{React} déduit les changements à effectué sur le
+\emph{DOM}.
 
 \bigskip
 
 Il faut noté que les composants sont des classes, héritant de
-\texttt{React.Component}. Un composant React possède deux types de
-données :
+\texttt{React.Component}. Un composant \emph{React} possède deux types
+de données :
 
 \begin{itemize}
 \tightlist
@@ -721,11 +732,11 @@ et vérifier la qualité du livrable.
 \bigskip
 
 Lors du début du projet, le chef de projet discute avec le client pour
-comprendre ses besoins et ses attentes. Aidé par le CEO, il essaye de
-conceptualiser une solution au problèmes du client, en dégageant du
-discout du client des fonctionnalités techniques à mettre en place.
-Selon les besoins, le chef ce prohjet organise une réunion avec le(s)
-developpeur(s) et le client pour clarifier certains points ou pour
+comprendre ses besoins et ses attentes. Aidé par le \emph{CEO}, il
+essaye de conceptualiser une solution au problèmes du client, en
+dégageant du discout du client des fonctionnalités techniques à mettre
+en place. Selon les besoins, le chef de projet organise une réunion avec
+le(s) developpeur(s) et le client pour clarifier certains points ou pour
 discuter des différents approches du problèmes possible. C'est
 l'occasion pour le développeur de comprendre la problèmatique métier qui
 sera au coeur du projet, et de proposer des solutions, peut être un peu
@@ -765,8 +776,8 @@ cela \emph{Dernier Cri} utilise des outils tel que \emph{Papertrail}, ou
 
 \bigskip
 
-Une fois le projet découpé en focntionnalités puis en taches, estimé et
-validé, une seconde phase de gestion de projet commence. C'est la
+Une fois le projet découpé en fonctionnalités puis en tâches, estimées
+et validées, une seconde phase de gestion de projet commence. C'est la
 gestion interne du projet.
 
 L'entreprise utilise principalement la plateforme \emph{Github}, pour
@@ -1861,7 +1872,93 @@ convert JS.jpg  -resize $userWidth \
 \begin{figure}[h]
   \centering
   \includegraphics[height=6cm]{figures/blog.png}
-  \caption{L'équipe de *Dernier Cri*}
+  \caption{Image générée pour un article de blog}
+\end{figure}
+
+\bigskip
+
+Une fois le processus maitrisé en ligne de commande, j'ai pu commencer à
+l'intégré au site web de \emph{Dernier Cri}. Ce dernier étant développé
+en \emph{Ruby on Rails}, j'ai tout d'abord du me familiariser avec cette
+pile technologique à travers différents tutoriaux, avant de pouvoir
+coder mon générateur d'image.
+
+\bigskip
+
+Pour intégrer le processus de génération d'image au site web, j'ai
+utilisé \href{https://github.com/rmagick/rmagick}{\emph{RMagick}}, une
+bibliothéque servant d'interface entre le langage Ruby la bibliothéque
+\emph{ImageMagick}. J'ai donc pu traduire mon processus de création
+d'image en \emph{Ruby} et l'intégrer au site sans difficultés.\\
+Voici un exemple de traduction, avec la superposition du logo de
+\emph{Dernier Cri} sur l'image de fond.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Script Image Magick}
+\ExtensionTok{composite} \NormalTok{\textbackslash{}}
+  \DataTypeTok{\textbackslash{}(} \NormalTok{logo.png -resize x}\VariableTok{$logoHeight} \DataTypeTok{\textbackslash{})} \NormalTok{\textbackslash{}}
+  \NormalTok{-gravity NorthEast -geometry +10+10 background.png background.png}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{def} \NormalTok{add_logo(background)}
+  \NormalTok{logo = }\DataTypeTok{Magick}\NormalTok{::}\DataTypeTok{Image}\NormalTok{.from_blob(}
+    \NormalTok{open(}\DataTypeTok{Settings}\NormalTok{.blog_post_cover.logo_url).read}
+  \NormalTok{).first}
+
+  \NormalTok{background.composite!(}
+    \NormalTok{logo,}
+    \DataTypeTok{Magick}\NormalTok{::}\DataTypeTok{NorthEastGravity}\NormalTok{,}
+    \DecValTok{10}\NormalTok{,}
+    \DecValTok{10}\NormalTok{,}
+    \DataTypeTok{Magick}\NormalTok{::}\DataTypeTok{AtopCompositeOp}
+  \NormalTok{)}
+\KeywordTok{end}
+\end{Highlighting}
+\end{Shaded}
+
+\bigskip
+
+Les articles du blogs sont stockés et gérés sur \emph{Contenful}, un
+\emph{Content Management System} (CMS) ou, en français, Système de
+gestion de contenu. C'est donc en m'interfaçant avec \emph{Contenful}
+que je peux récupérer les informations nécéssaires à la génaration
+d'image: le titre de l'article, son auteur, sa photo etc.
+
+\bigskip
+
+La génération de l'image terminé, j'ai du mettre en place un service
+pour garder en mémoire cette image, et ne pas la régénérer à chaque
+partage. Pour cela j'ai utilisé \emph{CloudFront} de \emph{AWS}
+(\emph{Amazon Web Service}) qui permet de garder en cache l'image après
+le premier appel. En effet, je fourni pour le partage comme adresse de
+l'image le nom de domaine de mon \emph{CloudFront}, avec le nom de mon
+image, par exemple \texttt{http://XXXXX.cloudfront.net/monoide} :
+
+\begin{itemize}
+\item
+  Si mon image n'a jamais été généré, et donc que \emph{CloudFront} ne
+  l'a pas dans son cache, le service va faire un appel au site
+  \emph{Dernier cri}, sur l'adresse du générateur, pour récupéré
+  l'image, la retournée et la mémorisée.
+\item
+  Lors des prochains appels, \emph{CloudFront} pourra retourner
+  directement l'image et donc éviter de redemander la génération.
+\end{itemize}
+
+\bigskip
+
+Finalement il m'a suffit d'ajouter l'adresse de mon image dans
+\emph{CloudFront} dans les balises des pages des articles de blog, pour
+que lors du partage sur les réseaux sociaux l'image soit utilisée.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=6cm]{figures/partage-blog.png}
+  \caption{Exemple de partage d'article sur Twitter}
 \end{figure}
 
 \newpage
@@ -2036,9 +2133,18 @@ d'entreprendre.
 
 \subsection{Professionnelle}\label{professionnelle}
 
-Ce stage a été très enrichissant pour moi. Il m'a permit de réaliser un
-développement informatique sous la houlette d'une équipe expérimenté,
-qui à su me transmettre des compétences techniques et méthodologiques.
+Ce stage chez \emph{Dernier Cri} et ma participation aux projets
+\emph{Photolix} et \emph{FinFrog} ont été très enrichissante. J'ai pu
+mettre en application
+
+Ce stage a été très enrichissant pour moi. Il m'a permit de participer
+au développement d'application web, , à travers les projets
+\emph{Photolix} et \emph{FrinFrog}, sous la houlette d'une équipe
+expérimentécomplet qui à su me transmettre des compétences techniques et
+méthodologiques.\\
+J'ai notamment pu prendre en main de nombreuses bibliothéques, comme
+\emph{React}, \emph{Redux}, des langages comme \emph{Ruby on Rails} ou
+encore travailler avec des partenaires comme \emph{Mangopay}.
 
 J'ai aussi pu découvrir la réalité des entreprises et appliquer les
 notions acquises à l'université, apprendre ou de me perfectionner avec
