@@ -747,7 +747,7 @@ Ce projet m'a également permis d'apprendre à utiliser *React* et *Redux*. Ces 
 
 \bigskip
 
-Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraies problématiques du développement d'une application web, de la relation cliente, avec des dates butoirs et des évolutions des spécifications en cours de projet.
+Finalement, c'est une vraie chance d'avoir pu travailler dès mon arrivée sur un projet pour un client. J'ai ainsi été tout de suite confrontée aux vraies problématiques du développement d'une application web, de la relation client, avec des dates butoirs et des évolutions des spécifications en cours de projet.
 
 
 ## FinFrog
@@ -1288,7 +1288,7 @@ J'ai aussi pu découvrir la réalité des entreprises et appliquer les notions a
 
 \bigskip
 
-J'ai également appris beaucoup plus que je ne m'y attendais, sur la gestion de projet et la relation cliente. Le chef de projet était très disponible, tout en laissant l'autonomie nécessaire. J'ai pu communiquer directement avec mes clients, découvrir les processus de gestion de projet et de management.
+J'ai également appris beaucoup plus que je ne m'y attendais, sur la gestion de projet et la relation client. Le chef de projet était très disponible, tout en laissant l'autonomie nécessaire. J'ai pu communiquer directement avec mes clients, découvrir les processus de gestion de projet et de management.
 
 \bigskip
 
@@ -1302,6 +1302,30 @@ Tout cela m'a aidé à dessiner mon projet professionnel. Mon stage a conforté 
 \bigskip
 
 Mon stage a également confirmé ma volonté de garder un profil polyvalent. J'ai beaucoup apprécié la possibilité que j'ai eue d'aborder de nombreux aspects de l'informatique, et faire partie d'une équipe pluridisciplinaire. C'est pourquoi je souhaite garder cette diversité dans ma formation et choisir des Unités de Valeur (UVs) recouvrant des domaines différents.
+
+\newpage
+
+# Liens utiles
+
+\bigskip
+
+**Site de Dernier Cri (avec blog technique):** https://derniercri.io/
+
+\bigskip
+
+**Chaine Youtube de Dernier Cri (avec captation vidéo des talks):** https://www.youtube.com/channel/UCDfdBlzldhg_PEu3xZTPsHg
+
+\bigskip
+
+**Github de Dernier Cri:** https://github.com/derniercri
+
+\bigskip
+
+**Photolix:** https://app.photolix.fr/
+
+\bigskip
+
+**FinFrog:** https://finfrog.fr/
 
 \newpage
 
